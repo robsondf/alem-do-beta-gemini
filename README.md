@@ -5,6 +5,17 @@ Robson Dias Ferreira — CMP609, PPGC/UFRGS.
 
 Esta é uma cópia selecionada do material de pesquisa já versionado em `robsondf/alem-do-beta`, destinada à avaliação do manuscrito. A seleção inicial foi seguida pelas revisões identificadas na proveniência; o lote F acrescenta análises pós-parecer, preservando os resultados e protocolos anteriores. Não contém a matriz privada de retornos ou downloads novos de cotações. O repositório de origem e os arquivos do Google Drive foram preservados.
 
+## Lab03H — quarto parecer e adendo de liquidez (24/10/2026)
+
+[Resultados, resposta e próximos passos](docs/lab03h_parecer_v4.md). H executado e verificado localmente: exclusões de março/2020 e 2020-S1 apenas da metade inicial; mudança média +0,1254/+0,1456, p bruto 0,0602/0,0170 e nova Holm4 0,1794/0,0680 em 21 sessões. Famílias G4/H4 distintas; sinais preservados, detecção ajustada não uniforme. Diagnósticos de escala/CDF exploratórios, sem substituir inferência ou selecionar mecanismos favoráveis. 106 testes aprovados, dois skips históricos, zero falhas; verificador independente aprovado.
+
+**Artigo principal: 13 páginas, 29 referências, três figuras e cinco tabelas. Suplemento independente: 19 páginas, 29 referências, nove figuras e dez tabelas; 43 referências distintas no conjunto.** Principal Overleaf: `paper/main.tex` (`main.tex` se o conteúdo de `paper/` for enviado diretamente). Mantidos dez setores e gráfico anual completo 2016–2025; detalhes preservados no suplemento e no histórico Git.
+
+**Próxima execução do autor:** somente o novo `notebooks/Lab03H_crise_calibracao.ipynb`, em CPU; não repetir F/G/E nem os 6.000 geradores. Reutiliza o cache X do Drive. A execução H do autor permanece pendente; a conferência anterior G continua válida.
+
+**Adendo de 2015:** evidência relatada pelo avaliador, ainda não reproduzida. O pacote `teste_universo_2015.zip` precisa ser fornecido para autenticar scripts, eventos, seleção, elegibilidade e inferência. As amostras originais não foram substituídas. Liquidez/seleção é explicação concorrente, não mecanismo causal já demonstrado. Auditoria global e KRR continuam incompletos.
+
+
 ## Colab G do autor conferido — 24/10/2026
 
 [Cópia executada e salva](https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ);[export correspondente](https://drive.google.com/file/d/1jaKyp2CapivwnvHRoFGBtxneHr6N7Kd1/view),18.065.044 bytes/SHA256 `a8f391a7bf4edf67c109b303c9abcbd9cae8274e7a0d6b86430f407816df9158`. Dez fontes de células idênticas,seis códigos1–6,zero exceções;70 fontes e88 membros autenticados. A execução completa de6.000 réplicas está registrada como `Lab03G all`/`Colab`,sem novos downloads de mercado.
@@ -25,7 +36,7 @@ Conferência externa:seis tabelas e66 vetores bootstrap,**1.595.778 valores conc
 
 ## Comece pelo artigo
 
-- [PDF principal](paper/main.pdf): edição G:25 páginas,38 referências citadas,9 figuras e11 tabelas. [Suplemento independente](paper/suplemento.pdf):7 páginas,8 referências;43 referências distintas no conjunto.
+- [PDF principal](paper/main.pdf): edição H: 13 páginas, 29 referências citadas, três figuras e cinco tabelas. [Suplemento independente](paper/suplemento.pdf):19 páginas, 29 referências; 43 referências distintas no conjunto.
 - [Fonte principal LaTeX](paper/main.tex) e [corpo do artigo](paper/artigo_revisado.tex).
 - [Hipóteses e estimandos](docs/hipoteses_e_estimandos.md).
 - [Escopo da seleção e proveniência](docs/REPOSITORY_SCOPE.md).

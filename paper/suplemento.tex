@@ -8,6 +8,11 @@
 \usepackage{amsmath,amssymb,booktabs}
 \usepackage[hidelinks]{hyperref}
 \sloppy
+\renewcommand{\topfraction}{.9}
+\renewcommand{\bottomfraction}{.9}
+\renewcommand{\textfraction}{.1}
+\renewcommand{\floatpagefraction}{.8}
+\makeatletter\setlength{\@fptop}{0pt}\setlength{\@fpsep}{12pt}\makeatother
 \title{Além do Beta Tradicional: Suplemento de Métodos e Validação}
 \author{Robson Dias Ferreira\inst{1}}
 \address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
@@ -23,7 +28,7 @@ Os resultados agregados posteriores não recebem a garantia do envelope.
 \section{Calibração agregada e sensibilidades completas}
 \begin{table}[htbp]\centering\small
 \caption{Calibração agregada sob nulidade global. FWER ajustada e
-Wilson95\% Monte Carlo;1.000 réplicas por mecanismo, bloco21.}
+Wilson 95\% Monte Carlo;1.000 réplicas por mecanismo, bloco 21.}
 \input{tables/lab03g_calibracao.tex}
 \end{table}
 \begin{figure}[htbp]\centering
@@ -38,5 +43,77 @@ e ajustada, viés, erro-padrão e intervalos Monte Carlo. Não abrangem
 mercados futuros, outros comprimentos ou os modelos dinâmicos/semanais.
 As 66 linhas observadas e seus sorteios preservam todos os blocos,
 estimativas, intervalos, status e valores-p; não se omitem sensibilidades.
+
+\section{Tabelas agregadas completas e diagnóstico pós-quarto-parecer}
+As análises seguintes são secundárias, com os resultados anteriores conhecidos.
+As famílias F10, G4, H4 e micro18 são separadas; não se demonstrou controle
+de erro familiar sobre todo o programa de revisões. A calibração G usa
+nulidade global individual, mercado e bancos fixados. A família H4 e
+os modelos dinâmicos/semanais não receberam nova validação de tamanho.
+\begin{table}[htbp]\centering\small
+\caption{Dez alvos agregados originais, bloco 21. Holm30 permanece sensibilidade
+conservadora entre escolhas; não representa 30 hipóteses científicas distintas.
+ICs básicos nominais sujeitos à subcobertura descrita no artigo.}
+\input{tables/lab03f_agregado.tex}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Quatro alvos temporais originais, bloco 21. A mediana de diferenças
+pareadas não é a diferença de medianas.}
+\input{tables/lab03g_temporal.tex}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Média e mediana da década nos modelos alternativos; Holm18 abrange
+os três painéis. A quantidade semanal de pares é 518--520 na década
+e 258--259 nos painéis recentes.}
+\input{tables/lab03g_microstructure.tex}
+\end{table}
+
+Para o contraste médio, seja $w_{it}$ o vetor linear que calcula
+$\widehat\Delta_i $ e $a_{ti}=\sigma_iw_{it}/N $. Com fator comum
+de variância $\rho=0,3$ e componente individual de variância $1-\rho $,
+a covariância AR estacionária implica
+\begin{equation}
+ V=\sum_{t,s}h_th_s\phi^{|t-s|}
+ \left[\rho\left(\sum_i a_{ti}\right)\left(\sum_i a_{si}\right)
+ +(1-\rho)\sum_i a_{ti}a_{si}\right].
+\end{equation}
+É condicional ao mercado, máscaras e escalas estimadas, sem integrar
+sua incerteza. O erro de inicialização após o aquecimento é desprezível
+nas precisões usadas. Não se aplica essa fórmula linear ao GARCH.
+O oráculo independente confere a expressão com uma matriz de covariância
+Toeplitz densa, em vez do filtro recursivo usado na produção.
+
+A normalização de $h_t $ na década satisfaz $T^{-1}\sum h_t^2=1$;
+nas metades, as médias quadráticas são 1,21705 e 0,78452. O fator
+de quebra também tem média quadrática global 1; o produto tem 1,02955.
+Isso corresponde a cerca de 1,47\% de diferença de RMS, sem explicar
+sozinho a dispersão 3--6 vezes maior. A escala foi preservada, sem
+renormalizar o gerador após conhecer os resultados. Pesos de estimação
+e heterocedasticidade determinam conjuntamente a precisão.
+
+O diagnóstico CDF usa $(1+k)/(R+1)$, com $R=1.000$ e $k $ nulas
+com valor-p bootstrap menor ou igual ao observado. Cada uma das dez
+ou quatro marginais é transformada antes de reordenar e aplicar Holm.
+Contagens, erros-padrão binomiais e Wilson 95\% da probabilidade de cauda
+são marginais; não são intervalos da decisão ajustada. Para a média
+de $\theta $, por exemplo, há 17 excedências sob normalidade e 30
+sob AR0,6. Os intervalos Wilson correspondentes são aproximadamente
+[0,01064;0,02706] e[0,02109;0,04250], expondo a incerteza Monte Carlo.
+Essa utilização do banco existente não constitui validação independente
+do procedimento transformado. Tampouco garante controle para toda nula
+agregada: média ou mediana nula admite heterogeneidade que o gerador
+com todas as assimetrias individuais nulas não representa integralmente.
+
+\begin{table}[htbp]\centering\small
+\caption{Diagnóstico exploratório CDF, seguido de Holm na família original
+completa F10 ou G4. Faixas entre seis mecanismos, sem significado de IC.}
+\input{tables/lab03h_cdf.tex}
+\end{table}
+Exports H preservam 12 alvos/blocos e 59.988 sorteios,240 contrastes por
+ativo,480 registros de observações por período,84 diagnósticos CDF,
+84 coberturas por alvo/mecanismo,54 linhas de microestrutura e 1.920
+componentes algébricas de exposição. Nenhuma carteira ou perda esperada
+foi construída. As amostras e ausências permanecem as originais.
+\FloatBarrier
 \begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup
 \end{document}

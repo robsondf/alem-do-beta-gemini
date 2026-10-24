@@ -1,0 +1,60 @@
+{
+  "stage": "Lab03H",
+  "date": "2026-10-24",
+  "status": "post_review_v4_written_before_new_crisis_theta_results_prior_F_G_and_v4_readonly_diagnostics_known",
+  "independent_preregistration": false,
+  "private_base": "5cbb4bea8c327f42936673212444f52405905b8c",
+  "public_base": "67858e47e1f5961c345684917ccd95f83cd51163",
+  "review_sha256": "e74d9232e485f0e1086df92896fe51ff64483107b1ac5a5225388625f01a2fd1",
+  "unit": "fixed security/class/ISIN;80 long,117 recent,ten sectors;no issuer aggregation,company weights,portfolio or annual selection",
+  "returns": "existing authenticated X daily log returns,Ibovespa,valid pairs,all missing cells preserved",
+  "crisis_theta": {
+    "profiles": [
+      "exclude_2020_03",
+      "exclude_2020_H1"
+    ],
+    "early": "2016-2020 with named exclusion only",
+    "late": "same80 securities2021-2025 unchanged",
+    "theta": "delta_late_i - delta_early_masked_i;pair assets before mean/median",
+    "bootstrap_B": 4999,
+    "primary_block": 21,
+    "sensitivity_blocks": [
+      5,
+      63
+    ],
+    "banks": "reuse exact frozen F early/profile and recent seeds through G.f_counts;separate contiguous early segments,shared late bank for all profiles;do not create blocks across excluded gaps",
+    "family": "new secondary Holm4 per block:mean/median theta times two exclusions;F10,G4,micro18,individual197/474 unchanged;no program-wide familywise claim",
+    "baseline": "reproduce all G baseline theta estimates and all baseline theta mean/median draws at21/5/63;not additional H tests",
+    "minimum": "200 valid pairs,60 per market sign,95% eligible coverage,var>1e-12;original calendar;no relaxed thresholds",
+    "invalid": "any invalid bootstrap draw retained/flagged and target p withheld;no redraw or selective omission",
+    "inference": "same approximate centered two-sided p plus1,basic nominal95 intervals;G coverage guarantee does not transfer to new masked targets;report all blocks,not choose by rejection",
+    "causal": "exclusions change time target and precision;cannot decide causal regime change versus a particular month"
+  },
+  "calibration_diagnostics": {
+    "data": "existing frozen G84,000 replication rows;no new outer generators or method selected by significance",
+    "empirical_CDF": "for each of all10 F and all4 G targets and six mechanisms,(1+count(null bootstrap p<=observed bootstrap p))/(1000+1);then Holm within full corresponding10/4 family,allow changed ranks",
+    "MonteCarlo": "export count,R,plus1CDF,point binomial MCSE and Wilson95 marginal probability limits;no decision confidence claim from a fixed Holm multiplier",
+    "scope": "exploratory fixed-mechanism global-null diagnostics with fitted nuisance values;not an independently validated replacement p-value,weak-null/strong FWER theorem or corrected CI",
+    "scales": "reproduce SD(point estimator),mean bootstrapSE,their ratio,observed bootstrapSE;h,b andh*b mean-square by full/early/late;closed-form fixed-market variance for declared linear AR mechanisms,not GARCH;no generator normalization changed",
+    "interpretation": "assess concentration of variance relative to contrast weights;observed bootstrapSE is not known true SD or a criterion for retaining favorable mechanisms;keep all6"
+  },
+  "economic_scale": {
+    "simple_market_shocks": [
+      -0.05,
+      -0.01,
+      0.01,
+      0.05
+    ],
+    "market_conversion": "m=log1p(simple shock)",
+    "quantity": "(beta_minus-beta_plus)*m = -delta*m;also export alpha_minus-alpha_plus and sum;one regime extrapolated algebraically at common nonzero m",
+    "aggregation": "unweighted descriptive asset mean/median only;no portfolio return,expected loss,premium or causal economic equivalence margin"
+  },
+  "presentation": {
+    "primary": "retain hypotheses,static and aggregate levels,temporal change,crisis sensitivity,calibration failures,all ten sectors summary and full2016-2025 overview",
+    "supplement": "move detailed individual inference/HAC/IUT/power,sector and risk figures,WEGE3/influence,dynamic formulas and predictive detail to self-contained supplement;original scientific artifacts retained",
+    "microstructure": "export/show both raw and Holm18 p-values;520 and259 weekly observations approximately;no posthoc family reduction",
+    "abstract": "explicit Holm labels for all adjusted p-values;no claim asymmetry disappeared or persisted",
+    "KRR": "proposal only;not implemented/evaluated,no AI publication guarantee"
+  },
+  "author_Colab": "new compact H reproduction only,not rerun F/G/E6000 generators;source pinned to immutable public commit and hashes;local execution and author Colab separate"
+}

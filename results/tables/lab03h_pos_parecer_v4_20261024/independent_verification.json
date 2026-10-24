@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "production_H_G_F_imports": false,
+  "explicit_period_OLS": 480,
+  "max_OLS_difference": 3.1086244689504383e-15,
+  "explicit_bootstrap_statistics": 36,
+  "max_bootstrap_difference": 2.282896094385478e-15,
+  "complete_bootstrap_statistic_rows": 12,
+  "CDF_rows_recomputed": 84,
+  "dense_covariance_cases": 5,
+  "economic_rows_checked": 1920,
+  "prior_source_pins": 78,
+  "scope": "numerical/method consistency;does not validate new masked-bootstrap size/coverage or CDF replacement"
+}

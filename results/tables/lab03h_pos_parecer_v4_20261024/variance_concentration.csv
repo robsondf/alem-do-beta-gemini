@@ -1,0 +1,4 @@
+scale,variance_no_AR,march2020_share,march_sessions,total_sessions,scope
+unit,0.0020188810833942955,0.3411734529153484,22,2483,variance_weight_concentration_not_causal_attribution
+hetero_h,0.019770580818525087,0.9237620172902191,22,2483,variance_weight_concentration_not_causal_attribution
+break_product,0.027487620824110222,0.9470457226355321,22,2483,variance_weight_concentration_not_causal_attribution

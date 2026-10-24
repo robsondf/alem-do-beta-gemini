@@ -1,5 +1,9 @@
 # Leitura, execução e verificações
 
+## Reprodução H atual
+
+Use somente `notebooks/Lab03H_crise_calibracao.ipynb` para a próxima execução do autor. Ele autentica fontes imutáveis, reutiliza X e não repete os geradores G. [Instruções, resultados e limites](lab03h_parecer_v4.md). Fontes, caches, testes e a execução anterior G permanecem preservados. O adendo de universo 2015 não foi reproduzido; seu pacote é entrada pendente.
+
 ## Ambiente
 
 Use Python 3.12 ou superior em ambiente isolado. `requirements.txt` é a lista original do projeto, sem congelamento adicional de versões. Os recibos Colab preservados registram os ambientes efetivamente utilizados; este empacotamento não afirma igualdade de ambientes nem de resultados binários entre versões.
