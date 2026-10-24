@@ -1,0 +1,118 @@
+{
+  "design.csv.gz": {
+    "source": "design.csv",
+    "source_sha256": "0c58f977ca6d69ec2603e588f9c3686d0ec3c2a8397f3bce0c18567b971ccad8",
+    "mirror_sha256": "4af159936c8ddc5a58c9a3997b81747a383828bdbbc6384843b9e491511f29c6",
+    "rows": 197
+  },
+  "bank_designs.csv.gz": {
+    "source": "bank_designs.csv",
+    "source_sha256": "600045bf3c9beea8f5a54bcc8d8368a439fc901465e59f6dddf41e3257ade369",
+    "mirror_sha256": "d0fe48ee6d20975ca37b6c8fdb39cbbf1face241c65b96735dcfcc868d92212d",
+    "rows": 25
+  },
+  "static_family.csv.gz": {
+    "source": "static_family.csv",
+    "source_sha256": "f7a20697d926ddc9e0be6b51a16b383bbdd28262d182eca73ba96eb05f2f1cb6",
+    "mirror_sha256": "3525f2029aebb049b5fcbcf2ee7c993c43aae029e11cb4cc89daf6dadc74774a",
+    "rows": 81
+  },
+  "static_panels.csv.gz": {
+    "source": "static_panels.csv",
+    "source_sha256": "00dc604d5b8459f4d736d531c76f0a2c74140f7bd204429032118dc9ae90672a",
+    "mirror_sha256": "0b3220c043387e44d4e67619859777b1c260e647bc18fe2d03973d92bc2f6518",
+    "rows": 162
+  },
+  "temporal_family.csv.gz": {
+    "source": "temporal_family.csv",
+    "source_sha256": "50c0a647e36d015a695fb1c8e8f0b0c672423370a28e026229fdf7794a1b6b53",
+    "mirror_sha256": "04aab01b801be9e4bf4efd09577505217fc9250198ff7e5bf91d7f02678af488",
+    "rows": 30
+  },
+  "envelope_family.csv.gz": {
+    "source": "envelope_family.csv",
+    "source_sha256": "f68a0525e56ab62cc8b8138ae86680cf7e953a6a931ab413e560cd4bd490d118",
+    "mirror_sha256": "dc6038a488e1af1843d7ce52ab3def0a570ce26dd83101fdf026a6225dfa632d",
+    "rows": 27
+  },
+  "envelope_panels.csv.gz": {
+    "source": "envelope_panels.csv",
+    "source_sha256": "c13ec5a75a8fad4b4fe91cc2edee8d2fb91e8baa6d20cdaf714872317dd37626",
+    "mirror_sha256": "b17fd93113e7eeb2a9511caf47f9248d137d561d21f30aadd1d2ed11015332ff",
+    "rows": 54
+  },
+  "envelope_temporal_family.csv.gz": {
+    "source": "envelope_temporal_family.csv",
+    "source_sha256": "51c7e085eec4a597832ab9e0dcf53859a3251a9dd63768d9a2fd98070bbf66c4",
+    "mirror_sha256": "51858975833651d13709febf9696e10dbf9fcaad13054d5c9f5c1139bbe5a6d0",
+    "rows": 15
+  },
+  "temporal_lfc_family.csv.gz": {
+    "source": "temporal_lfc_family.csv",
+    "source_sha256": "726d62a1b89acd77a827c96d8dcc3afc8c7c2f2c810b6654874917c67c4745e7",
+    "mirror_sha256": "37778dcfbd37b43bc995f8d423cfe5281fd6729218e2b0da98cc30d6b6be7cc5",
+    "rows": 24
+  },
+  "temporal_iut_limit_family.csv.gz": {
+    "source": "temporal_iut_limit_family.csv",
+    "source_sha256": "6fbe3982a0b0c4e1d8379b15c305f6025c86de6d7eaf9c30c10a89c523cad193",
+    "mirror_sha256": "9e79db3eaed92fbb04f30da9bb55495707f9306313714355db57929235e2a762",
+    "rows": 36
+  },
+  "observed_static.csv.gz": {
+    "source": "observed_static.csv",
+    "source_sha256": "cd42a1af4a362322ce78793fe325741cf71ee86eca560620842bbfa596ecf9c7",
+    "mirror_sha256": "9fb92dcdced00113902c23d4e0f2fff8913e46534427ab37ad8cbdbd11760842",
+    "rows": 591
+  },
+  "observed_temporal.csv.gz": {
+    "source": "observed_temporal.csv",
+    "source_sha256": "2afbe1a9dd7abf6ff8d23529c480f5dee830b86fd1794e309e631252170de55a",
+    "mirror_sha256": "f4545c19ef8c9c276155fdc799472ac6634c44d26d8837a8977c4170f086082c",
+    "rows": 948
+  },
+  "observed_envelope.csv.gz": {
+    "source": "observed_envelope.csv",
+    "source_sha256": "d7ed750b995605f573f7c6ec85aad5808a2a565cc55b6214fa2c6bfb73d61380",
+    "mirror_sha256": "07b39c07637ffa4c47b391416b84fe8edf074c4b310351d6e1404a1987a7fdae",
+    "rows": 197
+  },
+  "observed_envelope_temporal.csv.gz": {
+    "source": "observed_envelope_temporal.csv",
+    "source_sha256": "cd513f40ac786f24416567a77cca613db3930a820524de1d53cea7fcb696e766",
+    "mirror_sha256": "c3d5edc155c9e0de7d0e6de030931d6d5689eacec6bea2673b60bd06c3d7a952",
+    "rows": 474
+  },
+  "observed_envelope_intervals.csv.gz": {
+    "source": "observed_envelope_intervals.csv",
+    "source_sha256": "bedcc2188ec2b7e2796f8d63630fad8186795ac2264db413da293dba7633b7b1",
+    "mirror_sha256": "b8eda2e0d5452ec4fee126c9ed11b2d084c9faf6c87dfc4f02a21738565cf404",
+    "rows": 1065
+  },
+  "observed_envelope_tail_mc.csv.gz": {
+    "source": "observed_envelope_tail_mc.csv",
+    "source_sha256": "fe8a4758bf37bb51b31215aba17c841a3cd84632bdaaacfff2f7aa7ba2dfef44",
+    "mirror_sha256": "1f556ae7933054fc3624dcca3ad000ab8978ef98254451fd68236b8ab450b952",
+    "rows": 6741
+  },
+  "prediction_intervals.csv.gz": {
+    "source": "prediction_intervals.csv",
+    "source_sha256": "6cf7a610ae3bfe41a97d9c09ceb36dfe45fc73ae0e891fcb607a4ed932693169",
+    "mirror_sha256": "9ab14e91966c8d7ed976c9c3e442a3127f990d4224a1f43ecc07795aef048d0b",
+    "rows": 1662
+  },
+  "prediction_metrics_full_all.csv.gz": {
+    "source": "prediction_metrics.csv",
+    "selection": "period='full' and regime='all'",
+    "full_source_sha256": "dbdfa4bb48586c3a5bdfa4fd5f99ca0ff371953700a1f6397b49758f66bcf64a",
+    "mirror_sha256": "eadb90a62c3f390f0e108df14caf6e542d83f6923038aa3b082cc6a7dc4d3593",
+    "rows": 8864
+  },
+  "prediction_gains_full_all.csv.gz": {
+    "source": "prediction_gains.csv",
+    "selection": "period='full' and regime='all'",
+    "full_source_sha256": "2b256c980bd1d0b11a6bad72fd753525826f07efc62c03f6b80facf30a584dd0",
+    "mirror_sha256": "595039a0abf9dff5ed8ba578569ad4bd219dbce51947bfea99da6068b5e86cd1",
+    "rows": 2216
+  }
+}

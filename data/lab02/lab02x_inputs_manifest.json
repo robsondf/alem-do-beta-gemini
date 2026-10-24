@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "stage": "Lab02X",
+  "base_main": "b8f69e57f54ff705be8db59226ea3904ddcd2079",
+  "parent_folder_id": "1bJFm_ozCzvG2SBxlGxYXCzm1U3MjOkmV",
+  "parent_files": {
+    "conferencia.json": {
+      "bytes": 10334,
+      "sha256": "2e1cb81209d3a133183bda3befaf88379108f29d21a426b756fc57e296226f1c",
+      "drive_id": "1NZaykcb7rtci0fe7XWZMpgd_9o48zEjf"
+    },
+    "betas_comparacao.csv": {
+      "bytes": 727354,
+      "sha256": "44ca3c8fe9fea999ecd1e791c94ecf26d226b06d04c636da1199aa1ac81e4868",
+      "drive_id": "1V4Sh1f0caY_GU7uOfjyZ53DE5x4dpadW"
+    },
+    "matrices/decada/retornos_logaritmicos.csv.gz": {
+      "bytes": 1622539,
+      "sha256": "f5659791843bae827f6933b42f0de8dd5fcbc0d057810a231cfc897f09a531a6",
+      "drive_id": "11JNN0sxKiKdAhv_vEXlYOOIHLdJ2YXx8"
+    },
+    "matrices/decada_periodo_comum/retornos_logaritmicos.csv.gz": {
+      "bytes": 817593,
+      "sha256": "3d9cbf3d39f92f474edb274739b5a0635e4b0f0862011571dc75191c3727412b",
+      "drive_id": "1wujVxm_y_q04loNC5_wp--qwSy-awGnk"
+    },
+    "matrices/recente/retornos_logaritmicos.csv.gz": {
+      "bytes": 1188542,
+      "sha256": "af8e621c29cf2688caeb3750d745c52189e4ba63b22ac3538cc8c3a645761f9d",
+      "drive_id": "1ybATex81aM8zPxxy_9kJ4t_N1stYtgEr"
+    },
+    "matrices/jcp_duas_bordas/decada/retornos_logaritmicos.csv.gz": {
+      "bytes": 1622536,
+      "sha256": "3a8e364d3f92ad0a44fb40ba50252adca1b02e4cdcdc8030a28b5369d3c5699c",
+      "drive_id": "1Ghcf35tl84RsCQbn31lw2kVzf203Jg4D"
+    }
+  },
+  "repo_files": {
+    "src/lab02.py": {
+      "bytes": 24544,
+      "sha256": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f"
+    },
+    "data/lab02/validacao_lab02w_colab_20261022.json": {
+      "bytes": 3180,
+      "sha256": "c23e80bc2ec988b9621f1fcb1d71cff0e11931e297cb4a9a3d894050f0801912"
+    },
+    "results/tables/lab02w_colab_20261022/caixa_candidatos_5169.csv.gz": {
+      "bytes": 586814,
+      "sha256": "4f816c6111799de5f27d71c05966be517b45d6d0028d5f6ecca26481e5f935ec"
+    },
+    "results/tables/lab02w_colab_20261022/rendimento_grupos_74.csv": {
+      "bytes": 27979,
+      "sha256": "63b911937d75cae0abe5ce31c7d31bbda8c88f838d41a32a40581eef2d3298bd"
+    },
+    "data/lab02/lab02x_politica_sensibilidade.json": {
+      "bytes": 1199,
+      "sha256": "511633d4712dea471b60eadb12cb36bec75ec614aaed18a2b907dc7cbdec15dc"
+    },
+    "data/lab02/validacao_cobertura_global_colab_20261015.json": {
+      "bytes": 11372,
+      "sha256": "16547d77b48d610926cc899a16babeb17328506d448281eb14084757da27737a"
+    }
+  },
+  "scope": "two inherited local JCP values plus explicitly conditional equivalent cash-withdrawal sensitivities; not global corrected baseline"
+}

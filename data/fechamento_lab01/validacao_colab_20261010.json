@@ -1,0 +1,102 @@
+{
+  "validado_em_utc": "2026-10-10",
+  "colab_url": "https://colab.research.google.com/drive/1x2Ul8f9yEA_ULFZqcsnwg7BcPcIIOXCK",
+  "colab_modificado_em_utc": "2026-10-10T02:23:34.719Z",
+  "sha256_notebook_executado": "d25c234bcdf093bdfcae249231d2b6c961cf94052d0fc83ed0a5cc3aa9ffa615",
+  "n_celulas_codigo": 23,
+  "n_celulas_executadas": 23,
+  "n_excecoes": 0,
+  "conteudo_celulas_igual_revisao_r2": true,
+  "versao_notebook": "lab01_fechamento_direitos_20261010_r2",
+  "sha_manifesto_fechamento": "ef3d1c68c401bd6b508fab859c7e2dceb0bafa0c0d805eccf0ae7f5aef4dfd64",
+  "resultado_drive_url": "https://drive.google.com/drive/folders/1PFkBEe11ig4vAQhHcVu4rp5laDKJ1rzJ",
+  "resultados_gerados_em_utc": "2026-10-10T02:22:06.090070+00:00",
+  "composicao": {
+    "decada": {
+      "ativos": 80,
+      "emissores": 76,
+      "setores": 10
+    },
+    "recente": {
+      "ativos": 117,
+      "emissores": 112,
+      "setores": 10
+    }
+  },
+  "cobertura_minima_pares_ativo_ano": {
+    "decada": 0.9878542510121456,
+    "recente": 0.984
+  },
+  "n_ocorrencias_referencia": 221,
+  "n_chaves_revisao_compativeis": 222,
+  "n_extremos_finais": 216,
+  "n_extremos_inconclusivos": 0,
+  "n_fechamentos_corrigidos": 20,
+  "apto_iniciar_lab02": true,
+  "apto_betas_definitivos": false,
+  "auditoria_global_completa": false,
+  "lacunas_diarias": [
+    {
+      "ticker": "ABCB4.SA",
+      "data": "2016-01-04"
+    },
+    {
+      "ticker": "ABCB4.SA",
+      "data": "2016-01-05"
+    },
+    {
+      "ticker": "UGPA3.SA",
+      "data": "2021-06-28"
+    },
+    {
+      "ticker": "UGPA3.SA",
+      "data": "2021-06-29"
+    },
+    {
+      "ticker": "UGPA3.SA",
+      "data": "2021-06-30"
+    }
+  ],
+  "retorno_light_reconciliado": -0.14328112000000004,
+  "criterios": {
+    "periodos": {
+      "decada": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recente": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "ano_volume": 2025,
+    "presenca_minima": 0.95,
+    "volume_medio_minimo": 5000000,
+    "volume_mediano_minimo": 1000000,
+    "arquivo_classificacao": "Setorial B3 15-09-2022 (português).xlsx",
+    "sha256_classificacao": "9ce954b3b77c45816074e6435cb912d9156cd269ea525e33db92c28873da08ab",
+    "volume_sem_classificacao_pct": 4.8454270423818535
+  },
+  "sha256_exportacoes": {
+    "amostras_paineis.csv": "2756a50353c81da6bfe05808d705e272f396782cf3db91861930683e5d77e13a",
+    "cobertura_paineis_anual.csv": "d0dcc338ed1b93a14bf990a8382c400b5060e256d1bc9a32d8ad2ac81d00c4a1",
+    "comparacao_paineis.csv": "9021e6a126cde5c1920809aa06e09577c536b53c8b0d75156ecf010dd48be00d",
+    "estado_reconciliacao.json": "0565e39f60142b8ff5eba32b7a360618896b9fdc35b531c042d08ab3c27d11ff",
+    "exclusoes_retornos_direitos.csv": "5e87ba67bd1a8f13298591bced29a0a853e645c39b82ec754af9abcae8af7803",
+    "pontes_acumuladas_direitos.csv": "3f820c3aa04a294b8a6a1ebe9bb25b32c98e302065b49c71aead597c4f88b5b4",
+    "proveniencia.json": "ca55e59c74ed389345721eb4aba343881560ac6c99358a1bc8981087b0f732eb",
+    "resumo_selecao.csv": "d5886f3c98e583ab0de6ea080376d43d5fb06101a98ab49de2b8a40d20b4c6fe"
+  },
+  "limite": "Liberação para iniciar estimação e sensibilidades com as reservas; não há beta estimado nem certificação global de todos os proventos."
+}

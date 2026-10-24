@@ -1,0 +1,18 @@
+{
+  "stage": "Lab03E predictive risk",
+  "validation_scenarios": 6,
+  "replications_per_scenario": 1000,
+  "unique_cases": 394,
+  "blocks": [
+    21,
+    42,
+    63
+  ],
+  "bootstrap_replications": 1999,
+  "conditional_on_observed_market": true,
+  "joint_future_market_uncertainty_validated": false,
+  "bootstrap_banks_fixed_independent_of_simulated_errors": true,
+  "coverage_evaluated_not_assumed": true,
+  "global_homologated": 0,
+  "runtime_seconds": 2408.350568043
+}

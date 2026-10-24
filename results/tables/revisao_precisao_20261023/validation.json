@@ -1,0 +1,12 @@
+{
+  "source_uncompressed_sha256": "f81125b59ac330f235e441c6a24e4be27a450941b7535a7f4b195ebf8e6dc739",
+  "source_rows": 277,
+  "common_exact_reuse": true,
+  "scope": "Medians of individual marginal confidence intervals, not confidence intervals for a median",
+  "power_estimated": false,
+  "equivalence_tested": false,
+  "models_modified": false,
+  "economic_margin_selected": false,
+  "primary_family_size": 197,
+  "global_homologated": 0
+}

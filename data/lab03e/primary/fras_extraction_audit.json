@@ -1,0 +1,12 @@
+{
+  "source_sha256": "3597c6058a8358bd70c5a416924fe804cebc77feb659afaa34288053f6794df3",
+  "rows": 46,
+  "historical_ex_rows": 25,
+  "recent_ex_rows": 12,
+  "chronology_flags": 4,
+  "full_published_table_extracted": true,
+  "issuer_history_completeness_proven": false,
+  "dates_corrected": false,
+  "returns_modified": false,
+  "global_homologated": 0
+}

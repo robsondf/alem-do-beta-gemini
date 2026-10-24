@@ -1,0 +1,9 @@
+{
+  "stage": "Lab03C",
+  "x_drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+  "b_drive_id": "1hhLvxQpAnEGopDvnt1Mh9IbkV0gYt9Gb",
+  "x_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "b_sha256": "645946c0bfee05cc7cbbc34b63af74700fcc7e0a3d3ac14ee7aaa398323fa26d",
+  "plan_sha256": "bf543ac51b2a1f1f3093fbd6702f4a983b5cb8c32c9d5980036aaae0b8eed72c",
+  "input_scope": "Only observed N matrices and actual saved Colab metadata; no quotes downloads"
+}

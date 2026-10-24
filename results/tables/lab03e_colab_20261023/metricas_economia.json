@@ -1,0 +1,9 @@
+{
+  "stage": "Lab03E economic impact",
+  "cases": 197,
+  "sensitivity_rows": 1970,
+  "global_homologated": 0,
+  "primary_matrix_modified": false,
+  "diagnostic_mask_not_correction": true,
+  "insufficient": 0
+}

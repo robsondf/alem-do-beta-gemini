@@ -1,0 +1,60 @@
+{
+  "stage": "Lab03B",
+  "base_main": "d4bff453033c39ceea1947e257bc69adb634310b",
+  "colab_validated": false,
+  "scope": "conditional local synthesis, not CAPM pricing or global data certification",
+  "notebook": {
+    "cells": 21,
+    "code_cells": 10,
+    "exceptions": 0,
+    "tests": 12,
+    "png_outputs": 6,
+    "environment": "local IPython; not Colab validation",
+    "clean_notebook_sha256": "c35b8b545bf432b8c3ebbc19de0cb99c6c3924a0b685ec8072b5a0060f0d38d5",
+    "executed_notebook_sha256": "f59d1dabb03aa5c80fb9ec07dab442893143ee3d3391064137e8b4984bc2c7bf"
+  },
+  "independent": {
+    "risk_rows_checked": 3170,
+    "maximum_direct_risk_difference": 2.220446049250313e-15,
+    "bootstrap_draws_independently_reproduced": 5994,
+    "sector_intervals_checked": 90,
+    "eta_intervals_checked": 9,
+    "Y_bootstrap_rows_reused": 831,
+    "maximum_sector_bound_difference": 1.2961853812498703e-14,
+    "common_assets_exact_reuse": true,
+    "production_modules_imported": false,
+    "CAPM_pricing_tested": false,
+    "global_homologated": 0
+  },
+  "byte_equal_cli_notebook": {
+    "sector_eta.csv": "bfe546aa387ccf98ab4af40959e95b9f5b42f5697a88f7ce915c8cedeac3fee0",
+    "asset_betas.csv": "f81125b59ac330f235e441c6a24e4be27a450941b7535a7f4b195ebf8e6dc739",
+    "risk_annual.csv": "8464ad8153299f80f02d9876d1ef383de233f8503dab8463a7ab95bf3bd488a2",
+    "sector_point.csv": "83cf15a21781921804feba92fa7788d424c378425c45c18493fba89dfefae0e2",
+    "summary.csv": "4f9a80573e42364931ae6d3fa493913d34365578c0e50f7072f6b9a493ee73a7",
+    "bootstrap_y_check.csv": "700bdd77583286dfc7f63d74e1452a37c35dcca1916488c991e099a1a5643428",
+    "sector_bootstrap.csv": "eb5b2df01d2688f72267f4634e4e1d62aaa37db42dd239fe9284b83e68450a6e",
+    "risk_full.csv": "9e3aab9ff00e1883765d22c58a59c137950c336ead26e81c39b462b3aa5ebe54",
+    "annual_sector.csv": "0252458058c8f23d56dbfa2e2ac8d0edd99e441271b02a1f8eb8a10b52003e37",
+    "metricas.json": "01e800eabaf3a733b858defaff7e9cea94f32b5eec14cac317ffba996b929ffa",
+    "figures/lab03b_risco.png": "b46c385f43788f74cf310e177f31f0e0a949dc60007bf837e50b0cb539b0f035",
+    "figures/lab03b_mapa_movel.png": "fe956a8626dbab8f7054170fc2cf86fb389a52bab422bc1c12c27fd81378743d",
+    "figures/lab03b_risco_anual.png": "9904a0aa2f06dbf2e21efaa747b15f297bc4d1f2f4791722469d5c9c0e3c39f7",
+    "figures/lab03b_contrastes_setoriais.png": "1d1295717d103f4475337633d0661b09ad2eb0373c2300c18523f8ab5b2fdfdb",
+    "figures/lab03b_betas.png": "036b39e90b2274d23ae4bb49aed790f25c80e1705e120c309279657d7453c0be",
+    "figures/lab03b_setores_anuais.png": "172487822f776df200659e6981f5e4dc6d98b1201ba17ca4a89d37823f6e9527"
+  },
+  "runtime_files_verified": true,
+  "source_class_pdf_sha256": "0a0702202e493877f0089b03ce026211217241ea1421a95bdd9fce2a8849367c",
+  "full_results_zip_sha256": "27c791a7a8ed34dd38d979ad13423b7f6b9443d7eece3ef5faffd3cc594fe808",
+  "full_results_zip_bytes": 2078517,
+  "light_mirror_files": 25,
+  "confirmatory_data_gate_passed": false,
+  "global_homologated": 0,
+  "six_full_figures_visually_inspected": true,
+  "markdown_validation": {
+    "markdown_cells": 11,
+    "unintended_code_blocks": 0
+  },
+  "full_exports_authenticated": 23
+}

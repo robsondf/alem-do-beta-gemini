@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "exact_full_quadratic_risks": 2364,
+  "reconstructed_gain_values": 4728,
+  "direct_bootstrap_vectors": 35982,
+  "all_observed_interval_rows": 1182,
+  "common_reuse_rows": 480,
+  "family_rows": 36,
+  "asset_coverage_rows": 14184,
+  "temporal_origins_verified": 19056,
+  "no_lab03e_production_imports": true,
+  "conditional_market_only": true
+}

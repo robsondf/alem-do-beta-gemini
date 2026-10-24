@@ -1,0 +1,5 @@
+# Lab03D — execução efetiva Colab conferida
+
+Espelho leve do export do autor: 17 tabelas completas em gzip e dois recortes por ativo/configuração com period=full/regime=all. Fonte integral e hashes de cada recorte em espelho_manifest.json. manifesto_exports.json autentica os 61 membros do ZIP completo, não este diretório comprimido. Réplicas NPZ, diários, origens e demais métricas permanecem no ZIP Drive 1MD8L0RcpMFbuKwPGErRaJxYO3_xmLZ9R. Seus 61 membros foram autenticados; fontes, entradas, protocolos e versões conferidos.
+
+Três verificadores independentes passaram sobre o export efetivo. Comparação com preparação: 33 tabelas concordantes, máximo 3,953e−14; 19.722.996 valores de arrays, máximo 4,193e−13; cinco PNGs com pixels idênticos. Não se alega identidade binária de todos os arquivos. A preparação tinha um temporário adicional .replicates.npz.X3lNuM, não utilizado como entrada ou resultado científico; ele não existe na execução fresca. Os resultados substantivos e a referência observada permanecem. Registro em data/lab03d/validacao_colab_20261023.json.

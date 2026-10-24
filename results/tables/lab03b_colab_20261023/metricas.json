@@ -1,0 +1,19 @@
+{
+  "stage": "Lab03B",
+  "risk_full_rows": 1385,
+  "risk_annual_rows": 1785,
+  "sector_point_rows": 30,
+  "sector_bootstrap_rows": 90,
+  "sector_eta_rows": 9,
+  "bootstrap_y_reproduced_rows": 831,
+  "annual_sector_rows": 200,
+  "risk_free_series_used": false,
+  "CAPM_pricing_tested": false,
+  "Jensen_alpha_estimated": false,
+  "assets_reselected": false,
+  "company_weights_used": false,
+  "missing_returns_filled": false,
+  "global_homologated": 0,
+  "maximum_variance_identity_error": 1.734723475976807e-18,
+  "bootstrap_inference": "exploratory_marginal_conditional_percentile_no_new_rejection_claims"
+}

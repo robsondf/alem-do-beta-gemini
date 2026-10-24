@@ -1,0 +1,20 @@
+[
+  {
+    "file": "fras_cash.xlsx",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/23341a9d-be9a-4855-a251-1c1004aa997c/2a6859f4-7e75-e24a-93de-4242cae87157?origin=2",
+    "status": 200,
+    "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 15795,
+    "sha256": "3597c6058a8358bd70c5a416924fe804cebc77feb659afaa34288053f6794df3",
+    "retrieved_utc": "2026-10-23T20:36:08.187019+00:00"
+  },
+  {
+    "file": "fras_cash_page.html",
+    "url": "https://ri.fraslemobility.com/informacoes-aos-investidores/mercado-de-capitais/dividendos-e-juros-sobre-capital-proprio/",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 68179,
+    "sha256": "abfab5b634460f87c3688d23c571f77bad9a128932379aab37f4a120ca59f510",
+    "retrieved_utc": "2026-10-23T20:36:15.643931+00:00"
+  }
+]

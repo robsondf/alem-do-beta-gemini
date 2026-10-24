@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "stage": "Lab03",
+  "defined_local_date": "2026-10-23",
+  "source_protocol": "data/lab02/plano_temporal_v1.json",
+  "source_protocol_changed": false,
+  "interpretation": "Execução condicional sobre a referência observada N; gate de homologação global não superado. Agregados/anuais já foram inspecionados, sem pré-registro independente ou nova amostra confirmatória.",
+  "family_size": 474,
+  "annual_minimum": {"min_pairs":200,"min_regime":60,"min_coverage":0.95,"min_market_variance":1e-12,"hac_lags":5,"confidence":0.95},
+  "joint_model": "1,D,m,Dm,Q,QD,Qm,QDm; theta=coefficient7; original_calendar Bartlett HAC; n/(n-8)",
+  "early": [2016,2020],
+  "late": [2021,2025],
+  "directions": ["positive","negative"],
+  "iut": "Maximum one-sided annual p in each direction. Every planned year required; insufficient years retain non-estimable family slots.",
+  "rolling": {"primary_width":252,"sensitivity_width":504,"step":21,"cash_variant":"referencia_n","return":"log","hac_lags":5,"common80_reuses_recent":true,"purpose":"overlapping exploratory diagnostics, no test count or persistence claim from overlap"},
+  "configurations": [
+    {"name":"N_log_HAC5","cash_variant":"referencia_n","return":"log","hac_lags":5,"events":false},
+    {"name":"N_log_HAC0","cash_variant":"referencia_n","return":"log","hac_lags":0,"events":false},
+    {"name":"N_log_HAC10","cash_variant":"referencia_n","return":"log","hac_lags":10,"events":false},
+    {"name":"N_log_HAC20","cash_variant":"referencia_n","return":"log","hac_lags":20,"events":false},
+    {"name":"N_simple_HAC5","cash_variant":"referencia_n","return":"simple","hac_lags":5,"events":false},
+    {"name":"local_JCP_log_HAC5","cash_variant":"jcp_duas_celulas_documentadas","return":"log","hac_lags":5,"events":false},
+    {"name":"JCP_condicional_log_HAC5","cash_variant":"jcp_condicional","return":"log","hac_lags":5,"events":false},
+    {"name":"caixa_baixo_log_HAC5","cash_variant":"jcp_rendimento_caixa_baixo","return":"log","hac_lags":5,"events":false},
+    {"name":"caixa_alto_log_HAC5","cash_variant":"jcp_rendimento_caixa_alto","return":"log","hac_lags":5,"events":false},
+    {"name":"N_eventos_log_HAC5","cash_variant":"referencia_n","return":"log","hac_lags":5,"events":true}
+  ],
+  "sensitivity_scope": "Ten declared configurations, not a full factorial or a choice by p-value. Event mask is union of existing +/-5-session exclusions plus Light Q4; no removal of complete years. Global B3 trading-endpoint sensitivity remains pending authenticated endpoint data.",
+  "equivalence": "Not tested; no economic equivalence margin chosen.",
+  "data_limitations": "Five ABCB4/UGPA3 rights gaps plus two ANIM3 gaps in decade preserved. 73/74 local reviews, zero complete global histories. RENDIMENTO zero cutoff net amounts/rates operative. Cash bounds are not beta bounds. Retrospective fixed selection and survival biases remain.",
+  "family_scope": "474 per configuration, primary N_log_HAC5. Alternative configurations exploratory; no control claimed across research program or configuration selection. Common80 reuses the 117 recent directions."
+}

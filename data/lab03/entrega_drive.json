@@ -1,0 +1,68 @@
+{
+  "stage": "Lab03",
+  "date": "2026-10-23",
+  "base_main": "9414f4de3bfd0efe2a29ba98c2933061a0ebce4f",
+  "folder_id": "1XRcIHVAoBVmX9sDWvAuNDCJ5dKEKqedd",
+  "colab_url": "https://colab.research.google.com/drive/1pEzJR-CJiRWZhKKJbxaf2Bf2f-rYXsL9",
+  "colab_validated": false,
+  "scope": "local preparation; conditional on observed reference; global data gate not passed",
+  "originals_overwritten": false,
+  "readback_artifacts": [
+    {
+      "kind": "runtime",
+      "id": "1sy_YJ93ZTe0K0jm7oCPbVmerFDl1gan5",
+      "sha256": "2f2ecb8e037d12dc5469fab586b1dc43b9fd6be142554939a12c9222f2bc6f71",
+      "bytes": 47980,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "manifest",
+      "id": "15zAkDSkB24pHjr2cBYRnrPOEiRD90-6_",
+      "sha256": "228314b53f38bfb4eb34c7a57b00bf3fed1f60908dc060bcd1cb534cb1d62f1d",
+      "bytes": 2451,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "notebook",
+      "id": "1pEzJR-CJiRWZhKKJbxaf2Bf2f-rYXsL9",
+      "sha256": "a1c04c85d2ae69bf1a53eccd7d74f3d15540a25afc62ba92d982279692f6e759",
+      "bytes": 21618,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "results",
+      "id": "1PaMx1EvHWD3uG4F-fvOE93EyO-6JnVTs",
+      "sha256": "5cf1beccd53615fa9d7f4ecbb48db3426aa75359c1a25ee4179755df813a33e1",
+      "bytes": 14478782,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "snapshot",
+      "id": "1pAjUWfpfu0bZcXWgrfprZk4to1xadpzk",
+      "sha256": "c7123b578917266e07c298b9f293434f765534918fa8c9edf7b44ce29362042b",
+      "bytes": 1656106,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "pdf",
+      "id": "1F6PBEDhpC3YTqzc6UC3kJ8MlL6hgTRq5",
+      "sha256": "2d41e50b4cab5e5cec8a36fe0b0e3c313eb1208009b15cf59ac457fcd052214a",
+      "bytes": 1284313,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "overleaf",
+      "id": "1BhAm9k9yGxEJxAf1WuHu3VzxWTwlMdej",
+      "sha256": "e3eca872daaaac5fa8f19952492a23f165a6edd6460bff5ee08c22d9c99d7009",
+      "bytes": 1323094,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "y_snapshot",
+      "id": "17JLBHhcAvUXj9WMq6gNr6OsCSM52TQK9",
+      "sha256": "cb6e889e4937f50b808677d465160ad3a1e1d6db76fd9f882169b2b9b77e1df3",
+      "bytes": 810169,
+      "readback_byte_equal": true
+    }
+  ]
+}

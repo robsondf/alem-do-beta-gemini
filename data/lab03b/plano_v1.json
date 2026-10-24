@@ -1,0 +1,17 @@
+{
+  "stage": "Lab03B",
+  "fixed_before_execution": "2026-10-23",
+  "scope": "Exploratory synthesis on authenticated observed N; prior results already seen; not independent preregistration",
+  "unit": "asset/class/ISIN; fixed 80 and 117, ten sectors, common 80 reused",
+  "primary_return": "daily observed log wealth return, paired with B3 Ibovespa; no prices or expected returns as dependent variables",
+  "sector_statistics": "median, IQR, median sector minus complement; eta squared of asset point estimates is descriptive only",
+  "sector_uncertainty": "reuse Y shared-calendar moving-block draws, seeds [20261011,panel_offset,length], 999 replicates, lengths 5/10/20; length10 plotted primary; complete fixed-asset replicates required",
+  "sector_interpretation": "marginal percentile intervals; approximate stationarity assumption; no new confirmatory rejection flags, no independent-asset or independent-year assumptions",
+  "risk": ["daily log standard deviation", "downside log deviation from zero", "market-model R2", "variance components with common n-1 denominator", "historical simple-loss VaR95 inverse empirical CDF", "historical simple-loss ES95 fractional upper-tail mass"],
+  "risk_cases": "five X cash variants on 277 full-period cases; N only on 1785 annual cases; common results reused",
+  "not_computed": ["CAPM excess-return pricing test", "expected-return forecasts", "Jensen alpha", "Sharpe or Treynor without authenticated risk-free series", "portfolios or company weights", "cumulative wealth from incomplete returns", "technical indicators or sequential covariance without feasibility study"],
+  "figures": ["upside versus downside betas, all three panels", "ten sector annual trajectories, entire 2016-2025", "all-asset rolling delta maps with warm-up explicit", "sector-complement contrasts with marginal intervals", "daily volatility and historical tail loss versus betas", "annual daily volatility and market-model R2"],
+  "global_data_gate_passed": false,
+  "target_submission_date": "2026-10-27",
+  "journal_acceptance_or_PPGC_eligibility_guaranteed": false
+}

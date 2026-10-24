@@ -1,0 +1,19 @@
+{
+  "original_filename": "CAPM e topicos relacionados.pdf",
+  "pdf_sha256": "0a0702202e493877f0089b03ce026211217241ea1421a95bdd9fce2a8849367c",
+  "bytes": 4169461,
+  "pages": 58,
+  "provided_by_author": "2026-10-23",
+  "printed_date": "2026-10-22",
+  "title_from_metadata": "aula_08_CAPM_APT_alavancagem_alfa_operar_vendido_hedging_7.ipynb - Colab",
+  "source_type": "user-provided classroom printout; lecturer authorship not identified from PDF",
+  "drive_id": "1VGXcQB0d1Y-s4XqQ54qwyMJLgV5JUQPN",
+  "related_colab_url_printed": "https://colab.research.google.com/drive/1qMKPnDE5uvT31myMHjajI1mtH9LWMMLd",
+  "scope_read": "CAPM pp1-9, covariance and diversification pp10-13, alpha pp14-16; remaining topics surveyed; no new market data downloaded",
+  "adopted": "conceptual risk-return, exposure, observed market-model fit; no portfolios",
+  "not_copied_without_validation": [
+    "p7 excess asset returns versus raw market predictor; strict excess-return CAPM needs both in consistent conventions",
+    "p14 dividend-price formula and illustrative code differ in sign; no price forecasting imported",
+    "portfolio-correlation examples use synthetic normalized returns; no transposition to observed return covariance"
+  ]
+}

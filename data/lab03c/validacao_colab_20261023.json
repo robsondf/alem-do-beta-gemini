@@ -1,0 +1,193 @@
+{
+  "stage": "Lab03C",
+  "base_main": "83dfc0a50790ee95481dda713c073a54c2405be0",
+  "pr78_merged": true,
+  "notebook_sha256": "375e0dc048ef71f82fbf3347fe0d5e451fd9415ee43dca6f9799dcf0a73934d3",
+  "results_zip_sha256": "79607fb0eae9278d80d2d5f3a170d8df5785b16df86b437f4084d7a8ca198bdd",
+  "source_cells_identical": 16,
+  "code_cells": 10,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "notebook_exceptions": 0,
+  "tests_reported": 10,
+  "exports_authenticated": 20,
+  "table_comparisons": [
+    {
+      "file": "asset_nuisance.csv",
+      "rows": 117,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "file": "calibration.csv",
+      "rows": 1773,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "file": "design.csv",
+      "rows": 197,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "file": "family.csv",
+      "rows": 81,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "file": "panel_summary.csv",
+      "rows": 162,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "file": "power.csv",
+      "rows": 15957,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    }
+  ],
+  "array_comparisons": [
+    {
+      "name": "error",
+      "shape": [
+        3,
+        1000,
+        197
+      ],
+      "max_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    {
+      "name": "se",
+      "shape": [
+        3,
+        3,
+        1000,
+        197
+      ],
+      "max_absolute_difference": 0.0,
+      "bitwise_equal": true
+    }
+  ],
+  "png_pixels_identical": [
+    "lab03c_calibracao.png",
+    "lab03c_esparso.png",
+    "lab03c_rejeicao.png"
+  ],
+  "original_protocol_unchanged": true,
+  "runtime_sources_unchanged": true,
+  "temporal_family_474_calibrated": false,
+  "global_homologated": 0,
+  "effective_execution": {
+    "stage": "Lab03C",
+    "environment": "Colab",
+    "executed_utc": "2026-10-23T17:48:14.400788+00:00",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "primary_cases": 197,
+    "replications_per_mechanism": 1000,
+    "empirical_data_modified": false,
+    "global_homologated": 0,
+    "temporal_family_474_calibrated": false
+  },
+  "colab_validator_receipt": {
+    "status": "passed",
+    "independent_of_production_imports": true,
+    "full_design_oracle_fits": 1773,
+    "injected_delta": 0.25,
+    "max_coefficient_absolute_difference": 3.9968028886505635e-15,
+    "max_se_absolute_difference": 4.551914400963142e-15,
+    "summary_numeric_values_recalculated": 162000,
+    "rows": [
+      1773,
+      15957,
+      81,
+      162
+    ],
+    "missing_cells_decade": 7,
+    "missing_cells_recent": 7,
+    "temporal_family_474_calibrated": false,
+    "environment": "Colab"
+  },
+  "embedded_notebook_pngs_match_exports": 3,
+  "independent_recalculation_of_actual_export": {
+    "status": "passed",
+    "independent_of_production_imports": true,
+    "full_design_oracle_fits": 1773,
+    "injected_delta": 0.25,
+    "max_coefficient_absolute_difference": 4.107825191113079e-15,
+    "max_se_absolute_difference": 8.548717289613705e-15,
+    "summary_numeric_values_recalculated": 162000,
+    "rows": [
+      1773,
+      15957,
+      81,
+      162
+    ],
+    "missing_cells_decade": 7,
+    "missing_cells_recent": 7,
+    "temporal_family_474_calibrated": false,
+    "environment": "independent local verification of saved Colab export"
+  },
+  "notebook_drive_id": "1Wjakzr4L5cB1rSn350YgpqDIjbMqRPPR",
+  "preserved_notebook_drive_id": "1B25Wd3ejY4jJIMH5QJ4NZqORoHdC-qzF",
+  "results_drive_id": "12byJIFPo-6kpiQ3j9T6I1v6FLL4ZbVn2",
+  "colab_execution_verified": true,
+  "empirical_return_matrices_modified": false,
+  "pinned_source_checks": 21,
+  "unique_pinned_files": 20,
+  "all_pinned_sources_unchanged": true,
+  "preserved_notebook_snapshot_readback_verified": true,
+  "pdf": {
+    "pages": 19,
+    "references": 26,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "d43a1132b1a52f87530c23bdef6adccbdaf0346a88c16e5300a026033b187656"
+  },
+  "pdf_visual_review": {
+    "pages_rendered_and_decoded": 19,
+    "pages_identical_to_previous_verified_version": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "changed_pages_inspected": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "defects_observed": 0
+  },
+  "pdf_drive_readback_verified": true,
+  "overleaf_drive_readback_verified": true
+}

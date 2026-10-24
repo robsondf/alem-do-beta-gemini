@@ -1,0 +1,135 @@
+{
+  "stage": "Lab02Y",
+  "base_main": "9414f4de3bfd0efe2a29ba98c2933061a0ebce4f",
+  "implementation_pr": 72,
+  "implementation_pr_merged": true,
+  "notebook_drive_id": "1ht7XPv4tve5GICIeCpCwzocy5oWQHWyM",
+  "results_drive_id": "1QJMiQfXuQgpaZPlL0t1hWBHhI6-hia-1",
+  "notebook_sha256": "cb6e889e4937f50b808677d465160ad3a1e1d6db76fd9f882169b2b9b77e1df3",
+  "results_zip_sha256": "ab7d72b779e1e0dc4cf279618dd1dbac30f12aed3c114024631b337780e06d32",
+  "cells": 20,
+  "code_cells": 9,
+  "source_cells_identical": 20,
+  "exceptions": 0,
+  "tests": 8,
+  "tests_passed": true,
+  "authenticated_exports": 14,
+  "embedded_pngs_matched": 3,
+  "output_comparison": [
+    {
+      "file": "bootstrap.csv",
+      "byte_equal": true,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 831
+    },
+    {
+      "file": "events.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 5.218048215738236e-15,
+      "rows": 120
+    },
+    {
+      "file": "exclusions.csv",
+      "byte_equal": true,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 5014
+    },
+    {
+      "file": "figures/lab02y_eventos.pdf",
+      "byte_equal": false
+    },
+    {
+      "file": "figures/lab02y_eventos.png",
+      "byte_equal": false,
+      "pixels_equal": true
+    },
+    {
+      "file": "figures/lab02y_incerteza.pdf",
+      "byte_equal": false
+    },
+    {
+      "file": "figures/lab02y_incerteza.png",
+      "byte_equal": false,
+      "pixels_equal": true
+    },
+    {
+      "file": "figures/lab02y_simples_log.pdf",
+      "byte_equal": false
+    },
+    {
+      "file": "figures/lab02y_simples_log.png",
+      "byte_equal": false,
+      "pixels_equal": true
+    },
+    {
+      "file": "hac.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.5646151868841116e-14,
+      "rows": 5540
+    },
+    {
+      "file": "metricas.json",
+      "byte_equal": true
+    },
+    {
+      "file": "registro_execucao.json",
+      "byte_equal": false
+    },
+    {
+      "file": "simple.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.2093438190040615e-14,
+      "rows": 1385
+    },
+    {
+      "file": "summary.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 1.1102230246251565e-15,
+      "rows": 204
+    }
+  ],
+  "execution_record": {
+    "stage": "Lab02Y",
+    "environment": "Colab",
+    "executed_utc": "2026-10-23T11:28:13.967233+00:00",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "tests_run": 8,
+    "tests_successful": true,
+    "independent_check": {
+      "direct_daily_rows": 7040,
+      "insufficient_rows_verified": 5,
+      "daily_max_absolute_difference": 2.1871393585115584e-14,
+      "bootstrap_rows_verified": 831,
+      "bootstrap_replicates_recomputed": 5994,
+      "bootstrap_max_absolute_difference": 2.8199664825478976e-14,
+      "source_modules_imported": false,
+      "global_homologated": 0,
+      "persistence_tested": false
+    },
+    "input_x_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "global_homologated": 0,
+    "persistence_tested": false
+  },
+  "colab_execution_verified": true,
+  "global_homologated": 0,
+  "persistence_tested": false,
+  "independent_recheck": {
+    "direct_daily_rows": 7040,
+    "insufficient_rows_verified": 5,
+    "daily_max_absolute_difference": 2.1760371282653068e-14,
+    "bootstrap_rows_verified": 831,
+    "bootstrap_replicates_recomputed": 5994,
+    "bootstrap_max_absolute_difference": 2.8199664825478976e-14,
+    "source_modules_imported": false,
+    "global_homologated": 0,
+    "persistence_tested": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "stage": "Lab02Y",
+  "base_main": "ad0fe3e03c5e37c3f66c8f35fe0a49278580e5ba",
+  "x_results_drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+  "x_results_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "repo_files": {
+    "src/lab02.py": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f",
+    "src/lab02_analysis.py": "3931f6f0bc42f464f9e8697b0dfc99ace33e974a55a7a8a56bc5f6457c4f6e2a",
+    "data/lab02/validacao_lab02x_colab_20261022.json": "98d07ae535918488f2d851e88d8f377981e74ede03d08ae0b3cc210dcdd88112",
+    "src/lab02_robustness_suite.py": "bf9581eb6ef58f02489889821b8e3ce34842a217befb9feb7cd260d1dac56f0e",
+    "scripts/run_lab02y_robustness.py": "b809fff0a2833e3f6c2a54a46092f8c4517e4a9906a4b23a44c2168b6683b531",
+    "scripts/plot_lab02y_robustness.py": "86d3a19784a554e1ca85ba0e0ae10046271b4acc2f9a51fdd4ccc4f0ca765460",
+    "scripts/validate_lab02y_outputs.py": "b1bd21881cae4bdcb61a59ff48dcd03b040dc572c3b809505105ae9db2593e59",
+    "tests/test_lab02_robustness_suite.py": "eddbe1cac6d72a227ff48ccff0801ff41eeb3b943237ce18a91e11bc771b3ee4"
+  },
+  "scope": "same-input exploratory HAC/simple/event suite for all five X cash variants; block bootstrap reference N only; no global certification or persistence"
+}

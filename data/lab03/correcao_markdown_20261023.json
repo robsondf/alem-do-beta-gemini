@@ -1,0 +1,40 @@
+{
+  "stage": "Lab03",
+  "date": "2026-10-23",
+  "base_main": "9e82ac8b48442291833500ef6f6a1639ec8cb9d3",
+  "colab_execution_verified": true,
+  "original_snapshot": {
+    "drive_id": "1IS99fzSk-s06UCFBfOKkSBg5K1iouPrG",
+    "snapshot_readback_byte_equal": true,
+    "current_original_unchanged_before_patch": true,
+    "sha256": "58c4c37c59955ae3f13369647b8d76fb7633639d845e6bf7efe70cfd2a7e9a60"
+  },
+  "corrected_notebook": {
+    "drive_id": "1pEzJR-CJiRWZhKKJbxaf2Bf2f-rYXsL9",
+    "sha256": "c8f7974974c665e2dfbd2ad36ced77998bf1ea0f950a6a61f373bd7b148adfba",
+    "bytes": 1718684,
+    "readback_byte_equal": true,
+    "code_cells_outputs_and_counts_unchanged": true
+  },
+  "text_cells_changed": 12,
+  "code_cells_unchanged": 9,
+  "full_notebook_rerun_required": false,
+  "results_zip_unchanged": {
+    "drive_id": "1W0rvgRAmDwbLYY4f85j2ySgMj_mBg1m5",
+    "sha256": "b974fb8ec7192adf7bf4368ee4d2829f13ed9f803d967adf79aac69135083813"
+  },
+  "paper": {
+    "kind": "pdf",
+    "drive_id": "1wF59cNoCdyrz-fU41oHOEiYbH3st-GoD",
+    "sha256": "3b39d46ea9912f5bdbff7063f987e8ef4cc7632e8aef5dd27929f203c9fe9147",
+    "bytes": 1284203,
+    "readback_byte_equal": true
+  },
+  "overleaf": {
+    "kind": "overleaf",
+    "drive_id": "1TQdtooRLXndmsE0BpUH4zLb5KSYEl6yG",
+    "sha256": "29cb165679e30d30409080ca6a754e3a0863e98c5dad6101c5b5f619de469a4e",
+    "bytes": 1323541,
+    "readback_byte_equal": true
+  }
+}

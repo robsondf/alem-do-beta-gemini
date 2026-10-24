@@ -1,0 +1,15 @@
+{
+  "stage": "Lab03B Colab verified",
+  "pages": 14,
+  "references": 21,
+  "figures": 6,
+  "undefined": false,
+  "overfull_lines": [],
+  "all_final_pages_visually_inspected": true,
+  "pdf_sha256": "9d1ad94bc416d51fe2c9ddcb5fb533a48a846980075771699c8dc96e22abff7b",
+  "main": "paper/main.tex",
+  "AI_assistance_disclosed": true,
+  "scientific_author_review_completed": false,
+  "individual_PPGC_eligibility_certified": false,
+  "verification_note": "PDF compiled and all pages inspected before workspace maintenance; exact final bytes recovered from canonical Drive artifact"
+}

@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage{graphicx,xurl,placeins}
+\graphicspath{{figures/lab02/}{paper/figures/lab02/}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\sloppy
+\title{Além do Beta Tradicional: Assimetria, Heterogeneidade Setorial e Risco em Ações Brasileiras}
+\author{Robson Dias Ferreira\inst{1}}
+\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
+Programa de Pós-Graduação em Computação (PPGC)\\
+Disciplina CMP609 -- Introdução aos Métodos Computacionais em Finanças
+\email{}}
+\begin{document}
+\maketitle
+\begin{abstract}
+We examine upside and downside market sensitivities in fixed samples of 80 Brazilian securities for 2016--2025 and 117 for 2021--2025, covering ten sectors. Daily log returns are paired with the B3 Ibovespa; overlapping securities are compared over a common period. Regime-specific regressions preserve classes, valid pairs and missingness. Although 59 of 80 decade contrasts indicate greater downside sensitivity, only two of 197 primary HAC/Holm tests reject symmetry, with opposite signs. A complementary Monte Carlo rank envelope retains one rejection within specified error mechanisms. Temporal non-rejections coexist with low power and do not establish stability or future persistence. Sector and historical-risk summaries reveal heterogeneous exposures. Rolling-origin next-return forecasts yield small, mixed incremental gains, and interval calibration exposes undercoverage. Retrospective selection, revised data and incomplete corporate-event verification restrict interpretation. The contribution is a reproducible conditional characterization with explicit inferential limits, without generalized asymmetry, predictive superiority or CAPM pricing claims.
+\end{abstract}
+\begin{resumo}
+Examinamos sensibilidades de alta e baixa em amostras fixas de 80 ativos brasileiros em 2016--2025 e 117 em 2021--2025, em dez setores. Retornos logarítmicos diários são pareados ao Ibovespa B3; os ativos sobrepostos são comparados no período comum. Regressões com interceptos por regime preservam classes, pares válidos e ausências. Embora 59 dos 80 contrastes da década indiquem maior sensibilidade nas quedas, somente dois dos 197 testes principais HAC/Holm rejeitam simetria, com sinais opostos. Um envelope complementar de postos Monte Carlo conserva uma rejeição sob mecanismos de erro especificados. Não rejeições temporais coexistem com baixa potência e não demonstram estabilidade ou persistência futura. Resumos setoriais e de risco histórico mostram exposições heterogêneas. Previsões do retorno seguinte com origens móveis apresentam ganhos incrementais pequenos e mistos; sua calibração revela subcobertura dos intervalos. Seleção retrospectiva, dados revisados e auditoria econômica incompleta restringem a interpretação. A contribuição é uma caracterização condicional reproduzível com limites inferenciais explícitos, sem alegar assimetria generalizada, superioridade preditiva ou precificação CAPM.
+\end{resumo}
+\input{artigo_revisado}
+\bibliographystyle{sbc}
+\bibliography{references_artigo}
+\end{document}

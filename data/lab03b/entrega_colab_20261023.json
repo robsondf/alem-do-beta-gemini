@@ -1,0 +1,50 @@
+{
+  "stage": "Lab03B",
+  "colab_execution_verified": true,
+  "date": "2026-10-23",
+  "base_main": "d6010eec8ed7e6423c78b7cbb366b346067ec072",
+  "folder_id": "1kAPlpmnedTOdDx6wunZ7nl0YEqf3tAR9",
+  "paper_pages": 14,
+  "paper_references": 21,
+  "overleaf_unique_sources": 102,
+  "readback": [
+    {
+      "kind": "snapshot",
+      "drive_id": "1HB0OmcDJbX3CNnjw9qeFj76FCgKoDFF2",
+      "bytes": 2262074,
+      "sha256": "c578f00b16dc66dd38c46aa328e655be0e4b726245f739cea5babd6990eb9975",
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "results",
+      "drive_id": "1hhLvxQpAnEGopDvnt1Mh9IbkV0gYt9Gb",
+      "bytes": 2078153,
+      "sha256": "645946c0bfee05cc7cbbc34b63af74700fcc7e0a3d3ac14ee7aaa398323fa26d",
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "official_pages",
+      "drive_id": "1_99AanU7JoycTaXzfR9pIpg2Dau0ngPW",
+      "bytes": 104428,
+      "sha256": "bfaefc8d724f0396c3271d67f324ef3bc01dfeb1b3ba084445512a9f8d6812e0",
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "pdf",
+      "drive_id": "1FMbsY6O1x0eM5hee0_uMP7R39NlLhuKA",
+      "bytes": 357890,
+      "sha256": "9d1ad94bc416d51fe2c9ddcb5fb533a48a846980075771699c8dc96e22abff7b",
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "overleaf",
+      "drive_id": "1SJMS9NMMluP2Dq6JyEuKwSnFDh26084o",
+      "bytes": 1590765,
+      "sha256": "c36f74c01e31ac436be10b3f45b91e770087b126ab8de877543dfc7ecc4a5539",
+      "readback_byte_equal": true
+    }
+  ],
+  "global_homologated": 0,
+  "runtime_modified": false,
+  "scientific_author_review_completed": false
+}

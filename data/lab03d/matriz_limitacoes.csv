@@ -1,0 +1,14 @@
+limitacao,estado,alcance_obtido,restante
+Ausência de avaliação preditiva histórica,resolvida_no_desenho,Quatro previsores e oito configurações com origens estritamente passadas,Não é holdout prospectivo intocado nem teste direto de beta futuro
+Vazamento algorítmico temporal,controlada_nesta_implementacao,Origens verificadas e testes de perturbação futura incluindo máscara de lacunas,Não resolve seleção retrospectiva ou vintages revisados
+Calibração apenas estática,ampliada,985casos anuais e80theta com família474 e diagnósticos IUT,Não cobre qualquer mudança de regime ou configuração mista
+Descalibração HAC nominal,reduzida_condicionalmente,Envelope de postos com validade na união finita de3mecanismos,Sem garantia livre de distribuição ou identificação do mecanismo real
+Resolução de cauda MC,explicitada_nao_eliminada,9999réplicas e contagens com incerteza pontual,piso0.0001 limita famílias197e474
+Incerteza de ganho preditivo,exploratoria,Blocos21/42/63 e1999sorteios marginais,Cobertura nominal e superioridade múltipla não validadas
+Seleção retrospectiva e sobrevivência,permanece,Amostras80e117fixas preservadas e alcance explicitado,Eliminar exige outro universo histórico e outro estudo
+Vintages do fornecedor,permanece,Hashes autenticam referência usada,Não reconstrói informação disponível em cada data
+Auditoria econômica global,permanece,Resultados condicionais e sensibilidades documentadas,0de197homologados integralmente e pendências de eventos
+Cinco retornos não identificáveis,permanece,Ausentes preservados sem pontes diárias inventadas,Exige documentação econômica suficiente para identificação
+Setores unitários e classes correlacionadas,permanece,Análise por ativo e dependência síncrona preservadas,Sem generalização setorial de um ativo
+Reprodutibilidade pública irrestrita,permanece,Código e artefatos organizados em repositório privado e Drive,Decisão de abertura e direitos de redistribuição antes da submissão
+Execução efetiva Colab D,concluida_e_conferida,17 fontes; 10 códigos; 16 testes; 61 exports; três verificadores aprovados,Revisão científica humana e limites estruturais permanecem

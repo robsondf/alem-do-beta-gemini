@@ -1,0 +1,93 @@
+{
+  "stage": "Lab03C",
+  "written_utc": "2026-10-23T17:17:47.490822+00:00",
+  "base_main": "f8250c71a4ade3e10ef767f4103b54dd1a1efe21",
+  "scope": "conditional fixed-design Monte Carlo of static delta inference on all197 primary cases; not temporal-family474 calibration",
+  "original_empirical_results_already_known": true,
+  "independent_preregistration": false,
+  "replications": 1000,
+  "seed_entropy": 20261023,
+  "seed_rule": "SeedSequence([20261023,mechanism_index,replication_index]); one PCG64 generator per replication",
+  "master_calendar": "all2483 observed B3 sessions2016-2025; recent1246 nested; paired masks unchanged",
+  "unique_assets": 117,
+  "primary_cases": 197,
+  "common80": "same recent paths, not additional hypotheses",
+  "dgp": "y=beta_base*m+delta*m*1(m>0)+sigma_asset*h_t*u_t; identical true intercepts0 but separate intercepts estimated",
+  "nuisance_calibration": "OLS beta and sqrt(SSE/(n-2)) from observed N; decade for shared80, recent for remaining37; fixed per asset before simulation",
+  "mechanisms": [
+    {
+      "name": "gaussian_iid",
+      "distribution": "normal variance1",
+      "phi": 0.0,
+      "heteroscedastic": false
+    },
+    {
+      "name": "student_hetero",
+      "distribution": "t5 scaled sqrt(3/5)",
+      "phi": 0.0,
+      "heteroscedastic": true
+    },
+    {
+      "name": "student_ar",
+      "distribution": "t5 scaled sqrt(3/5)",
+      "phi": 0.3,
+      "heteroscedastic": true
+    }
+  ],
+  "cross_dependence": "u innovations=sqrt(.3)*common+sqrt(.7)*asset_specific; same asset shocks reused across overlapping windows; no empirical covariance claim",
+  "time_recursion": "u_t=phi*u_(t-1)+sqrt(1-phi^2)*innovation_t;256 burn-in innovations, starting0",
+  "heteroscedastic_scale": "h_t=sqrt(.5+.5*lagged_market_squared/mean(master_market_squared)); first lag uses first m; normalized to mean(h^2)=1 on master calendar; applied after AR recursion",
+  "effect_patterns": {
+    "dense_delta": [
+      -0.5,
+      -0.25,
+      -0.1,
+      0.0,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "sparse_delta": [
+      -0.25,
+      0.25
+    ],
+    "sparse_assets": "first12 of117 ordered by papel_id, fixed independently of p values; remaining effects0; no actual asset removed"
+  },
+  "methods": {
+    "primary": "HAC5",
+    "sensitivities": [
+      "HAC0",
+      "HAC20"
+    ],
+    "kernel": "Bartlett on original session grid; n/(n-4); normal95%; no lag selection from simulation results"
+  },
+  "floors": {
+    "pairs": 200,
+    "per_regime": 60,
+    "coverage": 0.95,
+    "market_variance": 1e-12
+  },
+  "reuse": "OLS linearity: exact delta injection shifts point estimate only; residuals and HAC variances unchanged; verify against independent full-design OLS before full run",
+  "performance": [
+    "bias and MCSE",
+    "RMSE",
+    "marginal95coverage and Wilson95/MCSE",
+    "raw rejection and Holm197 rejection",
+    "FWER among true nulls, undefined when none",
+    "power among true alternatives, undefined when none"
+  ],
+  "panel_mcse": "sd of replication-level mean over applicable assets /sqrt(R), never binomial over R*assets",
+  "family_policy": "197 per method/mechanism/effect pattern; simulations are method evaluations, not new discoveries; family474 unchanged",
+  "repetitions_rationale": "R1000 gives largest binomial MCSE1.581 percentage points, MCSE0.689pp near5%; Wilson intervals reported even0/1000",
+  "reporting_policy": "report all prespecified mechanisms/effects/methods, including undercoverage or size inflation; no power-derived economic threshold or retrospective observed power",
+  "not_done": [
+    "economic measurement verification",
+    "equivalence",
+    "out-of-sample prediction",
+    "temporal-family474 calibration",
+    "sampling universe correction",
+    "empirical covariance estimation"
+  ],
+  "global_homologated": 0,
+  "reference": "Morris,White,Crowther2019;doi10.1002/sim.8086"
+}

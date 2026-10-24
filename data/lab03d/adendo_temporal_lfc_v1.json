@@ -1,0 +1,20 @@
+{
+  "written_utc": "2026-10-23T18:36:26.475359+00:00",
+  "reason": "Stress the least-favorable direction-IUT null after evaluating the five original temporal mechanisms; global zero alone can be conservative for IUT.",
+  "original_temporal_global_null_results_seen": true,
+  "independent_preregistration": false,
+  "zero_years": [
+    2020,
+    2024
+  ],
+  "other_year_delta": [
+    -0.5,
+    0.5
+  ],
+  "annual_noise_and_se_reused": true,
+  "theta_slots": "80 positions reserved at p=1; not tested or classified as null/alternative here, because within-half varying annual slopes require different theta residuals.",
+  "tested_hypotheses": 394,
+  "holm_family_positions": 474,
+  "scope": "Exploratory IUT-specific stress diagnostic; not full474-family certification under arbitrary theta alternatives.",
+  "global_homologated": 0
+}

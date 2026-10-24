@@ -1,0 +1,27 @@
+{
+  "stage": "Lab02X",
+  "decision_date": "2026-10-22",
+  "scope": "equivalent cash-withdrawal measurement sensitivity; no global corrected baseline",
+  "formula": "log(exp(r_reference) - cash_loss / P_com)",
+  "local_documented_cells": [
+    {
+      "ticker": "BBAS3.SA",
+      "date": "2020-11-17"
+    },
+    {
+      "ticker": "VIVT3.SA",
+      "date": "2020-11-30"
+    }
+  ],
+  "other_cash_losses_conditional": true,
+  "yahoo_b3_factor_equivalence_proven_globally": false,
+  "jcp_cash_loss_factor": "0.15",
+  "rendimento_net_endpoints": "U conditional envelopes from S/U; ordinary taxable resident individual; no exemption/immunity/special regime",
+  "ambiguous_source_multiplicity": "block entire asset-date cell; retain all source rows",
+  "missing_or_unanchored_parent_return": "preserve original; no fill or new pair",
+  "cash_endpoints_bound_beta": false,
+  "confidence_intervals": "normal95 HAC5 conditional on each scenario; do not cover all cash/source uncertainty",
+  "holm": "197 within each prespecified variant; common80 reuse recent tests; no pooled confirmatory family or scenario selection by p-value",
+  "raw_returns_overwritten": false,
+  "global_homologation_promoted": false
+}

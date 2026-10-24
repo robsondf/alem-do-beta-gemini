@@ -1,0 +1,16 @@
+limitacao,estado,alcance_obtido,restante
+Ausência de avaliação preditiva histórica,resolvida_no_desenho,Quatro previsores e oito configurações com origens estritamente passadas,Não é holdout prospectivo intocado nem teste direto de beta futuro
+Vazamento algorítmico temporal,controlada_nesta_implementacao,Origens verificadas e testes de perturbação futura incluindo máscara de lacunas,Não resolve seleção retrospectiva ou vintages revisados
+Calibração apenas estática,ampliada_com_potencia_explicita,6DGPs;1000cada;10padrões temporais; família474;curvas theta/IUT e grade80%,Poder IUT baixo; não rejeição não é equivalência;fora3DGPs sem garantia
+Descalibração HAC nominal,reduzida_condicionalmente,Envelope de postos com validade na união finita de3mecanismos,Sem garantia livre de distribuição ou identificação do mecanismo real
+Resolução de cauda MC,reduzida_nao_eliminada,Banco novo99999 por mecanismo;3fluxos33333;contagens e IC binomial pontual; decisões observadas estáveis,Piso0.00001; incerteza MC e escopo finito permanecem; não replicação empírica
+Incerteza de ganho preditivo,avaliada_com_falhas,Seis cenários1000réplicas; alvo condicional exato;394casos;IC marginal e conjunto; todos os blocos,Cobertura marginal88.51–93.06%; conjuntaL63 87.4–90.4%; ICs continuam exploratórios
+Seleção retrospectiva e sobrevivência,permanece,Amostras80e117fixas preservadas e alcance explicitado,Eliminar exige outro universo histórico e outro estudo
+Vintages do fornecedor,permanece,Hashes autenticam referência usada,Não reconstrói informação disponível em cada data
+Auditoria econômica global,permanece_com_evidencia_parcial,Ledger197 e1970sensibilidades; Frasle46linhas fonte XLSX recuperada,0/197; Frasleduas datas inconsistentes na janela; ANIM/identidade/quantidade/bordas/conflitoV
+Cinco retornos não identificáveis,permanece,Ausentes preservados sem pontes diárias inventadas,Exige documentação econômica suficiente para identificação
+Setores unitários e classes correlacionadas,permanece,Análise por ativo e dependência síncrona preservadas,Sem generalização setorial de um ativo
+Reprodutibilidade pública irrestrita,permanece,Código e artefatos organizados em repositório privado e Drive,Decisão de abertura e direitos de redistribuição antes da submissão
+Execução efetiva Colab D,concluida_e_conferida,17 fontes; 10 códigos; 16 testes; 61 exports; três verificadores aprovados,Revisão científica humana e limites estruturais permanecem
+Execução efetiva Colab E,concluida_e_conferida,17fontes;11códigos;11testes;zero exceções;57exports autenticados;19tabelas e53451551valores de arrays comparados;5PNGspixels iguais;3verificadores reexecutados,Revisão científica humana e limitações estruturais permanecem; nenhum novo notebook necessário
+

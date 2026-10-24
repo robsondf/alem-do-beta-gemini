@@ -1,0 +1,31 @@
+{
+  "scope": "Complete actual Colab tables and figures; large CSV files losslessly gzip-compressed",
+  "source_drive_id": "1hhLvxQpAnEGopDvnt1Mh9IbkV0gYt9Gb",
+  "source_zip_sha256": "645946c0bfee05cc7cbbc34b63af74700fcc7e0a3d3ac14ee7aaa398323fa26d",
+  "files": {
+    "annual_sector.csv": "0252458058c8f23d56dbfa2e2ac8d0edd99e441271b02a1f8eb8a10b52003e37",
+    "asset_betas.csv.gz": "0c2c54fc1f212d914cf083300757e2706a94d32ae762e64b8814e1a837192275",
+    "bootstrap_y_check.csv": "700bdd77583286dfc7f63d74e1452a37c35dcca1916488c991e099a1a5643428",
+    "figures/lab03b_betas.pdf": "22e670c2e50a11fb707531177cc1095ca25df56e06c955102071ba2c802c7d29",
+    "figures/lab03b_betas.png": "2c7481de08564792be3e6a55bd04149d1ee56649598ae86a6f13e25c858a55fc",
+    "figures/lab03b_contrastes_setoriais.pdf": "63f0bcb2fbe80fb6caeaeaf0c3ec405c0a11536f7ee2b36c660054489bd320f4",
+    "figures/lab03b_contrastes_setoriais.png": "271852320772d2a97b658bed27d6108a6bc92eba0645799302999da8f7bd734e",
+    "figures/lab03b_mapa_movel.pdf": "f93d7735883e4850453ceb30b7cf1c8a97684364a8c36ea376a83369704a613b",
+    "figures/lab03b_mapa_movel.png": "33a35b79a9cd70aab853c93a7d96074ec1e1e87ba7e1e230e1e754c1685d4599",
+    "figures/lab03b_risco.pdf": "21ee93a41b9c91214ce1340e07f96542ace0741cfbce3f9d50bab3e1797c1433",
+    "figures/lab03b_risco.png": "d000d7084fc4bde34563b3bff0ec076499765ce26536d55f7bfc307c60a70661",
+    "figures/lab03b_risco_anual.pdf": "5fee753e1ccd3c7c1f3b32b66fe72251b952e83c0e72d72887f8bc5786ebfb5d",
+    "figures/lab03b_risco_anual.png": "b6ef6900751e16a6b0d3e635358647473a146121c0ee434c004534cc4a46ac19",
+    "figures/lab03b_setores_anuais.pdf": "3b5bc892bbc301bd7deb91d73493aafb06ccecb65f602f0aef0959163400299f",
+    "figures/lab03b_setores_anuais.png": "a106dd2acab3aaad1a16d8c61ef5124e9ccb16e9a11e37d8c00ecc1fbbe57c4e",
+    "manifesto_resultados_completos.json": "567eec6081540a9e288402979d6730e0e61acf032f3f9539696960450fbf820d",
+    "metricas.json": "01e800eabaf3a733b858defaff7e9cea94f32b5eec14cac317ffba996b929ffa",
+    "registro_execucao.json": "0f1b6f6a15ccbbb7b092a10df7683d30c0369cc1f002318f3608de10f5cbaee9",
+    "risk_annual.csv.gz": "3d11280b802a72bbefe4405c78a5fd9254dd409f1d9c869cd4fde359d0909184",
+    "risk_full.csv.gz": "b00e0e0c5b5b260d3fc8729c738d80448a39b17d50a298082200be8fac279002",
+    "sector_bootstrap.csv": "eb5b2df01d2688f72267f4634e4e1d62aaa37db42dd239fe9284b83e68450a6e",
+    "sector_eta.csv": "bfe546aa387ccf98ab4af40959e95b9f5b42f5697a88f7ce915c8cedeac3fee0",
+    "sector_point.csv": "83cf15a21781921804feba92fa7788d424c378425c45c18493fba89dfefae0e2",
+    "summary.csv": "f4461f59349440283d29f754f2286437af06f2df013c7bc8fc5193fb0a12736c"
+  }
+}

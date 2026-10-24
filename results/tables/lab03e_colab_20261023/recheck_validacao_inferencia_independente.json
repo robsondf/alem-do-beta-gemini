@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "full_OLS_sandwich_fits": 15594,
+  "all_family_rows": 102,
+  "all_tail_intervals": 6741,
+  "bank_shape": [
+    3,
+    99999,
+    25
+  ],
+  "maximum_bank_statistic_difference": 2.4646951146678475e-14,
+  "no_lab03e_production_imports": true
+}

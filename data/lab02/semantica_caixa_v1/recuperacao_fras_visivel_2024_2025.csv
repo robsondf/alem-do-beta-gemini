@@ -1,0 +1,6 @@
+ticker,papel_id,approval_date,provento,event,reference_period,amount_brl,value_per_on,payment_date,competence_period,cash_outflow_year,ex_date,source_id,recovery_scope,automatic_return_adjustment,global_homologated
+FRAS3.SA,BRFRASACNOR0,2024-04-17,Dividendos remanescentes,AGO,2023,35266549.35,0.132076,2024-04-30,2023,2024,2024-04-23,fras_ri_proventos,visible_primary_html_only,False,False
+FRAS3.SA,BRFRASACNOR0,2024-07-17,JSCP,RCA,2024,65654245.43,0.245881,2024-08-14,2024,2024,2024-07-23,fras_ri_proventos,visible_primary_html_only,False,False
+FRAS3.SA,BRFRASACNOR0,2024-12-11,JSCP,RCA,2024,72807079.23,0.272669,2025-01-23,2024,2025,2024-12-20,fras_ri_proventos,visible_primary_html_only,False,False
+FRAS3.SA,BRFRASACNOR0,2025-07-01,JSCP,RCA,2025,90850975.62,0.340245,2025-08-14,2025,2025,2025-07-07,fras_ri_proventos,visible_primary_html_only,False,False
+FRAS3.SA,BRFRASACNOR0,2025-12-10,JSCP,RCA,2025,102408478.37,0.369259,2026-01-16,2025,2026,2025-12-17,fras_ri_proventos,visible_primary_html_only,False,False
