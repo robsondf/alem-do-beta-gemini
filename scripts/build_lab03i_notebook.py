@@ -23,7 +23,9 @@ def build(commit):
     setcell(1,''.join(cells[1]['source']).replace('lab03h','lab03i').replace('Lab03H','Lab03I'))
     old=''.join(cells[3]['source']);tree=ast.parse(old);pins=next(ast.literal_eval(n.value) for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(x,ast.Name) and x.id=='SOURCE_PINS' for x in n.targets))
     files=set(pins)|{'scripts/replicate_review_2015.py','scripts/verify_review_2015.py','scripts/plot_review_2015.py','scripts/sensitivity_review_2015_lags.py','tests/test_review_2015.py'}
-    files|={str(p.relative_to(ROOT)) for p in (ROOT/'data/lab03i').rglob('*') if p.is_file()}
+    files|=set(json.loads((ROOT/'data/lab03i/inputs_manifest.json').read_text())['source_pins'])
+    # Only runtime inputs; article and execution receipts can evolve separately.
+    files|={'data/lab03i/inputs_manifest.json'}
     files|={REFERENCE+p.name for p in (ROOT/REFERENCE).iterdir() if p.is_file()}
     pins={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in sorted(files)}
     code=old[old.index('for name,expected in SOURCE_PINS.items():'):]
@@ -76,12 +78,13 @@ def build(commit):
         name=path.name
         actual_path=I_OUTPUT/'gaps_preserved'/name.removeprefix('gaps_') if name.startswith('gaps_') else I_OUTPUT/name
         actual=pd.read_csv(actual_path,float_precision='round_trip');expected=pd.read_csv(path,float_precision='round_trip')
-        pd.testing.assert_frame_equal(actual,expected,check_exact=False,atol=1e-10,rtol=1e-9);iv+=actual.size
+        np.testing.assert_array_equal(sorted(actual.columns),sorted(expected.columns))
+        pd.testing.assert_frame_equal(actual.reindex(columns=expected.columns),expected,check_exact=False,atol=1e-10,rtol=1e-9);iv+=actual.size
         for col in actual.select_dtypes(include='number'):
             if col=='p' or col.startswith('p_'):
                 np.testing.assert_array_equal(actual[col].le(.05),expected[col].le(.05));it+=len(actual)
     for name,expected in SOURCE_PINS.items():assert digest(ROOT/name)==expected,name
-    record.update(stage='H_and_I',I_compared_values=iv,I_p_threshold_positions=it,I_independent_verification=json.loads((I_OUTPUT/'independent_verification.json').read_text()),only_existing_caches=True)
+    record.update(stage='H_and_I',external_2015_package_reproduced=True,run_stamp_UTC=STAMP,I_compared_values=iv,I_p_threshold_positions=it,I_independent_verification=json.loads((I_OUTPUT/'independent_verification.json').read_text()),only_existing_caches=True)
     (I_OUTPUT/'notebook_comparison.json').write_text(json.dumps(record,indent=2)+'\\n')
     print(json.dumps(record,indent=2))
     '''

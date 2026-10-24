@@ -421,10 +421,10 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "f4765985cb5fd9bca3cfe8cc46cd77c03c78efb6",
-      "bytes": 32596,
+      "git_blob_sha1": "7008c754600bd2ad3d87082139f54c2cc4074181",
+      "bytes": 32797,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
       "prior_versions": [
         {
           "path": "paper/artigo_revisado.tex",
@@ -474,6 +474,13 @@
           "bytes": 26605,
           "mode": "100644",
           "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        },
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "f4765985cb5fd9bca3cfe8cc46cd77c03c78efb6",
+          "bytes": 32596,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
         }
       ]
     },
@@ -533,10 +540,10 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "a1f62b85e1aee6b7a190907239fb17334e5839eb",
-      "bytes": 352964,
+      "git_blob_sha1": "ace1c820b8d29c8e33b0d99326acbbf49f0ca810",
+      "bytes": 353162,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
       "prior_versions": [
         {
           "path": "paper/main.pdf",
@@ -586,6 +593,13 @@
           "bytes": 325388,
           "mode": "100644",
           "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "a1f62b85e1aee6b7a190907239fb17334e5839eb",
+          "bytes": 352964,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
         }
       ]
     },
@@ -11582,10 +11596,19 @@
     },
     {
       "path": "data/lab03i/compilacao.json",
-      "git_blob_sha1": "97e7d5681eba7733f3dc7f554f931409a469ab7b",
-      "bytes": 1831,
+      "git_blob_sha1": "44e5a22dd101185445dff11f1a7269c2db5d03c8",
+      "bytes": 2017,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
+      "prior_versions": [
+        {
+          "path": "data/lab03i/compilacao.json",
+          "git_blob_sha1": "97e7d5681eba7733f3dc7f554f931409a469ab7b",
+          "bytes": 1831,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        }
+      ]
     },
     {
       "path": "data/lab03i/inputs_manifest.json",
@@ -11673,10 +11696,19 @@
     },
     {
       "path": "docs/lab03i_selecao_liquidez.md",
-      "git_blob_sha1": "5f62c342b90101a69adbab7e41bc2fdbd1144e4c",
-      "bytes": 8971,
+      "git_blob_sha1": "b62bea909ce923371e9fc79a6381e00988292dd7",
+      "bytes": 9990,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
+      "prior_versions": [
+        {
+          "path": "docs/lab03i_selecao_liquidez.md",
+          "git_blob_sha1": "5f62c342b90101a69adbab7e41bc2fdbd1144e4c",
+          "bytes": 8971,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        }
+      ]
     },
     {
       "path": "paper/figures/lab02/lab03i_liquidez.pdf",
@@ -11855,10 +11887,19 @@
     },
     {
       "path": "scripts/build_lab03i_notebook.py",
-      "git_blob_sha1": "004db4f0060cf2ec7ed1a6c68cf5fa7bcc37544a",
-      "bytes": 9315,
+      "git_blob_sha1": "8e72545125dca9f415545ecdb0fc01d577222e16",
+      "bytes": 9626,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
+      "prior_versions": [
+        {
+          "path": "scripts/build_lab03i_notebook.py",
+          "git_blob_sha1": "004db4f0060cf2ec7ed1a6c68cf5fa7bcc37544a",
+          "bytes": 9315,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        }
+      ]
     },
     {
       "path": "scripts/plot_review_2015.py",
@@ -11894,6 +11935,34 @@
       "bytes": 1828,
       "mode": "100644",
       "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/benchmark_confrontation.json",
+      "git_blob_sha1": "b03e2d4127bdb49bc661ab388e1a98a4231fb0fb",
+      "bytes": 426,
+      "mode": "100644",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
+    },
+    {
+      "path": "data/lab03i/manifesto_notebook_local.json",
+      "git_blob_sha1": "58b7999bb3f0311bbfdd91dcd47275f5d17743f8",
+      "bytes": 25505,
+      "mode": "100644",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
+    },
+    {
+      "path": "data/lab03i/validacao_notebook_local.json",
+      "git_blob_sha1": "4075346f29849a9acbd63ead4b10d70b937edaf4",
+      "bytes": 2709,
+      "mode": "100644",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
+    },
+    {
+      "path": "notebooks/Lab03I_selecao_liquidez.ipynb",
+      "git_blob_sha1": "5ccaa107137b634cb69a80df7b9fb06cf839eea9",
+      "bytes": 33550,
+      "mode": "100644",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
     }
   ],
   "revisions": [
@@ -12256,6 +12325,30 @@
       "external2015_raw_reconstruction_completed_locally": true,
       "causal_liquidity_or_independent_confirmation": false,
       "raw_financial_matrices_published": false
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Integrated H/I notebook delivered,local execution and export authenticated",
+      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
+      "runtime_public_commit": "4689c35c49a303e84f35b66c55320190fb630937",
+      "updated_paths": [
+        "data/lab03i/compilacao.json",
+        "docs/lab03i_selecao_liquidez.md",
+        "paper/artigo_revisado.tex",
+        "paper/main.pdf",
+        "scripts/build_lab03i_notebook.py"
+      ],
+      "added_paths": [
+        "data/lab03i/benchmark_confrontation.json",
+        "data/lab03i/manifesto_notebook_local.json",
+        "data/lab03i/validacao_notebook_local.json",
+        "notebooks/Lab03I_selecao_liquidez.ipynb"
+      ],
+      "author_Colab_executed": false,
+      "local_code_cells": 6,
+      "runtime_sources": 149,
+      "export_members": 207,
+      "financial_matrices_not_published": true
     }
   ]
 }

@@ -19,7 +19,7 @@ Foi identificada diferença material de mensuração: o experimento literal usa 
 | 80 originais | Década | 78 | −0,127240 | 0,0010 | 0,0020 (Holm2) |
 | Seleção fixa de 2015 | Década | 48 | −0,055876 | 0,0166 | 0,0332 (Holm2) |
 
-Os universos compartilham 42 ISINs; 41 são elegíveis ao contraste pareado. Dos 38 exclusivos de 2015, só cinco são elegíveis nas duas metades; dos 38 exclusivos originais, 36. Portanto, o painel final de 2015 não é automaticamente livre de sobrevivência/perdas seletivas. Diferença de magnitude não estima isoladamente viés de seleção: mudam composição, elegibilidade, fonte e ajustes. Não rejeitar theta em 46 pares não prova equivalência ou inexistência de mudança.
+Os universos compartilham 42 ISINs; 41 são elegíveis ao contraste pareado. Dos 38 exclusivos de 2015, só cinco são elegíveis nas duas metades; dos 38 exclusivos originais, 36. Portanto, o painel final de 2015 não é automaticamente livre de sobrevivência/perdas seletivas. Entre os dois universos da tabela, fonte e máscara são comuns; variam composição, elegibilidade e precisão. A comparação com a referência original acrescenta mudanças de fonte/ajustes. Essas diferenças pontuais não estimam isoladamente viés causal de seleção, nem foi realizado um teste direto entre universos. Não rejeitar theta em 46 pares não prova equivalência ou inexistência de mudança.
 
 ## Liquidez com dependência entre ativos preservada
 
@@ -47,6 +47,8 @@ O cache amplo de liquidez reproduz os 221 elegíveis informados; o filtro BDI02 
 O oráculo independente não importa a produção. Confere 960 pontos/status por ativo/período, 120 linhas de IC/p, 360 estatísticas de sorteios e postos (máximo 6,44e−15), 120 vetores/599.880 valores, as sete ausências e a seleção inicial. Confere separadamente os regimes em 1.076 ajustes válidos com defasagens (máximo 1,66e−14), além dos status insuficientes. A suíte selecionada tem 110 testes: 108 aprovados, dois skips históricos, zero falhas. Os skips não são aprovações.
 
 Os resultados públicos são resumos, pontos por ativo e diagnósticos; ZIPs brutos, matrizes diárias e bancos completos I permanecem fora do Git. Os hashes de cada membro recebido, dos caches e das fontes são preservados. A seleção pública anterior e as 49 fontes E permanecem inalteradas.
+
+Integração local H/I concluída: dez células/seis códigos, 149 fontes imutáveis autenticadas, 123.067 valores de tabelas/H concordantes e 599.880 valores dos bancos I concordantes (máximo zero nesta repetição local), preservadas 612 posições de limiar. Três PNGs com pixels iguais à preparação do artigo. Export de 21.813.873 bytes/207 membros lido de volta e autenticado; SHA256 `2f61beb15aac8638cf92dae0eef58de8bc70cded3a6fe833519171f21f554f06`. Isso não é execução do autor no Colab. Recibos em `data/lab03i/validacao_notebook_local.json` e `manifesto_notebook_local.json`. O benchmark recebido em 2016–2025 coincide com X em 2.483 sessões: diferença máxima 9,98e−17 nos logs e nenhum desacordo de sinal; o segmento de 2015 tem a proveniência do pacote recebido, fora desse confronto.
 
 ## Execução do autor: um único lote H/I
 

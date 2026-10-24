@@ -15,6 +15,8 @@ Associação pós-parecer na união elegível: liquidez inicial × assimetria +0
 
 **Artigo principal: 15 páginas, 29 referências, quatro figuras e seis tabelas. Suplemento: 21 páginas, 29 referências, nove figuras e 12 tabelas; 43 referências distintas no conjunto.** Principal Overleaf: `paper/main.tex` (`main.tex` se o conteúdo de `paper/` estiver na raiz). Mantidos os dez setores e gráficos de todo 2016–2025. A suíte tem 108 aprovações, dois skips históricos, zero falhas; verificadores independentes aprovados. Auditoria econômica global, eventos/sucessões e calibração dos novos testes permanecem pendentes; KRR não implementado/avaliado.
 
+Integração local do único notebook H/I concluída: dez células/seis códigos, 149 fontes, 207 membros do export autenticados, 612 decisões preservadas. A execução do autor no Colab continua pendente.
+
 ## Colab G do autor conferido — 24/10/2026
 
 [Cópia executada e salva](https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ);[export correspondente](https://drive.google.com/file/d/1jaKyp2CapivwnvHRoFGBtxneHr6N7Kd1/view),18.065.044 bytes/SHA256 `a8f391a7bf4edf67c109b303c9abcbd9cae8274e7a0d6b86430f407816df9158`. Dez fontes de células idênticas,seis códigos1–6,zero exceções;70 fontes e88 membros autenticados. A execução completa de6.000 réplicas está registrada como `Lab03G all`/`Colab`,sem novos downloads de mercado.
