@@ -2,6 +2,9 @@
 
 ## Reprodução atual H/I
 
+[Link imutável do único Colab H/I](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb). Runtime `4689c35c49a303e84f35b66c55320190fb630937`, 149 fontes autenticadas.
+
+
 Executar somente `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU. Inclui H e I e reutiliza os caches existentes; não repete F/G/E ou os 6.000 geradores. [Métodos, resultados, entradas e limites](lab03i_selecao_liquidez.md). A preparação local não é execução Colab do autor. O ZIP externo foi recebido e reproduzido; eventos e cobertura inferencial específica continuam pendentes.
 
 ## Ambiente

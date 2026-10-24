@@ -11696,10 +11696,10 @@
     },
     {
       "path": "docs/lab03i_selecao_liquidez.md",
-      "git_blob_sha1": "b62bea909ce923371e9fc79a6381e00988292dd7",
-      "bytes": 9990,
+      "git_blob_sha1": "a0c0d3a90dfce06aec7dddfd00f8abb720f3a929",
+      "bytes": 10383,
       "mode": "100644",
-      "source_commit": "91171651856db8b0801a8867863fc57e8a951f31",
+      "source_commit": "50cc010b728618d9e1657cda563447a830b0e72b",
       "prior_versions": [
         {
           "path": "docs/lab03i_selecao_liquidez.md",
@@ -11707,6 +11707,13 @@
           "bytes": 8971,
           "mode": "100644",
           "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        },
+        {
+          "path": "docs/lab03i_selecao_liquidez.md",
+          "git_blob_sha1": "b62bea909ce923371e9fc79a6381e00988292dd7",
+          "bytes": 9990,
+          "mode": "100644",
+          "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
         }
       ]
     },
@@ -12349,6 +12356,17 @@
       "runtime_sources": 149,
       "export_members": 207,
       "financial_matrices_not_published": true
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Immutable combined H/I Colab execution link",
+      "source_commit": "50cc010b728618d9e1657cda563447a830b0e72b",
+      "updated_paths": [
+        "docs/lab03i_selecao_liquidez.md"
+      ],
+      "notebook_public_commit": "fd51b25af552cb3dd3715c473c7b3156dd352b79",
+      "runtime_public_commit": "4689c35c49a303e84f35b66c55320190fb630937",
+      "author_Colab_executed": false
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Lab03I — reprodução do adendo, seleção e liquidez
 
+**[Abrir o único notebook H/I no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb)** — CPU; inclui H e I. Runtime imutável `4689c35c49a303e84f35b66c55320190fb630937`; notebook publicado em `fd51b25af552cb3dd3715c473c7b3156dd352b79`. Salvar cópia executada e ZIP no Drive.
+
+
 Data: 24/10/2026. Este lote sucede H na mesma revisão em branch/PR nos dois repositórios, sem merge automático. O pacote externo foi recebido depois do primeiro preparo H; a pendência de recebimento registrada naquele checkpoint está resolvida.
 
 ## Evidência efetivamente obtida
