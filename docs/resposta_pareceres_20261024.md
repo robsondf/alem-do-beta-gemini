@@ -1,5 +1,7 @@
 # Resposta técnica aos pareceres independentes — 24/10/2026
 
+**Atualização posterior: o lote F foi efetivamente executado e conferido localmente.** A matriz abaixo registra a primeira resposta documental; seus estados pendentes devem ser lidos junto ao [fechamento empírico F](lab03f_pos_parecer.md), que acrescenta inferência agregada, crise2020, modelos dinâmicos/semanal/contínuo, g/EP e Holm das máscaras. Recibos e resultados anteriores não foram reescritos. Colab F pelo autor ainda pendente.
+
 Base examinada: manuscrito do commit `c21b086b976ec11549fb4feb211099e0d78c61cc` de `robsondf/alem-do-beta`, correspondente à cópia pública `774f11fccbcdc9ff8086cc4d7c64cc4fb64d494c` de `robsondf/alem-do-beta-gemini`. Os dois pareceres avaliaram essencialmente o PDF; não verificaram implementação, caches ou recibos. Seus juízos são contribuições de revisão por IA, sem equivalência com parecer editorial ou revisão humana especializada.
 
 Documentos recebidos: Claude, 9 páginas, SHA-256 `e25540cdc9851bfe82aa8ab7588bf8e868c8923a8ba5512b3604661e4ad6bb66`; Gemini, 15 páginas, SHA-256 `0f0af5ebb5ed308bc616af3931914dbfeff1f261e8a03f3e10408a028ed9d86b`. Não se incorporaram seus PDFs ao repositório. O texto integral, inclusive as limitações de consulta declaradas pelos avaliadores, foi lido.

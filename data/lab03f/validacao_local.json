@@ -1,0 +1,48 @@
+{
+  "stage": "Lab03F",
+  "environment": "local_new_analysis_not_yet_user_Colab",
+  "plan_sha256": "f94cac62a6aa03249fb102ae7f74d5f45f3c28ca4968e503899f11b07cff6d1f",
+  "archive_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "primary_reproduced_cases": 197,
+  "individual_rows": 1939,
+  "aggregate_rows": 30,
+  "source_missing_decade": 7,
+  "source_missing_recent": 7,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "files": {
+    "individual.csv.gz": "d1e89113e8d8850563dd14713d67cb8cf026bcc78e1b70f517a70190e7815151",
+    "bootstrap_targets.npz": "c9447e814c9aafc732a029978379f14a837ce950dd3b6ca5e04c12d19e55c1c1",
+    "existing_sensitivity_holm.csv.gz": "4e04619ca045ecc311df7a8e9eb0d733f87431e3ca1c115521ec06110c866442",
+    "profile_summary.csv": "1560a809f904e4f6c49ac2e5af9767f5b883c350d5278fddfa3895592190f2c4",
+    "hac_score_terms.csv.gz": "38e6cf7d3f95ec93cbea46642cec8c71ed48daad81283e4835c49e943079dc84",
+    "aggregate.csv.gz": "e4f1a4ff05ffc17194e826cd412eb651fe159a3055845cdcc62d7e08569e001a"
+  },
+  "elapsed_seconds": 17.137527316999694,
+  "scope": "post-review sensitivities and approximate aggregate inference; no economic homologation, no recalibrated envelope, no new market downloads",
+  "independent_verification": {
+    "passed": true,
+    "full_OLS_sandwich_fits": 1939,
+    "max_OLS_difference": 1.9761969838327786e-14,
+    "explicit_bootstrap_statistics": 150,
+    "max_explicit_bootstrap_difference": 2.55351295663786e-14,
+    "all_bootstrap_interval_and_pvalue_rows": 30,
+    "production_imports": false,
+    "scope": "numerical consistency, not finite-sample coverage certification"
+  },
+  "tests": 6,
+  "user_Colab_executed": false,
+  "global_economic_homologation_completed": false,
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "paper": {
+    "pages": 26,
+    "cited_references": 42,
+    "figures": 10,
+    "tables": 9,
+    "sha256": "0ef03a0f8c25660e42dbda3ba9af4f9aba4ce0459d5b4d7d2ab00f0002ca1619",
+    "compile": "pdfLaTeX/BibTeX; no undefined references, overfull boxes or rerun requests",
+    "language_note": "same documented local Portuguese hyphenation fallback as previous revision"
+  }
+}

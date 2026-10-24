@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "full_OLS_sandwich_fits": 1939,
+  "max_OLS_difference": 1.9761969838327786e-14,
+  "explicit_bootstrap_statistics": 150,
+  "max_explicit_bootstrap_difference": 2.55351295663786e-14,
+  "all_bootstrap_interval_and_pvalue_rows": 30,
+  "production_imports": false,
+  "scope": "numerical consistency, not finite-sample coverage certification"
+}

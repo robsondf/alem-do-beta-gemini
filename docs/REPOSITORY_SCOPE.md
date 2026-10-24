@@ -25,3 +25,7 @@ Na seleção inicial, nenhum código de estimação, teste original, protocolo c
 Nenhum arquivo do Google Drive foi copiado, movido, apagado ou teve suas permissões alteradas. Identificadores e hashes já registrados no GitHub permanecem nos manifestos. A disponibilidade de um identificador não significa autorização de acesso ou redistribuição.
 
 O histórico completo de commits não foi importado. A identificação do commit e os hashes preservam a ligação verificável com a versão de origem, sem transportar todo o histórico para o novo repositório.
+
+## Lote F após o segundo parecer
+
+A revisão F adiciona novas estimativas/sensibilidades explicitamente separadas das etapas congeladas. Código, plano, resultados locais conferidos, gráficos, notebook e artigo entram por nova PR. O único insumo financeiro reutilizado é o ZIP X autenticado que continua no Drive; nenhuma matriz de retornos é transferida para esta cópia. Veja `lab03f_pos_parecer.md`.
