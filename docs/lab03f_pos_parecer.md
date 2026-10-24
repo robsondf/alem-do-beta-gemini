@@ -46,11 +46,12 @@ Os saltos g de VULC3/BBDC4 têm EP0,001956/0,001102. Suas não rejeições não 
 - 197 ajustes de referência reproduzidos antes do bootstrap.
 - Seis testes com oráculos: sandwich em calendário com lacunas, soma dinâmica e covariância, refit por momentos, índices explícitos de blocos, propagação semanal de NaNs, proibição de blocos cruzando a crise.
 - Verificador sem importar a implementação F: 1.939 regressões completas/sandwich; maior diferença1,98e−14. Reestimação por índices explícitos de150 estatísticas bootstrap; maior diferença2,56e−14. Todos os30 ICs/valores-p e ajustes conferidos.
+- Integração do notebook:10 células/seis códigos, zero exceções,241.883 valores comparados com a preparação,15 fontes autenticadas por commit/SHA, export de3.783.932bytes autenticado. Ainda é execução local, não o Colab do autor.
 - Os49 arquivos congelados E continuam íntegros. Aprovação numérica não certifica cobertura estatística ou homologação econômica.
 
 ## Execução Colab e local
 
-Notebook: `notebooks/Lab03F_pos_parecer.ipynb`. Execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
+Notebook: [abrir F no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/feat/lab03f-resposta-empirica-20261024/notebooks/Lab03F_pos_parecer.ipynb). Arquivo: `notebooks/Lab03F_pos_parecer.ipynb`. Execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
 
 Execução local com o arquivo externo autenticado:
 

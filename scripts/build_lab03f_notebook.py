@@ -39,7 +39,13 @@ def build(commit):
     for module,package in [('numpy','numpy'),('pandas','pandas'),('scipy','scipy'),('matplotlib','matplotlib'),('threadpoolctl','threadpoolctl')]:
         if importlib.util.find_spec(module) is None:subprocess.run([sys.executable,'-m','pip','install','--quiet',package],check=True)
     import numpy as np,pandas as pd
-    from IPython.display import display,Image
+    try:
+        from IPython.display import display,Image
+    except ImportError:
+        def display(value):print(str(value)[:6000])
+        def Image(filename):
+            from PIL import Image as PillowImage
+            im=PillowImage.open(filename);im.load();return filename
     LOCAL_MODE=bool(os.environ.get('ALEM_BETA_LOCAL'))
     os.environ['ALEM_BETA_EXECUTION_ENV']='local_notebook_integration' if LOCAL_MODE else 'Colab'
     BASE=Path(os.environ.get('ALEM_BETA_LOCAL','/content/alem_beta_lab03f')).resolve();BASE.mkdir(parents=True,exist_ok=True)
@@ -54,7 +60,7 @@ def build(commit):
 
     Código e referências compactas vêm de um commit público imutável e são autenticados individualmente. O ZIP de retornos continua externo no Drive. Nenhum download de Yahoo/B3 é executado.
     ''')
-    add('code',f"SOURCE_COMMIT={commit!r}\nSOURCE_PINS={pins!r}\n"+'''
+    add('code',f"SOURCE_COMMIT={commit!r}\nSOURCE_PINS={pins!r}\n"+inspect.cleandoc('''
     for name,expected in SOURCE_PINS.items():
         target=ROOT/name;target.parent.mkdir(parents=True,exist_ok=True)
         if LOCAL_MODE:shutil.copy2(Path(os.environ['ALEM_BETA_LOCAL_SOURCE'])/name,target)
@@ -88,7 +94,7 @@ def build(commit):
                 assert digest(part)==X_SHA;part.replace(X_ARCHIVE)
     assert digest(X_ARCHIVE)==X_SHA
     print('Cache X autenticado:',X_ARCHIVE.name,'|',X_ARCHIVE.stat().st_size,'bytes')
-    ''')
+    '''))
     add('markdown','''
     ## Protocolo e processamento completo
 

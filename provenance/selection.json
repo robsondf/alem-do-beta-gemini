@@ -10498,17 +10498,35 @@
     },
     {
       "path": "data/lab03f/validacao_local.json",
-      "git_blob_sha1": "6df2dc682e692416fedde255d647ad29e8121542",
-      "bytes": 2185,
+      "git_blob_sha1": "8dc96cfb30bc439f1c3cdf0f59bbe7480abfb77f",
+      "bytes": 3206,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f",
+      "prior_versions": [
+        {
+          "path": "data/lab03f/validacao_local.json",
+          "git_blob_sha1": "6df2dc682e692416fedde255d647ad29e8121542",
+          "bytes": 2185,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+        }
+      ]
     },
     {
       "path": "docs/lab03f_pos_parecer.md",
-      "git_blob_sha1": "f9c3667f085b27ab6f19a78e3b36a55f7cdd8c88",
-      "bytes": 9131,
+      "git_blob_sha1": "9ce17cdb3f46cc72fe34188a387714b8db6c0c73",
+      "bytes": 9552,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f",
+      "prior_versions": [
+        {
+          "path": "docs/lab03f_pos_parecer.md",
+          "git_blob_sha1": "f9c3667f085b27ab6f19a78e3b36a55f7cdd8c88",
+          "bytes": 9131,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+        }
+      ]
     },
     {
       "path": "paper/figures/lab02/lab03f_agregado.pdf",
@@ -10631,10 +10649,19 @@
     },
     {
       "path": "scripts/build_lab03f_notebook.py",
-      "git_blob_sha1": "2cf62e2e8512959d1a5c0acb2e8efd9ac91c8e21",
-      "bytes": 11192,
+      "git_blob_sha1": "49fa28b008a98bca2c119cb4478b1682971df3d6",
+      "bytes": 11445,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f",
+      "prior_versions": [
+        {
+          "path": "scripts/build_lab03f_notebook.py",
+          "git_blob_sha1": "2cf62e2e8512959d1a5c0acb2e8efd9ac91c8e21",
+          "bytes": 11192,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+        }
+      ]
     },
     {
       "path": "scripts/plot_lab03f.py",
@@ -10670,6 +10697,20 @@
       "bytes": 3416,
       "mode": "100644",
       "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+    },
+    {
+      "path": "notebooks/Lab03F_pos_parecer.ipynb",
+      "git_blob_sha1": "85f468182d63b195a11dfa1fd87a7023747ac9dd",
+      "bytes": 12922,
+      "mode": "100644",
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f"
+    },
+    {
+      "path": "data/lab03f/notebook_integracao_local.json",
+      "git_blob_sha1": "cf2d95a28828bc69e452284216173e303ba565fb",
+      "bytes": 828,
+      "mode": "100644",
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f"
     }
   ],
   "revisions": [
@@ -10741,6 +10782,22 @@
         "scripts/verify_lab03f.py",
         "src/lab03f.py",
         "tests/test_lab03f.py"
+      ],
+      "user_Colab_executed": false
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03F notebook complete local integration",
+      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f",
+      "notebook_runtime_source_commit": "57727d3eee5796f51b0f0c4b297f91ba537a852e",
+      "updated_paths": [
+        "scripts/build_lab03f_notebook.py",
+        "data/lab03f/validacao_local.json",
+        "docs/lab03f_pos_parecer.md"
+      ],
+      "added_paths": [
+        "notebooks/Lab03F_pos_parecer.ipynb",
+        "data/lab03f/notebook_integracao_local.json"
       ],
       "user_Colab_executed": false
     }

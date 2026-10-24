@@ -43,6 +43,29 @@
     "tables": 9,
     "sha256": "0ef03a0f8c25660e42dbda3ba9af4f9aba4ce0459d5b4d7d2ab00f0002ca1619",
     "compile": "pdfLaTeX/BibTeX; no undefined references, overfull boxes or rerun requests",
-    "language_note": "same documented local Portuguese hyphenation fallback as previous revision"
+    "language_note": "same documented local Portuguese hyphenation fallback as previous revision",
+    "visual_review": "All26 pages rendered and five contact sheets inspected; aggregate and critical tables/plots checked"
+  },
+  "notebook_integration": {
+    "passed": true,
+    "environment": "local_not_author_Colab",
+    "source_commit": "57727d3eee5796f51b0f0c4b297f91ba537a852e",
+    "source_files": 15,
+    "compared_values": 241883,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "notebook_sha256": "b243d26ad67b638d4113166a69d9f6a008f91527c57bc9ee323b4d6c24821b8b",
+    "cells": 10,
+    "code_cells": 6,
+    "exceptions": 0,
+    "execution_engine": "compiled serialized notebook cells in local namespace; source and source pins verified",
+    "export_bytes": 3783932,
+    "export_sha256": "ebc93e6b150919fb8928d05b647184230b7c019fc2632b35a319db9574ed4db1",
+    "export_members": 31,
+    "user_Colab_executed": false
   }
 }
