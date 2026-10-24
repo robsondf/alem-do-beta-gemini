@@ -1,0 +1,18 @@
+{
+  "tests_run": 110,
+  "passed": 108,
+  "skipped": [
+    {
+      "test": "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+      "reason": "Historical Lab02 notebook deliberately omitted; retained at the source commit."
+    },
+    {
+      "test": "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells",
+      "reason": "Authenticated X/Y archives remain external; set LAB03_X_ARCHIVE and LAB03_Y_ARCHIVE."
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "successful": true,
+  "scope": "All selected tests with authenticated X;package provenance verified separately;no economic or coverage certification"
+}

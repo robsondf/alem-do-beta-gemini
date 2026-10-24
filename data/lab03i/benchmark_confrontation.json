@@ -1,0 +1,11 @@
+{
+  "period": "2016-2025",
+  "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "rows": 2483,
+  "calendar_equal": true,
+  "missing_same": true,
+  "max_abs_log_return_difference": 9.974659986866641e-17,
+  "market_sign_disagreements": 0,
+  "2015_scope": "Segment present in received package and hashed;not covered by X2016-2025 comparison",
+  "source_price_file_in_received_package": "ibov.csv"
+}

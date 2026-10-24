@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "stage": "Lab03H local completed",
+  "author_Colab_completed": false,
+  "external_2015_package_received": false,
+  "external_2015_results_reproduced": false,
+  "plan_sha256": "c792d6b12948418ee54f904fa9fad75ea40156fc6236df881467f161638e6511",
+  "authenticated_X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "old_source_pins_preserved": 78,
+  "new_outer_generators": 0,
+  "new_market_downloads": false,
+  "bootstrap_B": 4999,
+  "aggregate_rows": 12,
+  "draw_vectors": 12,
+  "draw_values": 59988,
+  "asset_rows": 240,
+  "period_rows": 480,
+  "CDF_rows": 84,
+  "economic_component_rows": 1920,
+  "independent_verifier": {
+    "passed": true,
+    "production_H_G_F_imports": false,
+    "explicit_period_OLS": 480,
+    "max_OLS_difference": 3.1086244689504383e-15,
+    "explicit_bootstrap_statistics": 36,
+    "max_bootstrap_difference": 2.282896094385478e-15,
+    "complete_bootstrap_statistic_rows": 12,
+    "CDF_rows_recomputed": 84,
+    "dense_covariance_cases": 5,
+    "economic_rows_checked": 1920,
+    "prior_source_pins": 78,
+    "scope": "numerical/method consistency;does not validate new masked-bootstrap size/coverage or CDF replacement"
+  },
+  "tests": {
+    "tests_run": 108,
+    "passed": 106,
+    "skipped": [
+      {
+        "test": "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+        "reason": "Historical Lab02 notebook deliberately omitted; retained at the source commit."
+      },
+      {
+        "test": "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells",
+        "reason": "Authenticated X/Y archives remain external; set LAB03_X_ARCHIVE and LAB03_Y_ARCHIVE."
+      }
+    ],
+    "failures": [],
+    "errors": [],
+    "successful": true,
+    "scope": "Full selected suite with authenticated X; packaging manifest verified separately; not economic or coverage certification"
+  },
+  "output_sha256": {
+    "results/tables/lab03h_pos_parecer_v4_20261024/annual_overview.csv": "a0b40220f84edab0c56827aa2b30495131747cf31759875ac89c0d58041edebc",
+    "results/tables/lab03h_pos_parecer_v4_20261024/cdf.tex": "d017d9c8de4de1802272a4ee45522f0c9a8e0894c184868541af9768dcc8c984",
+    "results/tables/lab03h_pos_parecer_v4_20261024/cdf_diagnostics.csv": "40b8b1bdf9b0db87a199ba09afd8c569b63cf967ea4abf6bc50d006ab795a265",
+    "results/tables/lab03h_pos_parecer_v4_20261024/coverage_by_target.csv": "72171fdc264cec7a65e0e7bc74909702a8f498ac557df63ad41e0d0db4411421",
+    "results/tables/lab03h_pos_parecer_v4_20261024/crisis.tex": "a02fe03df8578d4ad05a67890c2dbf17379c3bdd78dbd83f3809d9a936e20af7",
+    "results/tables/lab03h_pos_parecer_v4_20261024/crisis_aggregate.csv.gz": "6c0a8389fdbd277f6c81a484516b38053df28fd16287231cd39bc63ca933d68e",
+    "results/tables/lab03h_pos_parecer_v4_20261024/crisis_asset_points.csv": "06e9ae646faca8185cee7468f007e6353a2b80118c4233dd3b2eeff9e6db5934",
+    "results/tables/lab03h_pos_parecer_v4_20261024/crisis_draws.npz": "50f81c79c29b655ab150b1ab12db443cd4f87786d5721a23611fc7e828809396",
+    "results/tables/lab03h_pos_parecer_v4_20261024/economic_scale.csv": "0f697da6a5216afa10f11e3b9f7aac142bb6c09f3cc613ab68f193e482d75686",
+    "results/tables/lab03h_pos_parecer_v4_20261024/execution.json": "82a015ad734d2d4dd9a88239541555f2dc78afb1ee87d1b4cfbf1d4f48178a6c",
+    "results/tables/lab03h_pos_parecer_v4_20261024/independent_verification.json": "f22d120b1a082c250c461ba84e72aac99ff78d8d2754bc25f42099a58af4dea3",
+    "results/tables/lab03h_pos_parecer_v4_20261024/levels.tex": "f96925b74c24e0d6759a62bb6cd7c40be6793496e41e4604dcb699da59b4e15c",
+    "results/tables/lab03h_pos_parecer_v4_20261024/microstructure.tex": "b6b0cdf7d08f5ebbd8398a817770a2836e9096f714e64d1e25158ca3da3ea317",
+    "results/tables/lab03h_pos_parecer_v4_20261024/microstructure_raw_and_adjusted.csv": "19a7074fed9bc9ccc4d2dd1916b2b2c0dda8121bc40e9fdc0ffa055ad47e991c",
+    "results/tables/lab03h_pos_parecer_v4_20261024/normalization.csv": "47f8093f9d16e14cab790f9f72eef75622d32f67e1a1ecaf66c2aa6fac65dd97",
+    "results/tables/lab03h_pos_parecer_v4_20261024/period_observations.csv": "41bad75cb33d8850cfd0c9e46082da42c2dbcac2cc92f841492f1404f4878612",
+    "results/tables/lab03h_pos_parecer_v4_20261024/scale.tex": "f704cddabefc5c2d32a2517647987baa47b4f7f2a1754b54fc951f74d0e66f4c",
+    "results/tables/lab03h_pos_parecer_v4_20261024/scale_diagnostics.csv": "5ae3fd79cd53d429abf33261209c311c7de070e69e3cfd6d87424daace63bea6",
+    "results/tables/lab03h_pos_parecer_v4_20261024/sector_summary.csv": "4f7f48ff2efd553247156a59a6ef75c07e4619c4ac38ada230213bf7e8ffd4f0",
+    "results/tables/lab03h_pos_parecer_v4_20261024/sectors.tex": "047f496b6ef4b442fbb4d5e5a17d14fd44af56c1cbc5548879e6170f9f232ef7",
+    "results/tables/lab03h_pos_parecer_v4_20261024/variance_concentration.csv": "19f647f133cfe3933055881624b54f8b369639ee38d1f4457e7b47d7620e237d"
+  },
+  "scope": "Computational verification; no new masked-target calibration, economic homologation, independent confirmation of liquidity mechanism or strong-FWER claim"
+}

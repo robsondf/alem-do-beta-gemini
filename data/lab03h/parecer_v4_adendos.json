@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "source_name": "Parecer — Além do Beta Tradicional (4ª versão) (1).pdf",
+  "source_sha256": "dfbf818c4992382d43b23ec41f5e1c41430c663da1a876e4c5616855f5a025f1",
+  "bytes": 256516,
+  "pages": 8,
+  "new_pages": [
+    6,
+    7,
+    8
+  ],
+  "referenced_package": "teste_universo_2015.zip",
+  "package_received": false,
+  "package_executed": false,
+  "external_results_status": "reported_by_reviewer_not_reproduced_or_authenticated",
+  "H_plan_unchanged_sha256": "c792d6b12948418ee54f904fa9fad75ea40156fc6236df881467f161638e6511",
+  "new_H_results_known_before_addendum": true,
+  "original_samples_and_families_preserved": true
+}

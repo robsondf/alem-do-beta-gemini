@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "received": true,
+  "package_sha256": "8781dc2f8c7300c2bbdb4a620f73d3fa360f8724e0b39dc303aae1a01392e7d8",
+  "bytes": 38552,
+  "members_sha256": {
+    "teste_universo_2015/estimar.py": "62ef3a4bd56d8bc71296ed69eee04941428db6616623926cb5d4a9ad7da53917",
+    "teste_universo_2015/eventos_detectados.csv": "4de560048a696c4d21df2ec061b90fb7f42b64a9f709b0767f314d8124c5bc90",
+    "teste_universo_2015/extrair_precos.py": "9c0beb61248dc312c4cb4e9b2080698939c42efe0147c9b7895f8665fdcd7ac5",
+    "teste_universo_2015/ibov.csv": "3dac8e9b178dfc995195bdfc78e533fe7870cb99a2c5831831e2c5612753dace",
+    "teste_universo_2015/por_ativo_originais_COTAHIST.csv": "562c00c49aa950bff8459b3b78eb435e161ddf83c171962df499a2163b658a57",
+    "teste_universo_2015/por_ativo_universo_2015.csv": "22c33f3db9815a05cc2c4f42a4da35fbaf3f94dabf9026dbbe849f9f11912916",
+    "teste_universo_2015/preparar.py": "7413810e71691bc768ba695a51eae810bd7caed0d01c6c57f9002343523a4a88",
+    "teste_universo_2015/resultados_agregados.csv": "ac96d17780b4e9c21da5733fc25b5a62497b85c10216018e38c8d55386334f34",
+    "teste_universo_2015/saidas_para_revisao.csv": "58de45a0bdf9962ef4f6ed022dbfb43a42a42f21af7a25f1de27e7c3e379ca38",
+    "teste_universo_2015/universo_2015.csv": "319ba3c0faae6d9488b9a3fd58fbbbefd0cdd73c8492c826f888ad5536a9f595"
+  },
+  "submitted_Python_executed": false,
+  "submitted_pickle_executed": false,
+  "script_reviewed": 3,
+  "raw_inputs_in_package": false,
+  "official_cache_recovered_and_authenticated": 11,
+  "original_raw_cache_bytes": 476502933,
+  "new_B3_or_Yahoo_requests": false,
+  "market_input_published_as_log_returns": true,
+  "scope": "Independent raw reconstruction and method audit;economic event validity not certified"
+}

@@ -1,0 +1,24 @@
+{
+  "stage": "Lab03I",
+  "date": "2026-10-24",
+  "status": "post_addendum_before_new_raw_reconstruction;reviewer_points_pvalues_and_scripts_already_known",
+  "independent_preregistration": false,
+  "external_package_sha256": "8781dc2f8c7300c2bbdb4a620f73d3fa360f8724e0b39dc303aae1a01392e7d8",
+  "objective": "Reproduce reviewer experiment; distinguish source, eligibility and composition; do not replace original80/117 or identify causal liquidity mechanism",
+  "data": "Reuse existing Google Drive cache_b3 official2015-2025 ZIPs and provenance JSON; no B3/yfinance quotation refresh. Light2015 liquidity cache can independently check universe ranking. Raw files remain outside Git.",
+  "external_replication": {
+    "extract": "Exact reviewed cash equity filter,quotes divided by fatcot,ISIN,date;largest financial volume for duplicate ISIN/date",
+    "universe": "Verify reported80 against ranking2015 active-day mean financial volume among presence>=90%;report calendar-day mean as a diagnostic;no annual reselection",
+    "returns": "Reproduce daily logclose ratios only consecutive Ibovespa sessions;never allocate bridges",
+    "mask": "Reproduce83 heuristic event flags exactly as a diagnostic mask,not economically validated events;all findings retained",
+    "inference": "Reproduce4999 synchronous noncircular block bootstrap with reviewer seed20261024+L and sequential early/late banks,L21/5/63;Holm4 early/theta,Holm2 decade,Holm2 late;not original F10 family",
+    "invalid": "Audit finite slopes and all bootstrap targets before allowing nanmean behavior;retain/flag any invaliddraw without replacement,exclude no observation silently",
+    "floors": "First replicate reviewer200/60/95 floors exactly,then report differences from original variance>1e-12 and neutral-market convention;no claim identical to original implementation",
+    "verification": "Own aggregate/OLS code,explicit row resamples for selected draws,all48 p/CI/adjustments against submitted tables;numeric discrepancies are findings,not reasons to tune masks/seeds"
+  },
+  "comparisons": "Same reconstructed returns on intersecting ISINs must agree;report complete-universe and common-eligible N separately,including41shared paired versus5new-universe-only if confirmed;compare reconstructed original assets against frozenX on matching ISINs,without claiming economic equivalence",
+  "liquidity": "Reproduce reported point association and terciles if all needed2015 volumes available;label exploratory. No iid asset correlation p. Any later joint inference requires its own declared post-review protocol;no causal or confirmatory claim.",
+  "identity": "List succession candidates and date inconsistencies;do not chain ISINs based on similar ticker or dates alone",
+  "limits": "No dividend harmonization,validation of83events,new bootstrap size calibration,independent liquidity confirmation,selection-free balanced panel,portfolio or KRR contribution is established by replication",
+  "author_Colab": "If execution is needed,one batch for all universes and all block lengths,using existing Drive caches;separate local results from author execution"
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-24",
+  "main": {
+    "pages": 13,
+    "references": 29,
+    "sha256": "eb1b92020eba1a6c50c836b4ab4289c764519fdd151aeab81181c9370a6d3d42",
+    "figures": 3,
+    "tables": 5
+  },
+  "supplement": {
+    "pages": 19,
+    "references": 29,
+    "sha256": "3ccec6e0f96eed085b3f977f529667174efadc8f793a98d5706b00d4d198e8a7",
+    "figures": 9,
+    "tables": 10
+  },
+  "distinct_references_union": 43,
+  "all_final_pages_visually_inspected": {
+    "main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "supplement": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "two_new_scientific_figures_visually_inspected": true,
+  "unresolved_layout_defects": [],
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "hyphenation": "Local Portuguese babel support with language0 fallback; no binary or pagination equivalence to Overleaf claimed",
+  "old_25_page_article_preserved_at_public_commit": "67858e47e1f5961c345684917ccd95f83cd51163",
+  "source_sha256": {
+    "main.tex": "2b0fa2f87111243528b01da66901be8684ab960d562c9cce4abafc962a2ce379",
+    "artigo_revisado.tex": "d142203426c605bdae3c79ffab68bd2cc92dd9a03f6cd7aa3c8f4aa747d72368",
+    "suplemento.tex": "0e942a88f7a47b15d4f7a27fb1359e0613a45b2d654e70a0506745aa03832ce8",
+    "suplemento_metodos.tex": "df9dbe397ad169a3947a950bcacc42c1958033e76b5fdf73803feb91ea718771",
+    "references_artigo.bib": "d6fddbe769d1d94ff46f9e60a4b43447f546e4d99df18dd79ae5b0bcd58f4fb1"
+  }
+}

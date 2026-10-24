@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "environment": "local_not_author_Colab",
+  "complete_reconstruction": true,
+  "official_cached_ZIPs": 11,
+  "new_quote_downloads": false,
+  "calendar_rows_2016_2025": 2483,
+  "ISINs": 118,
+  "aggregate_rows": 48,
+  "event_flags_reproduced": 83,
+  "documented_missing_cells_preserved_in_separate_variant": 7,
+  "gap_preserved_oracle": {
+    "explicit_row_OLS_theta_checks": 54,
+    "max_difference": 4.468647674116255e-15,
+    "invalid_draws": 0
+  },
+  "association_targets_blocks_variants": 24,
+  "oracle": {
+    "explicit_row_OLS_theta_checks": 54,
+    "max_difference": 4.468647674116255e-15,
+    "invalid_draws": 0
+  },
+  "original_80_117_replaced": false,
+  "economically_validated_events": false,
+  "external_weak_null_calibration": false,
+  "elapsed_seconds": 24.126173195999854
+}

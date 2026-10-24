@@ -1,0 +1,90 @@
+[
+  {
+    "name": "COTAHIST_A2024.ZIP",
+    "drive_id": "1YR1wLKeLFFnR8m6sB1P7TXBTFAwLhuxC",
+    "bytes": 79261198,
+    "sha256": "96a003d10fab0fa2ace0c64cdc2b892b4c111adf9da8e538aa0b28437bd2a172",
+    "original_collection_time": "2026-10-09T01:39:39.740141+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2024.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2025.ZIP",
+    "drive_id": "1s1XeaAr_NIwpVkLRTdWyaley8JCHEvgc",
+    "bytes": 89056788,
+    "sha256": "6cc0ad851c8f605ca30418acac48be81f1767f6ed05b4f563772d06ae448047d",
+    "original_collection_time": "2026-10-09T01:40:06.817154+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2025.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2022.ZIP",
+    "drive_id": "1UknJXnqzXpsUJo0U0uzEWnqhuToL9Bdp",
+    "bytes": 58597842,
+    "sha256": "a4f9015b755f797d9c08b0d13f19dbfab18a6c75f379c0271a1cf1b5f6323cd8",
+    "original_collection_time": "2026-10-09T01:38:21.209558+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2022.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2023.ZIP",
+    "drive_id": "1vNjldRqUr5_dcLs9gjLTvEJP8Al4edsY",
+    "bytes": 70216090,
+    "sha256": "ad1603788d78aaa1de806498572277f1d9443f88ae116452751b5800cb23523e",
+    "original_collection_time": "2026-10-09T01:38:48.079264+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2023.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2020.ZIP",
+    "drive_id": "1m28t8wrlQcYfgTlBq2VloJbn4YwLG_Ei",
+    "bytes": 37181542,
+    "sha256": "86442168939b9da7b3cc1ec1662c333ee5ab4c75f2be1865b5bf55ba4c52168f",
+    "original_collection_time": "2026-10-09T01:37:20.563769+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2020.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2021.ZIP",
+    "drive_id": "11zBt6esOCAviXr-7BqkXr0lBLhRKykki",
+    "bytes": 49678679,
+    "sha256": "b0d4aed17d609c7ba615a23320c2fd513b580a251ae7d884a5015ef8a3fe4705",
+    "original_collection_time": "2026-10-09T01:38:03.960377+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2021.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2019.ZIP",
+    "drive_id": "1e9CK7sURERC12jNgMSHkd4P_FuVx5Oeb",
+    "bytes": 26650371,
+    "sha256": "5170d3f8f079c3306424b36c2fae9b467391f8fa37d16d389f487b4c5c28edb9",
+    "original_collection_time": "2026-10-09T01:37:08.143081+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2019.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2018.ZIP",
+    "drive_id": "1ZHkQQqd-O1ysY2z0LjP9nLFp2UDrM5yg",
+    "bytes": 19488404,
+    "sha256": "9d66136179d9822476c6035000167aecf2665f4396619e4d74c0011745a0c507",
+    "original_collection_time": "2026-10-09T01:37:00.480493+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2018.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2017.ZIP",
+    "drive_id": "1tLFP7e4gdmAGWQQUJxyvZHpUcmtM7TU0",
+    "bytes": 16527191,
+    "sha256": "af6aaa85187c1d58ec6565522644066da573a7dc5b579c1d4c906ae95a2dea86",
+    "original_collection_time": "2026-10-09T01:36:32.821008+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2017.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2016.ZIP",
+    "drive_id": "1-wDqKtBbALX43-cYYEbwINX27NE999ni",
+    "bytes": 15715361,
+    "sha256": "ffc82a9b973cb5901e68dc11bea1bbc9bf0a2c46749e0efe5a7a89229bc0d81f",
+    "original_collection_time": "2026-10-09T01:36:32.044999+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2016.ZIP"
+  },
+  {
+    "name": "COTAHIST_A2015.ZIP",
+    "drive_id": "1gKmIM2GIWZR6t4XtuG4CTxoTzDShBhL6",
+    "bytes": 14129467,
+    "sha256": "593f8740ec1aa87c80c54c623f1759530b6b32cdadd34a64f0fc66a529f34e35",
+    "original_collection_time": "2026-10-09T01:36:30.119719+00:00",
+    "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2015.ZIP"
+  }
+]

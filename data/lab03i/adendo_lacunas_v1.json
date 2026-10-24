@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-24",
+  "status": "after_external_reconstruction;before_association_pvalues_were_inspected_and_before_new_gap_preserved_estimates",
+  "finding": "The external reconstruction yields finite log-price changes on all five documented rights dates:ABCB4 Jan4/5,2016;UGPA3 Jun28/29/30,2021. These do not identify economic daily returns.",
+  "decision": "Keep literal external replication explicitly diagnostic. Add a separate sensitivity preserving all seven original80 documented missing cells from authenticated X,including ANIM3. Never overwrite X,fill gaps or distribute bridges.",
+  "association_family": "For transparency retain all four association targets in each variant,then additionally Holm8 across the two variants at each block length. No choice between variants by significance. Primary interpretation uses gap-preserved variant;both are secondary post-review analyses,with no newly calibrated size/coverage.",
+  "economic_scope": "The corporate-event mask and lack of dividends remain limitations in both COTAHIST variants. Replication is not homologation or evidence that selection alone caused the differences. Original80/117 remain unchanged."
+}

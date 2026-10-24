@@ -1,0 +1,13 @@
+{
+  "stage": "Lab03H all",
+  "environment": "local_not_author_Colab",
+  "python": "3.12.14",
+  "elapsed_seconds": 7.7667562169999655,
+  "plan_sha256": "c792d6b12948418ee54f904fa9fad75ea40156fc6236df881467f161638e6511",
+  "original_G_baseline_and_banks_reproduced": true,
+  "new_crisis_rows": 12,
+  "old_source_pins_preserved": 78,
+  "new_outer_simulation_generators": 0,
+  "new_market_downloads": false,
+  "economic_homologation_completed": false
+}

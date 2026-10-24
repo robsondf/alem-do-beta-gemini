@@ -1,3 +1,379 @@
+\section{Contexto, definições e literatura complementar}
+A preferência por proteção em estados adversos oferece motivação
+econômica para medidas de risco de queda. Ang, Chen e Xing
+\cite{ang2006} relacionam esse risco à remuneração de ativos.
+Essa motivação não impõe $\beta_i^->\beta_i^+$ a todo ativo, nem
+transforma um contraste de inclinações em teste de prêmio de risco.
+Na versão de trabalho disponibilizada pelos autores
+\cite{ang2004working}, o evento condicionante usa o retorno excedente
+do mercado abaixo de sua média. Aqui, usamos o sinal de log-retornos
+observados, com limiar zero. A convenção deve acompanhar a interpretação:
+medidas com referenciais, centralizações ou retornos diferentes não
+são automaticamente o mesmo estimando.
+
+No Brasil, Faria e Santos \cite{faria2010} comparam CAPM e D-CAPM
+em 21 ações, de setembro de 2006 a junho de 2010, com Ibovespa e Selic.
+Não encontram diferença significativa entre os betas no teste reportado.
+Seu D-CAPM trunca excessos positivos tanto do ativo como do mercado;
+nosso contraste centraliza retornos dentro dos regimes de mercado.
+Não são o mesmo estimando, e a comparação não valida automaticamente
+as conclusões econômicas dos modelos.
+
+Fortunato, Motta e Russo \cite{fortunato2010} estudam 50
+ações com retornos mensais de janeiro de 1995 a novembro de 2006,
+medidas de risco e custo de capital, em análises transversais e de
+painel. Nosso objeto é a diferença entre projeções condicionais de
+retornos diários, com interceptos próprios. Portanto, a comparação
+é de perguntas e desenhos, não uma replicação de suas estimativas.
+
+Levi e Welch \cite{leviwelch2020} comparam betas tradicionais e de
+queda para exposição futura e precificação. Seu desenho evidencia a
+importância de distinguir medidas construídas com retornos já
+realizados de sua utilidade posterior. A previsão do retorno diário
+seguinte examinada aqui tampouco é um teste direto de previsão do
+beta seguinte ou de prêmio CAPM. At{\i}lgan et al.
+\cite{atilgan2018} abordam risco de queda e retornos internacionais;
+Hollstein \cite{hollstein2020} examina estimação e previsão de betas;
+Wang \cite{wang2023} considera um fator baseado em opções.
+Esses objetos contextualizam o estudo, sem equivalência entre medidas.
+O alcance de leitura das fontes é explicitado no registro de revisão:
+para At{\i}lgan et al. e Hollstein, limita-se a resumos e metadados.
+
+
+Hogan e Warren \cite{hogan1974} e Bawa e Lindenberg \cite{bawa1977}
+fundamentam modelos de equilíbrio com semivariância e momentos parciais.
+Estrada \cite{estrada2002,estrada2007} aplica o risco de queda ao
+D-CAPM e a mercados emergentes. Há uma diferença de definição essencial:
+a Equação~10 de Estrada (2007) trunca os desvios do ativo e do mercado
+abaixo de suas médias; nossa medida usa covariância centralizada
+condicional apenas ao sinal do mercado. Não se pode interpretar uma
+diferença de sinal entre trabalhos como refutação sem harmonizar essas
+medidas, frequências e universos.
+
+Pettengill et al. \cite{pettengill1995} distinguem a relação entre beta
+e retornos realizados, condicionada ao mercado, da previsão do modelo
+para retornos esperados. Hong, Tu e Zhou \cite{hong2007} apresentam
+testes de assimetria de correlações, betas e covariâncias. Harvey e
+Siddique \cite{harvey2000} tratam de coassimetria condicional e
+precificação. Esses trabalhos delimitam perguntas distintas: nosso
+contraste de projeções não identifica preferência por risco, prêmio
+ou causa econômica da curvatura. Não se reivindica um primeiro teste
+de assimetria ou uma replicação desses procedimentos. Para as novas
+referências, o registro bibliográfico explicita leitura de extratos,
+resumos ou seções específicas; não se presume leitura integral.
+
+\section{Métodos individuais, setores e risco}
+\subsection{Incerteza e dinâmica temporal}
+A referência primária usa covariância robusta à heterocedasticidade e
+autocorrelação (HAC), com kernel Bartlett e cinco defasagens
+\cite{neweywest1987}, correção $n/(n-k)$, aproximação normal e ICs
+marginais de 95\%. Os escores permanecem na grade original; ausências
+e neutros têm escore zero no contraste, sem imputação ou compressão
+do calendário. Holm a 5\% ajusta a família estática de 197 testes
+\cite{holm1979}. Os 80 comuns não acrescentam outras 80 hipóteses.
+O controle reúne as afirmações individuais nas duas janelas e admite
+sua sobreposição e a dependência entre classes, desde que os valores-p
+marginais sejam válidos. A escolha é conservadora e não responde a um
+teste da assimetria média. Repartir famílias após conhecer os resultados
+exigiria uma nova análise explicitamente pós-revisão.
+
+Para as metades da década, $Q_t=\mathbf{1}(t\in2021\text{--}2025)$
+e ajusta-se
+\begin{equation}
+r_{it}=a+gD_t+bm_t+\Delta D_tm_t+
+ Q_t(\eta_0+\eta_1 D_t+\eta_2 m_t+\theta D_tm_t)+e_t.
+\end{equation}
+A covariância conjunta inclui a fronteira entre metades e correção
+$n/(n-8)$; cada metade cumpre os mesmos pisos. Um contraste
+não identifica causa ou uma quebra econômica única.
+
+Para sinal positivo em todos os anos, a nula é existir pelo menos um
+ano com $\Delta_y\le0$; para sinal negativo, existe um ano
+com $\Delta_y\ge0$. A interseção--união (IUT)
+\cite{bergerhsu1996} usa $p_+=\max_y p_{y,+}$ e
+$p_-=\max_y p_{y,-}$. Na referência normal,
+$p_{y,+}=1-\Phi(\widehat\Delta_y/SE_y)$ e
+$p_{y,-}=\Phi(\widehat\Delta_y/SE_y)$. O princípio não exige
+independência anual, mas depende de valores-p individuais válidos.
+Holm ajusta $80+2(80+117)=474$ posições temporais por configuração;
+insuficientes mantêm sua posição. Janelas móveis 252/504 sessões,
+passo 21, são diagnósticos sobrepostos. Não rejeitar mudança ou sinal
+não estabelece equivalência nem persistência futura.
+
+\subsection{Setores e risco histórico}
+Por setor, apresentam-se mediana/IQR de $\Delta_i $, o contraste com
+a mediana dos demais ativos e
+\begin{equation}
+\eta^2=\frac{\sum_s n_s(\overline\Delta_s-\overline\Delta)^2}
+ {\sum_i(\Delta_i-\overline\Delta)^2}.
+\end{equation}
+Essa estatística resume agrupamento dos coeficientes pontuais;
+contém erro de estimação e composição, sem representar proporção
+do risco explicada pelo setor. ICs percentis exploratórios usam 999
+reamostragens síncronas de sessões, blocos 5/10/20, com reestimação
+dos regimes \cite{kunsch1989}. Não se sorteiam empresas nem se
+criam observações para setores unitários. A aproximação estacionária
+dos blocos é uma limitação em períodos com mudanças de regime.
+
+Exposição ao mercado e risco total são objetos diferentes. No modelo de mercado com
+intercepto, sobre os mesmos pares e denominador $n-1$,
+\begin{equation}
+s_i^2=\widehat\beta_i^2 s_m^2+s_e^2,\qquad
+R_i^2=\widehat\beta_i^2 s_m^2/s_i^2.
+\end{equation}
+A identidade decorre da ortogonalidade entre resíduos OLS e regressor
+centrado, que anula o termo cruzado da variância amostral.
+Resíduos podem conter outros fatores comuns; a decomposição não
+é causal. Calculam-se volatilidade diária logarítmica, desvio de perdas
+relativo a zero e risco residual. Para $L=1-\exp(r)$, VaR 95 é o
+inverso da distribuição empírica; ES95 é a média da massa superior
+de 5\%, com parcela fracionária na fronteira \cite{rockafellar1999}.
+São medidas históricas, sem previsão ou ICs próprios. Em 250 pares,
+ES95 utiliza cerca de 12,5 observações de cauda. Não se introduzem
+taxa livre de risco presumida, alfa de Jensen, Sharpe ou teste CAPM
+em retornos excedentes.
+
+
+\subsection{Crise, continuidade e ajuste temporal das exposições}
+\label{sec:novas-sensibilidades}
+A avaliação completa inclui 1.939 ajustes: sete especificações nos 277
+recortes (80 década, 80 comuns e 117 recentes). Mantém os pisos 200 pares,
+60 por regime e 95\% de cobertura; todos foram estimáveis.
+Excluem-se, em sensibilidades separadas, março e o primeiro semestre
+de 2020. São mudanças deliberadas da janela-alvo, não correções de erros.
+Escores HAC permanecem nas posições originais de calendário, inclusive
+nos trechos excluídos. A especificação contínua impõe $g_i=0$;
+o ajuste irrestrito agora exporta também o erro-padrão de $g_i $.
+
+Para investigar assincronia, adapta-se a ideia de coeficientes agregados
+de Dimson \cite{dimson1979}. Com $D_t=1\{m_t>0\}$, ajusta-se
+\begin{equation}
+r_{it}=a_i+g_iD_t+\sum_{k\in K}
+ \{b_{ik}m_{t-k}+d_{ik}D_tm_{t-k}\}+u_{it}.
+\end{equation}
+Usam-se $K=\{0,1\}$ e $K=\{-1,0,1\}$; relatam-se
+$\beta^-_{i,K}=\sum b_{ik}$, $\beta^+_{i,K}=\sum(b_{ik}+d_{ik})$
+e $\Delta_{i,K}=\sum d_{ik}$, com covariância conjunta dos termos.
+O regime depende do mercado contemporâneo, não dos sinais de cada
+regressor defasado. Essas somas são outros estimandos descritivos,
+não correções comprovadamente não viesadas do beta original.
+O avanço utiliza informação posterior apenas nesta regressão histórica;
+não integra previsão ou estratégia de negociação.
+
+A frequência semanal soma log-retornos de todas as sessões da semana
+terminada na sexta-feira, descartando as semanas inicial/final de cada
+painel. Uma única ausência torna o retorno semanal do ativo ausente;
+não se reconstrói retorno diário nem se preenche uma ponte.
+O regime é o sinal do mercado semanal. As novas decisões individuais
+usam HAC5 normal e Holm197 por especificação; o envelope antigo não
+foi transferido a desenhos novos. Máscaras escolhidas pela influência
+são diagnósticos após seleção, sem controle de erro familiar demonstrado.
+
+Para média/mediana nas versões defasada, com avanço e semanal,
+uma nova família reúne 18 testes: três especificações, três painéis
+e dois resumos. Holm18 é aplicado em cada escolha correspondente
+de blocos: 21/5/63 sessões e 4/1/13 semanas. As linhas com todas as
+defasagens/avanços são construídas no calendário original antes da
+reamostragem; não se criam defasagens atravessando junções artificiais.
+Os sorteios recentes dos 80 comuns são compartilhados com os 117.
+Nenhum sorteio inválido pode ser descartado ou substituído; se ocorrer,
+a inferência do alvo é retida. A calibração de tamanho dessas versões
+e dos outros blocos não foi executada.
+
+\section{Resultados setoriais, trajetórias e risco}
+\subsection{Setores e heterogeneidade interna}
+Na década, medianas setoriais de $\Delta $ variam de $-0{,}267630$
+em Bens Industriais a $0{,}043869$ em Financeiro, com tamanhos de 1
+a 19 ativos. O agrupamento pontual $\eta^2$ é 0,3265 na década,
+0,3893 nos 80 comuns e 0,3687 nos 117. O intervalo marginal por
+blocos de 10 sessões na década é[0,1327;0,3924]. Esse agrupamento
+não separa heterogeneidade econômica, composição e erro de estimação.
+
+A Figura~\ref{fig:setores} cobre todos os dez anos e setores;
+a Figura~\ref{fig:contrastes} mostra contrastes marginais.
+A dispersão interna e os setores unitários limitam qualquer leitura
+de um padrão compartilhado. Não se identifica efeito causal de setor.
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=.80\textheight,keepaspectratio]{lab03b_artigo_setores.pdf}
+\caption{Dez anos e dez setores. Pontos: medianas de $\widehat\Delta_i $ estimados
+com pares diários por ano; faixas: IQR entre ativos, não ICs.
+Azul:80 da década; laranja tracejado:117 recentes.
+Amostras fixas; linhas apenas ligam os anos.}
+\label{fig:setores}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{lab03b_artigo_contrastes.pdf}
+\caption{Mediana setorial menos mediana dos demais, com ICs marginais
+exploratórios por blocos síncronos de 10 sessões.$n $: ativos do setor.
+Sem correção simultânea ou interpretação causal.}
+\label{fig:contrastes}
+\end{figure}
+
+\subsection{Dinâmica temporal e capacidade de detecção}
+Nenhuma das 474 hipóteses temporais primárias apresenta
+$p_{Holm}<0,05$. A mediana de $\theta $ nos 80 é 0,135591,
+descrição da mudança entre metades. O complemento de postos também
+não rejeita; seu menor valor ajustado no banco conjunto é 0,20382.
+Isso não comprova estabilidade. A Figura~\ref{fig:mapas} ilustra
+WEGE3, adotada antes desta revisão, com janelas sobrepostas;
+os mapas completos 80/117 permanecem nos materiais computacionais.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{lab03_rolling_artigo.pdf}
+\caption{WEGE3: janelas 252/504 sessões, passo 21 e ICs marginais HAC5.
+O aquecimento não preenche artificialmente o início da série.
+Persistência visual não é evidência independente de persistência futura.}
+\label{fig:mapas}
+\end{figure}
+
+Na simulação final, para inversão $-\delta/+\delta $ entre metades,
+mudanças verdadeiras $\theta=0,5/1/2$ têm potência média
+18,69/81,12/99,18\% sob normalidade iid. Sob quebra de variância,
+as frequências são 2,83/25,51/72,97\%; sob AR0,6,
+4,67/30,57/75,18\%. Para IUT de sinal constante com $|\delta|=1$
+e erros normais iid, a potência média é apenas 0,35\% no sinal
+negativo e 0,40\% no positivo. Assim, demonstrar sinal em todos
+os anos após multiplicidade é uma exigência muito mais forte que
+observar um contraste na janela completa. As não rejeições não
+permitem distinguir, por si, ausência de efeito e baixa detecção.
+
+\subsection{Exposição e perdas históricas}
+O $R^2$ mediano do modelo de mercado é inferior a 0,30 nos três
+recortes (Tabela~\ref{tab:risco}). Uma inclinação em relação ao
+Ibovespa não resume toda a variabilidade dos retornos ou sua cauda.
+As Figuras~\ref{fig:risco} e\ref{fig:risco-anual} mostram essas
+dimensões por ativo e ano. Não se atribuem os resíduos exclusivamente
+a risco específico nem se infere uma relação causal.
+
+\begin{table}[htbp]
+\centering
+\caption{Medianas entre ativos: volatilidade logarítmica diária e
+ES95 de perda simples histórica, sem anualização ou previsão.}
+\label{tab:risco}
+\begin{tabular}{lrrr}
+\toprule
+Recorte & Volatilidade(\%) & $R^2$ & ES95(\%)\\
+\midrule
+80,2016--2025&2,5077&0,2955&5,4105\\
+80 comuns,2021--2025&2,1581&0,2690&4,4796\\
+117,2021--2025&2,3039&0,2530&5,0414\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{lab03b_artigo_risco.pdf}
+\caption{Exposição, volatilidade e cauda por ativo; escalas comuns
+por linha. Não se estima desempenho esperado do CAPM ou de investimento.}
+\label{fig:risco}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{lab03b_artigo_risco_anual.pdf}
+\caption{Medianas e IQR entre ativos por ano, obtidos dos pares diários.
+Faixas mostram dispersão entre ativos, não ICs da mediana.}
+\label{fig:risco-anual}
+\end{figure}
+
+\FloatBarrier
+\section{Robustez e limitações de validade}
+\subsection{Sensibilidade da inferência e dos retornos}
+As sensibilidades preservam amostras, pares e ausências. Na década,
+as rejeições estáticas ajustadas são 0/2/3/3 para HAC0/5/10/20;
+comuns e recentes permanecem sem rejeições. A defasagem muda a
+incerteza, não o coeficiente. Retornos simples transformam ativo e
+mercado; máscaras de eventos e bootstrap em blocos 5/10/20 também
+foram examinados. Não se seleciona uma configuração pela significância.
+
+Cinco referências de caixa produzem amplitudes medianas de $\Delta $
+de 0,000130/0,000151 e máximos 0,002268/0,007084, década/recente.
+Em contraste, excluir uma/cinco observações mais influentes,
+vizinhos de lacunas ou o trimestre Light produz deslocamentos
+absolutos máximos de 0,460736/0,612618; a mediana do maior diagnóstico
+por ativo é 0,080218/0,077674. A ordem de influência é definida uma
+vez no ajuste completo, sem exclusão iterativa. Influência não identifica
+erro nem autoriza correção dos dados. Os cenários de caixa especificados
+não limitam o impacto de todo evento econômico desconhecido.
+
+A Tabela~\ref{tab:criticos} apresenta os dois casos rejeitados no
+procedimento primário. A maior mudança de VULC3 nesses diagnósticos é
+0,154, enquanto os máximos de toda a amostra, 0,461 e 0,613,
+correspondem a CVCB3 na década e GFSA3 no recente. Quatro das cinco
+datas mais influentes de VULC3 pertencem a março de 2020, motivando
+sensibilidade específica a esse período. As exclusões conservam os
+sinais, mas a decisão primária é sensível: Holm197 aplicado a todos os
+197 ajustes de cada máscara dá VULC3 $0,025263/1$ e BBDC4
+$0,163571/0,051377$ ao retirar 1/5 pontos. Surgem outros nomes rejeitados:
+SMTO3 na primeira máscara; HYPE3 e LEVE3 na segunda. Isso indica
+instabilidade da identificação, sem transformar essas escolhas após
+seleção em descobertas confirmatórias. O envelope não foi recalibrado.
+
+\begin{table}[htbp]
+\centering
+\caption{Diagnósticos de influência na década, extraídos da execução autenticada
+e conferidos, com ajuste Holm197 pós-revisão em cada máscara completa.
+IC marginal HAC5 de 95\%; inferência após seleção não calibrada.
+A ordem de influência é fixada no ajuste completo.}
+\label{tab:criticos}
+\input{tables/casos_criticos.tex}
+\end{table}
+
+Uma diferença de inclinação de $-0,14$ representa diferença de
+$-0,0014$ na componente linear para movimento de mercado de $+1\%$
+entre as duas retas avaliadas algebricamente. A escala ajuda a ler
+o coeficiente, mas a função completa inclui interceptos e resíduos;
+não é prêmio de risco, custo de capital ou retorno de uma estratégia.
+
+Insuficiências são mantidas. Retirar o quarto trimestre de 2024 da Light deixa 190 pares
+em 2024, afetando linhas anuais e testes direcionais; o recorte
+PCAR3 pré-Assaí contém 37 pares. Não se reduzem pisos ou se eliminam
+anos para viabilizar rejeições. O material suplementar preserva todas
+as configurações, inclusive resultados intermediários desfavoráveis.
+
+
+\subsection{Resultados das novas sensibilidades}
+\label{sec:robustez-f}
+As médias e medianas da década permanecem negativas nas sete
+especificações (Tabela~\ref{tab:perfis-f}), mas as decisões por ativo
+mudam. Ao excluir março/2020, VULC3 passa a $-0,420580$ e
+BBDC4 a $0,197527$, com $p_{Holm197}=0,851873/1$; sem 2020-S1,
+$-0,485740/0,171069$, com $0,417596/1$. Em cada exclusão apenas
+SLCE3 rejeita nessa aproximação, não os dois casos originais.
+
+Nem o ajuste com defasagem 1, nem avanço/defasagem 1, nem a frequência
+semanal conserva rejeições individuais a 5\% na família 197.
+Isso não demonstra que assincronia tenha causado a assimetria:
+as somas de coeficientes/frequências mudam o alvo e sua precisão.
+No modelo contínuo, as medianas são $-0,142813$ na década e
+$-0,002304$ no recente; há três rejeições na década, nenhuma no recente.
+O resultado não permite escolher essa restrição pela significância.
+No irrestrito, os erros-padrão dos saltos de VULC3/BBDC4 são
+$0,001956/0,001102$; nenhum rejeita $g_i=0$ após Holm197.
+Três outros casos rejeitam nessa aproximação, sem impor continuidade
+universal por ausência de rejeição nos dois destaques.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Sete especificações pós-revisão. Rej.: contagem HAC5/Holm197
+por especificação; garantia do envelope original não transferida.
+Os 80 comuns, também exportados, reutilizam decisões dos 117.}
+\label{tab:perfis-f}
+\input{tables/lab03f_perfis.tex}
+\end{table}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{lab03f_criticos.pdf}
+\caption{Sensibilidade dos dois destaques da década, com ICs marginais
+HAC5. Modelos dinâmicos somam inclinações; semanal muda a frequência.
+Não comparar o cruzamento de zero aos limiares ajustados como se fossem iguais.}
+\label{fig:criticos-f}
+\end{figure}
+
+
 \section{Calibração individual e complemento Monte Carlo}
 Os experimentos de desenho fixo seguem a organização de objetivos,
 mecanismos, estimandos e desempenho de Morris et al. \cite{morris2019}.
@@ -200,7 +576,7 @@ A calibração contra $G_i^*$ expõe cobertura marginal média de 88,51
 a 93,06\%, abaixo de 95\%. A cobertura conjunta dos 394 é zero
 nas 1.000 réplicas de cada cenário/bloco; esses ICs marginais não
 foram construídos para cobertura conjunta. Sob $\delta=0$, usá-los
-para declarar ao menos um ganho positivo produz FWER99,7--100\%.
+para declarar ao menos um ganho positivo produz FWER 99,7--100\%.
 
 Os intervalos por máximo elevam a cobertura conjunta, mas esta varia
 de 98,4--99,2\% em blocos 21,94,8--97,0\% em 42 e 87,4--90,4\%

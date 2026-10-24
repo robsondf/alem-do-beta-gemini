@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "status": "post_review_after_reconstruction_and_joint_association_results;before_new_lag_sensitivity_points",
+  "purpose": "Descriptive sensitivity requested by addendum;no new p-values or evidence selected by significance",
+  "specifications": "Cumulative slope sums with current-day regime and market lags0..K,K=0,1,5,10;own intercept per regime. Lags built on complete original2015-2025 market calendar before windowing;no future regressors or artificial block joints.",
+  "data": "Gap-preserved COTAHIST sensitivity only;original80/117 and frozen original inference unchanged",
+  "floors": "200total,60each sign,95%eligible daily pairs;all market lags finite,nonzero current market;require full column rank;report N and all insufficient fits,no threshold relaxation",
+  "outputs": "All per-asset coefficients,counts,status;cohort means/medians and liquidity rank associations,all K and periods. Baseline K0 checked against independent per-regime estimates.",
+  "interpretation": "Different cumulative projection estimand;does not demonstrate correction of nonsynchronous bias,causal liquidity effect or robustness of original p-values. No size/coverage or predictive claim. Trade-to-trade returns are not converted to daily returns and are not implemented here."
+}

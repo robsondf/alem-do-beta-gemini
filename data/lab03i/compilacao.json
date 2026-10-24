@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "stage": "H/I final article",
+  "main": {
+    "pages": 15,
+    "references": 29,
+    "sha256": "17678f74b72990c33cec70d4948dbd261fbc9211302ba9956bdb9c5ddebe85d0"
+  },
+  "supplement": {
+    "pages": 21,
+    "references": 29,
+    "sha256": "78367a72de4578f93d8472e3bc999e6c1f9a284baa20645ce5c32bda87bdc441"
+  },
+  "distinct_citations": 43,
+  "main_figures": 4,
+  "main_tables": 6,
+  "supplement_figures": 9,
+  "supplement_tables": 12,
+  "all_final_pages_visually_inspected": {
+    "main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "supplement": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "new_liquidity_figure_inspected": true,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "unresolved_layout_defects": [],
+  "hyphenation": "Local Portuguese babel support,language0 fallback;no binary/pagination equivalence to Overleaf claimed",
+  "source_sha256": {
+    "main.tex": "5bec110c13e85d67398d3f0eb0d3de2d646b0a9305ef5db5269b4f8289f2c2f4",
+    "artigo_revisado.tex": "b18109726978b0ae5e2aa6801f9c9816f4bcba44e80e1559a4171b5719326eb4",
+    "suplemento.tex": "5ab11397d7b6a31a1f09b109cc0874b0f96bee8752c3e340fead529984ce4210",
+    "suplemento_metodos.tex": "df9dbe397ad169a3947a950bcacc42c1958033e76b5fdf73803feb91ea718771",
+    "references_artigo.bib": "d6fddbe769d1d94ff46f9e60a4b43447f546e4d99df18dd79ae5b0bcd58f4fb1"
+  },
+  "preserved_prior_25_page_version_public_commit": "67858e47e1f5961c345684917ccd95f83cd51163",
+  "preserved_interim_13_page_H_public_commit": "21e7ee5f37dac4181a19564d86d862fde167d88f",
+  "comparability_text": "COTAHIST universe comparison controls source/mask;differences in composition,eligibility and precision;no causal bias or direct universe-difference test claim"
+}

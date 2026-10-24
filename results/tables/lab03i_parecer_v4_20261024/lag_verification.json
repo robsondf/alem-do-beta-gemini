@@ -1,0 +1,8 @@
+{
+  "K0_matches_independent_regime_points": true,
+  "max_difference": 4.6629367034256575e-15,
+  "per_asset_fits": 1416,
+  "summary_rows": 36,
+  "new_pvalues": 0,
+  "estimand": "cumulative projection;not validated bias correction"
+}

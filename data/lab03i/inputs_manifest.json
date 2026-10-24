@@ -1,0 +1,33 @@
+{
+  "stage": "Lab03I",
+  "scope": "Post-result source freeze for reproduction;not independent preregistration",
+  "package_sha256": "8781dc2f8c7300c2bbdb4a620f73d3fa360f8724e0b39dc303aae1a01392e7d8",
+  "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "H_source_public_commit": "21e7ee5f37dac4181a19564d86d862fde167d88f",
+  "source_pins": {
+    "data/lab03i/adendo_associacoes_v1.json": "0a1e35def0bf5df7aa176bb105fe8e9be8798e76c6733201280d887541673dc5",
+    "data/lab03i/adendo_defasagens_v1.json": "5af2c2ae97241afe420b9f5c82803ed7e5b5659b70ae9a606a6e6320a7f9a709",
+    "data/lab03i/adendo_lacunas_v1.json": "5422cc22d0fbe98d88c5a21af68d4b53e8ed183fa84fcc3a6436bc6dac6b9659",
+    "data/lab03i/adendo_medida_liquidez.json": "3d1f9e9bb0cbf0790a54c5d42dad680f12154768ead1ced83a3da78a712bfdbf",
+    "data/lab03i/b3_cache_manifest.json": "e9231565de3a81ea3a4586403ad55f50a5572442a69d4784546be2de28c675b8",
+    "data/lab03i/plano_v1.json": "f12d34c8edc53d6bbb52abd8dfcbd6e69201efda1d49cb2cde9e9ecb59f308af",
+    "data/lab03i/recebimento_pacote.json": "e1047e187350ebc0ed3e63af05fba79221e9e79c300df8b820cb316b0b97d9fa",
+    "data/lab03i/review_reference/eventos_detectados.csv": "4de560048a696c4d21df2ec061b90fb7f42b64a9f709b0767f314d8124c5bc90",
+    "data/lab03i/review_reference/market_returns_2015_2025.csv.gz": "cdee511530b44db995fb8513c4931717c69498e458dd90495caa40261a4a8427",
+    "data/lab03i/review_reference/por_ativo_originais_COTAHIST.csv": "562c00c49aa950bff8459b3b78eb435e161ddf83c171962df499a2163b658a57",
+    "data/lab03i/review_reference/por_ativo_universo_2015.csv": "22c33f3db9815a05cc2c4f42a4da35fbaf3f94dabf9026dbbe849f9f11912916",
+    "data/lab03i/review_reference/resultados_agregados.csv": "ac96d17780b4e9c21da5733fc25b5a62497b85c10216018e38c8d55386334f34",
+    "data/lab03i/review_reference/saidas_para_revisao.csv": "58de45a0bdf9962ef4f6ed022dbfb43a42a42f21af7a25f1de27e7c3e379ca38",
+    "data/lab03i/review_reference/universo_2015.csv": "319ba3c0faae6d9488b9a3fd58fbbbefd0cdd73c8492c826f888ad5536a9f595",
+    "data/lab03i/testes_locais.json": "ffdfc848eaece24177b9f7f92fbafe629f160756ba849219d440242bdf6bd310",
+    "results/tables/resposta_pareceres_20261024/inventario_117.csv": "6344e9f908dbfe2563296d9ad89e5a74e8848dca23fe3cfbade439381d0b1982",
+    "scripts/plot_review_2015.py": "3c6ba81da6d284b0f30987cd8e7eb48e99b79a7791c1003267401839d4b88bdf",
+    "scripts/replicate_review_2015.py": "a337500b857ef5fbb09c939a1515378175b4d4a22a54b042feef0ae48dbce4c7",
+    "scripts/sensitivity_review_2015_lags.py": "2fc6493e7ee076a20f25e071fac21ae5fa95cfce5a6a38ef851bcb8ba6787ad1",
+    "scripts/verify_review_2015.py": "1b87eaac11ce21ae1439e859c9cc276094ec4d08657b365b7ba996be2ee9aadd",
+    "tests/test_review_2015.py": "6ed2f509e9c4d09d5671b778416d69a3dbf1523e91c9d09e326248dd3afafe57"
+  },
+  "new_B3_or_Yahoo_downloads": false,
+  "official_cached_ZIPs": 11,
+  "author_Colab_completed": false
+}

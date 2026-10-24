@@ -1,9 +1,21 @@
 # Além do Beta
 
-**Além do Beta Tradicional: Assimetria, Heterogeneidade Setorial e Risco em Ações Brasileiras**  
+**Além do Beta Tradicional: Assimetria, Liquidez e Seleção em Ações Brasileiras**  
 Robson Dias Ferreira — CMP609, PPGC/UFRGS.
 
 Esta é uma cópia selecionada do material de pesquisa já versionado em `robsondf/alem-do-beta`, destinada à avaliação do manuscrito. A seleção inicial foi seguida pelas revisões identificadas na proveniência; o lote F acrescenta análises pós-parecer, preservando os resultados e protocolos anteriores. Não contém a matriz privada de retornos ou downloads novos de cotações. O repositório de origem e os arquivos do Google Drive foram preservados.
+
+## H/I — adendo reproduzido e análise de liquidez (24/10/2026)
+
+[Resultados, métodos, limites e instruções](docs/lab03i_selecao_liquidez.md). Reprodução própria dos onze caches oficiais B3 (476,5 MB), 48 resultados externos e 83 marcações; nenhuma nova consulta B3/Yahoo. A variante interpretada preserva as sete lacunas documentadas, incluindo os cinco dias de direitos. Nos elegíveis da seleção fixa de 2015, média inicial −0,0857 (64) e mudança +0,0640 (46; Holm4=0,2576); não é uma estimativa causal de viés de seleção.
+
+Associação pós-parecer na união elegível: liquidez inicial × assimetria +0,4928 (100) e × mudança −0,2876 (82), Holm8/21=0,0168/0,0344. Reamostragem síncrona preserva dependência; há deslocamento bootstrap e falta calibração específica. Sensibilidades com 1/5/10 defasagens são descritivas, com todos os casos/status preservados. As amostras principais 80/117, dez setores, ausências e famílias anteriores permanecem intactas.
+
+**[Abrir no Colab — único lote H/I](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb)** — CPU. Executar somente `notebooks/Lab03I_selecao_liquidez.ipynb`, que inclui H e I; não executar H separadamente nem repetir F/G/E ou os 6.000 geradores. Reutiliza X e `Além do Beta/cache_b3`. Salvar notebook executado e ZIP no Drive; a execução do autor continua pendente.
+
+**Artigo principal: 15 páginas, 29 referências, quatro figuras e seis tabelas. Suplemento: 21 páginas, 29 referências, nove figuras e 12 tabelas; 43 referências distintas no conjunto.** Principal Overleaf: `paper/main.tex` (`main.tex` se o conteúdo de `paper/` estiver na raiz). Mantidos os dez setores e gráficos de todo 2016–2025. A suíte tem 108 aprovações, dois skips históricos, zero falhas; verificadores independentes aprovados. Auditoria econômica global, eventos/sucessões e calibração dos novos testes permanecem pendentes; KRR não implementado/avaliado.
+
+Integração local do único notebook H/I concluída: dez células/seis códigos, 149 fontes, 207 membros do export autenticados, 612 decisões preservadas. A execução do autor no Colab continua pendente.
 
 ## Colab G do autor conferido — 24/10/2026
 
@@ -25,7 +37,7 @@ Conferência externa:seis tabelas e66 vetores bootstrap,**1.595.778 valores conc
 
 ## Comece pelo artigo
 
-- [PDF principal](paper/main.pdf): edição G:25 páginas,38 referências citadas,9 figuras e11 tabelas. [Suplemento independente](paper/suplemento.pdf):7 páginas,8 referências;43 referências distintas no conjunto.
+- [PDF principal](paper/main.pdf): edição H/I: 15 páginas, 29 referências citadas, quatro figuras e seis tabelas. [Suplemento independente](paper/suplemento.pdf):21 páginas, 29 referências; 43 referências distintas no conjunto.
 - [Fonte principal LaTeX](paper/main.tex) e [corpo do artigo](paper/artigo_revisado.tex).
 - [Hipóteses e estimandos](docs/hipoteses_e_estimandos.md).
 - [Escopo da seleção e proveniência](docs/REPOSITORY_SCOPE.md).
