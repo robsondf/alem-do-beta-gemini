@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "production_G_imports": false,
+  "explicit_bootstrap_statistics": 198,
+  "max_explicit_difference": 5.648259637780484e-15,
+  "complete_draw_rows": 66,
+  "calibration_replication_rows": 84000,
+  "independently_recomputed_rate_rows": 276,
+  "scope": "numerical consistency and summary audit; not a general size or coverage theorem"
+}

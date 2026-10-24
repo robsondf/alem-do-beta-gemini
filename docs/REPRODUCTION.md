@@ -48,6 +48,20 @@ As pastas de saída devem ser novas. Os experimentos são computacionalmente car
 
 Os cinco notebooks copiados são versões congeladas da origem. Eles preservam URLs, versões e caminhos originais; não se afirma que sejam lançadores autossuficientes deste repositório público. Para trabalhar apenas com esta cópia, prefira os scripts e as entradas autenticadas descritas acima. Não é necessário executar nenhum Colab novo para esta migração.
 
+## Revisão G: único Colab novo
+
+F do autor já foi executado e conferido; não repetir F/E/transferência. Execute somente `notebooks/Lab03G_mudanca_calibracao.ipynb` em CPU, usando a cópia pública imutável indicada na entrega. O código autentica fontes/entrada X, reutiliza o cache do Drive e rejeita divergências antes de estimar. As células Markdown não usam recuo de bloco de código.
+
+```bash
+python scripts/run_lab03g.py --x-archive /caminho/X.zip --output /caminho/NOVA_G --stage all
+python scripts/verify_lab03g.py --x-archive /caminho/X.zip --output /caminho/NOVA_G
+python scripts/plot_lab03g.py --output /caminho/NOVA_G
+```
+
+A célula de simulação executa seis mecanismos ×1.000 réplicas com4.999 sorteios internos e informa progresso a cada50. O ZIP final e o notebook salvo permanecem no Drive. Uma interrupção antes do fim não é uma execução completa; não reduzir réplicas para obter o selo de conferência. As tabelas locais completas permitem comparar a nova execução, sob tolerância1e−10 absoluta/1e−9 relativa, sem exigir igualdade binária de CSV/PDF entre ambientes. Há testes da equivalência com OLS explícito, preservação de defasagens e retenção de sorteios inválidos.
+
+O teste local de integração do notebook pode reutilizar a simulação completa já executada; seu recibo declara isso e não é conferência do Colab do autor. A calibração nova é condicional aos bancos/mercado e não valida nominalmente todos os ICs: as falhas são resultados, não exceções de código a esconder.
+
 ## LaTeX
 
 ```bash
@@ -58,7 +72,7 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-No Overleaf, carregue o conteúdo de `paper/`, defina `main.tex` como principal e use pdfLaTeX/BibTeX. É necessário suporte LaTeX para português brasileiro e os pacotes declarados no fonte. O PDF já incluído foi copiado sem recompilação.
+No Overleaf, carregue o conteúdo de `paper/`, defina `main.tex` como principal e use pdfLaTeX/BibTeX. É necessário suporte LaTeX para português brasileiro e os pacotes declarados no fonte. O PDF desta revisão foi recompilado. O suplemento independente usa `suplemento.tex`, com a mesma sequência pdfLaTeX/BibTeX (substitua `main` por `suplemento`). Não definir o suplemento ou o registro histórico como principal do artigo.
 
 ## Alcance da verificação
 

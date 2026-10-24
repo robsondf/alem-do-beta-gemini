@@ -29,3 +29,7 @@ O histórico completo de commits não foi importado. A identificação do commit
 ## Lote F após o segundo parecer
 
 A revisão F adiciona novas estimativas/sensibilidades explicitamente separadas das etapas congeladas. Código, plano, resultados locais conferidos, gráficos, notebook e artigo entram por nova PR. O único insumo financeiro reutilizado é o ZIP X autenticado que continua no Drive; nenhuma matriz de retornos é transferida para esta cópia. Veja `lab03f_pos_parecer.md`.
+
+## Revisão G posterior ao terceiro parecer
+
+A revisão G acrescenta teste de mudança agregada, inferência de modelos defasados/semanais e calibração sob nulidade global. Reutiliza o cache X autorizado e mantém a matriz privada no Drive; inclui apenas resultados derivados, sorteios e código nos dois repositórios. A versão do artigo e o suplemento são recompilados. Código/dados/protocolos anteriores permanecem; a integração local do novo notebook declara a reutilização do cálculo Monte Carlo concluído e não equivale à execução Colab do autor.

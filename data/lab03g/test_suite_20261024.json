@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tests_run": 104,
+  "tests_passed": 102,
+  "skipped": [
+    {
+      "test": "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+      "reason": "Historical Lab02 notebook deliberately omitted; retained at the source commit."
+    },
+    {
+      "test": "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells",
+      "reason": "Authenticated X/Y archives remain external; set LAB03_X_ARCHIVE and LAB03_Y_ARCHIVE."
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "scope": "existing retained suite plus4 new G operator tests; packaging checked separately after final manifest",
+  "external_X_followup_tests": 9,
+  "authenticated_X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214"
+}

@@ -5,13 +5,19 @@ Robson Dias Ferreira — CMP609, PPGC/UFRGS.
 
 Esta é uma cópia selecionada do material de pesquisa já versionado em `robsondf/alem-do-beta`, destinada à avaliação do manuscrito. A seleção inicial foi seguida pelas revisões identificadas na proveniência; o lote F acrescenta análises pós-parecer, preservando os resultados e protocolos anteriores. Não contém a matriz privada de retornos ou downloads novos de cotações. O repositório de origem e os arquivos do Google Drive foram preservados.
 
+## Revisão G — terceiro parecer
+
+[Análises, matriz de resposta e reprodução](docs/lab03g_parecer_v3.md): mudança agregada entre quinquênios, inferência defasada/semanal e calibração de seis mecanismos. São6.000 réplicas,84.000 linhas e66 alvos/blocos observados, com verificador independente. **A simulação expõe falhas:** cobertura dos ICs básicos51,8–95,8%; erro familiar temporal5,6% no estresse AR0,6. Não se declara validade nominal ou robustez uniforme.
+
+**Único notebook novo:** [Lab03G_mudanca_calibracao.ipynb](notebooks/Lab03G_mudanca_calibracao.ipynb). Executar tudo em CPU,salvar cópia/ZIP no Drive; não repetir F/E. A preparação G é local; o Colab novo do autor permanece pendente. Códigos/dados/recibos anteriores preservados.
+
 ## Colab F conferido
 
 [Notebook executado e salvo pelo autor](https://colab.research.google.com/drive/11biQglsj9zdEMXcEH71sijGvSuEAEQJH):10 fontes de células idênticas,seis códigos,zero exceções;ZIP de3.783.941bytes/31 membros autenticados;309.848 valores concordantes,máximo1,46e−14;decisões e gráficos preservados. [Recibo da conferência](data/lab03f/validacao_colab_20261024.json). Não repetir F/anteriores. Notebook e export permanecem no Drive; nenhum resultado científico foi modificado nesta conferência.
 
 ## Comece pelo artigo
 
-- [PDF principal](paper/main.pdf): edição com o lote F:26 páginas,42 referências citadas,10 figuras e9 tabelas.
+- [PDF principal](paper/main.pdf): edição G:25 páginas,38 referências citadas,9 figuras e11 tabelas. [Suplemento independente](paper/suplemento.pdf):7 páginas,8 referências;43 referências distintas no conjunto.
 - [Fonte principal LaTeX](paper/main.tex) e [corpo do artigo](paper/artigo_revisado.tex).
 - [Hipóteses e estimandos](docs/hipoteses_e_estimandos.md).
 - [Escopo da seleção e proveniência](docs/REPOSITORY_SCOPE.md).
@@ -25,13 +31,13 @@ Para uma avaliação independente, leia primeiro o PDF. Os recibos e testes perm
 
 | Diretório | Conteúdo |
 |---|---|
-| `paper/` | Manuscrito atual, bibliografia usada, dez figuras e seis arquivos de tabelas necessários à compilação |
+| `paper/` | Manuscrito, suplemento, bibliografia e todas as figuras/tabelas necessárias à compilação |
 | `src/` | Módulos da estimação, análises temporal/setorial/de risco, inferência, previsão e sensibilidades finais |
 | `scripts/` | Execução, gráficos, verificadores e ferramentas congeladas necessárias aos protocolos preservados |
 | `tests/` | Testes originais dos módulos retidos |
 | `data/` | Protocolos, hashes, recibos e evidência documental já presente no GitHub |
-| `results/tables/` | Resultados Colab anteriores e novo lote F explicitamente identificado como execução local conferida |
-| `notebooks/` | Seis notebooks, incluindo F e os cinco existentes necessários à leitura das etapas finais e à preservação do runtime E |
+| `results/tables/` | Resultados Colab anteriores e revisões F/G com identificação separada da execução local e das conferências Colab |
+| `notebooks/` | Sete notebooks, incluindo G,F e os cinco existentes necessários à leitura das etapas finais e à preservação do runtime E |
 | `provenance/` | Relação completa dos arquivos selecionados e omitidos, com identificação do commit de origem |
 
 As amostras são fixas: 80 ativos em 2016–2025 e 117 em 2021–2025, em dez setores; os mesmos 80 também são comparados em 2021–2025. A unidade é o ativo/classe/ISIN. As regressões utilizam retornos, com pares válidos e ausências preservadas.
