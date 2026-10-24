@@ -1,0 +1,877 @@
+{
+  "passed": true,
+  "notebook_sha256": "0808a71a4a55dccba245ce8f231e8c2629d1071fe6d52d7c3ae56fe3790ea14e",
+  "notebook_bytes": 578592,
+  "delivered_notebook_sha256": "1b11718c7e16b5d38d2191eca65c3b031f17f96282c9c1349170387e30b03689",
+  "export_sha256": "ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e",
+  "export_bytes": 21813582,
+  "source_cells_identical": 10,
+  "sequential_code_cells": 6,
+  "exceptions": 0,
+  "source_pins_verified": 149,
+  "export_members": 207,
+  "source_commit": "4689c35c49a303e84f35b66c55320190fb630937",
+  "notebook_internal_comparison": {
+    "passed": true,
+    "environment": "Colab",
+    "source_commit": "4689c35c49a303e84f35b66c55320190fb630937",
+    "source_files": 149,
+    "compared_values": 98361,
+    "p_threshold_positions": 300,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "new_outer_generators": 0,
+    "external_2015_package_reproduced": true,
+    "stage": "H_and_I",
+    "run_stamp_UTC": "20261024T220259Z",
+    "I_compared_values": 24706,
+    "I_p_threshold_positions": 312,
+    "I_independent_verification": {
+      "passed": true,
+      "production_imported": false,
+      "eligible_2015_submitted_BDI02_filter": 211,
+      "reported_broad_liquidity_cache_eligible": 221,
+      "top80_exact_order_reproduced": true,
+      "asset_period_points_and_flags_checked": 960,
+      "complete_CI_p_rows": 120,
+      "explicit_row_resampled_aggregate_and_rank_statistics": 360,
+      "max_direct_draw_difference": 3.1086244689504383e-15,
+      "documented_missing_cells_protected": 7,
+      "bootstrap_vectors_verified": 120,
+      "bootstrap_values": 599880,
+      "separate_regime_lag_fits_checked": 1076,
+      "max_lag_difference": 2.1316282072803006e-14,
+      "scope": "Computational/measurement consistency;not calibrated association size/coverage,economic event validation or causal selection identification"
+    },
+    "only_existing_caches": true
+  },
+  "tables": {
+    "H/annual_overview.csv": {
+      "rows": 15,
+      "columns": 11,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/cdf_diagnostics.csv": {
+      "rows": 84,
+      "columns": 15,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/coverage_by_target.csv": {
+      "rows": 84,
+      "columns": 9,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/crisis_aggregate.csv.gz": {
+      "rows": 12,
+      "columns": 17,
+      "max_absolute_difference": 1.3183898417423734e-15,
+      "byte_identical": false
+    },
+    "H/crisis_asset_points.csv": {
+      "rows": 240,
+      "columns": 31,
+      "max_absolute_difference": 1.1102230246251565e-15,
+      "byte_identical": false
+    },
+    "H/economic_scale.csv": {
+      "rows": 1920,
+      "columns": 10,
+      "max_absolute_difference": 4.119968255444917e-17,
+      "byte_identical": false
+    },
+    "H/microstructure_raw_and_adjusted.csv": {
+      "rows": 54,
+      "columns": 21,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/normalization.csv": {
+      "rows": 9,
+      "columns": 4,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/period_observations.csv": {
+      "rows": 480,
+      "columns": 16,
+      "max_absolute_difference": 6.661338147750939e-16,
+      "byte_identical": false
+    },
+    "H/scale_diagnostics.csv": {
+      "rows": 6,
+      "columns": 10,
+      "max_absolute_difference": 6.217248937900877e-15,
+      "byte_identical": false
+    },
+    "H/sector_summary.csv": {
+      "rows": 30,
+      "columns": 14,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "H/variance_concentration.csv": {
+      "rows": 3,
+      "columns": 6,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "I/aggregate_reproduced.csv": {
+      "rows": 48,
+      "columns": 11,
+      "max_absolute_difference": 3.885780586188048e-15,
+      "byte_identical": false
+    },
+    "I/asset_liquidity.csv": {
+      "rows": 118,
+      "columns": 13,
+      "max_absolute_difference": 7.216449660063518e-16,
+      "byte_identical": false
+    },
+    "I/assets_originais_COTAHIST.csv": {
+      "rows": 80,
+      "columns": 7,
+      "max_absolute_difference": 6.661338147750939e-16,
+      "byte_identical": false
+    },
+    "I/assets_universo_2015.csv": {
+      "rows": 80,
+      "columns": 7,
+      "max_absolute_difference": 6.661338147750939e-16,
+      "byte_identical": false
+    },
+    "I/composition_groups.csv": {
+      "rows": 3,
+      "columns": 6,
+      "max_absolute_difference": 5.551115123125783e-17,
+      "byte_identical": false
+    },
+    "I/documented_gaps.csv": {
+      "rows": 7,
+      "columns": 4,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "I/events_reproduced.csv": {
+      "rows": 83,
+      "columns": 6,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "I/gaps_aggregate_reproduced.csv": {
+      "rows": 48,
+      "columns": 11,
+      "max_absolute_difference": 3.885780586188048e-15,
+      "byte_identical": false
+    },
+    "I/gaps_assets_originais_COTAHIST.csv": {
+      "rows": 80,
+      "columns": 7,
+      "max_absolute_difference": 6.661338147750939e-16,
+      "byte_identical": false
+    },
+    "I/gaps_assets_universo_2015.csv": {
+      "rows": 80,
+      "columns": 7,
+      "max_absolute_difference": 6.661338147750939e-16,
+      "byte_identical": false
+    },
+    "I/gaps_liquidity_joint.csv": {
+      "rows": 12,
+      "columns": 13,
+      "max_absolute_difference": 8.326672684688674e-17,
+      "byte_identical": false
+    },
+    "I/lag_asset_points.csv": {
+      "rows": 1416,
+      "columns": 13,
+      "max_absolute_difference": 7.105427357601002e-15,
+      "byte_identical": false
+    },
+    "I/lag_summary.csv": {
+      "rows": 36,
+      "columns": 7,
+      "max_absolute_difference": 2.248201624865942e-15,
+      "byte_identical": false
+    },
+    "I/liquidity_all_variants.csv": {
+      "rows": 24,
+      "columns": 15,
+      "max_absolute_difference": 8.326672684688674e-17,
+      "byte_identical": false
+    },
+    "I/liquidity_joint.csv": {
+      "rows": 12,
+      "columns": 13,
+      "max_absolute_difference": 8.326672684688674e-17,
+      "byte_identical": false
+    }
+  },
+  "arrays": {
+    "H/exclude_2020_03_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "H/exclude_2020_03_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 8.049116928532385e-16
+    },
+    "H/exclude_2020_H1_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "H/exclude_2020_H1_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 9.992007221626409e-16
+    },
+    "H/exclude_2020_03_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 1.3877787807814457e-16
+    },
+    "H/exclude_2020_03_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 1.124100812432971e-15
+    },
+    "H/exclude_2020_H1_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "H/exclude_2020_H1_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    "H/exclude_2020_03_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 1.3877787807814457e-16
+    },
+    "H/exclude_2020_03_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 9.298117831235686e-16
+    },
+    "H/exclude_2020_H1_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "H/exclude_2020_H1_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 1.1657341758564144e-15
+    },
+    "I/literal//universo_2015_early_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8735013540549517e-15
+    },
+    "I/literal//universo_2015_early_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.4416913763379853e-15
+    },
+    "I/literal//universo_2015_theta_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.440892098500626e-15
+    },
+    "I/literal//universo_2015_theta_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 6.217248937900877e-15
+    },
+    "I/literal//universo_2015_decada_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8908485888147197e-15
+    },
+    "I/literal//universo_2015_decada_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 2.55351295663786e-15
+    },
+    "I/literal//universo_2015_late_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.899658373995862e-15
+    },
+    "I/literal//universo_2015_late_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.884981308350689e-15
+    },
+    "I/literal//originais_COTAHIST_early_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8596235662471372e-15
+    },
+    "I/literal//originais_COTAHIST_early_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.885780586188048e-15
+    },
+    "I/literal//originais_COTAHIST_theta_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.107825191113079e-15
+    },
+    "I/literal//originais_COTAHIST_theta_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 8.881784197001252e-15
+    },
+    "I/literal//originais_COTAHIST_decada_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.85268467234323e-15
+    },
+    "I/literal//originais_COTAHIST_decada_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 2.6645352591003757e-15
+    },
+    "I/literal//originais_COTAHIST_late_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.760880495917718e-15
+    },
+    "I/literal//originais_COTAHIST_late_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 7.327471962526033e-15
+    },
+    "I/literal//liquidity_original80_early_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_original80_theta_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_early_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_theta_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//universo_2015_early_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.8561541192951836e-15
+    },
+    "I/literal//universo_2015_early_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.7755575615628914e-15
+    },
+    "I/literal//universo_2015_theta_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.726186026398182e-15
+    },
+    "I/literal//universo_2015_theta_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 5.440092820663267e-15
+    },
+    "I/literal//universo_2015_decada_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.7676832220203664e-15
+    },
+    "I/literal//universo_2015_decada_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.55351295663786e-15
+    },
+    "I/literal//universo_2015_late_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.3688329903469594e-15
+    },
+    "I/literal//universo_2015_late_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 5.551115123125783e-15
+    },
+    "I/literal//originais_COTAHIST_early_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.8041124150158794e-15
+    },
+    "I/literal//originais_COTAHIST_early_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.3306690738754696e-15
+    },
+    "I/literal//originais_COTAHIST_theta_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.497202527569243e-15
+    },
+    "I/literal//originais_COTAHIST_theta_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 6.8833827526759706e-15
+    },
+    "I/literal//originais_COTAHIST_decada_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.6792123247455493e-15
+    },
+    "I/literal//originais_COTAHIST_decada_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.4424906541753444e-15
+    },
+    "I/literal//originais_COTAHIST_late_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.2057689836051395e-15
+    },
+    "I/literal//originais_COTAHIST_late_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 7.105427357601002e-15
+    },
+    "I/literal//liquidity_original80_early_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_original80_theta_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_early_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_theta_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//universo_2015_early_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.6229018956769323e-15
+    },
+    "I/literal//universo_2015_early_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.9968028886505635e-15
+    },
+    "I/literal//universo_2015_theta_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 4.350686477749832e-15
+    },
+    "I/literal//universo_2015_theta_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 6.5503158452884236e-15
+    },
+    "I/literal//universo_2015_decada_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.3869795029440866e-15
+    },
+    "I/literal//universo_2015_decada_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.774758283725532e-15
+    },
+    "I/literal//universo_2015_late_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.9794556538907955e-15
+    },
+    "I/literal//universo_2015_late_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 5.662137425588298e-15
+    },
+    "I/literal//originais_COTAHIST_early_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.3037127760972e-15
+    },
+    "I/literal//originais_COTAHIST_early_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.774758283725532e-15
+    },
+    "I/literal//originais_COTAHIST_theta_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 4.253541963095131e-15
+    },
+    "I/literal//originais_COTAHIST_theta_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 8.659739592076221e-15
+    },
+    "I/literal//originais_COTAHIST_decada_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.3037127760972e-15
+    },
+    "I/literal//originais_COTAHIST_decada_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.6645352591003757e-15
+    },
+    "I/literal//originais_COTAHIST_late_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.684552662974738e-15
+    },
+    "I/literal//originais_COTAHIST_late_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 7.549516567451064e-15
+    },
+    "I/literal//liquidity_original80_early_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_original80_theta_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_early_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/literal//liquidity_union118_theta_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//universo_2015_early_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8596235662471372e-15
+    },
+    "I/gaps_preserved//universo_2015_early_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.4416913763379853e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.440892098500626e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 5.773159728050814e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8865117801247777e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 2.55351295663786e-15
+    },
+    "I/gaps_preserved//universo_2015_late_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.899658373995862e-15
+    },
+    "I/gaps_preserved//universo_2015_late_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.884981308350689e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8318679906315083e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.885780586188048e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 4.107825191113079e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 8.881784197001252e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 1.8388068845354155e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 2.6645352591003757e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_media_21": {
+      "values": 4999,
+      "max_absolute_difference": 3.6914915568786455e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_mediana_21": {
+      "values": 4999,
+      "max_absolute_difference": 7.327471962526033e-15
+    },
+    "I/gaps_preserved//liquidity_original80_early_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_original80_theta_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_early_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_theta_21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//universo_2015_early_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.8561541192951836e-15
+    },
+    "I/gaps_preserved//universo_2015_early_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.7755575615628914e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.6914915568786455e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 5.551115123125783e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.7694179454963432e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.55351295663786e-15
+    },
+    "I/gaps_preserved//universo_2015_late_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.3601593729670753e-15
+    },
+    "I/gaps_preserved//universo_2015_late_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 5.551115123125783e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.790234627208065e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.3306690738754696e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.4416913763379853e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 6.439293542825908e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 1.6792123247455493e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 2.4424906541753444e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_media_5": {
+      "values": 4999,
+      "max_absolute_difference": 3.2057689836051395e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_mediana_5": {
+      "values": 4999,
+      "max_absolute_difference": 7.105427357601002e-15
+    },
+    "I/gaps_preserved//liquidity_original80_early_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_original80_theta_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_early_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_theta_5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//universo_2015_early_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.6229018956769323e-15
+    },
+    "I/gaps_preserved//universo_2015_early_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.9968028886505635e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 4.350686477749832e-15
+    },
+    "I/gaps_preserved//universo_2015_theta_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 6.5503158452884236e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.3869795029440866e-15
+    },
+    "I/gaps_preserved//universo_2015_decada_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.774758283725532e-15
+    },
+    "I/gaps_preserved//universo_2015_late_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.9603736956550506e-15
+    },
+    "I/gaps_preserved//universo_2015_late_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 5.662137425588298e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.3037127760972e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_early_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.774758283725532e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 4.246603069191224e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_theta_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 8.659739592076221e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.275957200481571e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_decada_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 2.6645352591003757e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_media_63": {
+      "values": 4999,
+      "max_absolute_difference": 3.670674875166924e-15
+    },
+    "I/gaps_preserved//originais_COTAHIST_late_mediana_63": {
+      "values": 4999,
+      "max_absolute_difference": 7.549516567451064e-15
+    },
+    "I/gaps_preserved//liquidity_original80_early_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_original80_theta_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_early_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "I/gaps_preserved//liquidity_union118_theta_63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "images": {
+    "lab03h_crise": {
+      "embedded_matches_export": true,
+      "PDF_render_identical_to_paper_144dpi": true
+    },
+    "lab03h_periodo_completo": {
+      "embedded_matches_export": true,
+      "PDF_render_identical_to_paper_144dpi": true
+    },
+    "lab03i_liquidez": {
+      "embedded_matches_export": true,
+      "PDF_render_identical_to_paper_144dpi": true
+    }
+  },
+  "tables_LaTeX": {
+    "H/cdf.tex": "byte_identical",
+    "H/crisis.tex": "byte_identical",
+    "H/levels.tex": "byte_identical",
+    "H/microstructure.tex": "byte_identical",
+    "H/scale.tex": "byte_identical",
+    "H/sectors.tex": "byte_identical",
+    "I/associations.tex": "byte_identical",
+    "I/lags.tex": "Article-only formatting;lag_summary.csv compared numerically",
+    "I/selection.tex": "byte_identical"
+  },
+  "total_values_compared": 722947,
+  "max_absolute_difference": 8.881784197001252e-15,
+  "p_threshold_positions_preserved": 612,
+  "array_vectors_compared": 132,
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "new_outer_G_generators": 0,
+  "table_H_bank_values_compared": 123067,
+  "private_I_bank_values_compared": 599880,
+  "manifest_hashed_members": 206,
+  "raw_COTAHIST_ZIPs_in_export": false,
+  "scope": "Saved source/export and numerical consistency;not economic event homologation,association calibration or causal identification",
+  "date": "2026-10-24",
+  "notebook_url": "https://colab.research.google.com/drive/1pHcTi0deFoiIiEvmFK4ZtYr5MM9p_i9l",
+  "export_url": "https://drive.google.com/file/d/1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru/view",
+  "author_Colab_execution": true,
+  "full_H_and_I_recalculated": true,
+  "original_cohorts_preserved": true,
+  "documented_gaps_preserved": 7,
+  "received_code_executed_by_auditor": false,
+  "no_new_market_downloads": true,
+  "full_Colab_execution": {
+    "H": {
+      "stage": "Lab03H all",
+      "environment": "Colab",
+      "python": "3.13.16",
+      "elapsed_seconds": 25.39277726399996,
+      "plan_sha256": "c792d6b12948418ee54f904fa9fad75ea40156fc6236df881467f161638e6511",
+      "original_G_baseline_and_banks_reproduced": true,
+      "new_crisis_rows": 12,
+      "old_source_pins_preserved": 78,
+      "new_outer_simulation_generators": 0,
+      "new_market_downloads": false,
+      "economic_homologation_completed": false
+    },
+    "I": {
+      "date": "2026-10-24",
+      "environment": "Colab",
+      "complete_reconstruction": true,
+      "official_cached_ZIPs": 11,
+      "new_quote_downloads": false,
+      "calendar_rows_2016_2025": 2483,
+      "ISINs": 118,
+      "aggregate_rows": 48,
+      "event_flags_reproduced": 83,
+      "documented_missing_cells_preserved_in_separate_variant": 7,
+      "gap_preserved_oracle": {
+        "explicit_row_OLS_theta_checks": 54,
+        "max_difference": 4.218847493575595e-15,
+        "invalid_draws": 0
+      },
+      "association_targets_blocks_variants": 24,
+      "oracle": {
+        "explicit_row_OLS_theta_checks": 54,
+        "max_difference": 4.218847493575595e-15,
+        "invalid_draws": 0
+      },
+      "original_80_117_replaced": false,
+      "economically_validated_events": false,
+      "external_weak_null_calibration": false,
+      "elapsed_seconds": 64.22850687599998
+    }
+  },
+  "external_oracles": {
+    "H": {
+      "passed": true,
+      "production_H_G_F_imports": false,
+      "explicit_period_OLS": 480,
+      "max_OLS_difference": 3.1086244689504383e-15,
+      "explicit_bootstrap_statistics": 36,
+      "max_bootstrap_difference": 2.2273849431542203e-15,
+      "complete_bootstrap_statistic_rows": 12,
+      "CDF_rows_recomputed": 84,
+      "dense_covariance_cases": 5,
+      "economic_rows_checked": 1920,
+      "prior_source_pins": 78,
+      "scope": "numerical/method consistency;does not validate new masked-bootstrap size/coverage or CDF replacement"
+    },
+    "I": {
+      "passed": true,
+      "production_imported": false,
+      "eligible_2015_submitted_BDI02_filter": 211,
+      "reported_broad_liquidity_cache_eligible": 221,
+      "top80_exact_order_reproduced": true,
+      "asset_period_points_and_flags_checked": 960,
+      "complete_CI_p_rows": 120,
+      "explicit_row_resampled_aggregate_and_rank_statistics": 360,
+      "max_direct_draw_difference": 3.1086244689504383e-15,
+      "documented_missing_cells_protected": 7,
+      "bootstrap_vectors_verified": 120,
+      "bootstrap_values": 599880,
+      "separate_regime_lag_fits_checked": 1076,
+      "max_lag_difference": 1.709743457922741e-14,
+      "scope": "Computational/measurement consistency;not calibrated association size/coverage,economic event validation or causal selection identification"
+    },
+    "date": "2026-10-24",
+    "source": "Trusted versioned oracles run on copies of authenticated author exports",
+    "production_or_received_notebook_executed": false,
+    "scientific_scope": "Numerical/measurement audit;not economic event certification or calibration of new inference"
+  },
+  "auditor_checks": {
+    "wrong_local_reference_rejected_before_output": true,
+    "without_private_I_reference_values_compared": 123067,
+    "without_private_I_reference_array_vectors": 12,
+    "full_private_reference_authenticated_by_prior_receipt": true
+  }
+}

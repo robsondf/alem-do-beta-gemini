@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "main": {
+    "pages": 15,
+    "sha256": "956d884f97a63c2cb4a781eee7600993989f7eecaa85be7ec5f99e59ab8b3f3c",
+    "references": 29,
+    "figures": 4,
+    "tables": 6
+  },
+  "changed_pages_visually_inspected": [
+    13,
+    14,
+    15
+  ],
+  "unchanged_pages_render_identical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "aux_stable": true,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "only_author_Colab_availability_statement_changed": true,
+  "new_empirical_estimation": false,
+  "supplement_unchanged_sha256": "78367a72de4578f93d8472e3bc999e6c1f9a284baa20645ce5c32bda87bdc441",
+  "main_source_sha256": "aa1f9db19ba504631036af7bccd3da9e6c8eea2befa52699dca2e3c834f840e0",
+  "environment_note": "Local Portuguese babel support;no binary or pagination identity to Overleaf claimed."
+}

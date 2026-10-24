@@ -1,9 +1,21 @@
 # Lab03I — reprodução do adendo, seleção e liquidez
 
-**[Abrir o único notebook H/I no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb)** — CPU; inclui H e I. Runtime imutável `4689c35c49a303e84f35b66c55320190fb630937`; notebook publicado em `fd51b25af552cb3dd3715c473c7b3156dd352b79`. Salvar cópia executada e ZIP no Drive.
+**[Lançador H/I imutável preservado para reprodução no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb)** — CPU; inclui H e I. Runtime imutável `4689c35c49a303e84f35b66c55320190fb630937`; notebook publicado em `fd51b25af552cb3dd3715c473c7b3156dd352b79`. Execução do autor conferida; não repetir. Cópia e ZIP permanecem no Drive.
 
 
 Data: 24/10/2026. Este lote sucede H na mesma revisão em branch/PR nos dois repositórios, sem merge automático. O pacote externo foi recebido depois do primeiro preparo H; a pendência de recebimento registrada naquele checkpoint está resolvida.
+
+## Colab H/I do autor conferido — 24/10/2026
+
+[Cópia executada e salva](https://colab.research.google.com/drive/1pHcTi0deFoiIiEvmFK4ZtYr5MM9p_i9l); [export correspondente](https://drive.google.com/file/d/1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru/view), 21.813.582 bytes, SHA256 `ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e`. As dez fontes de células coincidem com a entrega imutável; seis códigos em sequência, zero exceções, 149 fontes autenticadas. O ZIP tem 207 membros: 206 arquivos cobertos pelo manifesto e o próprio manifesto. H e I foram reestimados no Colab; os 6.000 geradores anteriores não foram repetidos. Nenhuma nova cotação foi consultada.
+
+Conferência externa: **722.947 valores concordantes** (123.067 de tabelas/bancos H e 599.880 dos bancos I), diferença máxima `8,881784197e−15`, tolerâncias absoluta `1e−10` e relativa `1e−9`; preservadas 612 posições de limiar de valores-p. Os três PNGs embutidos coincidem com os exports e os três PDFs renderizados coincidem com os do artigo em 144 dpi. Não se alega identidade binária geral. A tabela LaTeX de defasagens é formatação exclusiva do artigo; seu CSV subjacente foi comparado numericamente.
+
+Oráculos independentes confiáveis reexecutados sobre cópias das saídas autenticadas: H confere 480 regressões por período, 36 estatísticas de sorteio, 84 linhas CDF, cinco covariâncias densas e 1.920 componentes econômicos; I confere 960 pontos/status, 120 linhas de IC/p, 360 estatísticas explícitas, 599.880 valores de bancos e 1.076 ajustes válidos separados por regime com defasagens. As sete lacunas estão preservadas. A checagem de tamanho/cobertura das novas associações e a validação econômica dos eventos continuam pendentes.
+
+Recibos: `data/lab03i/validacao_colab_20261024.json`, `manifesto_colab_20261024.json` e `oraculos_colab_20261024.json`. Auditor reproduzível: `scripts/verify_lab03i_colab.py`. O notebook executado, ZIP, matrizes diárias derivadas e bancos I permanecem no Drive, com organização/compartilhamento preservados; somente recibos e hashes são adicionados ao Git.
+
+**Não repetir H/I/F/G/E ou transferências. Nenhum notebook novo nesta conferência.** Os resultados, universos fixos 80/117, dez setores, famílias e interpretações permanecem. Auditoria econômica global 0/197 não significa 197 erros; eventos/cadeias de ISIN, seleção/attrition, vintages e calibração específica continuam limitações. KRR permanece proposta não implementada/avaliada. Próximo: revisão científica humana e fechamento editorial para entrega de 27/10/2026, extensão não confirmada.
 
 ## Evidência efetivamente obtida
 
@@ -53,11 +65,11 @@ Os resultados públicos são resumos, pontos por ativo e diagnósticos; ZIPs bru
 
 Integração local H/I concluída: dez células/seis códigos, 149 fontes imutáveis autenticadas, 123.067 valores de tabelas/H concordantes e 599.880 valores dos bancos I concordantes (máximo zero nesta repetição local), preservadas 612 posições de limiar. Três PNGs com pixels iguais à preparação do artigo. Export de 21.813.873 bytes/207 membros lido de volta e autenticado; SHA256 `2f61beb15aac8638cf92dae0eef58de8bc70cded3a6fe833519171f21f554f06`. Isso não é execução do autor no Colab. Recibos em `data/lab03i/validacao_notebook_local.json` e `manifesto_notebook_local.json`. O benchmark recebido em 2016–2025 coincide com X em 2.483 sessões: diferença máxima 9,98e−17 nos logs e nenhum desacordo de sinal; o segmento de 2015 tem a proveniência do pacote recebido, fora desse confronto.
 
-## Execução do autor: um único lote H/I
+## Lançador H/I preservado para reprodução
 
-Executar somente `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU. Inclui H e I; não executar H separadamente nem repetir F/G/E ou os 6.000 geradores. O lançador autentica um commit imutável e arquivos por hash, reutiliza X e `Além do Beta/cache_b3`, processa todos os universos/blocos e compara as saídas. Se um cache faltar, busca o arquivo existente pelo ID do Drive, sem consultar novas cotações. A execução local não é execução do autor no Colab; esta permanece pendente nesta preparação.
+Para uma reprodução futura, o lançador é `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU; a execução atual já foi conferida e não deve ser repetida. Inclui H e I; não executar H separadamente nem repetir F/G/E ou os 6.000 geradores. O lançador autentica um commit imutável e arquivos por hash, reutiliza X e `Além do Beta/cache_b3`, processa todos os universos/blocos e compara as saídas. Se um cache faltar, busca o arquivo existente pelo ID do Drive, sem consultar novas cotações. O recibo local anterior permanece histórico; a execução efetiva do autor no Colab foi conferida separadamente, conforme o checkpoint acima.
 
-Salvar cópia executada e ZIP no Drive. O ZIP contém matrizes derivadas de retorno para auditoria, sem os onze ZIPs brutos. Essas matrizes não devem ser confundidas com os resumos públicos. Conferir o export antes de registrar homologação computacional da execução do autor.
+Execução do autor conferida; não repetir. Cópia e ZIP permanecem no Drive. O ZIP contém matrizes derivadas de retorno para auditoria, sem os onze ZIPs brutos. Essas matrizes não devem ser confundidas com os resumos públicos. O export efetivo foi conferido por hash, conteúdo numérico, figuras e oráculos independentes; isso não certifica a homologação econômica.
 
 Para execução local com entradas autenticadas:
 
