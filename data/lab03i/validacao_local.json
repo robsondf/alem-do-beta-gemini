@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-24",
+  "stage": "Lab03I local completed",
+  "author_Colab_completed": false,
+  "external_package_received": true,
+  "external_reconstruction_reproduced": true,
+  "independent_liquidity_confirmation": false,
+  "new_B3_or_Yahoo_requests": false,
+  "raw_cached_bytes": 476502933,
+  "replication": {
+    "date": "2026-10-24",
+    "environment": "local_not_author_Colab",
+    "complete_reconstruction": true,
+    "official_cached_ZIPs": 11,
+    "new_quote_downloads": false,
+    "calendar_rows_2016_2025": 2483,
+    "ISINs": 118,
+    "aggregate_rows": 48,
+    "event_flags_reproduced": 83,
+    "documented_missing_cells_preserved_in_separate_variant": 7,
+    "gap_preserved_oracle": {
+      "explicit_row_OLS_theta_checks": 54,
+      "max_difference": 4.468647674116255e-15,
+      "invalid_draws": 0
+    },
+    "association_targets_blocks_variants": 24,
+    "oracle": {
+      "explicit_row_OLS_theta_checks": 54,
+      "max_difference": 4.468647674116255e-15,
+      "invalid_draws": 0
+    },
+    "original_80_117_replaced": false,
+    "economically_validated_events": false,
+    "external_weak_null_calibration": false,
+    "elapsed_seconds": 24.126173195999854
+  },
+  "independent_oracle": {
+    "passed": true,
+    "production_imported": false,
+    "eligible_2015_submitted_BDI02_filter": 211,
+    "reported_broad_liquidity_cache_eligible": 221,
+    "top80_exact_order_reproduced": true,
+    "asset_period_points_and_flags_checked": 960,
+    "complete_CI_p_rows": 120,
+    "explicit_row_resampled_aggregate_and_rank_statistics": 360,
+    "max_direct_draw_difference": 6.439293542825908e-15,
+    "documented_missing_cells_protected": 7,
+    "bootstrap_vectors_verified": 120,
+    "bootstrap_values": 599880,
+    "separate_regime_lag_fits_checked": 1076,
+    "max_lag_difference": 1.6542323066914832e-14,
+    "scope": "Computational/measurement consistency;not calibrated association size/coverage,economic event validation or causal selection identification"
+  },
+  "tests": {
+    "tests_run": 110,
+    "passed": 108,
+    "skipped": [
+      {
+        "test": "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+        "reason": "Historical Lab02 notebook deliberately omitted; retained at the source commit."
+      },
+      {
+        "test": "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells",
+        "reason": "Authenticated X/Y archives remain external; set LAB03_X_ARCHIVE and LAB03_Y_ARCHIVE."
+      }
+    ],
+    "failures": [],
+    "errors": [],
+    "successful": true,
+    "scope": "All selected tests with authenticated X;package provenance verified separately;no economic or coverage certification"
+  },
+  "raw_ZIPs_or_daily_stock_matrices_in_Git": false,
+  "outputs_sha256": {
+    "results/tables/lab03i_parecer_v4_20261024/aggregate_reproduced.csv": "8e80b89d98e462de4ffca6c3d2739e5b99f185c578ff32c3ee8a5d5e3eaaa811",
+    "results/tables/lab03i_parecer_v4_20261024/asset_liquidity.csv": "bdd7d54335a661cddf59df909d04d41380bf4d31baa4d1ff4a00c8326bd3af16",
+    "results/tables/lab03i_parecer_v4_20261024/assets_originais_COTAHIST.csv": "ceda8c680bdad9e200ed2055df32ed18016cd6b362f28404160dd99253fa5264",
+    "results/tables/lab03i_parecer_v4_20261024/assets_universo_2015.csv": "9de43cbfe5f61bc68ba2ebf508650ccc7bb792a186f7519aff26c6d3a84af1b3",
+    "results/tables/lab03i_parecer_v4_20261024/associations.tex": "740eb6419e3efc0f0e9cf98f704ddc390d3b3fbab34a911a1fd0965f9823cc13",
+    "results/tables/lab03i_parecer_v4_20261024/composition_groups.csv": "812652be2428a80b8781f27790fd4f910b73fb78c200e0fc74b7645bdc019789",
+    "results/tables/lab03i_parecer_v4_20261024/documented_gaps.csv": "89f9a09a44e70bf943d63a91c207caaa6253cd0a83c5935431a0773d360fdcfb",
+    "results/tables/lab03i_parecer_v4_20261024/events_reproduced.csv": "4de560048a696c4d21df2ec061b90fb7f42b64a9f709b0767f314d8124c5bc90",
+    "results/tables/lab03i_parecer_v4_20261024/gaps_aggregate_reproduced.csv": "2ac0350d06c6b191003e78ee97c6ef9aaddc62cc6c100e6762c16fa35bf57432",
+    "results/tables/lab03i_parecer_v4_20261024/gaps_assets_originais_COTAHIST.csv": "412c5511815d7e6209dd44e5eb655063841b5beaf66bba8f7c68798ccd14336e",
+    "results/tables/lab03i_parecer_v4_20261024/gaps_assets_universo_2015.csv": "82306ef7c15fd8fe00d073095569bf3d78abbe44107b8b03e3dd7879f5a4a8f0",
+    "results/tables/lab03i_parecer_v4_20261024/gaps_liquidity_joint.csv": "8322f03889f2491053bcb806850ed1f97febc9fe1203866842c0c6c5a40206d6",
+    "results/tables/lab03i_parecer_v4_20261024/independent_verification.json": "a44951c1db4c055d089d33e3f901db4fe053e491cc18d6198090b3c26a69626a",
+    "results/tables/lab03i_parecer_v4_20261024/lag_asset_points.csv": "2c5100b6864d859b56b8d3f1dbb06e0e669dbc7451db0fc9c56e18bc148e6a6c",
+    "results/tables/lab03i_parecer_v4_20261024/lag_summary.csv": "e848edc805bcaac31e3914031f084e81c1f347646699ba8ae71fcae9b91dc89b",
+    "results/tables/lab03i_parecer_v4_20261024/lag_verification.json": "fafe080517e5ae4079c67002bf75e733e79c6e9a40203f3febf9ab774e9223cc",
+    "results/tables/lab03i_parecer_v4_20261024/lags.tex": "f7132cb276b239a2343c0587d5724386ade45dc8cea0079276997fadbd808550",
+    "results/tables/lab03i_parecer_v4_20261024/liquidity_all_variants.csv": "595423f40c6e8c7e99efc49563f49b0b006c6b8f7708e1c249faf2539701356a",
+    "results/tables/lab03i_parecer_v4_20261024/liquidity_joint.csv": "ae5d997ed8077adb1f959695739428f05600cc8b7885c744dc84e1734fd7251a",
+    "results/tables/lab03i_parecer_v4_20261024/replication.json": "af2db8b7f8587c17170d6091b9ba3fc3a7394ccb7b8fef16f7c6ef6f9d2ad335",
+    "results/tables/lab03i_parecer_v4_20261024/selection.tex": "3b4575fdec4f6c87de5b4ebb28b74f1d54f21aec6ef72106173590b8db771e86"
+  },
+  "scope": "Computational reproduction and secondary association/sensitivity;no economic homologation,calibrated rank-test size/coverage,causality or KRR contribution"
+}

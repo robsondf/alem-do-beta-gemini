@@ -1,8 +1,8 @@
 # Leitura, execução e verificações
 
-## Reprodução H atual
+## Reprodução atual H/I
 
-Use somente `notebooks/Lab03H_crise_calibracao.ipynb` para a próxima execução do autor. Ele autentica fontes imutáveis, reutiliza X e não repete os geradores G. [Instruções, resultados e limites](lab03h_parecer_v4.md). Fontes, caches, testes e a execução anterior G permanecem preservados. O adendo de universo 2015 não foi reproduzido; seu pacote é entrada pendente.
+Executar somente `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU. Inclui H e I e reutiliza os caches existentes; não repete F/G/E ou os 6.000 geradores. [Métodos, resultados, entradas e limites](lab03i_selecao_liquidez.md). A preparação local não é execução Colab do autor. O ZIP externo foi recebido e reproduzido; eventos e cobertura inferencial específica continuam pendentes.
 
 ## Ambiente
 

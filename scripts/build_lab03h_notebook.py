@@ -18,7 +18,7 @@ def build(commit):
 
     Preserva as amostras fixas 80/117, ativo/classe/ISIN, dez setores e ausências. Exclui março ou 2020-S1 apenas da primeira metade e mantém os mesmos 80 ativos recentes. Mostra valores-p brutos/ajustados, quantidades, incerteza, diagnóstico de escala/CDF e gráficos dos dez anos. CDF é exploratório e não substitui a inferência original.
 
-    O adendo sobre universo escolhido em 2015 e liquidez tem uma pendência separada: receber e reproduzir `teste_universo_2015.zip`. Este notebook não reproduz esse pacote nem certifica seleção, causalidade ou auditoria econômica global.
+    O pacote do adendo sobre universo escolhido em 2015 foi recebido; sua reconstrução é tratada separadamente no lote I. Este notebook reproduz H e não certifica seleção, causalidade ou auditoria econômica global.
     ''')
     setcell(1,''.join(cells[1]['source']).replace('lab03g','lab03h').replace('Lab03G','Lab03H'))
     setcell(2,'''
@@ -80,7 +80,9 @@ def build(commit):
 
     O ZIP inclui fontes, resultados, gráficos e hashes, sem a matriz privada de retornos. Será salvo em `alem_do_beta/lab03h_resultados`. **Salve também este notebook executado no Drive e envie o link da cópia.**
     ''')
-    setcell(9,''.join(cells[9]['source']).replace('lab03g','lab03h'))
+    export_code=''.join(cells[9]['source']).replace('lab03g','lab03h')
+    export_code=export_code.replace("print('Export:',export.name","with export.open('rb') as stream:os.fsync(stream.fileno())\nwith zipfile.ZipFile(export) as verify_zip:\n    assert verify_zip.testzip() is None\n    saved=json.loads(verify_zip.read('manifesto_exports.json'))\n    assert set(saved)==set(verify_zip.namelist())-{'manifesto_exports.json'}\n    for name,expected in saved.items():assert hashlib.sha256(verify_zip.read(name)).hexdigest()==expected,name\nprint('Export:',export.name")
+    setcell(9,export_code)
     nb['metadata']['colab']['name']='Lab03H_crise_calibracao.ipynb';return nb
 
 

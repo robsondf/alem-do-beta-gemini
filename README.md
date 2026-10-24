@@ -1,20 +1,19 @@
 # Além do Beta
 
-**Além do Beta Tradicional: Assimetria, Heterogeneidade Setorial e Risco em Ações Brasileiras**  
+**Além do Beta Tradicional: Assimetria, Liquidez e Seleção em Ações Brasileiras**  
 Robson Dias Ferreira — CMP609, PPGC/UFRGS.
 
 Esta é uma cópia selecionada do material de pesquisa já versionado em `robsondf/alem-do-beta`, destinada à avaliação do manuscrito. A seleção inicial foi seguida pelas revisões identificadas na proveniência; o lote F acrescenta análises pós-parecer, preservando os resultados e protocolos anteriores. Não contém a matriz privada de retornos ou downloads novos de cotações. O repositório de origem e os arquivos do Google Drive foram preservados.
 
-## Lab03H — quarto parecer e adendo de liquidez (24/10/2026)
+## H/I — adendo reproduzido e análise de liquidez (24/10/2026)
 
-[Resultados, resposta e próximos passos](docs/lab03h_parecer_v4.md). H executado e verificado localmente: exclusões de março/2020 e 2020-S1 apenas da metade inicial; mudança média +0,1254/+0,1456, p bruto 0,0602/0,0170 e nova Holm4 0,1794/0,0680 em 21 sessões. Famílias G4/H4 distintas; sinais preservados, detecção ajustada não uniforme. Diagnósticos de escala/CDF exploratórios, sem substituir inferência ou selecionar mecanismos favoráveis. 106 testes aprovados, dois skips históricos, zero falhas; verificador independente aprovado.
+[Resultados, métodos, limites e instruções](docs/lab03i_selecao_liquidez.md). Reprodução própria dos onze caches oficiais B3 (476,5 MB), 48 resultados externos e 83 marcações; nenhuma nova consulta B3/Yahoo. A variante interpretada preserva as sete lacunas documentadas, incluindo os cinco dias de direitos. Nos elegíveis da seleção fixa de 2015, média inicial −0,0857 (64) e mudança +0,0640 (46; Holm4=0,2576); não é uma estimativa causal de viés de seleção.
 
-**Artigo principal: 13 páginas, 29 referências, três figuras e cinco tabelas. Suplemento independente: 19 páginas, 29 referências, nove figuras e dez tabelas; 43 referências distintas no conjunto.** Principal Overleaf: `paper/main.tex` (`main.tex` se o conteúdo de `paper/` for enviado diretamente). Mantidos dez setores e gráfico anual completo 2016–2025; detalhes preservados no suplemento e no histórico Git.
+Associação pós-parecer na união elegível: liquidez inicial × assimetria +0,4928 (100) e × mudança −0,2876 (82), Holm8/21=0,0168/0,0344. Reamostragem síncrona preserva dependência; há deslocamento bootstrap e falta calibração específica. Sensibilidades com 1/5/10 defasagens são descritivas, com todos os casos/status preservados. As amostras principais 80/117, dez setores, ausências e famílias anteriores permanecem intactas.
 
-**Próxima execução do autor:** somente o novo `notebooks/Lab03H_crise_calibracao.ipynb`, em CPU; não repetir F/G/E nem os 6.000 geradores. Reutiliza o cache X do Drive. A execução H do autor permanece pendente; a conferência anterior G continua válida.
+**Próxima execução: somente `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU. Inclui H e I; não executar H separadamente ou repetir F/G/E e os 6.000 geradores.** Reutiliza X e `Além do Beta/cache_b3`; salvar notebook executado e ZIP no Drive. A preparação/integração local é distinta da execução do autor no Colab, ainda pendente.
 
-**Adendo de 2015:** evidência relatada pelo avaliador, ainda não reproduzida. O pacote `teste_universo_2015.zip` precisa ser fornecido para autenticar scripts, eventos, seleção, elegibilidade e inferência. As amostras originais não foram substituídas. Liquidez/seleção é explicação concorrente, não mecanismo causal já demonstrado. Auditoria global e KRR continuam incompletos.
-
+**Artigo principal: 15 páginas, 29 referências, quatro figuras e seis tabelas. Suplemento: 21 páginas, 29 referências, nove figuras e 12 tabelas; 43 referências distintas no conjunto.** Principal Overleaf: `paper/main.tex` (`main.tex` se o conteúdo de `paper/` estiver na raiz). Mantidos os dez setores e gráficos de todo 2016–2025. A suíte tem 108 aprovações, dois skips históricos, zero falhas; verificadores independentes aprovados. Auditoria econômica global, eventos/sucessões e calibração dos novos testes permanecem pendentes; KRR não implementado/avaliado.
 
 ## Colab G do autor conferido — 24/10/2026
 
@@ -36,7 +35,7 @@ Conferência externa:seis tabelas e66 vetores bootstrap,**1.595.778 valores conc
 
 ## Comece pelo artigo
 
-- [PDF principal](paper/main.pdf): edição H: 13 páginas, 29 referências citadas, três figuras e cinco tabelas. [Suplemento independente](paper/suplemento.pdf):19 páginas, 29 referências; 43 referências distintas no conjunto.
+- [PDF principal](paper/main.pdf): edição H/I: 15 páginas, 29 referências citadas, quatro figuras e seis tabelas. [Suplemento independente](paper/suplemento.pdf):21 páginas, 29 referências; 43 referências distintas no conjunto.
 - [Fonte principal LaTeX](paper/main.tex) e [corpo do artigo](paper/artigo_revisado.tex).
 - [Hipóteses e estimandos](docs/hipoteses_e_estimandos.md).
 - [Escopo da seleção e proveniência](docs/REPOSITORY_SCOPE.md).

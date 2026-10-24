@@ -114,6 +114,85 @@ ativo,480 registros de observações por período,84 diagnósticos CDF,
 84 coberturas por alvo/mecanismo,54 linhas de microestrutura e 1.920
 componentes algébricas de exposição. Nenhuma carteira ou perda esperada
 foi construída. As amostras e ausências permanecem as originais.
+
+\section{Reconstrução externa, seleção de 2015 e liquidez}
+O pacote externo recebido tem SHA256
+\path{8781dc2f8c7300c2bbdb4a620f73d3fa360f8724e0b39dc303aae1a01392e7d8}.
+Os três scripts foram lidos, sem executar seu código ou arquivos pickle.
+Uma implementação própria reproduziu os 48 resumos, ICs e valores-p
+sob as sementes externas; onze ZIPs oficiais foram autenticados contra
+os metadados do cache, totalizando 476.502.933 bytes. Não houve nova
+consulta B3/Yahoo. As marcações 83/83 coincidem, o que reproduz a regra,
+sem validar cada evento. A cópia pública mantém os resumos e entradas
+em retornos; matrizes diárias e ZIPs brutos permanecem externos.
+
+O cache amplo de liquidez produz 221 elegíveis em 2015; o filtro
+BDI02 do extrator recebido produz 211. O mesmo conjunto e a mesma
+ordem dos 80 eleitos são recuperados pelo volume por 246 sessões.
+Há códigos de BDI presentes no cache amplo e excluídos pelo extrator;
+por exemplo, MGEL4 aparece com códigos 08/58 no mercado 010.
+O código de seleção original não veio no pacote, portanto não se
+afirma equivalência de todo o universo candidato. Dividir por dias
+negociados muda a ordem de CRUZ3, que tem 226 sessões, mas não os 80
+selecionados neste caso. Campos de presença futura no arquivo externo
+não entram no ranking de 2015.
+
+A reconstrução literal contém variações finitas nos cinco dias de
+direitos e nos dois dias ANIM3 documentados. Elas são mudanças de cotação,
+sem identificação econômica suficiente. Uma variante separada impõe
+as sete ausências da referência X autenticada; não altera X, não
+interpola nem distribui pontes. As conclusões de seleção/liquidez
+no principal usam essa variante; as duas saídas completas são preservadas.
+Renomeações/ISINs candidatos não são encadeados apenas por proximidade
+de nome/data. Dos 38 exclusivos de 2015, só cinco cumprem os pisos
+nos dois quinquênios. Assim, seleção inicial não certifica ausência
+de sobrevivência ou perdas seletivas no contraste final.
+
+A correlação é recalculada após reestimar os coeficientes em cada
+sorteio síncrono. Os volumes de 2015 e o universo elegível observado
+permanecem condicionados. A incerteza diz respeito às estimativas
+temporais dos coeficientes, sem tratar ISINs como amostra iid.
+Não é um teste causal da trajetória de liquidez, nem controla porte
+e setor. A família Holm8 reúne as duas variantes e quatro associações,
+por bloco. Todas as sensibilidades são reportadas. O deslocamento
+bootstrap das correlações é material; a cobertura e o tamanho desses
+novos testes não foram calibrados. Sua execução conjunta corrige
+a suposição de independência entre ativos, sem transformar o desenho
+pós-observação em confirmação independente.
+
+\begin{table}[!htbp]\centering\small
+\caption{Associações de postos: p ajustado por Holm8 em cada bloco.
+Coortes originais/união, variantes literal e com lacunas. Viés é a
+diferença entre média bootstrap e ponto, bloco 21; não uma correção validada.}
+\input{tables/lab03i_associations.tex}
+\end{table}
+
+O oráculo independente usa OLS por regime e reamostragem explícita:
+960 pontos/status de ativo-período, 120 linhas de IC/p e 360 estatísticas
+de sorteios completos/correlações, diferença máxima $6,44\times10^{-15}$.
+Confere 120 vetores e 599.880 valores bootstrap, além das sete ausências.
+Isso não conclui a homologação econômica ou a validação inferencial.
+
+
+As projeções descritivas com $K=0,1,5,10$ usam interceptos por regime
+e somam as inclinações correntes/defasadas, com o regime do dia corrente.
+As defasagens são construídas em 2015--2025 antes de recortar cada janela;
+não há regressores futuros. Exigem-se pisos de pares/regimes/cobertura
+e posto completo. São 1.416 tentativas de ajuste por ativo, período e
+especificação; os status insuficientes são mantidos. O caso $K=0$
+reproduz a projeção por regime, e um oráculo ajusta separadamente cada
+regime para conferir os demais casos. A Tabela seguinte conserva todas
+as escolhas. Não há novos testes, calibração de cobertura ou alegação
+de que as somas estimem o mesmo parâmetro da projeção contemporânea.
+Retornos trade-to-trade não foram convertidos em retornos diários.
+
+\begin{table}[!htbp]\centering\small
+\caption{Sensibilidade descritiva a defasagens, variante com lacunas.
+$\rho$: correlação de postos com liquidez de 2015, sem valor-p iid.
+$K=0$ é a projeção contemporânea. Não são testes de robustez dos p originais.}
+\input{tables/lab03i_lags.tex}
+\end{table}
+
 \FloatBarrier
 \begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup
 \end{document}

@@ -223,6 +223,36 @@ e três painéis; os blocos correspondem a 21/5/63 sessões ou 4/1/13 semanas.
 Seu tamanho não foi calibrado. Fórmulas, resultados completos e demais
 sensibilidades permanecem no suplemento e nos exports.
 
+
+\subsection{Seleção anterior ao período e liquidez}
+Uma análise secundária reconstrói as cotações oficiais de 2015--2025,
+por ISIN, a partir de onze ZIPs B3 autenticados já existentes.
+Comparam-se os 80 originais com 80 escolhidos uma única vez pelo volume
+financeiro médio por sessão em 2015, exigindo presença em pelo menos
+90\% dos pregões daquele ano. Não se alteram os universos principais.
+A elegibilidade posterior é reportada separadamente por alvo; selecionar
+antes do período não elimina a seleção decorrente de perdas de identidade
+ou de cobertura. Mantêm-se somente pares de pregões consecutivos,
+sem distribuir retornos acumulados. Dividendos não são harmonizados;
+uma regra de extremos/fatores gera 83 marcações de eventos, ainda
+sem validação econômica integral. A reconstrução literal é um diagnóstico;
+a variante usada para interpretação preserva adicionalmente as sete
+ausências documentadas dos 80, incluindo os cinco dias de direitos.
+Não se substitui a referência auditada por essa máscara heurística.
+
+Calcula-se $\rho_S=\operatorname{Corr}(\operatorname{rank}V_{2015},
+\operatorname{rank}Y)$, para $Y=\Delta_{2016-2020}$ ou $\theta$.
+As coortes são os originais e a união fixa dos dois universos,
+com elegibilidade por alvo. Os 4.999 sorteios síncronos reestimam todos
+os coeficientes antes das correlações; os ativos não são reamostrados
+como observações independentes. Preservam-se os blocos 21/5/63 e os
+estratos temporais. Holm8 ajusta quatro associações em duas variantes
+por comprimento. Os testes são aproximações centradas; os ICs básicos
+são nominais e sua cobertura específica não foi calibrada. O protocolo
+foi declarado com os resultados externos e a correlação inicial conhecidos:
+é análise pós-parecer, não confirmação independente. Porte, setor e
+endogeneidade não são isolados por esses contrastes.
+
 \section{Resultados}
 \subsection{Níveis, ativos e comparação comum}
 A média de $\Delta $ na década é $-0,130668$, com $p_{Holm10}=0,0234$
@@ -377,6 +407,63 @@ Interceptos e resíduos também integram retornos; isso não é perda esperada
 de carteira, prêmio de risco ou equivalência econômica. Componentes
 por ativo e por exclusão são exportados, sem pesos empresariais.
 
+
+\subsection{Universo de 2015 e associação com liquidez}
+A reconstrução independente reproduz os 48 resultados agregados externos
+e as 83 marcações. A variante que preserva as lacunas dá resultados
+próximos, apresentados na Tabela~\ref{tab:selecao}.
+Na fonte COTAHIST, a média inicial é $-0,1685$ nos 78 originais elegíveis
+e $-0,0857$ nos 64 elegíveis da seleção de 2015. A mudança média é
+$0,1481$ em 77 pares originais e $0,0640$ em 46 pares do outro universo;
+os valores ajustados são 0,0392 e 0,2576. São famílias secundárias
+diferentes de F10: sua significância não pode ser comparada diretamente
+à do resumo integral original. Alteram-se composição, fonte, tratamento
+e precisão; essa comparação não estima isoladamente viés de seleção.
+
+\begin{table}[!htbp]\centering\small
+\caption{COTAHIST com lacunas preservadas, bloco 21. $p^*$: Holm4 para
+nível inicial/mudança e Holm2 para década; não é a família F10 original.
+A máscara de eventos permanece heurística.}
+\label{tab:selecao}\input{tables/lab03i_selection.tex}
+\end{table}
+
+Os universos compartilham 42 ISINs, dos quais 41 são elegíveis ao
+contraste pareado. Só cinco pares vêm dos 38 ISINs exclusivos da
+seleção de 2015; os originais exclusivos fornecem 36. Assim, o painel
+pareado alternativo também está condicionado à permanência de identidade
+e cobertura. Não rejeitar sua mudança não demonstra equivalência ou
+uma população sem mudança. Encadear sucessões sem documentação
+alteraria a unidade e não foi usado para aumentar o número de casos.
+
+Na união elegível, liquidez inicial e assimetria têm associação positiva
+($\rho_S=0,4928$, $N=100$), enquanto a associação com mudança é negativa
+($-0,2876$, $N=82$; Figura~\ref{fig:liquidez}). Os valores Holm8 no bloco
+21 são 0,0168 e 0,0344; os sinais e rejeições aproximadas persistem
+em 5/63. Nos originais, as correlações são 0,5304 e $-0,3142$, com
+78/77 casos e valores ajustados 0,0048/0,0344. Isso é compatível com
+uma explicação ligada a liquidez/seleção, sem identificar seu mecanismo
+ou contribuição causal. A reamostragem revela deslocamento da correlação:
+na união, diferenças entre média bootstrap e ponto de $-0,1054$ e
+$+0,0644$. Portanto, a dependência foi preservada, mas a validade
+inferencial específica ainda requer calibração; não se tratam esses
+intervalos ou rejeições como garantias gerais.
+
+Como sensibilidade descritiva, somam-se inclinações de projeções com
+1, 5 e 10 defasagens, construídas no calendário original. Nos originais,
+as médias iniciais passam a $-0,152$, $-0,297$ e $-0,295$; as associações
+com liquidez são 0,482/0,533/0,442. O sinal permanece, mas mudam o alvo
+cumulativo e a precisão. Esses ajustes não recebem os valores-p originais
+nem demonstram correção do viés de negociação infrequente. Especificações,
+status, observações e todos os resumos estão no suplemento e nos exports.
+
+\begin{figure}[!htbp]\centering
+\includegraphics[width=\textwidth]{lab03i_liquidez.pdf}
+\caption{Cada ponto é um ISIN elegível, sem pesos de empresas. Liquidez
+em 2015 e coeficientes reconstruídos com lacunas preservadas. Coortes
+e números diferem entre painéis; associação não identifica causalidade.}
+\label{fig:liquidez}
+\end{figure}
+
 \section{Discussão e limitações}
 A evidência mais consistente é a distinção entre níveis históricos
 agregados, heterogeneidade individual e sensibilidade temporal.
@@ -403,9 +490,10 @@ resolve incerteza econômica dos retornos.
 
 Seleção por liquidez de 2025, sobrevivência, versões revisadas e setores
 pequenos limitam a generalização. Hashes identificam versões, sem
-reconstruir dados disponíveis em cada data. A associação entre liquidez
-inicial e assimetria é uma explicação concorrente ainda não testada
-com inferência conjunta neste estudo. Comparar um universo escolhido
+reconstruir dados disponíveis em cada data. A associação entre liquidez inicial e assimetria recebe evidência
+na análise conjunta pós-parecer, condicionada às coortes e às aproximações
+utilizadas. Não se isola seu papel em relação a porte, setor, eventos
+e permanência de identidade. Comparar um universo escolhido
 antes de 2016 exige informar perdas de elegibilidade, identidade e
 composição, além de harmonizar fontes e eventos. Um contraste menor
 ou não rejeitado em outro universo não identifica sozinho viés de
@@ -426,7 +514,11 @@ A mudança média pareada é positiva, mas sua detecção ajustada depende
 da janela e da família: as duas exclusões de 2020 não rejeitam na
 escolha principal declarada. A mediana é mais sensível ao comprimento
 do bloco. A organização setorial e as medidas de risco descrevem
-heterogeneidade, sem estabelecer causas compartilhadas.
+heterogeneidade, sem estabelecer causas compartilhadas. A sensibilidade
+ao universo de 2015 e a associação com liquidez inicial mostram que
+a magnitude observada depende materialmente do desenho amostral e da
+mensuração. Esses achados não identificam uma mudança causal do risco
+ou demonstram que a liquidez explique uma fração determinada do efeito.
 
 O estudo oferece resultados empíricos reproduzíveis sob uma referência
 observada e documenta os limites dessa interpretação. Não estabelece
@@ -448,10 +540,14 @@ e versões, inclusive o manuscrito anterior de 25 páginas.
 As execuções do autor no Colab das etapas anteriores foram conferidas
 externamente. Na mais recente,1.595.778 valores concordaram com a
 preparação local sob tolerâncias registradas, com diferença máxima de
-$6,79\times10^{-15}$. As análises adicionais desta edição foram executadas
-e verificadas localmente; a execução do novo lançador pelo autor no Colab
-permanece pendente. Protocolos e resultados novos estão em\texttt{data/lab03h/}
-e na pasta de resultados correspondente. Reprodução computacional não
+$6,79\times10^{-15}$. As análises adicionais desta edição, incluindo a reconstrução dos
+onze arquivos B3 e a variante com lacunas, foram executadas e verificadas localmente; a execução do novo lançador pelo autor no Colab
+permanece pendente. Protocolos e resultados novos estão em\texttt{data/lab03h/},
+\texttt{data/lab03i/} e nas pastas de resultados correspondentes.
+O pacote externo recebido é identificado por hash; seus scripts não
+foram executados. As rotinas independentes usam os arquivos primários
+autenticados e entradas derivadas de retornos, com diferenças de filtro
+e elegibilidade documentadas no suplemento. Reprodução computacional não
 equivale a homologação econômica ou garantia inferencial geral.
 
 \section*{Uso de inteligência artificial}

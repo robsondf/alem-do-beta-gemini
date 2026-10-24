@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24",
+  "status": "post_review_before_joint_liquidity_association_pvalues;external48targets_already_reproduced;reported_union_early_Spearman0.49_known",
+  "independent_confirmation": false,
+  "liquidity": "2015 total financial volume /246 calendar market sessions;fixed observed ranks,not a future-volume covariate. Ties use average rank.",
+  "targets": "Spearman association of liquidity with early delta,and with paired theta;two fixed cohorts:original80 and union118. Eligibility follows each target's observed complete-case floors,not a new sample selection. Four targets per block choice,Holm4. Report actual N.",
+  "inference": "Use exactly the already declared synchronous session banks4999,21primary,5/63sensitivity;reestimate all individual deltas then ranks/correlations in each draw. No iid asset-correlation p,no asset bootstrap. Approximate centered two-sided p plus1,basic nominal95CI;size/coverage not calibrated for these statistics. Do not transfer G's calibration.",
+  "interpretation": "Conditional association in selected fixed cohorts;neither liquidity improvement nor survival/selection causality is identified. Size,sector,identity,event measurement and endogeneity remain. Terciles and active-day-liquidity alternatives are descriptive only;no posthoc controls or lag selection.",
+  "missing_liquidity": "Withhold inference if a cohort member lacks authenticated2015 financial-volume records;do not fill unknown liquidity with zero.",
+  "bootstrap_invalid": "Retain/flag invalid correlations and withhold their inference;no nanmean omission or redraw"
+}

@@ -1,5 +1,8 @@
 # Lab03H — quarto parecer e adendo sobre seleção/liquidez
 
+**Checkpoint H histórico.** O pacote de 2015 foi recebido posteriormente e reproduzido no [lote I](lab03i_selecao_liquidez.md), que registra diferenças, sete lacunas, associação conjunta e defasagens. Para a execução atual, usar somente o notebook I que inclui H. As pendências de recebimento descritas abaixo registram o estado anterior, já superado.
+
+
 Data: 24/10/2026. Bases: original `5cbb4bea8c327f42936673212444f52405905b8c`; pública `67858e47e1f5961c345684917ccd95f83cd51163`. Nova branch/PR nos dois repositórios, sem merge automático.
 
 ## O que foi efetivamente executado

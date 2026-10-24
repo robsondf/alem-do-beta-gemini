@@ -6,7 +6,7 @@
   "source_tree": "d975715d6e32029e6ee6b824fbd1b2acc89d282d",
   "intended_repository": "robsondf/alem-do-beta-gemini",
   "publication_state": "public_repository_created_by_author_review_branch",
-  "scope": "Selected original material and versioned post-review analyses F/G/H. H adds crisis sensitivity and exploratory calibration diagnostics, shortens the main article and records unverified external 2015/liquidity evidence. Original samples, missingness, frozen protocols and private financial matrices remain preserved.",
+  "scope": "Selected original GitHub material with F/G/H/I revisions. I independently reconstructs the external2015 universe experiment from existing authenticated Drive caches,protects seven documented gaps and adds post-review joint liquidity associations and descriptive lag sensitivities. No raw stock-price caches,daily stock-return matrices or I bootstrap banks are published. Original80/117 and frozen scientific protocols remain preserved.",
   "selected": [
     {
       "path": ".gitignore",
@@ -421,10 +421,10 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "b424c501a48a768bb3ca4abf12b41e24b6923d5f",
-      "bytes": 26605,
+      "git_blob_sha1": "f4765985cb5fd9bca3cfe8cc46cd77c03c78efb6",
+      "bytes": 32596,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "paper/artigo_revisado.tex",
@@ -467,6 +467,13 @@
           "bytes": 52287,
           "mode": "100644",
           "source_commit": "7d2e07e8d5f132510a27c621b2dcb3b928b830d2"
+        },
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "b424c501a48a768bb3ca4abf12b41e24b6923d5f",
+          "bytes": 26605,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
@@ -526,10 +533,10 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "8ddee6e57b4371f6ed1bc5e1eeb5c2369556ed03",
-      "bytes": 325388,
+      "git_blob_sha1": "a1f62b85e1aee6b7a190907239fb17334e5839eb",
+      "bytes": 352964,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "paper/main.pdf",
@@ -572,15 +579,22 @@
           "bytes": 465964,
           "mode": "100644",
           "source_commit": "7d2e07e8d5f132510a27c621b2dcb3b928b830d2"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "8ddee6e57b4371f6ed1bc5e1eeb5c2369556ed03",
+          "bytes": 325388,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
     {
       "path": "paper/main.tex",
-      "git_blob_sha1": "25239ffc9797801a4d54d57179dcf2671789b3f1",
-      "bytes": 3547,
+      "git_blob_sha1": "4db8b805379f010821e7f4253c371ccae27b0403",
+      "bytes": 3709,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "paper/main.tex",
@@ -601,6 +615,13 @@
           "bytes": 3185,
           "mode": "100644",
           "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+        },
+        {
+          "path": "paper/main.tex",
+          "git_blob_sha1": "25239ffc9797801a4d54d57179dcf2671789b3f1",
+          "bytes": 3547,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
@@ -10491,10 +10512,10 @@
     },
     {
       "path": "docs/resposta_pareceres_20261024.md",
-      "git_blob_sha1": "31ddaca72d6e173c3a18faf5d48c2cb2f5703355",
-      "bytes": 14603,
+      "git_blob_sha1": "30ff2244181d390498476c1d3f97284716a9bf8f",
+      "bytes": 14620,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "docs/resposta_pareceres_20261024.md",
@@ -10530,6 +10551,13 @@
           "bytes": 14327,
           "mode": "100644",
           "source_commit": "7d2e07e8d5f132510a27c621b2dcb3b928b830d2"
+        },
+        {
+          "path": "docs/resposta_pareceres_20261024.md",
+          "git_blob_sha1": "31ddaca72d6e173c3a18faf5d48c2cb2f5703355",
+          "bytes": 14603,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
@@ -10949,10 +10977,10 @@
     },
     {
       "path": "paper/suplemento.pdf",
-      "git_blob_sha1": "581ad2762c563b3ce47ad1e9acec503bbbf2790c",
-      "bytes": 437336,
+      "git_blob_sha1": "f27f8e0543bb1ca3808642901dccd985ce8a9eaf",
+      "bytes": 444900,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "paper/suplemento.pdf",
@@ -10960,15 +10988,22 @@
           "bytes": 275585,
           "mode": "100644",
           "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+        },
+        {
+          "path": "paper/suplemento.pdf",
+          "git_blob_sha1": "581ad2762c563b3ce47ad1e9acec503bbbf2790c",
+          "bytes": 437336,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
     {
       "path": "paper/suplemento.tex",
-      "git_blob_sha1": "67177ee330575d602c21c4579c162994ed146fe4",
-      "bytes": 6190,
+      "git_blob_sha1": "917af825732a7b1b3601c1969d77ff5be8df5808",
+      "bytes": 10771,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
       "prior_versions": [
         {
           "path": "paper/suplemento.tex",
@@ -10976,6 +11011,13 @@
           "bytes": 2017,
           "mode": "100644",
           "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+        },
+        {
+          "path": "paper/suplemento.tex",
+          "git_blob_sha1": "67177ee330575d602c21c4579c162994ed146fe4",
+          "bytes": 6190,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
         }
       ]
     },
@@ -11235,10 +11277,19 @@
     },
     {
       "path": "docs/lab03h_parecer_v4.md",
-      "git_blob_sha1": "d408f6fa7861137f9f2c40599b5e00f06aa47074",
-      "bytes": 10390,
+      "git_blob_sha1": "a016ff93baa66b39cfeaf41a30291a59011c7315",
+      "bytes": 10752,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
+      "prior_versions": [
+        {
+          "path": "docs/lab03h_parecer_v4.md",
+          "git_blob_sha1": "d408f6fa7861137f9f2c40599b5e00f06aa47074",
+          "bytes": 10390,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        }
+      ]
     },
     {
       "path": "paper/figures/lab02/lab03h_crise.pdf",
@@ -11445,10 +11496,19 @@
     },
     {
       "path": "scripts/build_lab03h_notebook.py",
-      "git_blob_sha1": "1bb5a5bd51c0175b7d58b4c1070a6b689a79e71a",
-      "bytes": 7618,
+      "git_blob_sha1": "b6614f30181d29a88e181efa1d2b33c7cacd511c",
+      "bytes": 8123,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
+      "prior_versions": [
+        {
+          "path": "scripts/build_lab03h_notebook.py",
+          "git_blob_sha1": "1bb5a5bd51c0175b7d58b4c1070a6b689a79e71a",
+          "bytes": 7618,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        }
+      ]
     },
     {
       "path": "scripts/plot_lab03h.py",
@@ -11484,6 +11544,356 @@
       "bytes": 2371,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+    },
+    {
+      "path": "data/lab03i/adendo_associacoes_v1.json",
+      "git_blob_sha1": "ce16e47ebd1f068b902a4045bee5e00ce99fd250",
+      "bytes": 1598,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/adendo_defasagens_v1.json",
+      "git_blob_sha1": "43921e5a61639e98c66f40ae9d83ca2c19e98235",
+      "bytes": 1297,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/adendo_lacunas_v1.json",
+      "git_blob_sha1": "8a4b26b5c6967fbd078264550c78b5d1e0b4eec2",
+      "bytes": 1178,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/adendo_medida_liquidez.json",
+      "git_blob_sha1": "337b8ed79cd3559aa29747deb24221e9acee7ecf",
+      "bytes": 843,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/b3_cache_manifest.json",
+      "git_blob_sha1": "b46265a9ced7eeec47524d43bc99b9675ecb6f19",
+      "bytes": 3930,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/compilacao.json",
+      "git_blob_sha1": "97e7d5681eba7733f3dc7f554f931409a469ab7b",
+      "bytes": 1831,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/inputs_manifest.json",
+      "git_blob_sha1": "177f0fc70d56a0d903c3099a25f2e280a9b93a79",
+      "bytes": 2941,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/plano_v1.json",
+      "git_blob_sha1": "65f6b4d24f86535610ad141125d6df9aa16d9e41",
+      "bytes": 3136,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/recebimento_pacote.json",
+      "git_blob_sha1": "94cf6fb8a1308e9587ca6ae281a212aae8588ffe",
+      "bytes": 1743,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/eventos_detectados.csv",
+      "git_blob_sha1": "cf4e15fd55e76ca698f4cbdae9da6ce2639aac2a",
+      "bytes": 4792,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/market_returns_2015_2025.csv.gz",
+      "git_blob_sha1": "323eff4403cc59ae2aad357b834ad1bd23acda99",
+      "bytes": 34099,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/por_ativo_originais_COTAHIST.csv",
+      "git_blob_sha1": "c009a0620cada1d3a5d662b9f934cea8cc10f0a1",
+      "bytes": 7689,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/por_ativo_universo_2015.csv",
+      "git_blob_sha1": "ad09d632e5d3fb763ea508e79c5c78b39c300027",
+      "bytes": 7393,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/resultados_agregados.csv",
+      "git_blob_sha1": "cb49e3868d52f5e49ac475e4d018a0d7b8acc25b",
+      "bytes": 5335,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/saidas_para_revisao.csv",
+      "git_blob_sha1": "ff16301ffe48f955c567eddd69aaa8d22b8fbf7b",
+      "bytes": 1013,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/review_reference/universo_2015.csv",
+      "git_blob_sha1": "6b05f1153ea79b8fc1715490412f1eae64bd7d1c",
+      "bytes": 7809,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/testes_locais.json",
+      "git_blob_sha1": "08192cc788079428a5d8eee4b26845f71b53ead6",
+      "bytes": 664,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "data/lab03i/validacao_local.json",
+      "git_blob_sha1": "b4d6f5bb3e107d86d956780f529b55a4d9553010",
+      "bytes": 5874,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "docs/lab03i_selecao_liquidez.md",
+      "git_blob_sha1": "5f62c342b90101a69adbab7e41bc2fdbd1144e4c",
+      "bytes": 8971,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "paper/figures/lab02/lab03i_liquidez.pdf",
+      "git_blob_sha1": "502f0045d97cc47112e458795cc76366b83fd4ac",
+      "bytes": 21248,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "paper/tables/lab03i_associations.tex",
+      "git_blob_sha1": "69dfa96a576288bc5b5cbc893859381ef3de2dd9",
+      "bytes": 782,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "paper/tables/lab03i_lags.tex",
+      "git_blob_sha1": "ed9db54faa123bacce9f1794638d49abf47ed84c",
+      "bytes": 647,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "paper/tables/lab03i_selection.tex",
+      "git_blob_sha1": "edf05ce7f5b9fc9d4509481c6b45c2a8ffb5bee1",
+      "bytes": 536,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/aggregate_reproduced.csv",
+      "git_blob_sha1": "18e6828d4ae439496eeefe6fa664df5da4e3377f",
+      "bytes": 5456,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/asset_liquidity.csv",
+      "git_blob_sha1": "32fdd8a78376d25cd952e079960a78425a45fd0d",
+      "bytes": 18545,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/assets_originais_COTAHIST.csv",
+      "git_blob_sha1": "b99eb7d5287f5582be298992a566262b03b6b36b",
+      "bytes": 7202,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/assets_universo_2015.csv",
+      "git_blob_sha1": "0d787160be35f52e98471c364d616f255a7e1260",
+      "bytes": 6900,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/associations.tex",
+      "git_blob_sha1": "69dfa96a576288bc5b5cbc893859381ef3de2dd9",
+      "bytes": 782,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/composition_groups.csv",
+      "git_blob_sha1": "554531b8f5386c21bc44ffc31eebd3538c5e4ae0",
+      "bytes": 239,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/documented_gaps.csv",
+      "git_blob_sha1": "18823bacac2ae12e57b9a6880cf9032325f9cca2",
+      "bytes": 307,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/events_reproduced.csv",
+      "git_blob_sha1": "cf4e15fd55e76ca698f4cbdae9da6ce2639aac2a",
+      "bytes": 4792,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/gaps_aggregate_reproduced.csv",
+      "git_blob_sha1": "bc4bc169b2f461c1f4fd7601689165b035aeff45",
+      "bytes": 5455,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/gaps_assets_originais_COTAHIST.csv",
+      "git_blob_sha1": "9d93169b6482f78be181d9ce709db9bd8ff59a30",
+      "bytes": 7201,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/gaps_assets_universo_2015.csv",
+      "git_blob_sha1": "7a686afd2ca8d723dc42725a55d7ee093e6362d3",
+      "bytes": 6898,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/gaps_liquidity_joint.csv",
+      "git_blob_sha1": "23e21ea97593850d13a53010856bfab10acf3d59",
+      "bytes": 1996,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/independent_verification.json",
+      "git_blob_sha1": "1f84e1a5293334872d5d13129468c7766f5511e5",
+      "bytes": 741,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/lag_asset_points.csv",
+      "git_blob_sha1": "55767ddb996b7ece73620ef51db0ff384f4858c4",
+      "bytes": 133687,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/lag_summary.csv",
+      "git_blob_sha1": "87fc29eb4b79737074897df076132d75d99df3af",
+      "bytes": 3052,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/lag_verification.json",
+      "git_blob_sha1": "812c0a11883b72ad0a16aaecab522b11d902bbda",
+      "bytes": 232,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/lags.tex",
+      "git_blob_sha1": "ed9db54faa123bacce9f1794638d49abf47ed84c",
+      "bytes": 647,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/liquidity_all_variants.csv",
+      "git_blob_sha1": "304bfd1490cae3caf7d83385454caf03808f2a40",
+      "bytes": 4479,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/liquidity_joint.csv",
+      "git_blob_sha1": "61124471cafd5bac58b3582c5bc688d0c4314063",
+      "bytes": 2001,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/replication.json",
+      "git_blob_sha1": "5454c8a6583e3c0f2a4626b9cddd9a7ef7d95ac9",
+      "bytes": 815,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "results/tables/lab03i_parecer_v4_20261024/selection.tex",
+      "git_blob_sha1": "edf05ce7f5b9fc9d4509481c6b45c2a8ffb5bee1",
+      "bytes": 536,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "scripts/build_lab03i_notebook.py",
+      "git_blob_sha1": "004db4f0060cf2ec7ed1a6c68cf5fa7bcc37544a",
+      "bytes": 9315,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "scripts/plot_review_2015.py",
+      "git_blob_sha1": "930169191030766b3cd330a9fec27727c8b5b74a",
+      "bytes": 4664,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "scripts/replicate_review_2015.py",
+      "git_blob_sha1": "402b6139f91fd5e3ec8e9b70ec1342a8c7b0296e",
+      "bytes": 13499,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "scripts/sensitivity_review_2015_lags.py",
+      "git_blob_sha1": "35914edf3da0ac4ac6599b921faa292c67fbdf34",
+      "bytes": 3746,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "scripts/verify_review_2015.py",
+      "git_blob_sha1": "d68e20ebb52227bdedb52a3806e7c0ea18ed0594",
+      "bytes": 8607,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "tests/test_review_2015.py",
+      "git_blob_sha1": "643635a09a9441e82966f8aa761327128234313f",
+      "bytes": 1828,
+      "mode": "100644",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
     }
   ],
   "revisions": [
@@ -11774,6 +12184,78 @@
       "author_Colab_H_executed": false,
       "external_2015_package_reproduced": false,
       "financial_matrices_not_published": true
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03I external reconstruction,gap-preserved sensitivity and joint liquidity association",
+      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
+      "prior_public_commit": "21e7ee5f37dac4181a19564d86d862fde167d88f",
+      "updated_paths": [
+        "docs/lab03h_parecer_v4.md",
+        "docs/resposta_pareceres_20261024.md",
+        "paper/artigo_revisado.tex",
+        "paper/main.pdf",
+        "paper/main.tex",
+        "paper/suplemento.pdf",
+        "paper/suplemento.tex",
+        "scripts/build_lab03h_notebook.py"
+      ],
+      "added_paths": [
+        "data/lab03i/adendo_associacoes_v1.json",
+        "data/lab03i/adendo_defasagens_v1.json",
+        "data/lab03i/adendo_lacunas_v1.json",
+        "data/lab03i/adendo_medida_liquidez.json",
+        "data/lab03i/b3_cache_manifest.json",
+        "data/lab03i/compilacao.json",
+        "data/lab03i/inputs_manifest.json",
+        "data/lab03i/plano_v1.json",
+        "data/lab03i/recebimento_pacote.json",
+        "data/lab03i/review_reference/eventos_detectados.csv",
+        "data/lab03i/review_reference/market_returns_2015_2025.csv.gz",
+        "data/lab03i/review_reference/por_ativo_originais_COTAHIST.csv",
+        "data/lab03i/review_reference/por_ativo_universo_2015.csv",
+        "data/lab03i/review_reference/resultados_agregados.csv",
+        "data/lab03i/review_reference/saidas_para_revisao.csv",
+        "data/lab03i/review_reference/universo_2015.csv",
+        "data/lab03i/testes_locais.json",
+        "data/lab03i/validacao_local.json",
+        "docs/lab03i_selecao_liquidez.md",
+        "paper/figures/lab02/lab03i_liquidez.pdf",
+        "paper/tables/lab03i_associations.tex",
+        "paper/tables/lab03i_lags.tex",
+        "paper/tables/lab03i_selection.tex",
+        "results/tables/lab03i_parecer_v4_20261024/aggregate_reproduced.csv",
+        "results/tables/lab03i_parecer_v4_20261024/asset_liquidity.csv",
+        "results/tables/lab03i_parecer_v4_20261024/assets_originais_COTAHIST.csv",
+        "results/tables/lab03i_parecer_v4_20261024/assets_universo_2015.csv",
+        "results/tables/lab03i_parecer_v4_20261024/associations.tex",
+        "results/tables/lab03i_parecer_v4_20261024/composition_groups.csv",
+        "results/tables/lab03i_parecer_v4_20261024/documented_gaps.csv",
+        "results/tables/lab03i_parecer_v4_20261024/events_reproduced.csv",
+        "results/tables/lab03i_parecer_v4_20261024/gaps_aggregate_reproduced.csv",
+        "results/tables/lab03i_parecer_v4_20261024/gaps_assets_originais_COTAHIST.csv",
+        "results/tables/lab03i_parecer_v4_20261024/gaps_assets_universo_2015.csv",
+        "results/tables/lab03i_parecer_v4_20261024/gaps_liquidity_joint.csv",
+        "results/tables/lab03i_parecer_v4_20261024/independent_verification.json",
+        "results/tables/lab03i_parecer_v4_20261024/lag_asset_points.csv",
+        "results/tables/lab03i_parecer_v4_20261024/lag_summary.csv",
+        "results/tables/lab03i_parecer_v4_20261024/lag_verification.json",
+        "results/tables/lab03i_parecer_v4_20261024/lags.tex",
+        "results/tables/lab03i_parecer_v4_20261024/liquidity_all_variants.csv",
+        "results/tables/lab03i_parecer_v4_20261024/liquidity_joint.csv",
+        "results/tables/lab03i_parecer_v4_20261024/replication.json",
+        "results/tables/lab03i_parecer_v4_20261024/selection.tex",
+        "scripts/build_lab03i_notebook.py",
+        "scripts/plot_review_2015.py",
+        "scripts/replicate_review_2015.py",
+        "scripts/sensitivity_review_2015_lags.py",
+        "scripts/verify_review_2015.py",
+        "tests/test_review_2015.py"
+      ],
+      "author_Colab_I_executed": false,
+      "external2015_raw_reconstruction_completed_locally": true,
+      "causal_liquidity_or_independent_confirmation": false,
+      "raw_financial_matrices_published": false
     }
   ]
 }

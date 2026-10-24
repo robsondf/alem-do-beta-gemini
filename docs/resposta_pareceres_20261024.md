@@ -1,6 +1,6 @@
 # Resposta técnica aos pareceres independentes — 24/10/2026
 
-Estado atual: [Lab03H — quarto parecer e adendo de seleção/liquidez](lab03h_parecer_v4.md). As respostas anteriores abaixo permanecem históricas. Exclusões de 2020 e diagnósticos concluídos localmente; experimento externo de 2015 aguarda o pacote mencionado no PDF.
+Estado atual: [H/I — reconstrução do adendo, liquidez e sensibilidade à seleção](lab03i_selecao_liquidez.md). Lotes executados/verificados localmente; preparação do único Colab H/I e execução do autor são etapas distintas. As respostas anteriores abaixo permanecem históricas.
 
 
 **Atualização posterior: o lote F foi efetivamente executado e conferido localmente.** A matriz abaixo registra a primeira resposta documental; seus estados pendentes devem ser lidos junto ao [fechamento empírico F](lab03f_pos_parecer.md), que acrescenta inferência agregada, crise2020, modelos dinâmicos/semanal/contínuo, g/EP e Holm das máscaras. Recibos e resultados anteriores não foram reescritos. Colab F do autor executado e conferido em24/10/2026; evidências em `data/lab03f/validacao_colab_20261024.json`.

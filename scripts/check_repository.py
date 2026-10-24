@@ -30,6 +30,12 @@ def verify_snapshot():
     pins = json.loads((ROOT / 'data/lab03e/runtime_manifest.json').read_text())
     for path, digest in pins.items():
         assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+    extra_pins = {}
+    for stage in ['lab03h','lab03i']:
+        lock = json.loads((ROOT / 'data' / stage / 'inputs_manifest.json').read_text())
+        for path, digest in lock['source_pins'].items():
+            assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+        extra_pins[stage] = len(lock['source_pins'])
     internal = {p.stem for p in (ROOT / 'src').glob('*.py')}
     for path in [*(ROOT / 'src').glob('*.py'), *(ROOT / 'scripts').glob('*.py')]:
         tree = ast.parse(path.read_text())
@@ -49,6 +55,8 @@ def verify_snapshot():
     return {'selected_source_files_verified': len(manifest['selected']),
             'revision_artifacts_verified': len(manifest.get('revision_artifacts', [])),
             'frozen_E_pins_verified': len(pins),
+            'H_source_pins_verified': extra_pins['lab03h'],
+            'I_reproduction_pins_verified': extra_pins['lab03i'],
             'internal_imports_and_article_dependencies': 'passed'}
 
 

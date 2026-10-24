@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "production_imported": false,
+  "eligible_2015_submitted_BDI02_filter": 211,
+  "reported_broad_liquidity_cache_eligible": 221,
+  "top80_exact_order_reproduced": true,
+  "asset_period_points_and_flags_checked": 960,
+  "complete_CI_p_rows": 120,
+  "explicit_row_resampled_aggregate_and_rank_statistics": 360,
+  "max_direct_draw_difference": 6.439293542825908e-15,
+  "documented_missing_cells_protected": 7,
+  "bootstrap_vectors_verified": 120,
+  "bootstrap_values": 599880,
+  "separate_regime_lag_fits_checked": 1076,
+  "max_lag_difference": 1.6542323066914832e-14,
+  "scope": "Computational/measurement consistency;not calibrated association size/coverage,economic event validation or causal selection identification"
+}

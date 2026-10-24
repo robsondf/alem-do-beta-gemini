@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "scope": "Correction of input interpretation after the2015 liquidity-only cache was read;not an outcome-dependent change",
+  "plan_v1_sha256": "f12d34c8edc53d6bbb52abd8dfcbd6e69201efda1d49cb2cde9e9ecb59f308af",
+  "finding": "Submitted vol_med is2015 total financial volume divided by246 market sessions,not divided by the number of active days. CRUZ3 trades226 days;other selected assets246. Active-day ranking changes order but produces the same80 ISIN set.",
+  "replication_rule": "Use calendar-day mean for exact submitted ranking;document active-day alternative separately. Both definitions are input diagnostics,not a choice based on beta significance.",
+  "eligible_2015_count_recomputed_from_cached_liquidity": 221,
+  "top80_set_matches": true,
+  "new_2016_2025_returns_reconstructed_at_this_point": false
+}
