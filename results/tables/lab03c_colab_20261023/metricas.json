@@ -1,0 +1,22 @@
+{
+  "stage": "Lab03C",
+  "replications_per_mechanism": 1000,
+  "mechanisms": 3,
+  "primary_cases": 197,
+  "unique_synthetic_paths_per_replication": 117,
+  "lag_configurations": 3,
+  "effect_patterns": 9,
+  "optimized_contrast_evaluations": 591000,
+  "grid_inference_evaluations": 15957000,
+  "calibration_rows": 1773,
+  "power_rows": 15957,
+  "family_rows": 81,
+  "panel_rows": 162,
+  "runtime_seconds": 141.73206768700015,
+  "temporal_family_474_calibrated": false,
+  "empirical_return_matrices_modified": false,
+  "independent_preregistration": false,
+  "real_data_global_homologated": 0,
+  "out_of_sample_prediction_tested": false,
+  "equivalence_tested": false
+}

@@ -1,0 +1,99 @@
+{
+  "stage": "Lab03",
+  "base_main": "9414f4de3bfd0efe2a29ba98c2933061a0ebce4f",
+  "colab_validated": false,
+  "scope": "local preparation; conditional on observed reference; not equivalence or future persistence",
+  "notebook": {
+    "cells": 21,
+    "code_cells": 9,
+    "exceptions": 0,
+    "tests": 14,
+    "png_outputs": 4,
+    "environment": "local IPython; not Colab validation",
+    "clean_notebook_sha256": "a1c04c85d2ae69bf1a53eccd7d74f3d15540a25afc62ba92d982279692f6e759",
+    "executed_notebook_sha256": "c7123b578917266e07c298b9f293434f765534918fa8c9edf7b44ce29362042b"
+  },
+  "independent_check": {
+    "annual_rows_checked": 17850,
+    "annual_estimable": 17847,
+    "annual_insufficient": 3,
+    "annual_direct_max_difference": 1.7985612998927536e-14,
+    "joint_models_checked": 800,
+    "joint_direct_max_difference": 3.0531133177191805e-16,
+    "family_slots_checked": 4740,
+    "common_direction_rows_reused_checked": 1600,
+    "rolling_rows_checked": 32708,
+    "rolling_direct_max_difference": 2.1871393585115584e-14,
+    "source_production_modules_imported": false,
+    "global_homologated": 0,
+    "scope": "conditional_temporal_tests_not_equivalence_or_future_persistence"
+  },
+  "cli_notebook_byte_equal": {
+    "annual.csv": "676225c40e62c6b3d859c110580a3fb12491b1c95c56fa9b009c776ebf69280a",
+    "resumo_publicacao.csv": "9fc564190f1de4bb321c86d6cda11bea1448b64f8c3e1111cdbbfd2e5e37ccd3",
+    "temporal_family.csv": "c130725b59643a53b476964478c16feeb9580062ee63b8ba82b6bcdabd63fd83",
+    "summary.csv": "63322e75de243651b4845ae5ca61fb91b2f1e54de4302347c3c5eee8637fe70d",
+    "rolling.csv": "2aaf12f3cff0eddc07fdf69018e9326ba5d25bf195f0aafdb0a86547e99dbf92",
+    "common_directions.csv": "a016bd241279ea6f2138db3477aa8f3bcb236d522a2ee92a895fbbf221739daf",
+    "halves.csv": "4a3c5a795dc89f8d28028ab863b4892331a20b1b89427b71e3fb64536df18dfd",
+    "metricas.json": "cb90ec78433e60016563a3ac52832c7b147db08b6e5cbcd55ca685f9774ea4b9",
+    "figures/lab03_anual_decada.png": "6e414dc71c393fcff36e24b60fc92cc0cf9f73ea56f6c0286ff9cbec3e42a935",
+    "figures/lab03_anual_recente.png": "913c10ff7534d5db906ce3cd53e3f3be6216b1ceacbe1c7ea8d7fd018deacce1",
+    "figures/lab03_rolling_wege3.png": "5eca8d414f549c9cecd17eb8569ebc14305c16867790bedd09cd14659b76674f",
+    "figures/lab03_theta80.png": "72be50b9cf59c8ecf1807867bafb87dbcb3dbcd85078f21e5a8d1128be177757",
+    "annual_primary.csv.gz_rows": 1785,
+    "rolling_wege3.csv.gz_rows": 370
+  },
+  "embedded_pngs_match_exports": 4,
+  "output_manifest_files_authenticated": 18,
+  "latex": {
+    "pages": 111,
+    "references": 185,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "2d41e50b4cab5e5cec8a36fe0b0e3c313eb1208009b15cf59ac457fcd052214a",
+    "new_pages": [
+      84,
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  "pdf_pages_visually_inspected": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "overleaf_unique_sources": 90,
+  "paper_files_changed_or_new": [
+    "paper/README.md",
+    "paper/README_overleaf.txt",
+    "paper/figures/lab02/lab02y_eventos.pdf",
+    "paper/figures/lab02/lab02y_incerteza.pdf",
+    "paper/figures/lab02/lab02y_simples_log.pdf",
+    "paper/figures/lab02/lab03_anual_decada.pdf",
+    "paper/figures/lab02/lab03_anual_recente.pdf",
+    "paper/figures/lab02/lab03_rolling_artigo.pdf",
+    "paper/figures/lab02/lab03_rolling_wege3.pdf",
+    "paper/figures/lab02/lab03_theta80.pdf",
+    "paper/global_lab02n.tex",
+    "paper/global_lab02y.tex",
+    "paper/main.tex",
+    "paper/references.bib",
+    "paper/temporal_lab03.tex"
+  ],
+  "full_results_zip": {
+    "sha256": "5cf1beccd53615fa9d7f4ecbb48db3426aa75359c1a25ee4179755df813a33e1",
+    "bytes": 14478782
+  },
+  "overleaf_zip": {
+    "sha256": "e3eca872daaaac5fa8f19952492a23f165a6edd6460bff5ee08c22d9c99d7009",
+    "bytes": 1323094
+  },
+  "confirmatory_global_data_gate_passed": false,
+  "global_homologated": 0
+}

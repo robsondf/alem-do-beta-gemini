@@ -1,0 +1,13 @@
+{
+  "stage": "Lab03D",
+  "x_drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+  "b_drive_id": "1hhLvxQpAnEGopDvnt1Mh9IbkV0gYt9Gb",
+  "x_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "b_sha256": "645946c0bfee05cc7cbbc34b63af74700fcc7e0a3d3ac14ee7aaa398323fa26d",
+  "plan_sha256": "f60b8422654df4cb27eccf69bacde50be23289cab4116a0396011ebf7daf0891",
+  "reference_c_colab_record_sha256": "9c1f5c806b34d2153ae593b03c317f04f6e2058a6dafbe931713a06cba569878",
+  "envelope_addendum_sha256": "d6d1df31e9fec714f44abeec66f61ad75117b17a09cc2374ac73e311b7f99777",
+  "temporal_lfc_addendum_sha256": "d3f1a9dc3169d47b3f8f2840b50cccf1ae2de2033f5f48d95edca8a85a1073be",
+  "causal_guard_addendum_sha256": "68d23baf9ba304bb54a3bc59639c68df72bc67bbcc52258f8dfa293c6902613f",
+  "equivalence_classes_addendum_sha256": "019f36cb690f0b50e27e9a6be16fd1347ab55a1e4508803c160ba49c4aaa2ca5"
+}

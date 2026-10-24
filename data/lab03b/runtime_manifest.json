@@ -1,0 +1,58 @@
+{
+  "stage": "Lab03B",
+  "package_sha256": "69c67b5837a11c2a7d870c9f08ac34648a61af6cb557b37d2b6aefc91606cd6d",
+  "files": {
+    "data/lab02/lab02y_inputs_manifest.json": {
+      "bytes": 1286,
+      "sha256": "2881c3a83b96e4bcd8829d282f6dbfe740e490dc80073b25502317bcfa4d446b"
+    },
+    "data/lab03/validacao_colab_20261023.json": {
+      "bytes": 5983,
+      "sha256": "6a17c43efea7a4a96e4f45155d65e1cee9bc326adcd66bd825e44ad7d3a3df75"
+    },
+    "data/lab03b/inputs_manifest.json": {
+      "bytes": 1735,
+      "sha256": "5bbb2d2aff5615de0924fbc0cdadd5a777f7217743c6e629369341919ad4d3e9"
+    },
+    "data/lab03b/material_aula.json": {
+      "bytes": 1227,
+      "sha256": "21990314ee237bd15b24efaa6f33397455777e2b9e83c7ff3b30dd73b53df8f5"
+    },
+    "data/lab03b/plano_v1.json": {
+      "bytes": 2093,
+      "sha256": "dfeeb35148e7b6c671146dcb873da4d7a77b52079caf85f0b7aa860dac1492d5"
+    },
+    "scripts/plot_lab03b.py": {
+      "bytes": 9996,
+      "sha256": "95d9fae42014e728bda17adcbe1a5fc14b05df823e4d0d9d0915c9c9828786ca"
+    },
+    "scripts/run_lab03b.py": {
+      "bytes": 1002,
+      "sha256": "4ecab02cab10d1e73d31d43948118da37963b67957e422f02578bda1d4afb07b"
+    },
+    "scripts/validate_lab03b_outputs.py": {
+      "bytes": 6854,
+      "sha256": "33988fad42cecf5878783075b3887abf90c62d284f91f5b639be90737beb01a7"
+    },
+    "src/lab02.py": {
+      "bytes": 24544,
+      "sha256": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f"
+    },
+    "src/lab02_analysis.py": {
+      "bytes": 28578,
+      "sha256": "3931f6f0bc42f464f9e8697b0dfc99ace33e974a55a7a8a56bc5f6457c4f6e2a"
+    },
+    "src/lab02_robustness_suite.py": {
+      "bytes": 10398,
+      "sha256": "bf9581eb6ef58f02489889821b8e3ce34842a217befb9feb7cd260d1dac56f0e"
+    },
+    "src/lab03b.py": {
+      "bytes": 13632,
+      "sha256": "af5271ec50f162924045aedb8243867cb42edcd1604435201adad301ee643a2d"
+    },
+    "tests/test_lab03b.py": {
+      "bytes": 2919,
+      "sha256": "7c6aeb2f5267a76bd285866aa398100d14e21385863b07f2b350b70633ac1020"
+    }
+  }
+}

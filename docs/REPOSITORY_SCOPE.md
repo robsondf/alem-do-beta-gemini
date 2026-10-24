@@ -1,0 +1,23 @@
+# Escopo desta cópia
+
+Origem fixa: `robsondf/alem-do-beta`, commit `c21b086b976ec11549fb4feb211099e0d78c61cc`, após o merge do PR #85. Destino criado pelo autor: `robsondf/alem-do-beta-gemini`, com visibilidade pública observada em 24/10/2026.
+
+## Critério de seleção
+
+Mantiveram-se o manuscrito principal e suas dependências LaTeX, os módulos usados no escopo final e seus imports internos, testes, scripts de execução/verificação, protocolos, recibos e resultados efetivos das etapas temporal, setorial/de risco, C, D e E. As 49 fontes do runtime E foram preservadas, inclusive dependências documentais e o notebook D exigidos por esse runtime.
+
+As tabelas em `results/tables/*_colab_20261023/` são os espelhos já presentes no GitHub, inclusive versões compactadas. Não são novos downloads dos resultados no Drive. Manifestos antigos continuam descrevendo os exports integrais originais; seus membros não devem ser confundidos com o subconjunto que existe nesta cópia.
+
+Omitiram-se duplicatas de preparação local, notebooks de investigação anteriores sem dependência no runtime final, figuras não usadas no artigo, o dossiê histórico e a cronologia administrativa de acompanhamento. Esses arquivos não foram apagados da origem. A omissão não significa que suas evidências tenham sido invalidadas ou que as limitações documentadas tenham sido resolvidas.
+
+## Registro auditável
+
+`provenance/selection.json` identifica cada arquivo selecionado e cada arquivo omitido da árvore original, com caminho, tamanho e SHA-1 do objeto Git. As razões de omissão descrevem o recorte desta cópia. Novos textos de navegação e o verificador de empacotamento são identificados separadamente.
+
+Nenhum código de estimação, teste original, protocolo congelado, resultado, figura ou fonte do manuscrito foi editado. Não houve execução de novos experimentos financeiros. O PDF é o mesmo da origem. Referências a repositório privado, recibos locais e arquivos externos são preservadas como fatos da versão examinada, sem atribuir disponibilidade pública aos respectivos dados.
+
+## Materiais externos
+
+Nenhum arquivo do Google Drive foi copiado, movido, apagado ou teve suas permissões alteradas. Identificadores e hashes já registrados no GitHub permanecem nos manifestos. A disponibilidade de um identificador não significa autorização de acesso ou redistribuição.
+
+O histórico completo de commits não foi importado. A identificação do commit e os hashes preservam a ligação verificável com a versão de origem, sem transportar todo o histórico para o novo repositório.

@@ -1,0 +1,88 @@
+{
+  "stage": "Lab03D",
+  "checkpoint": "local full computations; cached notebook integration verified; Colab pending",
+  "base_main": "e4c9aea23c8166f858dbd21d19b431a566222db2",
+  "merged_pr": 79,
+  "branch": "feat/lab03d-inferencia-previsao-20261023",
+  "colab_url": "https://colab.research.google.com/drive/1w0sjp8llBGjpGrJgkVEZXpkOZFasz2U8",
+  "notebook_drive_id": "1w0sjp8llBGjpGrJgkVEZXpkOZFasz2U8",
+  "notebook_sha256": "8ee5147c232efd43cdf1299d1059b5e8d43dc0a673b33381ab33e736b177a43f",
+  "runtime_drive_id": "1u5_My2iJgdcnx8VDFnpqkaYd4YXlA7gD",
+  "runtime_sha256": "2f897764224f1e225e7bcd778eac2ee2127953d3946a09fff08998af9ed05879",
+  "runtime_sources": 22,
+  "results_local_sha256": "5d6d250697098b8d7fce93824f1b773e825a18580f5e1bd4e682ab02cb43cb51",
+  "results_local_bytes": 196716921,
+  "exports_authenticated": 62,
+  "pdf_drive_id": "1FMbsY6O1x0eM5hee0_uMP7R39NlLhuKA",
+  "pdf_sha256": "975115907b20c648d08bcb37d4b28242a1891a5618c7d3db856f64612b82aaba",
+  "pdf_pages": 23,
+  "pdf_references": 32,
+  "pdf_figures": 8,
+  "pdf_tables": 5,
+  "overleaf_drive_id": "1SJMS9NMMluP2Dq6JyEuKwSnFDh26084o",
+  "overleaf_sha256": "49f4bc905a39d34cbf2faa88d885b5c533bb03ce92500cce866a1bdf261880d5",
+  "overleaf_sources": 109,
+  "overleaf_main": "main.tex",
+  "notebook_verification": {
+    "environment": "local cached notebook verification",
+    "fresh_generators_in_this_notebook_execution": false,
+    "colab_executed": false,
+    "code_cells": 10,
+    "errors": 0,
+    "output": "/workspace/scratch/5eabb55dee06/work_lab03d/run_20261023T191252Z/outputs",
+    "export": "/workspace/scratch/5eabb55dee06/work_lab03d/run_20261023T191252Z/resultados_lab03d_20261023T191551Z.zip",
+    "runtime_seconds": 183.62915819199952
+  },
+  "pinned_sources": {
+    "inherited_source_checks": 21,
+    "unique_inherited_files": 20,
+    "all_unchanged": true,
+    "new_runtime_pins": 22
+  },
+  "tests": 16,
+  "colab_execution_verified": false,
+  "requires_new_notebook_execution": true,
+  "original_primary_replaced": false,
+  "global_homologated": 0,
+  "distribution_free_error_control": false,
+  "finite_model_rank_scope": true,
+  "predictive_intervals_nominal_calibrated": false,
+  "prospective_untouched_holdout": false,
+  "all_limitations_eliminated": false,
+  "automatic_merge": false,
+  "results_delivery": {
+    "parts": [
+      {
+        "name": "replicates.npz",
+        "bytes": 86082288,
+        "sha256": "6765fc182280813955fd8650a595826377cf0bbbf8302dff1ace51c0172dbe21",
+        "drive_id": "10rR-n73abGENn2HEOEUBUlc5EALVgozZ",
+        "url": "https://drive.google.com/file/d/10rR-n73abGENn2HEOEUBUlc5EALVgozZ/view"
+      },
+      {
+        "name": "envelope_replicates.npz",
+        "bytes": 63305602,
+        "sha256": "195f47b141102ff6f08fe28c969c6ce757340afb6627798154c9387c5c3e3862",
+        "drive_id": "13zrN8dBhLqf3lE_kU3ielQlg9zP_dpPK",
+        "url": "https://drive.google.com/file/d/13zrN8dBhLqf3lE_kU3ielQlg9zP_dpPK/view"
+      },
+      {
+        "name": "resultados_lab03d_tabelas_previsoes_20261023.zip",
+        "bytes": 47328805,
+        "sha256": "26160d46816ce7068f2ce11d3f458fbc7adaf8b9627452e1fb08038b77af7514",
+        "drive_id": "1L1ySD9FkfVA2WJwov56hwKGP_eQUhIej",
+        "url": "https://drive.google.com/file/d/1L1ySD9FkfVA2WJwov56hwKGP_eQUhIej/view"
+      }
+    ],
+    "combined_original_manifest_members_verified": 62,
+    "full_original_zip_sha256": "5d6d250697098b8d7fce93824f1b773e825a18580f5e1bd4e682ab02cb43cb51",
+    "reason": "connector per-file transfer limit100MiB; full scientific contents preserved across3components"
+  },
+  "results_local_zip_uploaded_as_single_file": false,
+  "results_components_readback_verified": true,
+  "results_readback_sha256": {
+    "core": "6765fc182280813955fd8650a595826377cf0bbbf8302dff1ace51c0172dbe21",
+    "envelope": "195f47b141102ff6f08fe28c969c6ce757340afb6627798154c9387c5c3e3862",
+    "tables": "26160d46816ce7068f2ce11d3f458fbc7adaf8b9627452e1fb08038b77af7514"
+  }
+}

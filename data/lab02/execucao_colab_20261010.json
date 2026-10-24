@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "gerado_em": "2026-10-11T00:26:55.466818+00:00",
+  "config": {
+    "min_pairs": 200,
+    "min_regime": 60,
+    "min_coverage": 0.95,
+    "min_market_variance": 1e-12,
+    "hac_lags": 5,
+    "confidence": 0.95
+  },
+  "lab01_version": "lab01_fechamento_direitos_20261010_r2",
+  "inputs": {
+    "schema": 1,
+    "lab01_commit": "26126014142f755c0e483a50ced1e948946f0bdb",
+    "versao_lab01": "lab01_fechamento_direitos_20261010_r2",
+    "origem": "Drive: fechamento_20261010, gerado em 2026-10-10T02:22:06.090070+00:00",
+    "conferido_em": "2026-10-10",
+    "sha256_arquivos": {
+      "amostras_paineis.csv": "2756a50353c81da6bfe05808d705e272f396782cf3db91861930683e5d77e13a",
+      "cobertura_paineis_anual.csv": "d0dcc338ed1b93a14bf990a8382c400b5060e256d1bc9a32d8ad2ac81d00c4a1",
+      "comparacao_paineis.csv": "9021e6a126cde5c1920809aa06e09577c536b53c8b0d75156ecf010dd48be00d",
+      "decada/amostra_fixa.csv": "39e5e17adf4fc9b911a3d37d5cc1c99c9efd8e54ab33424d61fee1a5475ada01",
+      "decada/precos_ajustados.csv.gz": "900fb3e2eaf519e04014637975030d85e95bd8e541b3791af0d3198715e5f5a1",
+      "decada/retornos_logaritmicos.csv.gz": "333c0d986079bb8de769a0754093dcc74281d4887d36a8b02c324231b0d0ac79",
+      "decada/retornos_simples.csv.gz": "829b987dcee3c7dd92658368f032e56bcce26d8f6b1ad2d12999a0607edfe6ec",
+      "decada_periodo_comum/amostra_fixa.csv": "39e5e17adf4fc9b911a3d37d5cc1c99c9efd8e54ab33424d61fee1a5475ada01",
+      "decada_periodo_comum/precos_ajustados.csv.gz": "b37e9c1e026f7b21b40166e34b4b80294c78a6e115f3b8d76098fbfabc3d02c6",
+      "decada_periodo_comum/retornos_logaritmicos.csv.gz": "65eecb34e6c9cc8863df8763c5496359426443baf4e7a8c4fe4df0eb6baf791c",
+      "decada_periodo_comum/retornos_simples.csv.gz": "02b138f15ea78b061693b95575610cf197c54fce05fd1c23a5d03550aa67280b",
+      "estado_reconciliacao.json": "0565e39f60142b8ff5eba32b7a360618896b9fdc35b531c042d08ab3c27d11ff",
+      "exclusoes_retornos_direitos.csv": "5e87ba67bd1a8f13298591bced29a0a853e645c39b82ec754af9abcae8af7803",
+      "fatores_ajuste_jcp_bruto.csv": "7de75d0009560a7cc53d170418df20a973e9ebf24fb2d49a2ea5d7da7a27e237",
+      "fatores_ajuste_jcp_liquido_diagnostico.csv": "d140fc782ef928ffc310cddec7ff6f169315a2f7709394f4ef3172063283dee2",
+      "pontes_acumuladas_direitos.csv": "3f820c3aa04a294b8a6a1ebe9bb25b32c98e302065b49c71aead597c4f88b5b4",
+      "proveniencia.json": "ca55e59c74ed389345721eb4aba343881560ac6c99358a1bc8981087b0f732eb",
+      "recente/amostra_fixa.csv": "7cc6ed8d30cace8201aa2c4aff8fc2f3d3a4e5148da38acc3ffceebfe3156357",
+      "recente/precos_ajustados.csv.gz": "bd0ea63a125055acc1795504f7582f0b01c261f2aa689f975142447283fecda8",
+      "recente/retornos_logaritmicos.csv.gz": "7f9e6fdd95ad3394fc9e6810ba82a127bca02e83511d2ed3d388225ef412ceed",
+      "recente/retornos_simples.csv.gz": "eb2aa2fb97c8308457109e21eae26c04615cf2d7a62601b5ad007ebb0de9c963",
+      "resumo_selecao.csv": "d5886f3c98e583ab0de6ea080376d43d5fb06101a98ab49de2b8a40d20b4c6fe"
+    }
+  },
+  "module_sha256": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f",
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3"
+  },
+  "n_baseline_rows": 277,
+  "n_sensitivity_rows": 3753,
+  "holm_family_size": 197,
+  "auditoria_global_completa": false,
+  "apto_betas_definitivos": false,
+  "resultados_empiricos_executados": true,
+  "persistencia_testada": false,
+  "limitations": [
+    "Amostras retrospectivas, sobrevivência e liquidez final de 2025",
+    "Cinco retornos diários não identificados preservados",
+    "Inferência HAC assintótica; pisos não garantem poder nem estabilidade",
+    "ICs marginais, Holm para 197 hipóteses; sensibilidades exploratórias",
+    "Distribuições entre ativos descritivas; classes compartilham emissores",
+    "JCP líquido é diagnóstico local de quatro históricos; harmonização global pendente",
+    "Frequência semanal usa patrimônio ajustado observado nas extremidades",
+    "Light Q4 é janela conservadora, não calendário contratual certificado"
+  ],
+  "outputs": {
+    "betas.csv": "9417425f65ce73205f33d2d1773c41fc4391e4e621f0799958b7fbbec9a22fb5",
+    "sensibilidades.csv": "156eeaeeb4b4ca1caa8038b321775a3d4b596e8743f4723b69c2eb100b898da0",
+    "comparacao_ativos_compartilhados.csv": "86ba5d9b32fc5e46864dc322230d5b72f13c2b574e453b4111d4b505558fa7fd",
+    "comparacao_distribuicoes.csv": "7b1e976537a4b63276cfe275d7fb2bcd573b833fee9f1c0499b253df7507d15f",
+    "mascaras_sensibilidade.csv": "d2a33e11db13ea6c5ff643009c2117df27a36d4dd75ad71f2ced3ed975205e0e",
+    "lacunas_preservadas.csv": "5e87ba67bd1a8f13298591bced29a0a853e645c39b82ec754af9abcae8af7803"
+  }
+}

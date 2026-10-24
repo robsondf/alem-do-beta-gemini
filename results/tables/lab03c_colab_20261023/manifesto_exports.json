@@ -1,0 +1,22 @@
+{
+  "asset_nuisance.csv": "35619bcb177e7be8e35b98bb8edbef910ae15b4a509a862406a2429be38ff20e",
+  "calibration.csv": "981f3b0756a66532ff1936e9c59e545a11536270273c8044ab268b885b690041",
+  "design.csv": "0c58f977ca6d69ec2603e588f9c3686d0ec3c2a8397f3bce0c18567b971ccad8",
+  "family.csv": "06833963acf5f0113d14865bab356a3da52e9368d25c6b7d32cd5eeb73993c41",
+  "figures/lab03c_calibracao.pdf": "2d3c6d6117a51d16672666c3f8bd4dc501ee350891dc81678fd5f7de99418a38",
+  "figures/lab03c_calibracao.png": "47a7e6b6b2af1225abae595ecef7c10028ccba9108ab9b6233249a6aa53642d4",
+  "figures/lab03c_esparso.pdf": "9eab86c27c35055a575b40ffbef16dc47eff1bf4a82a848411cead9c65af0932",
+  "figures/lab03c_esparso.png": "62b5dbb96a7ca4f091fe372e7df8ed5222acac9a1cb5d76dd539df86e5912f62",
+  "figures/lab03c_rejeicao.pdf": "b8896bad13a600fe11f2bdd55376b601aa9d17d05b6cb35bf8564ec5c719b077",
+  "figures/lab03c_rejeicao.png": "1f0cd1fd15b4f41115518480148cfa8393ecbd85bdab8c084dfc657609010594",
+  "inputs_manifest.json": "62752095545ee01930714a397160b60dff28176de55d18e7d1a9bca941fcd5dd",
+  "lab03c_resumo.tex": "9c786af53ff654d24bf8403ed8d0061b8b023153500f41fd2ba2d5593953ac1e",
+  "metricas.json": "91e8dc3221596524e95ebc9be5de810febb57f74119665c08c21aa1312228d25",
+  "panel_summary.csv": "77ddd98829145bf0b2faa10a1b817ce71402b17084649121c6051b3fe61bcd6f",
+  "plano_v1.json": "bf543ac51b2a1f1f3093fbd6702f4a983b5cb8c32c9d5980036aaae0b8eed72c",
+  "power.csv": "800942bfa980c18be235283e9ac9233fcca7a21905ef88396b878c19fe724a9b",
+  "registro_execucao.json": "3990b257c07be6446c676e741dcad56b897d3ae82bbc8564eeba0242d37052c1",
+  "replicates.npz": "9eaa16edd4a18ff272d754868ffba8fb573112c6e27077fc683bf4447b55ed2e",
+  "runtime_manifest.json": "f53d78de5d44395eea0a4c6dbb06e610169c36ecd97d527e59145f1f97c3596b",
+  "validacao_independente.json": "fa2b1c48d49b5fc2201d8d159f1bea5209140ffcd3ef5cb868ccbf8ac0e1cbb3"
+}

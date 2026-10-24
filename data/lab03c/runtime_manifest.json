@@ -1,0 +1,11 @@
+{
+  "src/lab03c.py": "715b9cd9cec7d41a54d129fde497c14a68013a66e80a337317d91c8a2c4b20dd",
+  "src/lab02.py": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f",
+  "scripts/run_lab03c.py": "4d9e188a42d387fa5fef5510860eb76a3c29490b0b5cf1c2dce96a4d77036f36",
+  "scripts/plot_lab03c.py": "4c18df0972b3eb87a6f9b483ce62eeb9e3aa55a4675c0d8d13d73c1c58646e30",
+  "scripts/validate_lab03c_outputs.py": "78c4a6112097a95ae8cc2c19b9bf054996c783f666383506c93709e485a82d6f",
+  "scripts/export_lab03c.py": "903485261ecf82abfc3b906db0e569179b6e8cbf8a4985a07397c43bc6701970",
+  "tests/test_lab03c.py": "5dd35606a640b0cec7366d46306cb3cbc3497a1ede7914fc5cc32e3c68f14c85",
+  "data/lab03c/plano_v1.json": "bf543ac51b2a1f1f3093fbd6702f4a983b5cb8c32c9d5980036aaae0b8eed72c",
+  "data/lab03c/inputs_manifest.json": "62752095545ee01930714a397160b60dff28176de55d18e7d1a9bca941fcd5dd"
+}

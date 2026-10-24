@@ -1,0 +1,51 @@
+{
+  "consulted_local_date": "2026-10-23",
+  "timezone": "America/Sao_Paulo",
+  "systematic_review": false,
+  "studies_replicated": false,
+  "sources": [
+    {
+      "key": "ang2004working",
+      "url": "https://www.ruf.rice.edu/~yxing/version1.2.pdf",
+      "version": "26 July 2004",
+      "scope": "Author working paper; definition equation 5, introduction and appendix B-8 consulted",
+      "supports": "Excess market return conditioned below its mean; explicitly different convention from this study",
+      "not_claimed": "Full final 2006 article was not newly accessed; journal metadata/abstract used for general motivation"
+    },
+    {
+      "key": "leviwelch2020",
+      "url": "https://academic.oup.com/rfs/article/33/6/2772/5571734",
+      "scope": "Publisher open text; abstract, introduction and section1.1 revisited",
+      "supports": "Distinguish realized exposure, subsequent downside beta and risk-pricing evaluation",
+      "not_claimed": "Our next-return forecast is not a direct replication of its future-beta test"
+    },
+    {
+      "key": "fortunato2010",
+      "url": "https://www.scielo.br/j/ram/a/zx6qrdMPfn8YgG95Dh983MQ/?lang=pt",
+      "scope": "Primary SciELO text; abstract and methods/sample/variables revisited",
+      "supports": "50 securities; monthly returns January1995-November2006; risk and cost-of-capital cross-section/panel design",
+      "not_claimed": "No replication or claim that its downside measures are our conditional slopes"
+    },
+    {
+      "key": "atilgan2018",
+      "url": "https://research.sabanciuniv.edu/id/eprint/37241/",
+      "scope": "Institutional abstract and bibliographic metadata only; PDF restricted to repository staff",
+      "supports": "Global downside-beta/return research context",
+      "full_text_read": false
+    },
+    {
+      "key": "hollstein2020",
+      "url": "https://research.uni-hannover.de/de/publications/estimating-beta-the-international-evidence/",
+      "scope": "Institutional abstract and metadata only",
+      "supports": "Global/local beta estimation, frequency/window and forecasting context",
+      "full_text_read": false
+    },
+    {
+      "key": "wang2023",
+      "url": "https://academic.oup.com/rof/article/27/1/325/6516548",
+      "scope": "Publisher abstract and introduction revisited",
+      "supports": "Option-based bear-risk factor differs from daily conditional market regression",
+      "not_claimed": "No import of its factor/estimand or empirical estimates"
+    }
+  ]
+}

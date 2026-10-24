@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all_sensitivity_fits_checked": 1970,
+  "exact_delete_one_identities": 197,
+  "max_delete_one_error": 5.828670879282072e-15,
+  "source_rows": 46,
+  "old_html_rows_reconciled": 5,
+  "old_html_rounding_tolerance": 5.1e-07,
+  "global_homologated": 0,
+  "no_lab03e_production_imports": true
+}

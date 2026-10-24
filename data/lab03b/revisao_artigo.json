@@ -1,0 +1,30 @@
+{
+  "latex": {
+    "pages": 14,
+    "references": 21,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "806c5e3a3e0867897832d84e0171073a6fba4bafce7a8400107499495de886cd",
+    "new_pages": []
+  },
+  "all_final_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "source_count": 102,
+  "overleaf_zip_sha256": "0b13654abaabf94664404da79cb1a5eeca57e1728123ac73ee2f4e97c4e5ce04",
+  "historical_dossier_pdf_sha256": "3b39d46ea9912f5bdbff7063f987e8ef4cc7632e8aef5dd27929f203c9fe9147",
+  "historical_dossier_not_current_scientific_status": true
+}

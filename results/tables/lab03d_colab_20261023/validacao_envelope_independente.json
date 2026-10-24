@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "independent_of_production_rank_imports": true,
+  "bank_unique_designs": 25,
+  "all_case_mapping_signatures_verified": 1262,
+  "full_design_oracle_fits": 4926,
+  "max_first_calibration_statistic_difference": 9.936496070395151e-15,
+  "summary_numeric_values_recalculated": 67888,
+  "bank_and_validation_streams_independent": true,
+  "finite_model_class_scope_only": true,
+  "global_homologated": 0,
+  "runtime_seconds": 31.82208089200003
+}

@@ -1,0 +1,122 @@
+{
+  "stage": "Lab03D",
+  "written_utc": "2026-10-23T18:12:49.721828+00:00",
+  "base_main": "e4c9aea23c8166f858dbd21d19b431a566222db2",
+  "authorization": "Improve inference, assess temporal calibration and add time-ordered predictive evaluation; preserve fixed samples and documented gaps",
+  "original_empirical_and_lab03c_results_known": true,
+  "independent_preregistration": false,
+  "new_stage_results_not_yet_generated": true,
+  "seed_entropy": 2026102304,
+  "replications": 1000,
+  "mechanisms": [
+    {
+      "name": "gaussian_iid",
+      "distribution": "normal variance1",
+      "phi": 0.0,
+      "heteroscedastic": false
+    },
+    {
+      "name": "student_hetero",
+      "distribution": "t5 scaled sqrt(3/5)",
+      "phi": 0.0,
+      "heteroscedastic": true
+    },
+    {
+      "name": "student_ar",
+      "distribution": "t5 scaled sqrt(3/5)",
+      "phi": 0.3,
+      "heteroscedastic": true
+    }
+  ],
+  "dgp": "Identical market-fixed117-path DGP/calibration to Lab03C, with new independent seed; same valid masks and overlapping paths",
+  "static": {
+    "cases": 197,
+    "baseline": "HAC5 normal + Holm197, unchanged",
+    "candidate": "HC3-adjusted residual score e/(1-h), Bartlett5, retain n/(n-4); marginal normal95 + Holm197",
+    "joint_candidate": "Gaussian dependent-score multiplier max|t| on HC3-HAC5 covariance; single-step197 simultaneous inference, no extra Holm",
+    "multipliers": 999,
+    "seed_rule": "SeedSequence([2026102304,mechanism,replication,991]); empirical data tag[2026102304,9,0,991]",
+    "covariance": "Master-calendar contrast score columns scaled sqrt(n/(n-k)); Bartlett covariance via padded6-session moving sums; Cholesky if SPD else numerical PSD eigenfactor with no nonnumerical truncation",
+    "critical": "rank p=(1+count(maxima>=abs(t)))/(B+1), strictp<.05; CI critical sorted maxima index950 for B999",
+    "effects": "Seven dense delta values[-.5,-.25,-.1,0,.1,.25,.5] and sparse±.25 on first12 unique papel_id, as Lab03C",
+    "policy": "Report all methods/effects, no replacement of empirical primary after seeing new significance; no uniform validity claim"
+  },
+  "temporal": {
+    "family": 474,
+    "methods": [
+      "HAC5",
+      "HC3_HAC5"
+    ],
+    "unique_annual_cases": 985,
+    "theta_cases": 80,
+    "annual_cases_in_original_two_panels": 1385,
+    "annual_common_reused": true,
+    "patterns": [
+      "zero",
+      "constant_positive_.25",
+      "constant_negative_.25",
+      "early_negative_late_positive_.25",
+      "sparse_positive_.25"
+    ],
+    "theta": "Delta_late-Delta_early; joint8parameter residuals, original calendar, n/(n-8)",
+    "direction": "Positive/negative IUT across all10/5 years; joint Holm474 with80 theta positions",
+    "scope": "Calibrate original finite-sample procedure and leverage-adjusted sensitivity; not equivalence or future persistence"
+  },
+  "prediction": {
+    "target": "Next-session observed log wealth return, asset by asset; genuine ex-ante algorithmic forecast conditional on retrospective data universe",
+    "forecast_information": "At close t-1. Betas/asset mean and market AR1 fitted at previous-month last session, using past252sessions primary,504 sensitivity. Only current-day feature is previous-session market return.",
+    "market_model": "AR1 OLS intercept and lag using market dates inside training window only; empirical centered fitted innovations from that window. Integrate each beta model over next-market predictive distribution; never use realised next-session market/sign as feature.",
+    "models": [
+      "zero",
+      "historical_mean",
+      "traditional_market",
+      "conditional_market"
+    ],
+    "training": "Traditional and conditional asset regressions use same valid nonzero-market training pairs; two/fourcolumns nested. min200pairs,60/regime,95%coverage, variance1e-12. If gate fails, both market forecasts use historical mean and flag fallback; never remove asset.",
+    "neutral_market_prediction": "If forecast market distribution has exact0 mass, pooled traditional intercept at that mass; never future observed sign.",
+    "test_periods": {
+      "decada": "2019-2025",
+      "recente": "2024-2025",
+      "common80": "2024-2025 exact subset/reuse of117; same rolling windows"
+    },
+    "configs": [
+      "N252",
+      "N504",
+      "gap_guard252",
+      "LightQ4252",
+      "jcp_duas_celulas_documentadas252",
+      "jcp_condicional252",
+      "jcp_rendimento_caixa_baixo252",
+      "jcp_rendimento_caixa_alto252"
+    ],
+    "gap_guard": "Exclude training/target cells at original missing dates and±1B3session for that asset; all original gaps remain absent",
+    "LightQ4": "Sensitivity only: mask LIGT3 2024Q4 in training/evaluation, matching previous documented sensitivity; preserve reconciled primary return",
+    "scores": [
+      "MSE",
+      "MAE",
+      "R2OS versus zero and historical mean",
+      "raw squared-loss gain traditional minus conditional"
+    ],
+    "regime_reporting": "Full/observed market positive/negative evaluated after forecasts; realised sign used only to slice evaluation, never as predictor",
+    "uncertainty": "Exploratory marginal percentile synchronous moving-block bootstrap of fixed forecast loss paths,1999draws per panel, block21 primary/42/63 sensitivity for N252/N504; same dates for all assets; common80 reuses117; no confirmatory p or simultaneous-coverage claim",
+    "bootstrap_seed": "SeedSequence([2026102304,701,window,panel,block]); retain missing masks, no redraw/drop",
+    "outputs": "Daily predictions both N windows; all folds and per-asset/annual/regime scores for all8configs; primary curves/uncertainty; no trading strategy, RF, Sharpe or costs",
+    "leakage_tests": [
+      "Future-return and future-market perturbation cannot affect earlier forecasts",
+      "max training date<target date and previous-market date<target date",
+      "Common80 forecasts identical to117 subset",
+      "Masks retained; no current realised market passed to forecast engine"
+    ],
+    "limitations": "Historical pseudo-OOS: all data years already inspected; selection by2025liquidity/survival and revised-provider vintages remain. No claim of historically tradable point-in-time universe, untouched test or prospective validation."
+  },
+  "numerical_validation": "Independent full-design OLS/HAC oracles including HC3 and temporal8columns; direct covariance equivalence for multiplier; full-fold forecast recalculation and anti-leakage metamorphic tests; authenticate cached inputs",
+  "reporting": "Freeze protocol before new outcomes. Report adverse results and Monte Carlo uncertainty. More simulations do not add market observations. Document remaining limitations individually; never declare all eliminated.",
+  "data_limits": [
+    "Retrospective composition/survival unchanged",
+    "No issuer aggregation, weights or annual selection",
+    "All original NaNs preserved, no daily bridge reconstruction",
+    "Global economic homologation0/197 remains until new documentary proof",
+    "ANIM3/FRAS3/identity/quantity/borders/conflictV not resolved by inference or prediction"
+  ],
+  "global_homologated": 0
+}

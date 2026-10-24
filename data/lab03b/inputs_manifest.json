@@ -1,0 +1,24 @@
+{
+  "stage": "Lab03B",
+  "base_main": "d4bff453033c39ceea1947e257bc69adb634310b",
+  "x_drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+  "y_drive_id": "1QJMiQfXuQgpaZPlL0t1hWBHhI6-hia-1",
+  "lab03_drive_id": "1W0rvgRAmDwbLYY4f85j2ySgMj_mBg1m5",
+  "x_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "y_sha256": "ab7d72b779e1e0dc4cf279618dd1dbac30f12aed3c114024631b337780e06d32",
+  "lab03_sha256": "b974fb8ec7192adf7bf4368ee4d2829f13ed9f803d967adf79aac69135083813",
+  "repo_files": {
+    "src/lab02.py": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f",
+    "src/lab02_analysis.py": "3931f6f0bc42f464f9e8697b0dfc99ace33e974a55a7a8a56bc5f6457c4f6e2a",
+    "src/lab02_robustness_suite.py": "bf9581eb6ef58f02489889821b8e3ce34842a217befb9feb7cd260d1dac56f0e",
+    "src/lab03b.py": "af5271ec50f162924045aedb8243867cb42edcd1604435201adad301ee643a2d",
+    "scripts/run_lab03b.py": "4ecab02cab10d1e73d31d43948118da37963b67957e422f02578bda1d4afb07b",
+    "scripts/plot_lab03b.py": "95d9fae42014e728bda17adcbe1a5fc14b05df823e4d0d9d0915c9c9828786ca",
+    "scripts/validate_lab03b_outputs.py": "33988fad42cecf5878783075b3887abf90c62d284f91f5b639be90737beb01a7",
+    "tests/test_lab03b.py": "7c6aeb2f5267a76bd285866aa398100d14e21385863b07f2b350b70633ac1020",
+    "data/lab02/lab02y_inputs_manifest.json": "2881c3a83b96e4bcd8829d282f6dbfe740e490dc80073b25502317bcfa4d446b",
+    "data/lab03/validacao_colab_20261023.json": "6a17c43efea7a4a96e4f45155d65e1cee9bc326adcd66bd825e44ad7d3a3df75",
+    "data/lab03b/plano_v1.json": "dfeeb35148e7b6c671146dcb873da4d7a77b52079caf85f0b7aa860dac1492d5",
+    "data/lab03b/material_aula.json": "21990314ee237bd15b24efaa6f33397455777e2b9e83c7ff3b30dd73b53df8f5"
+  }
+}

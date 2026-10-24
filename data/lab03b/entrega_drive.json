@@ -1,0 +1,73 @@
+{
+  "stage": "Lab03B",
+  "date": "2026-10-23",
+  "base_main": "d4bff453033c39ceea1947e257bc69adb634310b",
+  "folder_id": "1kAPlpmnedTOdDx6wunZ7nl0YEqf3tAR9",
+  "colab_url": "https://colab.research.google.com/drive/1HDCYfrleonKcsMT5BL2TCcgKsTYiYAP5",
+  "colab_validated": false,
+  "scientific_main": "paper/main.tex",
+  "historical_dossier": "paper/main_dossie.tex",
+  "paper_pages": 14,
+  "paper_references": 21,
+  "overleaf_unique_sources": 102,
+  "readback": [
+    {
+      "kind": "runtime",
+      "drive_id": "1UsIkq60ZNQqWVznfqbnbOsSRFpciZRcr",
+      "sha256": "69c67b5837a11c2a7d870c9f08ac34648a61af6cb557b37d2b6aefc91606cd6d",
+      "bytes": 41107,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "manifest",
+      "drive_id": "1ZPrV0-pu3GcTNS6kew1giaIJr58c0sOU",
+      "sha256": "7e84b52a33ed337f25e624f27d1210c96ef0d4a9cd595150b7580a0b839aeb92",
+      "bytes": 2043,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "notebook",
+      "drive_id": "1HDCYfrleonKcsMT5BL2TCcgKsTYiYAP5",
+      "sha256": "c35b8b545bf432b8c3ebbc19de0cb99c6c3924a0b685ec8072b5a0060f0d38d5",
+      "bytes": 18670,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "results",
+      "drive_id": "1fygBAbGYlqWJVmBjU8Vd2QnPO9vtKGHq",
+      "sha256": "27c791a7a8ed34dd38d979ad13423b7f6b9443d7eece3ef5faffd3cc594fe808",
+      "bytes": 2078517,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "snapshot",
+      "drive_id": "1dWc5bXq6mD3Abimx4KlIvc6v1E6PI-pf",
+      "sha256": "f59d1dabb03aa5c80fb9ec07dab442893143ee3d3391064137e8b4984bc2c7bf",
+      "bytes": 2197169,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "pdf",
+      "drive_id": "1FMbsY6O1x0eM5hee0_uMP7R39NlLhuKA",
+      "sha256": "806c5e3a3e0867897832d84e0171073a6fba4bafce7a8400107499495de886cd",
+      "bytes": 357229,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "overleaf",
+      "drive_id": "1SJMS9NMMluP2Dq6JyEuKwSnFDh26084o",
+      "sha256": "0b13654abaabf94664404da79cb1a5eeca57e1728123ac73ee2f4e97c4e5ce04",
+      "bytes": 1587891,
+      "readback_byte_equal": true
+    },
+    {
+      "kind": "class_pdf",
+      "drive_id": "1VGXcQB0d1Y-s4XqQ54qwyMJLgV5JUQPN",
+      "sha256": "0a0702202e493877f0089b03ce026211217241ea1421a95bdd9fce2a8849367c",
+      "bytes": 4169461,
+      "readback_byte_equal": true
+    }
+  ],
+  "data_gate_passed": false,
+  "global_homologated": 0
+}

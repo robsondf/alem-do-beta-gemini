@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "independent_production_imports": true,
+  "limiting_iut_families": 36,
+  "finite_iut_families": 24,
+  "tail_count_rows": 6741,
+  "theta_reserved_not_validated_by_boundary_diagnostic": 80,
+  "tail_intervals_pointwise_not_simultaneous": true
+}

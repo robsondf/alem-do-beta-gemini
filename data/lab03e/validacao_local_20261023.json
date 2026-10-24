@@ -1,0 +1,102 @@
+{
+  "stage": "Lab03E local preparation",
+  "base_main": "2ea7203c9f5b2afd7e193fdbcd979ad588fc3871",
+  "author_Colab_executed": false,
+  "tests": 11,
+  "test_result": "passed",
+  "independent_verifiers": {
+    "validacao_inferencia_independente.json": {
+      "passed": true,
+      "full_OLS_sandwich_fits": 15594,
+      "all_family_rows": 102,
+      "all_tail_intervals": 6741,
+      "bank_shape": [
+        3,
+        99999,
+        25
+      ],
+      "maximum_bank_statistic_difference": 2.4646951146678475e-14,
+      "no_lab03e_production_imports": true
+    },
+    "validacao_previsao_independente.json": {
+      "passed": true,
+      "exact_full_quadratic_risks": 2364,
+      "reconstructed_gain_values": 4728,
+      "direct_bootstrap_vectors": 35982,
+      "all_observed_interval_rows": 1182,
+      "common_reuse_rows": 480,
+      "family_rows": 36,
+      "asset_coverage_rows": 14184,
+      "temporal_origins_verified": 19056,
+      "no_lab03e_production_imports": true,
+      "conditional_market_only": true
+    },
+    "validacao_economia_independente.json": {
+      "passed": true,
+      "all_sensitivity_fits_checked": 1970,
+      "exact_delete_one_identities": 197,
+      "max_delete_one_error": 5.870304242705515e-15,
+      "source_rows": 46,
+      "old_html_rows_reconciled": 5,
+      "old_html_rounding_tolerance": 5.1e-07,
+      "global_homologated": 0,
+      "no_lab03e_production_imports": true
+    }
+  },
+  "notebook_integration": {
+    "cells": 17,
+    "code_cells": 11,
+    "exceptions": 0,
+    "tests": 11,
+    "local_cached_generators": true,
+    "independent_verifiers_reused_after_actual_pass": true,
+    "is_user_Colab": false,
+    "all_source_cells_identical": true,
+    "export_sha256": "9109008620433b8aec6b1b5a15dd9e761fed1a78bc75ae4204338dee6f97784c",
+    "export_bytes": 408443614,
+    "runtime_seconds": 10.294342770000185
+  },
+  "paper": {
+    "overleaf_sources": 123,
+    "updated_or_added_sources": 18,
+    "overleaf_sha256": "8eeb2a6ec35c65a8694915810469b54945cd0d7f142e2c0ff37e3e30c5271983",
+    "pdf_sha256": "7b94f2cf9ff9a8cbaddbdda8090dd4ec4563e4f4ee921b81f703d197f96eff34",
+    "latex": {
+      "pages": 27,
+      "references": 34,
+      "undefined": false,
+      "overfull_lines": [],
+      "pdf_sha256": "7b94f2cf9ff9a8cbaddbdda8090dd4ec4563e4f4ee921b81f703d197f96eff34"
+    },
+    "visual_review": {
+      "all_pages_rendered_and_decoded": 27,
+      "contacts_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "detailed_changed_pages_inspected": [
+        8,
+        21
+      ],
+      "defects_observed": 0
+    }
+  },
+  "runtime_files": 49,
+  "export_members_authenticated": 57,
+  "all_five_PNGs_pixel_identical_to_paper": true,
+  "original_D_sources_immutable": true,
+  "original_primary_replaced": false,
+  "global_homologated": 0,
+  "all_limitations_eliminated": false,
+  "Drive_readbacks_verified": {
+    "runtime": true,
+    "notebook": true,
+    "paper": true,
+    "overleaf": true,
+    "all_five_export_parts": true,
+    "reassembled_original_export_sha256": "9109008620433b8aec6b1b5a15dd9e761fed1a78bc75ae4204338dee6f97784c"
+  }
+}

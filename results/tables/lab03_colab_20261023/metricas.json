@@ -1,0 +1,20 @@
+{
+  "stage": "Lab03",
+  "source_x_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "source_y_sha256": "ab7d72b779e1e0dc4cf279618dd1dbac30f12aed3c114024631b337780e06d32",
+  "configurations": 10,
+  "annual_rows": 17850,
+  "joint_half_rows": 800,
+  "temporal_family_rows": 4740,
+  "family_size_per_configuration": 474,
+  "common_direction_rows_reused": 1600,
+  "rolling_rows": 32708,
+  "missing_values_filled": false,
+  "global_homologated": 0,
+  "temporal_tests_computed": true,
+  "temporal_interpretation": "conditional_on_observed_reference",
+  "independently_preregistered": false,
+  "equivalence_tested": false,
+  "future_persistence_tested": false,
+  "confirmatory_global_data_gate_passed": false
+}

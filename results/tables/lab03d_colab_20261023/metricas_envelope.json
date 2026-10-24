@@ -1,0 +1,22 @@
+{
+  "stage": "Lab03D rank envelope",
+  "unique_bank_designs": 25,
+  "design_counts": {
+    "annual": 14,
+    "static": 7,
+    "theta": 4
+  },
+  "mapped_static": 197,
+  "mapped_annual": 985,
+  "mapped_theta": 80,
+  "equivalence_max_difference": 5.773159728050814e-15,
+  "calibration_per_mechanism": 9999,
+  "validation_per_mechanism": 1000,
+  "calibration_validation_independent": true,
+  "finite_mechanism_class_conditional": true,
+  "bank_conditional_mc_intervals": true,
+  "original_primary_replaced": false,
+  "global_homologated": 0,
+  "all_limitations_eliminated": false,
+  "runtime_seconds": 529.6506392430001
+}

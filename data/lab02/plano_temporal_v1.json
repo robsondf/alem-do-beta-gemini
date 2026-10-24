@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "definido_em_utc": "2026-10-11",
+  "status": "plano_nao_executado",
+  "historico_inspecao": "Já foram examinadas estimativas agregadas e anuais; este protocolo não é pré-registro independente nem separa uma amostra confirmatória nova.",
+  "primary_unit": "ativo_ISIN",
+  "primary_return": "log_diario",
+  "market": "^BVSP",
+  "fixed_panels": {
+    "decada": {
+      "years": [
+        2016,
+        2025
+      ],
+      "assets": 80
+    },
+    "recente": {
+      "years": [
+        2021,
+        2025
+      ],
+      "assets": 117
+    }
+  },
+  "data_gate": {
+    "auditoria_global_completa": false,
+    "observacoes_nao_recuperadas": [
+      "2020-11-20: fonte Yahoo sem o pregão, incluindo Ibovespa e ações; auditar recuperação observada e efeitos em 20/23-11 antes de inferência temporal."
+    ],
+    "retornos_direitos_nao_identificados": 5,
+    "sem_imputacao": true
+  },
+  "stability_contrast": {
+    "assets": 80,
+    "early_years": [
+      2016,
+      2020
+    ],
+    "late_years": [
+      2021,
+      2025
+    ],
+    "estimand": "theta = delta_late - delta_early",
+    "model": "y = a + g*D + b*m + delta*D*m + Q*(eta0 + eta1*D + eta2*m + theta*D*m) + error",
+    "D": "mercado estritamente positivo; neutros fora do modelo condicional",
+    "Q": "2021-2025",
+    "parameters": 8,
+    "covariance": "HAC Bartlett original_calendar, lags5, correction n/(n-8)",
+    "min_per_segment": {
+      "pairs": 200,
+      "regime": 60,
+      "coverage": 0.95,
+      "market_variance": 1e-12
+    },
+    "inference": "theta/s.e.(theta), normal bilateral; suas 80 hipóteses entram na família temporal conjunta de 474",
+    "interpretation": "Não rejeitar theta=0 não demonstra equivalência ou persistência. Não escolher a data de quebra pelos resultados."
+  },
+  "direction_persistence": {
+    "periods": "anos-calendário completos dos painéis; dez na década e cinco recentes",
+    "estimand": "mesmo sinal de delta em todos os anos da janela",
+    "positive_null": "Existe pelo menos um ano com delta<=0",
+    "positive_alternative": "Todos os anos têm delta>0",
+    "negative_null": "Existe pelo menos um ano com delta>=0",
+    "negative_alternative": "Todos os anos têm delta<0",
+    "p_combination": "IUT: máximo dos valores-p unilaterais anuais por direção",
+    "family_size": 394,
+    "family": "2 direções × (80 década + 117 recente), integrantes da família temporal conjunta de 474; os 80 comuns reutilizam hipóteses recentes",
+    "insufficient_policy": "Ano sem pisos/variância válida: hipótese permanece na família como não estimável; não excluir ano nem ativo",
+    "limitations": "Validade depende das aproximações HAC anuais; combinação conservadora pode ter baixo poder. Sinal persistente não implica magnitude constante ou previsão.",
+    "min_per_year": {
+      "pairs": 200,
+      "regime": 60,
+      "coverage": 0.95,
+      "market_variance": 1e-12
+    },
+    "covariance": "HAC5 calendário original, sensibilidades 0/10/20; aproximação normal unilateral"
+  },
+  "rolling_visualization": {
+    "window_sessions": 252,
+    "step_sessions": 21,
+    "alternative_window_sessions": 504,
+    "min_pairs": 200,
+    "min_regime": 60,
+    "min_coverage": 0.95,
+    "neutral_days": "contados; não entram no contraste condicional",
+    "calendar": "grade original; lacunas preservadas",
+    "purpose": "exploratório; janelas sobrepostas não são testes independentes; não fundamentar persistência em contagem de sinais ou ICs sobrepostos"
+  },
+  "equivalence": {
+    "status": "não planejada como teste até definir margem econômica",
+    "note": "Não adotar margem automaticamente para obter equivalência."
+  },
+  "sensitivity": [
+    "HAC 0/10/20",
+    "retornos simples",
+    "eventos e lacunas documentadas",
+    "exigir negócios B3 nas duas extremidades"
+  ],
+  "persistencia_testada": false,
+  "temporal_family": {
+    "size": 474,
+    "components": "80 mudanças + 394 hipóteses de direção persistente",
+    "method": "Holm, alpha=0.05, valores-p ausentes preservam posição e não são rejeitáveis",
+    "scope": "família conjunta temporal; distinta da família principal estática de 197, sem alegar controle conjunto de todo o programa de pesquisa"
+  }
+}

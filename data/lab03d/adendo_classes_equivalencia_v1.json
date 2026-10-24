@@ -1,0 +1,21 @@
+{
+  "written_utc": "2026-10-23T18:43:53.634974+00:00",
+  "reason": "Exploit exact location/scale and fixed-design equivalence to simulate one marginal path per replication, deduplicating identical calendars/masks. Extend the rank envelope to annual IUT components and theta, rather than recalibrating197 redundant asset paths.",
+  "prior_static_envelope_generation_partial": true,
+  "prior_static_envelope_validation_outcomes_not_generated": true,
+  "optimization_not_selected_by_real_data_significance": true,
+  "independent_preregistration": false,
+  "supersedes": "Computational bank construction and static-only scope of adendo_envelope_v1; original alternatives retained as adverse results.",
+  "calibration_seed_entropy": 20261023921,
+  "validation_seed_entropy": 20261023922,
+  "calibration_per_mechanism": 9999,
+  "validation_per_mechanism": 1000,
+  "bank": "One unit-scale univariate path per replication with innovations sqrt(.3)*z1+sqrt(.7)*z2, same mechanism, h, AR/burn-in. Each distinct estimand/calendar/valid-mask design stores its statistic. Equal-design asset cases map to same independent bank.",
+  "equivalence": "Within one kind/calendar/mask, standardized OLS contrast is invariant to regime-intercepts, nuisance slopes and positive constant asset scale under the stated linear DGP. Does not pool correlated paths as if independent.",
+  "validation": "New disjoint117-path joint validation stream using original cross-sectional dependence and overlapping windows. Rank validity is marginal/unconditional over bank and test draw; conditional-bank MC intervals reported.",
+  "static": "Max-over3 two-sided rank p; Holm197. Original9 effect patterns. Marginal and Bonferroni197 intervals.",
+  "temporal": "Annual upper/lower signed rank p=max over3 mechanisms; IUT p=max annual p; theta two-sided max-over3 rank p; joint Holm474. Original5 patterns and separately IUT limiting-null diagnostics with80 theta slots reserved.",
+  "limiting_null": "In IUT stress at zero-year2020/2024, all other annual effects tend to plus/minus infinity. Favorable-direction p equals zero-year one-sided p if present, else0; opposite direction p=1. This is an analytic boundary diagnostic, not a finite \u00b1.5 DGP or full-theta calibration.",
+  "remaining": "Only the specified finite simulation class is protected; not distribution-free market validity, point-in-time data certification, universeselection cure, equivalence or proof of predictive value.",
+  "global_homologated": 0
+}

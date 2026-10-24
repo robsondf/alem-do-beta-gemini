@@ -1,0 +1,57 @@
+{
+  "selected_source_files_verified": 243,
+  "frozen_E_pins_verified": 49,
+  "internal_imports_and_article_dependencies": "passed",
+  "tests_run": 94,
+  "tests_passed": 83,
+  "skipped": [
+    {
+      "test": "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+      "reason": "Historical Lab02 notebook deliberately omitted; retained at the source commit."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_common_check_detects_different_counts",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_common_reuses_197_family_slots",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_daily_missing_values_are_not_filled",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_fixed_assets_and_common_input_identity",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_hac_changes_uncertainty_not_point_estimates",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_insufficient_pcar_regime_remains_unestimated",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_simple_estimator_transforms_asset_and_market",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab02_robustness_suite.SuiteTests.test_wrong_archive_hash_stops_before_use",
+      "reason": "Authenticated X archive remains external; set LAB02Y_X_ARCHIVE."
+    },
+    {
+      "test": "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells",
+      "reason": "Authenticated X/Y archives remain external; set LAB03_X_ARCHIVE and LAB03_Y_ARCHIVE."
+    },
+    {
+      "test": "test_lab03.TemporalTests.test_wrong_y_archive_rejected",
+      "reason": "Authenticated X archive remains external; set LAB03_X_ARCHIVE."
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "passed": true,
+  "scope": "Packaging and existing tests only; no new empirical or Monte Carlo run."
+}

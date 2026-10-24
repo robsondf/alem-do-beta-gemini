@@ -1,0 +1,1286 @@
+{
+  "comparison_passed": true,
+  "numeric_tolerance": {
+    "absolute": 1e-12,
+    "relative": 1e-10
+  },
+  "authenticated_members": 57,
+  "csv_files": [
+    {
+      "name": "annual_design.csv",
+      "rows": 985,
+      "columns": 6,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "asset_nuisance.csv",
+      "rows": 117,
+      "columns": 7,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "bank_designs.csv",
+      "rows": 25,
+      "columns": 8,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "design.csv",
+      "rows": 197,
+      "columns": 12,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "economic_ledger.csv",
+      "rows": 197,
+      "columns": 31,
+      "byte_identical": false,
+      "maximum_absolute_difference": 2.609024107869118e-15
+    },
+    {
+      "name": "economic_removed_observations.csv",
+      "rows": 1352,
+      "columns": 8,
+      "byte_identical": false,
+      "maximum_absolute_difference": 2.7755575615628914e-16
+    },
+    {
+      "name": "economic_sensitivities.csv",
+      "rows": 1970,
+      "columns": 21,
+      "byte_identical": false,
+      "maximum_absolute_difference": 7.549516567451064e-15
+    },
+    {
+      "name": "inference_coverage.csv",
+      "rows": 7572,
+      "columns": 19,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "inference_family.csv",
+      "rows": 102,
+      "columns": 17,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "inference_power.csv",
+      "rows": 264,
+      "columns": 9,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "observed_predictive_intervals.csv",
+      "rows": 1662,
+      "columns": 15,
+      "byte_identical": false,
+      "maximum_absolute_difference": 4.565237077258644e-13
+    },
+    {
+      "name": "observed_static_precision.csv",
+      "rows": 788,
+      "columns": 18,
+      "byte_identical": false,
+      "maximum_absolute_difference": 9.992007221626409e-16
+    },
+    {
+      "name": "observed_tail_precision.csv",
+      "rows": 6741,
+      "columns": 13,
+      "byte_identical": false,
+      "maximum_absolute_difference": 1.2878587085651816e-14
+    },
+    {
+      "name": "observed_temporal_precision.csv",
+      "rows": 1896,
+      "columns": 6,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "power_grid_summary.csv",
+      "rows": 36,
+      "columns": 7,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "predictive_calibration.csv",
+      "rows": 14184,
+      "columns": 15,
+      "byte_identical": false,
+      "maximum_absolute_difference": 1.831047003947382e-20
+    },
+    {
+      "name": "predictive_design.csv",
+      "rows": 394,
+      "columns": 56,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "predictive_family.csv",
+      "rows": 36,
+      "columns": 18,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "predictive_fold_design.csv",
+      "rows": 19056,
+      "columns": 11,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "name": "primary/fras_published_cash_inventory.csv",
+      "rows": 46,
+      "columns": 18,
+      "byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "arrays": [
+    {
+      "file": "calibration_bank.npz",
+      "key": "calibration_t",
+      "dtype": "float64",
+      "values": 7499925,
+      "shape": [
+        3,
+        99999,
+        25
+      ],
+      "maximum_absolute_difference": 3.9968028886505635e-15,
+      "values_identical": false
+    },
+    {
+      "file": "calibration_bank.npz",
+      "key": "static_map",
+      "dtype": "int64",
+      "values": 197,
+      "shape": [
+        197
+      ],
+      "maximum_absolute_difference": 0.0,
+      "values_identical": true
+    },
+    {
+      "file": "calibration_bank.npz",
+      "key": "annual_map",
+      "dtype": "int64",
+      "values": 985,
+      "shape": [
+        985
+      ],
+      "maximum_absolute_difference": 0.0,
+      "values_identical": true
+    },
+    {
+      "file": "calibration_bank.npz",
+      "key": "theta_map",
+      "dtype": "int64",
+      "values": 80,
+      "shape": [
+        80
+      ],
+      "maximum_absolute_difference": 0.0,
+      "values_identical": true
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 2.0339378645943887e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.1180173159266722e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.2346070673273594e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.9641141931501256e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 1.5831045784182873e-18,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 7.199780051661553e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.00.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 2.476241434123949e-12,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 1.9860275635153173e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.831047003947382e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 4.972083400382743e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 4.3113977015243887e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 1.0164395367051604e-18,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 7.623296525288703e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_ar03_delta0.25.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 3.7836400679225335e-12,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 1.7014774327970758e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.1184309062329487e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.5384801371548397e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.3690735477039796e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 9.486769009248164e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 7.157428404298838e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.00.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 3.739231146937527e-12,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 1.9651164376299768e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.8237678145569154e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 4.760325163569168e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.4897757426877174e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 1.2993485410880967e-18,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 1.0651439311722827e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_garch_delta0.25.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 3.791633673699835e-12,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 1.545835128739098e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.1184309062329487e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 2.5008647767683218e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 2.8523834498788564e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 2.31832917663502e-18,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 6.363335016247931e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.00.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 2.7124968937641825e-12,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "gain",
+      "dtype": "float64",
+      "values": 394000,
+      "shape": [
+        1000,
+        394
+      ],
+      "maximum_absolute_difference": 1.5603935075200314e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "truth",
+      "dtype": "float64",
+      "values": 394,
+      "shape": [
+        394
+      ],
+      "maximum_absolute_difference": 1.8237678145569154e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "marginal_low",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 2.981555974335137e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "marginal_high",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 3.477070248478903e-19,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "simultaneous_width",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 1.7143946852427039e-18,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "bootstrap_se",
+      "dtype": "float64",
+      "values": 1182000,
+      "shape": [
+        1000,
+        394,
+        3
+      ],
+      "maximum_absolute_difference": 5.770411953169921e-20,
+      "values_identical": false
+    },
+    {
+      "file": "predictive_gaussian_iid_delta0.25.npz",
+      "key": "critical",
+      "dtype": "float64",
+      "values": 12000,
+      "shape": [
+        1000,
+        4,
+        3
+      ],
+      "maximum_absolute_difference": 2.9967139880682225e-12,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 2.6645352591003757e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_ar06_t5.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_garch_t5.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.6653345369377348e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_gaussian_iid.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_ar.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_student_hetero.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "static_error",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "static_se",
+      "dtype": "float64",
+      "values": 197000,
+      "shape": [
+        1000,
+        197
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "annual_error",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "annual_se",
+      "dtype": "float64",
+      "values": 985000,
+      "shape": [
+        1000,
+        985
+      ],
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "theta_error",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "values_identical": false
+    },
+    {
+      "file": "validation_variance_break_t5.npz",
+      "key": "theta_se",
+      "dtype": "float64",
+      "values": 80000,
+      "shape": [
+        1000,
+        80
+      ],
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "values_identical": false
+    }
+  ],
+  "pngs": [
+    {
+      "name": "figures/lab03e_cobertura_previsao.png",
+      "dimensions": [
+        1262,
+        842
+      ],
+      "pixel_identical": true,
+      "different_channels": 0,
+      "byte_identical": false
+    },
+    {
+      "name": "figures/lab03e_impacto_economico.png",
+      "dimensions": [
+        1583,
+        616
+      ],
+      "pixel_identical": true,
+      "different_channels": 0,
+      "byte_identical": false
+    },
+    {
+      "name": "figures/lab03e_inferencia.png",
+      "dimensions": [
+        1575,
+        604
+      ],
+      "pixel_identical": true,
+      "different_channels": 0,
+      "byte_identical": false
+    },
+    {
+      "name": "figures/lab03e_intervalos_observados.png",
+      "dimensions": [
+        1761,
+        1096
+      ],
+      "pixel_identical": true,
+      "different_channels": 0,
+      "byte_identical": false
+    },
+    {
+      "name": "figures/lab03e_potencia_precisao.png",
+      "dimensions": [
+        1898,
+        587
+      ],
+      "pixel_identical": true,
+      "different_channels": 0,
+      "byte_identical": false
+    }
+  ],
+  "protected_members_byte_identical": [
+    "inputs_manifest.json",
+    "plano_v1.json",
+    "primary/fras_cash.xlsx",
+    "primary/fras_cash_page.html",
+    "primary/fras_extraction_audit.json",
+    "primary/fras_published_cash_inventory.csv",
+    "primary/retrieval.json",
+    "runtime_manifest.json"
+  ],
+  "notebook_embedded_pngs_match_actual_exports": [
+    "figures/lab03e_inferencia.png",
+    "figures/lab03e_potencia_precisao.png",
+    "figures/lab03e_cobertura_previsao.png",
+    "figures/lab03e_intervalos_observados.png",
+    "figures/lab03e_impacto_economico.png"
+  ],
+  "actual_environment": {
+    "stage": "Lab03E",
+    "environment": "Colab",
+    "executed_utc": "2026-10-24T00:43:47.677634+00:00",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "pymupdf": "2.0",
+    "pillow": "11.3.0",
+    "static_family": 197,
+    "temporal_family": 474,
+    "predictive_family": 394,
+    "calibration_per_mechanism": 99999,
+    "validation_per_mechanism": 1000,
+    "independent_preregistration": false,
+    "prospective_untouched_holdout": false,
+    "global_homologated": 0,
+    "all_limitations_eliminated": false,
+    "prepared_results_are_not_user_Colab_execution": false
+  },
+  "preparation_environment": {
+    "stage": "Lab03E",
+    "environment": "local cached notebook verification",
+    "executed_utc": "2026-10-23T21:11:17.692937+00:00",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pymupdf": "1.26.6",
+    "pillow": "12.3.0",
+    "static_family": 197,
+    "temporal_family": 474,
+    "predictive_family": 394,
+    "calibration_per_mechanism": 99999,
+    "validation_per_mechanism": 1000,
+    "independent_preregistration": false,
+    "prospective_untouched_holdout": false,
+    "global_homologated": 0,
+    "all_limitations_eliminated": false,
+    "prepared_results_are_not_user_Colab_execution": true
+  },
+  "summary": {
+    "csv_files": 20,
+    "csv_rows": 57620,
+    "scientific_csv_files": 19,
+    "scientific_csv_rows": 57574,
+    "scientific_csv_byte_identical": 12,
+    "csv_byte_identical": 13,
+    "csv_maximum_absolute_difference": 4.565237077258644e-13,
+    "npz_files": 13,
+    "array_variables": 82,
+    "array_values": 53451551,
+    "threshold_decisions_compared": 12109,
+    "array_maximum_absolute_difference": 3.791633673699835e-12,
+    "png_pixel_identical": 5
+  }
+}

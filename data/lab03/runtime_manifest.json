@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "stage": "Lab03",
+  "base_main": "9414f4de3bfd0efe2a29ba98c2933061a0ebce4f",
+  "package_sha256": "2f2ecb8e037d12dc5469fab586b1dc43b9fd6be142554939a12c9222f2bc6f71",
+  "files": {
+    "data/lab02/lab02y_inputs_manifest.json": {
+      "bytes": 1286,
+      "sha256": "2881c3a83b96e4bcd8829d282f6dbfe740e490dc80073b25502317bcfa4d446b"
+    },
+    "data/lab02/plano_temporal_v1.json": {
+      "bytes": 4250,
+      "sha256": "3661b737c22fbd05ebcdf69df2bb8725ef97454c80659a67e6e02b57324d6678"
+    },
+    "data/lab02/validacao_lab02x_colab_20261022.json": {
+      "bytes": 7387,
+      "sha256": "98d07ae535918488f2d851e88d8f377981e74ede03d08ae0b3cc210dcdd88112"
+    },
+    "data/lab02/validacao_lab02y_colab_20261023.json": {
+      "bytes": 3733,
+      "sha256": "2a93e6a1a7c62279e8c4a16ea9ad509640ca7bff72da2641221369e819400025"
+    },
+    "data/lab03/inputs_manifest.json": {
+      "bytes": 1992,
+      "sha256": "b28ccdba6b92d6a9308ef1c9f40f79d64086577aff15196de4593b3a41a04667"
+    },
+    "data/lab03/plano_execucao_v1.json": {
+      "bytes": 3136,
+      "sha256": "856940a44327cd733bad412720c97e6ddeeaf3c71e64515f1e1d40899555ff7d"
+    },
+    "scripts/plot_lab03.py": {
+      "bytes": 7195,
+      "sha256": "fafffe4aa4274068456f436abe3cb9ed15f03e998bf428ddf6e877bda233ded7"
+    },
+    "scripts/run_lab03.py": {
+      "bytes": 1206,
+      "sha256": "3da3805a9c76bb5f882c0a294d7aff086e0e1de18979cdf94834a5e1e44e9392"
+    },
+    "scripts/validate_lab02y_outputs.py": {
+      "bytes": 9024,
+      "sha256": "b1bd21881cae4bdcb61a59ff48dcd03b040dc572c3b809505105ae9db2593e59"
+    },
+    "scripts/validate_lab03_outputs.py": {
+      "bytes": 8914,
+      "sha256": "ea85d4fd503fb1de94da991bca68523362994255e90e2dd5f1d55ded413246ca"
+    },
+    "src/lab02.py": {
+      "bytes": 24544,
+      "sha256": "f83bef7d5da251fb2571699572f202ee16a8b007522f3e5f1f6f1385f8540b0f"
+    },
+    "src/lab02_analysis.py": {
+      "bytes": 28578,
+      "sha256": "3931f6f0bc42f464f9e8697b0dfc99ace33e974a55a7a8a56bc5f6457c4f6e2a"
+    },
+    "src/lab02_robustness_suite.py": {
+      "bytes": 10398,
+      "sha256": "bf9581eb6ef58f02489889821b8e3ce34842a217befb9feb7cd260d1dac56f0e"
+    },
+    "src/lab03.py": {
+      "bytes": 13711,
+      "sha256": "e303a652ef580970368e58b94bb9b17a12d80559d0a00d439ec3d6619ff3c481"
+    },
+    "tests/test_lab03.py": {
+      "bytes": 7820,
+      "sha256": "12da0deafecf085cb3ad77156c676fec281832206992b40e6591f619dd8fa594"
+    }
+  }
+}

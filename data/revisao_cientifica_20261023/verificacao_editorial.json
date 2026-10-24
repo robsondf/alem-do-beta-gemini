@@ -1,0 +1,12 @@
+{
+  "editorial_checks_passed": true,
+  "archived_source_byte_identical": true,
+  "materialized_assets_preserved": 79,
+  "all_body_figures_tables_preserved": true,
+  "all_49_frozen_source_pins_preserved": true,
+  "cited_keys_with_metadata_preserved": 35,
+  "critical_numeric_tokens_checked": 27,
+  "new_financial_estimation": false,
+  "statistical_inference_revalidated_by_this_script": false,
+  "human_scientific_approval": false
+}

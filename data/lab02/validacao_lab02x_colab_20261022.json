@@ -1,0 +1,234 @@
+{
+  "stage": "Lab02X",
+  "notebook_sha256": "c687b3a02a94b6aaa4ab33d851b47810fabe0c8a0ad418a343a7c63dcb0cd1ff",
+  "clean_notebook_sha256": "253d34ae649baf54dcf514c6aabb342de129cf9012149459a205501b23a6fcf6",
+  "cells": 21,
+  "code_cells": 9,
+  "source_cells_identical": 21,
+  "exceptions": 0,
+  "tests": 15,
+  "tests_passed": true,
+  "authenticated_exports": 26,
+  "embedded_figures_matched": 2,
+  "output_comparison": [
+    {
+      "file": "celulas_alteradas.csv",
+      "byte_equal": true,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 15
+    },
+    {
+      "file": "comparacao_comum.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 1.3322676295501878e-15,
+      "rows": 640
+    },
+    {
+      "file": "estimativas_1385.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 1.815214645262131e-14,
+      "rows": 1385
+    },
+    {
+      "file": "figures/lab02x_betas_condicionais.pdf",
+      "byte_equal": false
+    },
+    {
+      "file": "figures/lab02x_betas_condicionais.png",
+      "byte_equal": false,
+      "pixels_equal": true
+    },
+    {
+      "file": "figures/lab02x_sensibilidade_delta.pdf",
+      "byte_equal": false
+    },
+    {
+      "file": "figures/lab02x_sensibilidade_delta.png",
+      "byte_equal": false,
+      "pixels_equal": true
+    },
+    {
+      "file": "matrices/jcp_condicional/decada/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 2483
+    },
+    {
+      "file": "matrices/jcp_condicional/decada_periodo_comum/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_condicional/recente/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_duas_celulas_documentadas/decada/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 2483
+    },
+    {
+      "file": "matrices/jcp_duas_celulas_documentadas/decada_periodo_comum/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_duas_celulas_documentadas/recente/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_alto/decada/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 2483
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_alto/decada_periodo_comum/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_alto/recente/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_baixo/decada/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 2483
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_baixo/decada_periodo_comum/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/jcp_rendimento_caixa_baixo/recente/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 2.229119666630197e-16,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/referencia_n/decada/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 2483
+    },
+    {
+      "file": "matrices/referencia_n/decada_periodo_comum/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 1246
+    },
+    {
+      "file": "matrices/referencia_n/recente/retornos_logaritmicos.csv.gz",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 1246
+    },
+    {
+      "file": "metricas.json",
+      "byte_equal": false
+    },
+    {
+      "file": "plano_condicional.csv",
+      "byte_equal": true,
+      "numeric_equal": true,
+      "max_absolute_difference": 0.0,
+      "rows": 2782
+    },
+    {
+      "file": "registro_execucao.json",
+      "byte_equal": false
+    },
+    {
+      "file": "resumo_sensibilidade.csv",
+      "byte_equal": false,
+      "numeric_equal": true,
+      "max_absolute_difference": 1.1102230246251565e-15,
+      "rows": 60
+    }
+  ],
+  "colab_execution_verified": true,
+  "global_homologated": 0,
+  "persistence_tested": false,
+  "base_main": "ad0fe3e03c5e37c3f66c8f35fe0a49278580e5ba",
+  "implementation_pr": 71,
+  "implementation_pr_merged": true,
+  "notebook_drive_id": "122kEWKO5iOlycjQpg5nKoMRbat98kp5v",
+  "results_drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+  "results_zip_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "execution_record": {
+    "stage": "Lab02X",
+    "environment": "Colab",
+    "executed_utc": "2026-10-23T02:54:50.237615+00:00",
+    "runtime_package_sha256": "285649f959a3b6b36ccee31b8bd2b83d1c795842def070259dddca63dcafa662",
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "tests_run": 15,
+    "tests_successful": true,
+    "independent_check": {
+      "matrices_checked": 15,
+      "asset_period_variant_rows_refitted": 1385,
+      "primary_hypotheses_per_variant": 197,
+      "plan_groups_independently_reconstructed": 2782,
+      "eligible_plan_groups": 2728,
+      "blocked_plan_groups": 54,
+      "matrix_identity_max_absolute_error": 0.0,
+      "direct_ols_hac_and_intervals_max_absolute_error": 1.2101430968414206e-14,
+      "source_and_parent_modules_imported": false,
+      "conditional_beta_bounds_claimed": false,
+      "global_homologated": 0
+    },
+    "original_inputs_overwritten": false,
+    "global_corrected_baseline_identified": false,
+    "global_homologated": 0,
+    "persistence_tested": false
+  },
+  "independent_recheck": {
+    "matrices_checked": 15,
+    "asset_period_variant_rows_refitted": 1385,
+    "primary_hypotheses_per_variant": 197,
+    "plan_groups_independently_reconstructed": 2782,
+    "eligible_plan_groups": 2728,
+    "blocked_plan_groups": 54,
+    "matrix_identity_max_absolute_error": 0.0,
+    "direct_ols_hac_and_intervals_max_absolute_error": 1.2434497875801753e-14,
+    "source_and_parent_modules_imported": false,
+    "conditional_beta_bounds_claimed": false,
+    "global_homologated": 0
+  },
+  "data_local_usuario": "2026-10-22",
+  "fuso_usuario": "America/Sao_Paulo",
+  "utc_execution_date": "2026-10-23"
+}

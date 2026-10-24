@@ -1,0 +1,46 @@
+{
+  "stage": "Lab03C",
+  "base_main": "f8250c71a4ade3e10ef767f4103b54dd1a1efe21",
+  "notebook_code_cells": 10,
+  "notebook_exceptions": 0,
+  "unit_tests": 10,
+  "independent_oracle": {
+    "status": "passed",
+    "independent_of_production_imports": true,
+    "full_design_oracle_fits": 1773,
+    "injected_delta": 0.25,
+    "max_coefficient_absolute_difference": 4.107825191113079e-15,
+    "max_se_absolute_difference": 8.548717289613705e-15,
+    "summary_numeric_values_recalculated": 162000,
+    "rows": [
+      1773,
+      15957,
+      81,
+      162
+    ],
+    "missing_cells_decade": 7,
+    "missing_cells_recent": 7,
+    "temporal_family_474_calibrated": false,
+    "environment": "local preparation"
+  },
+  "replication_arrays_identical_across_local_runs": true,
+  "old_pinned_files_unchanged": 12,
+  "colab_execution_verified": false,
+  "markdown_indented_prose_blocks": 0,
+  "overleaf_sources": 105,
+  "global_homologated": 0,
+  "temporal_family_474_calibrated": false,
+  "pdf": {
+    "pages": 19,
+    "references": 26,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "6a06c4d501c00a885a6ca59cdf5c01dae3b8ab7f4934a06aad1eecaa293c070c"
+  },
+  "pdf_visual_review": {
+    "rendered_and_decoded_pages": 19,
+    "inspected_pages": 19,
+    "defects_observed": 0
+  },
+  "runtime_drive_sha256_verified": true
+}

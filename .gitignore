@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dados locais / artefatos grandes
+data/raw/
+data/processed/
+data/external/
+*.parquet
+*.feather
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

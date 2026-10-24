@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independent_of_production_imports": true,
+  "full_design_oracle_fits": 1773,
+  "injected_delta": 0.25,
+  "max_coefficient_absolute_difference": 3.9968028886505635e-15,
+  "max_se_absolute_difference": 4.551914400963142e-15,
+  "summary_numeric_values_recalculated": 162000,
+  "rows": [
+    1773,
+    15957,
+    81,
+    162
+  ],
+  "missing_cells_decade": 7,
+  "missing_cells_recent": 7,
+  "temporal_family_474_calibrated": false,
+  "environment": "Colab"
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "Lab03D envelope addendum",
+  "written_utc": "2026-10-23T18:31:48.806083+00:00",
+  "reason": "Initial fresh-seed validation showed HC3 and dependent Gaussian score maxT do not uniformly remove size distortions; retain all adverse outcomes and evaluate a model-envelope Monte Carlo rank test.",
+  "original_d_results_already_seen": true,
+  "independent_preregistration": false,
+  "static_family": 197,
+  "studentizer": "HC3_HAC5 with unchanged calendar/correction; same197 fixed designs",
+  "calibration_replications_per_mechanism": 9999,
+  "validation_replications_per_mechanism": 1000,
+  "calibration_seed_entropy": 20261023911,
+  "validation_seed_entropy": 20261023912,
+  "seed_rule": "SeedSequence([phase_entropy,mechanism_index,replication_index]); disjoint from original Lab03D/C streams",
+  "mechanisms": "Same three predefined mechanisms and fixed market/masks as original Lab03D; no new fitted DGP selected by real-data significance",
+  "pvalue": "For each case, rank p_m=(1+sum(abs(T_null_calibration_m)>=abs(T_observed)))/(9999+1); envelope p=max_m p_m; Holm197 on envelope p; strictp<.05",
+  "calibration_bank_reused": "One independent bank per mechanism, shared across test cases and validation replications; retain dependence. Validation Wilson/MCSE conditional on generated bank; finite rank validity unconditional over independent bank and test draw.",
+  "intervals": "Invert same rank envelope under exact OLS shift invariance; marginal95% critical=max_m sorted(abs(T_m))[9500]; conservative simultaneous Bonferroni197 critical=max_m sorted(abs(T_m))[9997]. No claim that marginal intervals are Holm simultaneous intervals.",
+  "theoretical_scope": "Rank super-uniformity requires observed null statistic exchangeable with an independent bank under at least one declared mechanism. Max p protects union of these mechanisms; Holm permits arbitrary cross-case dependence. Beta/intercepts/positive asset scale cancel under the fixed-design location-scale DGP. No guarantee outside this finite mechanism class or for unaudited return construction.",
+  "validation_effects": "All9 static dense/sparse patterns from original protocol; 1000fresh replications each mechanism. No reuse of initial validation outcomes for claimed new-method validation.",
+  "failure_policy": "Report all outcomes, including conservative power or further size distortion. Do not silently replace original HAC5 family/empirical findings.",
+  "global_homologated": 0,
+  "retrospective_universe_bias_eliminated": false
+}

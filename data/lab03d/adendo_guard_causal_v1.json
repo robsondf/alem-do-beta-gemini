@@ -1,0 +1,12 @@
+{
+  "written_utc": "2026-10-23T18:39:44.434536+00:00",
+  "reason": "Anti-leakage review: a global\u00b11gap mask could use a not-yet-observed future missingness flag to remove the preceding training session. Replace that sensitivity with an as-of causal rule before delivery.",
+  "primary_N252_N504_unchanged": true,
+  "initial_prediction_results_already_seen": true,
+  "independent_preregistration": false,
+  "supersedes": "Original plan gap_guard wording for training/evaluation masks only",
+  "training_rule": "At monthly origin, consult missing flags only through origin; remove\u00b11sessions around those already-known gaps inside training window.",
+  "evaluation_rule": "Remove originally missing target and first session after an already-observed missing day; do not remove a target merely because a future gap will occur.",
+  "no_imputation": true,
+  "scope": "Sensitivity only; retrospective universe and provider-vintage biases remain."
+}

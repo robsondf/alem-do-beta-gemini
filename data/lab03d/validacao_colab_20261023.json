@@ -1,0 +1,640 @@
+{
+  "stage": "Lab03D",
+  "status": "passed",
+  "notebook_sha256": "f75a48d967960cdf44f52f4a444ebab153e399b3c9ab0d73435d372ea4531323",
+  "result_zip_sha256": "c4e0ea2110cdd332296a671ff5d5758c39d8ca29572130e4af8bf34634b6e4c1",
+  "exports_authenticated": 61,
+  "cells": 17,
+  "code_cells": 10,
+  "source_cells_identical": 17,
+  "tests": 16,
+  "errors": 0,
+  "embedded_pngs_equal_export": 5,
+  "environment": {
+    "stage": "Lab03D",
+    "environment": "Colab",
+    "executed_utc": "2026-10-23T19:59:24.130793+00:00",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "pymupdf": "2.0",
+    "pillow": "11.3.0",
+    "static_family": 197,
+    "temporal_family": 474,
+    "calibration_per_mechanism": 9999,
+    "validation_per_mechanism": 1000,
+    "prospective_untouched_holdout": false,
+    "global_homologated": 0,
+    "all_limitations_eliminated": false
+  },
+  "runtime_sources_unchanged": 22,
+  "colab_execution_verified": true,
+  "global_homologated": 0,
+  "checkpoint": "effective Colab execution verified",
+  "base_main": "caa622572bbc2d357c39b3720392aa299400b865",
+  "merged_pr": 80,
+  "automatic_merge": false,
+  "notebook_drive_id": "1w0sjp8llBGjpGrJgkVEZXpkOZFasz2U8",
+  "preserved_notebook_drive_id": "1_JwefDOe-sCUCRTJduCaXQQqt9yWx1MC",
+  "results_colab_drive_id": "1MD8L0RcpMFbuKwPGErRaJxYO3_xmLZ9R",
+  "comparison_with_preparation": {
+    "status": "passed",
+    "csv_tables": 33,
+    "byte_identical_csv": 26,
+    "csv_max_absolute_difference": 3.952393967665557e-14,
+    "array_values_compared": 19722996,
+    "array_max_absolute_difference": 4.192202140984591e-13,
+    "all_arrays_exact": false,
+    "png_pixel_identical": 5,
+    "preparation_only_auxiliary_file": [
+      ".replicates.npz.X3lNuM"
+    ],
+    "auxiliary_file_bytes": 25690112,
+    "csv": [
+      {
+        "name": "annual_design.csv",
+        "rows": 985,
+        "columns": 6,
+        "numeric_values": 3940,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "asset_nuisance.csv",
+        "rows": 117,
+        "columns": 7,
+        "numeric_values": 351,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "bank_designs.csv",
+        "rows": 25,
+        "columns": 8,
+        "numeric_values": 125,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "design.csv",
+        "rows": 197,
+        "columns": 12,
+        "numeric_values": 1379,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_calibration.csv",
+        "rows": 591,
+        "columns": 19,
+        "numeric_values": 7683,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_family.csv",
+        "rows": 27,
+        "columns": 20,
+        "numeric_values": 303,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_panels.csv",
+        "rows": 54,
+        "columns": 8,
+        "numeric_values": 204,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_rejection.csv",
+        "rows": 5319,
+        "columns": 9,
+        "numeric_values": 26595,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_temporal_calibration.csv",
+        "rows": 3195,
+        "columns": 19,
+        "numeric_values": 26280,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_temporal_family.csv",
+        "rows": 15,
+        "columns": 17,
+        "numeric_values": 198,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "envelope_temporal_hypotheses.csv",
+        "rows": 7110,
+        "columns": 10,
+        "numeric_values": 35550,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "multiplier_maxima.csv",
+        "rows": 999,
+        "columns": 1,
+        "numeric_values": 999,
+        "max_absolute_difference": 3.952393967665557e-14,
+        "byte_identical": false
+      },
+      {
+        "name": "observed_envelope.csv",
+        "rows": 197,
+        "columns": 21,
+        "numeric_values": 2955,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "observed_envelope_intervals.csv",
+        "rows": 1065,
+        "columns": 18,
+        "numeric_values": 8760,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "observed_envelope_tail_mc.csv",
+        "rows": 6741,
+        "columns": 13,
+        "numeric_values": 53097,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "observed_envelope_temporal.csv",
+        "rows": 474,
+        "columns": 6,
+        "numeric_values": 948,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "observed_static.csv",
+        "rows": 591,
+        "columns": 21,
+        "numeric_values": 8274,
+        "max_absolute_difference": 5.773159728050814e-15,
+        "byte_identical": false
+      },
+      {
+        "name": "observed_temporal.csv",
+        "rows": 948,
+        "columns": 6,
+        "numeric_values": 1896,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "prediction_daily.csv.gz",
+        "rows": 396114,
+        "columns": 14,
+        "numeric_values": 2772780,
+        "max_absolute_difference": 3.469446951953614e-17,
+        "byte_identical": false
+      },
+      {
+        "name": "prediction_folds.csv",
+        "rows": 76224,
+        "columns": 17,
+        "numeric_values": 533568,
+        "max_absolute_difference": 1.3877787807814457e-17,
+        "byte_identical": false
+      },
+      {
+        "name": "prediction_gains.csv",
+        "rows": 14280,
+        "columns": 13,
+        "numeric_values": 85680,
+        "max_absolute_difference": 6.661338147750939e-16,
+        "byte_identical": false
+      },
+      {
+        "name": "prediction_intervals.csv",
+        "rows": 1662,
+        "columns": 10,
+        "numeric_values": 9972,
+        "max_absolute_difference": 1.8158268806764064e-19,
+        "byte_identical": false
+      },
+      {
+        "name": "prediction_metrics.csv",
+        "rows": 57120,
+        "columns": 14,
+        "numeric_values": 342720,
+        "max_absolute_difference": 4.440892098500626e-16,
+        "byte_identical": false
+      },
+      {
+        "name": "static_calibration.csv",
+        "rows": 1773,
+        "columns": 24,
+        "numeric_values": 28368,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "static_family.csv",
+        "rows": 81,
+        "columns": 19,
+        "numeric_values": 828,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "static_panels.csv",
+        "rows": 162,
+        "columns": 10,
+        "numeric_values": 720,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "static_rejection.csv",
+        "rows": 15957,
+        "columns": 11,
+        "numeric_values": 95742,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_calibration.csv",
+        "rows": 6390,
+        "columns": 23,
+        "numeric_values": 71730,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_family.csv",
+        "rows": 30,
+        "columns": 17,
+        "numeric_values": 396,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_hypotheses.csv",
+        "rows": 14220,
+        "columns": 11,
+        "numeric_values": 71100,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_iut_limit_family.csv",
+        "rows": 36,
+        "columns": 21,
+        "numeric_values": 576,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_lfc_family.csv",
+        "rows": 24,
+        "columns": 19,
+        "numeric_values": 384,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      },
+      {
+        "name": "temporal_lfc_hypotheses.csv",
+        "rows": 9456,
+        "columns": 10,
+        "numeric_values": 47280,
+        "max_absolute_difference": 0.0,
+        "byte_identical": true
+      }
+    ],
+    "arrays": [
+      {
+        "file": "envelope_replicates.npz",
+        "array": "calibration_t",
+        "shape": [
+          3,
+          9999,
+          25
+        ],
+        "values": 749925,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "static_map",
+        "shape": [
+          197
+        ],
+        "values": 197,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "annual_map",
+        "shape": [
+          985
+        ],
+        "values": 985,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "theta_map",
+        "shape": [
+          80
+        ],
+        "values": 80,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "static_error",
+        "shape": [
+          3,
+          1000,
+          197
+        ],
+        "values": 591000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "static_se",
+        "shape": [
+          3,
+          1000,
+          197
+        ],
+        "values": 591000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "annual_error",
+        "shape": [
+          3,
+          1000,
+          985
+        ],
+        "values": 2955000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "annual_se",
+        "shape": [
+          3,
+          1000,
+          985
+        ],
+        "values": 2955000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "theta_error",
+        "shape": [
+          3,
+          1000,
+          80
+        ],
+        "values": 240000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "envelope_replicates.npz",
+        "array": "theta_se",
+        "shape": [
+          3,
+          1000,
+          80
+        ],
+        "values": 240000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "observed_multiplier_covariance.npy",
+        "values": 38809,
+        "max_absolute_difference": 6.938893903907228e-17,
+        "exact_numeric_equal": false
+      },
+      {
+        "file": "replicates.npz",
+        "array": "error",
+        "shape": [
+          3,
+          1000,
+          197
+        ],
+        "values": 591000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "replicates.npz",
+        "array": "se",
+        "shape": [
+          3,
+          2,
+          1000,
+          197
+        ],
+        "values": 1182000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "replicates.npz",
+        "array": "critical",
+        "shape": [
+          3,
+          1000
+        ],
+        "values": 3000,
+        "max_absolute_difference": 4.192202140984591e-13,
+        "exact_numeric_equal": false
+      },
+      {
+        "file": "replicates.npz",
+        "array": "annual_error",
+        "shape": [
+          3,
+          1000,
+          985
+        ],
+        "values": 2955000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "replicates.npz",
+        "array": "annual_se",
+        "shape": [
+          3,
+          2,
+          1000,
+          985
+        ],
+        "values": 5910000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "replicates.npz",
+        "array": "theta_error",
+        "shape": [
+          3,
+          1000,
+          80
+        ],
+        "values": 240000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      },
+      {
+        "file": "replicates.npz",
+        "array": "theta_se",
+        "shape": [
+          3,
+          2,
+          1000,
+          80
+        ],
+        "values": 480000,
+        "max_absolute_difference": 0.0,
+        "exact_numeric_equal": true
+      }
+    ],
+    "figures": [
+      "figures/lab03d_calibracao.png",
+      "figures/lab03d_intervalos_ativos.png",
+      "figures/lab03d_iut_limite.png",
+      "figures/lab03d_previsao_anual.png",
+      "figures/lab03d_sensibilidades_previsao.png"
+    ]
+  },
+  "independent_recheck": {
+    "validacao_independente.json": {
+      "status": "passed",
+      "independent_of_lab03d_imports": true,
+      "full_ols_oracle_fits": 5048,
+      "sandwich_oracle_evaluations": 10096,
+      "max_coefficient_absolute_difference": 9.769962616701378e-15,
+      "max_se_absolute_difference": 5.995204332975845e-15,
+      "max_joint_covariance_absolute_difference": 5.880712583561376e-16,
+      "max_multiplier_critical_absolute_difference": 5.329070518200751e-15,
+      "inference_summary_values_recalculated": 220464,
+      "prediction": {
+        "bootstrap_draw_asset_values_recalculated": 2362818,
+        "full_design_ols_groups": 2192,
+        "forecast_numeric_values_recalculated": 1584456,
+        "max_daily_forecast_absolute_difference": 5.572799166575493e-17,
+        "metrics_rows_recalculated": 57120,
+        "gain_rows_recalculated": 14280,
+        "all_fold_rows_checked": 76224,
+        "max_metric_absolute_difference": 1.0980799602933189e-15,
+        "strict_temporal_cutoffs": true,
+        "common80_reuse_verified_all8configs": true,
+        "bootstrap_intervals_scope": "exploratory marginal, not independently recalibrated for predictive nominal coverage",
+        "retrospective_selection_and_data_vintage_limits_remain": true
+      },
+      "runtime_seconds": 28.451323739999964,
+      "all_limitations_eliminated": false,
+      "global_homologated": 0
+    },
+    "validacao_envelope_independente.json": {
+      "status": "passed",
+      "independent_of_production_rank_imports": true,
+      "bank_unique_designs": 25,
+      "all_case_mapping_signatures_verified": 1262,
+      "full_design_oracle_fits": 4926,
+      "max_first_calibration_statistic_difference": 1.021405182655144e-14,
+      "summary_numeric_values_recalculated": 67888,
+      "bank_and_validation_streams_independent": true,
+      "finite_model_class_scope_only": true,
+      "global_homologated": 0,
+      "runtime_seconds": 19.832612867999956
+    },
+    "validacao_diagnosticos_independente.json": {
+      "status": "passed",
+      "independent_production_imports": true,
+      "limiting_iut_families": 36,
+      "finite_iut_families": 24,
+      "tail_count_rows": 6741,
+      "theta_reserved_not_validated_by_boundary_diagnostic": 80,
+      "tail_intervals_pointwise_not_simultaneous": true
+    }
+  },
+  "original_primary_replaced": false,
+  "all_limitations_eliminated": false,
+  "requires_new_notebook_execution": false,
+  "preserved_notebook_readback_verified": true,
+  "latex": {
+    "pages": 23,
+    "references": 32,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "e900952e0af602ca5d52f490586864991a1d39a40adb159123f649cf5650a22a"
+  },
+  "pdf_visual_review": {
+    "pages_rendered_and_decoded": 23,
+    "previous_pages": 23,
+    "new_pages": 23,
+    "identical_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "changed_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "changed_pages_inspected": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "defects_observed": 0
+  },
+  "pdf_overleaf_readback_verified": true
+}

@@ -1,0 +1,185 @@
+{
+  "stage": "Lab03E",
+  "written_utc": "2026-10-23T20:27:40.124210+00:00",
+  "base_main": "2ea7203c9f5b2afd7e193fdbcd979ad588fc3871",
+  "independent_preregistration": false,
+  "prior_real_and_lab03d_results_known": true,
+  "original_primary_and_samples_unchanged": true,
+  "authorization": "User explicitly requested further evaluation of limitations after Lab03D Colab verification.",
+  "seed_entropy": 2026102305,
+  "precision": {
+    "calibration_per_mechanism": 99999,
+    "independent_streams": 3,
+    "replications_per_stream": 33333,
+    "original_mechanisms": [
+      "gaussian_iid",
+      "student_hetero",
+      "student_ar"
+    ],
+    "seeds": "SeedSequence([2026102305,100,mechanism,stream]); one consecutive generator stream in replication-major order",
+    "fresh_bank_not_append_selected_tail": true,
+    "report_pooled_and_all3streams": true,
+    "minimum_p": 1e-05,
+    "do_not_stop_or_extend_on_significance": true
+  },
+  "inference": {
+    "validation_per_mechanism": 1000,
+    "mechanisms": [
+      "gaussian_iid",
+      "student_hetero",
+      "student_ar",
+      "garch_t5",
+      "variance_break_t5",
+      "ar06_t5"
+    ],
+    "validation_seed": "SeedSequence([2026102305,200,mechanism,replication])",
+    "fixed_observed_market_calendar_masks": true,
+    "cross_section_innovation": "sqrt(.3)*common+sqrt(.7)*individual",
+    "garch": {
+      "omega": 0.03,
+      "alpha": 0.05,
+      "beta": 0.92,
+      "initial_variance": 1.0,
+      "burn": 1024,
+      "standardized_t5": true
+    },
+    "variance_break": {
+      "first_high_session": "2020-01-01",
+      "low_scale": 1.0,
+      "high_scale": 2.0,
+      "normalize_rms": true,
+      "phi": 0.3,
+      "market_hetero_scale": true
+    },
+    "ar06_phi": 0.6,
+    "new_stresses_are_outside_protected_envelope": true,
+    "never_extend_guarantee_to_stresses_by_diagnostic": true,
+    "static_dense_delta": [
+      -0.5,
+      -0.25,
+      -0.1,
+      0,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "temporal_constant_delta": [
+      -0.25,
+      0.25,
+      -0.5,
+      0.5,
+      -1.0,
+      1.0
+    ],
+    "temporal_flip_magnitude": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "temporal_zero": true,
+    "families": {
+      "static": 197,
+      "temporal": 474
+    },
+    "report_power_by_theta_and_positive_negative_IUT": true,
+    "report_first_grid_effect_reaching_80pct_not_general_MDE": true,
+    "equivalence_margin_not_selected": true
+  },
+  "predictive": {
+    "validation_per_scenario": 1000,
+    "error_mechanisms": [
+      "gaussian_iid",
+      "gaussian_garch",
+      "gaussian_ar03"
+    ],
+    "delta": [
+      0.0,
+      0.25
+    ],
+    "seed": "SeedSequence([2026102305,300,error_mechanism,replication]); same path reused across delta/windows/panels",
+    "reference_market": "fixed actually observed Ibovespa path; calibration is conditional on this path, not joint future-market risk",
+    "nuisance": "Previously calibrated per-asset beta_base/sigma, treated as generator parameters, no independent nuisance confidence claim",
+    "target": "E[mean((y-f_traditional)^2-(y-f_conditional)^2) | full observed market path, fixed masks and declared DGP], including repeated fitting of asset models",
+    "target_evaluation": "Exact linear-forecast quadratic-risk formula, including train-target AR covariance; current realized market may enter oracle target evaluation only, never forecast construction",
+    "windows": [
+      252,
+      504
+    ],
+    "periods": {
+      "decada": "2019-2025",
+      "recente": "2024-2025",
+      "common80": "2024-2025 exact recent reuse"
+    },
+    "fixed_past_monthly_estimation": true,
+    "minimums": {
+      "pairs": 200,
+      "each_regime": 60,
+      "coverage": 0.95,
+      "market_variance": 1e-12
+    },
+    "four_baseline_forecasters_unchanged": true,
+    "bootstrap_replications": 1999,
+    "block_lengths": [
+      21,
+      42,
+      63
+    ],
+    "bootstrap_seed": "Same fixed independent resampling banks as Lab03D: SeedSequence([D_plan.seed_entropy,701,W,panel_index,L])",
+    "mc_intervals_condition_on_fixed_bootstrap_banks": true,
+    "methods": [
+      "existing_marginal_percentile",
+      "simultaneous_standardized_max_deviation"
+    ],
+    "simultaneous_family": 394,
+    "simultaneous_groups": 4,
+    "group_error": 0.0125,
+    "simultaneous_description": "2 windows*(80 decade+117 recent); each group uses .9875 quantile of max absolute centered bootstrap deviations/pointwise bootstrap SD; Bonferroni across4groups. Common80 is reused, not additional hypotheses.",
+    "coverage_is_evaluated_not_assumed": true,
+    "coverage_never_promoted_to_distribution_free_guarantee": true,
+    "report_all_scenarios_and_failures": true,
+    "first_stage_market_uncertainty_not_resampled_conditional_design": true,
+    "not_Clark_West_or_Giacomini_White_test": true,
+    "prospective_untouched_holdout": false
+  },
+  "economic": {
+    "all197cases": true,
+    "existing5cash_references": true,
+    "diagnostics": [
+      "neighbor1_known_missing_returns",
+      "neighbor5_known_missing_returns",
+      "Light_2024Q4",
+      "remove1_largest_absolute_observation_influence",
+      "remove5_largest_absolute_observation_influence"
+    ],
+    "diagnostic_masks_do_not_correct_data": true,
+    "primary_NaNs_never_filled": true,
+    "report_all_assets_and_insufficient_status": true,
+    "counterfactual_risk_or_daily_rights_values_not_invented": true,
+    "per_asset_ledger": [
+      "documentary_status",
+      "missing_count",
+      "reference_delta",
+      "conditional_scenario_spread",
+      "mask_shift",
+      "influence_concentration",
+      "slope_only_contribution_for_1pct_market_move"
+    ],
+    "economic_scale_not_total_return_or_forecast": true,
+    "documentary_targets": [
+      "ANIM3 local pending",
+      "FRAS3 partial primary cash recovery",
+      "RENDIMENTO cut-date vs payment conflict"
+    ],
+    "new_primary_sources_archived_if_found": true,
+    "global_homologation_requires_documentary_support": true
+  },
+  "scope": {
+    "no_new_quote_downloads": true,
+    "no_new_annual_selection": true,
+    "asset_class_ISIN_unit": true,
+    "no_issuer_weights": true,
+    "global_homologated_before": 0,
+    "structural_selection_survival_and_vintages_remain": true,
+    "report_limitations_remaining": true
+  }
+}

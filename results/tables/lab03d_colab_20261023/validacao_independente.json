@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "independent_of_lab03d_imports": true,
+  "full_ols_oracle_fits": 5048,
+  "sandwich_oracle_evaluations": 10096,
+  "max_coefficient_absolute_difference": 9.769962616701378e-15,
+  "max_se_absolute_difference": 6.328271240363392e-15,
+  "max_joint_covariance_absolute_difference": 6.38378239159465e-16,
+  "max_multiplier_critical_absolute_difference": 1.199040866595169e-14,
+  "inference_summary_values_recalculated": 220464,
+  "prediction": {
+    "bootstrap_draw_asset_values_recalculated": 2362818,
+    "full_design_ols_groups": 2192,
+    "forecast_numeric_values_recalculated": 1584456,
+    "max_daily_forecast_absolute_difference": 5.442694905877232e-17,
+    "metrics_rows_recalculated": 57120,
+    "gain_rows_recalculated": 14280,
+    "all_fold_rows_checked": 76224,
+    "max_metric_absolute_difference": 1.0980799602933189e-15,
+    "strict_temporal_cutoffs": true,
+    "common80_reuse_verified_all8configs": true,
+    "bootstrap_intervals_scope": "exploratory marginal, not independently recalibrated for predictive nominal coverage",
+    "retrospective_selection_and_data_vintage_limits_remain": true
+  },
+  "runtime_seconds": 64.09040479399982,
+  "all_limitations_eliminated": false,
+  "global_homologated": 0
+}

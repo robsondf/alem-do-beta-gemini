@@ -1,0 +1,26 @@
+{
+  "scope": "Actual Colab light mirror; full alternate annual and rolling outputs are in the authenticated complete ZIP",
+  "source_zip_drive_id": "1W0rvgRAmDwbLYY4f85j2ySgMj_mBg1m5",
+  "source_zip_sha256": "b974fb8ec7192adf7bf4368ee4d2829f13ed9f803d967adf79aac69135083813",
+  "files": {
+    "annual_primary.csv.gz": "7eae40bad9c9670fcc3954d72914b89a2731a68e204176e21e1e0483c8afde8b",
+    "common_directions.csv.gz": "54b92b97a3be68242ca76e5b8551595d7702cd9b031341be3ec85b6cda178706",
+    "figures/lab03_anual_decada.pdf": "5f023e8dd735d784d6d94e43b9c327ede3222b9f68606263c36418d31151c04f",
+    "figures/lab03_anual_decada.png": "da21b7400c960d9e82b2388a9003dfb939c1eaaf4d1071be7341beb53445604b",
+    "figures/lab03_anual_recente.pdf": "c2f233e72f516a31a06ec4dec900683ec7e844fa53ee514897d4820699e86a09",
+    "figures/lab03_anual_recente.png": "78ad199d9ebf08612a4f0b1f5eba0592fa495dadb4665e7b4ea411cdf1e074f3",
+    "figures/lab03_rolling_artigo.pdf": "7896d5184a70e9bb8996adfa5f6390ead48141a4fde81543ea92d7d7fdbd1eca",
+    "figures/lab03_rolling_wege3.pdf": "798cb4512faa0f170915ac99b30a705b38d4742a605ab0f4b9a8612f812cfc61",
+    "figures/lab03_rolling_wege3.png": "7ade6d8f25faabb0902c9eeaa817e29fd7be1aca14057501f278174559c68e09",
+    "figures/lab03_theta80.pdf": "34c1382b758054a84a08f1016f607c070af4d406178530f0801e8d2916f0f14c",
+    "figures/lab03_theta80.png": "1724b629b04b6ce5af7c7a9151d2329dc44a0fb5c6d923fd88fee85cea2239bb",
+    "halves.csv.gz": "7d04e79d68928d00ceb285e4896b0af7175c0605c4afd98d43b958463ebfbd7e",
+    "manifesto_resultados_completos.json": "b2d67cf11826b2994ce5dd853732612288d5da729b211800c884b63a2e2acc02",
+    "metricas.json": "cb90ec78433e60016563a3ac52832c7b147db08b6e5cbcd55ca685f9774ea4b9",
+    "registro_execucao.json": "310168510f7f3026a6fdbf02981d5e2aa17228481decae925ebdba1fce94af79",
+    "resumo_publicacao.csv": "9fc564190f1de4bb321c86d6cda11bea1448b64f8c3e1111cdbbfd2e5e37ccd3",
+    "rolling_wege3.csv.gz": "4f192adc51346a17ab95d0a0ab8f3273e505aa0ada02b044c6980583553b2ecf",
+    "summary.csv": "63322e75de243651b4845ae5ca61fb91b2f1e54de4302347c3c5eee8637fe70d",
+    "temporal_family.csv.gz": "af49f89498a2ac6839831eed339491692898fd6a3f1b9c63bee554670901700b"
+  }
+}

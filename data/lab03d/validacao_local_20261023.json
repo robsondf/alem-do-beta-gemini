@@ -1,0 +1,98 @@
+{
+  "stage": "Lab03D",
+  "status": "passed",
+  "scope": "local full computations and cached notebook integration; no Colab claim",
+  "notebook": {
+    "environment": "local cached notebook verification",
+    "fresh_generators_in_this_notebook_execution": false,
+    "colab_executed": false,
+    "code_cells": 10,
+    "errors": 0,
+    "output": "/workspace/scratch/5eabb55dee06/work_lab03d/run_20261023T191252Z/outputs",
+    "export": "/workspace/scratch/5eabb55dee06/work_lab03d/run_20261023T191252Z/resultados_lab03d_20261023T191551Z.zip",
+    "runtime_seconds": 183.62915819199952
+  },
+  "inference_and_prediction": {
+    "status": "passed",
+    "independent_of_lab03d_imports": true,
+    "full_ols_oracle_fits": 5048,
+    "sandwich_oracle_evaluations": 10096,
+    "max_coefficient_absolute_difference": 9.769962616701378e-15,
+    "max_se_absolute_difference": 5.995204332975845e-15,
+    "max_joint_covariance_absolute_difference": 5.915407053080912e-16,
+    "max_multiplier_critical_absolute_difference": 3.597122599785507e-14,
+    "inference_summary_values_recalculated": 220464,
+    "prediction": {
+      "bootstrap_draw_asset_values_recalculated": 2362818,
+      "full_design_ols_groups": 2192,
+      "forecast_numeric_values_recalculated": 1584456,
+      "max_daily_forecast_absolute_difference": 5.572799166575493e-17,
+      "metrics_rows_recalculated": 57120,
+      "gain_rows_recalculated": 14280,
+      "all_fold_rows_checked": 76224,
+      "max_metric_absolute_difference": 1.0980799602933189e-15,
+      "strict_temporal_cutoffs": true,
+      "common80_reuse_verified_all8configs": true,
+      "bootstrap_intervals_scope": "exploratory marginal, not independently recalibrated for predictive nominal coverage",
+      "retrospective_selection_and_data_vintage_limits_remain": true
+    },
+    "runtime_seconds": 56.856786393998846,
+    "all_limitations_eliminated": false,
+    "global_homologated": 0
+  },
+  "rank_envelope": {
+    "status": "passed",
+    "independent_of_production_rank_imports": true,
+    "bank_unique_designs": 25,
+    "all_case_mapping_signatures_verified": 1262,
+    "full_design_oracle_fits": 4926,
+    "max_first_calibration_statistic_difference": 1.021405182655144e-14,
+    "summary_numeric_values_recalculated": 67888,
+    "bank_and_validation_streams_independent": true,
+    "finite_model_class_scope_only": true,
+    "global_homologated": 0,
+    "runtime_seconds": 57.48236412699953
+  },
+  "diagnostics": {
+    "status": "passed",
+    "independent_production_imports": true,
+    "limiting_iut_families": 36,
+    "finite_iut_families": 24,
+    "tail_count_rows": 6741,
+    "theta_reserved_not_validated_by_boundary_diagnostic": 80,
+    "tail_intervals_pointwise_not_simultaneous": true
+  },
+  "pinned_sources": {
+    "inherited_source_checks": 21,
+    "unique_inherited_files": 20,
+    "all_unchanged": true,
+    "new_runtime_pins": 22
+  },
+  "latex": {
+    "pages": 23,
+    "references": 32,
+    "undefined": false,
+    "overfull_lines": [],
+    "pdf_sha256": "975115907b20c648d08bcb37d4b28242a1891a5618c7d3db856f64612b82aaba"
+  },
+  "pdf_visual_review": {
+    "pages_rendered_and_decoded": 23,
+    "figures": 8,
+    "tables": 5,
+    "contacts_inspected": true,
+    "first_page_verified": true,
+    "defects_observed": 0
+  },
+  "drive_readbacks_verified": [
+    "notebook",
+    "runtime",
+    "pdf",
+    "overleaf"
+  ],
+  "global_homologated": 0,
+  "drive_results_components_readback_verified": {
+    "core": "6765fc182280813955fd8650a595826377cf0bbbf8302dff1ace51c0172dbe21",
+    "envelope": "195f47b141102ff6f08fe28c969c6ce757340afb6627798154c9387c5c3e3862",
+    "tables": "26160d46816ce7068f2ce11d3f458fbc7adaf8b9627452e1fb08038b77af7514"
+  }
+}
