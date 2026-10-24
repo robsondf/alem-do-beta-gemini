@@ -1,0 +1,118 @@
+papel_id,ticker,company_id,setor_economico,in_decade_80,in_recent_117
+BRABCBACNPR4,ABCB4.SA,ABCB,Financeiro,True,True
+BRABEVACNOR1,ABEV3.SA,ABEV,Consumo não Cíclico,True,True
+BRALPAACNPR7,ALPA4.SA,ALPA,Consumo Cíclico,True,True
+BRALUPCDAM15,ALUP11.SA,ALUP,Utilidade Pública,True,True
+BRAMBPACNOR6,AMBP3.SA,AMBP,Utilidade Pública,False,True
+BRANIMACNOR6,ANIM3.SA,ANIM,Consumo Cíclico,True,True
+BRAZULACNPR4,AZUL4.SA,AZUL,Bens Industriais,False,True
+BRBBASACNOR3,BBAS3.SA,BBAS,Financeiro,True,True
+BRBBDCACNOR1,BBDC3.SA,BBDC,Financeiro,True,True
+BRBBDCACNPR8,BBDC4.SA,BBDC,Financeiro,True,True
+BRBBSEACNOR5,BBSE3.SA,BBSE,Financeiro,True,True
+BRBEEFACNOR6,BEEF3.SA,BEEF,Consumo não Cíclico,True,True
+BRBPACUNT006,BPAC11.SA,BPAC,Financeiro,False,True
+BRBPANACNPR1,BPAN4.SA,BPAN,Financeiro,True,True
+BRBRAPACNPR2,BRAP4.SA,BRAP,Materiais Básicos,True,True
+BRBRKMACNPA4,BRKM5.SA,BRKM,Materiais Básicos,True,True
+BRBRSRACNPB4,BRSR6.SA,BRSR,Financeiro,True,True
+BRCAMLACNOR3,CAML3.SA,CAML,Consumo não Cíclico,False,True
+BRCASHACNOR8,CASH3.SA,CASH,Tecnologia da Informação,False,True
+BRCEABACNOR1,CEAB3.SA,CEAB,Consumo Cíclico,False,True
+BRCMIGACNPR3,CMIG4.SA,CMIG,Utilidade Pública,True,True
+BRCOGNACNOR2,COGN3.SA,COGN,Consumo Cíclico,False,True
+BRCPFEACNOR0,CPFE3.SA,CPFE,Utilidade Pública,True,True
+BRCPLEACNOR8,CPLE3.SA,CPLE,Utilidade Pública,True,True
+BRCSANACNOR6,CSAN3.SA,CSAN,"Petróleo, Gás e Biocombustíveis",True,True
+BRCSMGACNOR5,CSMG3.SA,CSMG,Utilidade Pública,True,True
+BRCSNAACNOR6,CSNA3.SA,CSNA,Materiais Básicos,True,True
+BRCURYACNOR3,CURY3.SA,CURY,Consumo Cíclico,False,True
+BRCVCBACNOR1,CVCB3.SA,CVCB,Consumo Cíclico,True,True
+BRCYREACNOR7,CYRE3.SA,CYRE,Consumo Cíclico,True,True
+BRDIRRACNOR0,DIRR3.SA,DIRR,Consumo Cíclico,True,True
+BRECORACNOR8,ECOR3.SA,ECOR,Bens Industriais,True,True
+BREGIEACNOR9,EGIE3.SA,EGIE,Utilidade Pública,False,True
+BRENEVACNOR8,ENEV3.SA,ENEV,Utilidade Pública,True,True
+BRENGICDAM16,ENGI11.SA,ENGI,Utilidade Pública,False,True
+BREQTLACNOR0,EQTL3.SA,EQTL,Utilidade Pública,True,True
+BREVENACNOR8,EVEN3.SA,EVEN,Consumo Cíclico,True,True
+BREZTCACNOR0,EZTC3.SA,EZTC,Consumo Cíclico,True,True
+BRFLRYACNOR5,FLRY3.SA,FLRY,Saúde,True,True
+BRFRASACNOR0,FRAS3.SA,FRAS,Bens Industriais,True,True
+BRGFSAACNOR3,GFSA3.SA,GFSA,Consumo Cíclico,True,True
+BRGGBRACNPR8,GGBR4.SA,GGBR,Materiais Básicos,True,True
+BRGMATACNOR7,GMAT3.SA,GMAT,Consumo não Cíclico,False,True
+BRGOAUACNPR8,GOAU4.SA,GOAU,Materiais Básicos,True,True
+BRGRNDACNOR3,GRND3.SA,GRND,Consumo Cíclico,True,True
+BRGUARACNOR4,GUAR3.SA,GUAR,Consumo Cíclico,True,True
+BRHAPVACNOR4,HAPV3.SA,HAPV,Saúde,False,True
+BRHBSAACNOR0,HBSA3.SA,HBSA,Bens Industriais,False,True
+BRHYPEACNOR0,HYPE3.SA,HYPE,Saúde,True,True
+BRIRBRACNOR4,IRBR3.SA,IRBR,Financeiro,False,True
+BRITSAACNPR7,ITSA4.SA,ITSA,Financeiro,True,True
+BRITUBACNOR4,ITUB3.SA,ITUB,Financeiro,True,True
+BRITUBACNPR1,ITUB4.SA,ITUB,Financeiro,True,True
+BRJHSFACNOR2,JHSF3.SA,JHSF,Consumo Cíclico,True,True
+BRKEPLACNOR1,KEPL3.SA,KEPL,Bens Industriais,True,True
+BRKLBNACNPR9,KLBN4.SA,KLBN,Materiais Básicos,True,True
+BRKLBNCDAM18,KLBN11.SA,KLBN,Materiais Básicos,True,True
+BRLAVVACNOR4,LAVV3.SA,LAVV,Consumo Cíclico,False,True
+BRLEVEACNOR2,LEVE3.SA,LEVE,Consumo Cíclico,True,True
+BRLIGTACNOR2,LIGT3.SA,LIGT,Utilidade Pública,True,True
+BRLJQQACNOR5,LJQQ3.SA,LJQQ,Consumo Cíclico,False,True
+BRLOGGACNOR7,LOGG3.SA,LOGG,Financeiro,False,True
+BRLRENACNOR1,LREN3.SA,LREN,Consumo Cíclico,True,True
+BRLWSAACNOR8,LWSA3.SA,LWSA,Tecnologia da Informação,False,True
+BRMDIAACNOR7,MDIA3.SA,MDIA,Consumo não Cíclico,True,True
+BRMDNEACNOR9,MDNE3.SA,MDNE,Consumo Cíclico,False,True
+BRMGLUACNOR2,MGLU3.SA,MGLU,Consumo Cíclico,True,True
+BRMILSACNOR2,MILS3.SA,MILS,Bens Industriais,True,True
+BRMOVIACNOR0,MOVI3.SA,MOVI,Consumo Cíclico,False,True
+BRMRVEACNOR2,MRVE3.SA,MRVE,Consumo Cíclico,True,True
+BRMULTACNOR5,MULT3.SA,MULT,Financeiro,True,True
+BRMYPKACNOR7,MYPK3.SA,MYPK,Consumo Cíclico,True,True
+BRNEOEACNOR3,NEOE3.SA,NEOE,Utilidade Pública,False,True
+BRODPVACNOR4,ODPV3.SA,ODPV,Saúde,True,True
+BRPCARACNOR3,PCAR3.SA,PCAR,Consumo não Cíclico,False,True
+BRPETRACNOR9,PETR3.SA,PETR,"Petróleo, Gás e Biocombustíveis",True,True
+BRPETRACNPR6,PETR4.SA,PETR,"Petróleo, Gás e Biocombustíveis",True,True
+BRPETZACNOR2,PETZ3.SA,PETZ,Consumo Cíclico,False,True
+BRPGMNACNOR8,PGMN3.SA,PGMN,Saúde,False,True
+BRPLPLACNOR5,PLPL3.SA,PLPL,Consumo Cíclico,False,True
+BRPOMOACNPR7,POMO4.SA,POMO,Bens Industriais,True,True
+BRPRIOACNOR1,PRIO3.SA,PRIO,"Petróleo, Gás e Biocombustíveis",True,True
+BRPRNRACNOR4,PRNR3.SA,PRNR,Bens Industriais,False,True
+BRPSSAACNOR7,PSSA3.SA,PSSA,Financeiro,True,True
+BRRADLACNOR0,RADL3.SA,RADL,Saúde,True,True
+BRRAILACNOR9,RAIL3.SA,RAIL,Bens Industriais,False,True
+BRRANIACNOR5,RANI3.SA,RANI,Materiais Básicos,False,True
+BRRAPTACNPR4,RAPT4.SA,RAPT,Bens Industriais,True,True
+BRRCSLACNPR1,RCSL4.SA,RCSL,Bens Industriais,True,True
+BRRDORACNOR8,RDOR3.SA,RDOR,Saúde,False,True
+BRRENTACNOR4,RENT3.SA,RENT,Consumo Cíclico,True,True
+BRSANBCDAM13,SANB11.SA,SANB,Financeiro,True,True
+BRSAPRACNPR6,SAPR4.SA,SAPR,Utilidade Pública,True,True
+BRSAPRCDAM13,SAPR11.SA,SAPR,Utilidade Pública,False,True
+BRSBSPACNOR5,SBSP3.SA,SBSP,Utilidade Pública,True,True
+BRSEERACNOR5,SEER3.SA,SEER,Consumo Cíclico,True,True
+BRSIMHACNOR0,SIMH3.SA,SIMH,Financeiro,False,True
+BRSLCEACNOR2,SLCE3.SA,SLCE,Consumo não Cíclico,True,True
+BRSMTOACNOR3,SMTO3.SA,SMTO,Consumo não Cíclico,True,True
+BRSUZBACNOR0,SUZB3.SA,SUZB,Materiais Básicos,False,True
+BRTAEECDAM10,TAEE11.SA,TAEE,Utilidade Pública,True,True
+BRTENDACNOR4,TEND3.SA,TEND,Consumo Cíclico,False,True
+BRTFCOACNPR8,TFCO4.SA,TFCO,Consumo Cíclico,False,True
+BRTGMAACNOR7,TGMA3.SA,TGMA,Bens Industriais,True,True
+BRTIMSACNOR5,TIMS3.SA,TIMS,Comunicações,False,True
+BRTOTSACNOR8,TOTS3.SA,TOTS,Tecnologia da Informação,True,True
+BRTUPYACNOR1,TUPY3.SA,TUPY,Bens Industriais,True,True
+BRUGPAACNOR8,UGPA3.SA,UGPA,"Petróleo, Gás e Biocombustíveis",True,True
+BRUNIPACNPB8,UNIP6.SA,UNIP,Materiais Básicos,True,True
+BRUSIMACNPA6,USIM5.SA,USIM,Materiais Básicos,True,True
+BRVALEACNOR0,VALE3.SA,VALE,Materiais Básicos,True,True
+BRVIVAACNOR0,VIVA3.SA,VIVA,Consumo Cíclico,False,True
+BRVIVTACNOR0,VIVT3.SA,VIVT,Comunicações,True,True
+BRVLIDACNOR5,VLID3.SA,VLID,Bens Industriais,True,True
+BRVULCACNOR2,VULC3.SA,VULC,Consumo Cíclico,True,True
+BRWEGEACNOR0,WEGE3.SA,WEGE,Bens Industriais,True,True
+BRYDUQACNOR3,YDUQ3.SA,YDUQ,Consumo Cíclico,False,True

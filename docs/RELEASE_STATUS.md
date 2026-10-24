@@ -4,7 +4,7 @@ O destino foi criado pelo autor com visibilidade pública. Esta seleção dispon
 
 Não havia licença geral na árvore de origem e nenhuma foi atribuída nesta migração. Acesso público não equivale a uma licença de redistribuição ou de software livre. A escolha de licença pelo autor e a compatibilidade dos materiais de terceiros permanecem decisões específicas. Estilos SBC, documentos de fontes primárias e dados derivados mantêm suas próprias condições; não foram relicenciados.
 
-O artigo, os resultados e os protocolos são preservados. A disponibilidade descrita no manuscrito continua referindo-se à versão de origem e aos materiais externos registrados. A criação deste repositório não torna públicos os caches financeiros nem modifica permissões do Drive.
+Os resultados e os protocolos são preservados; o manuscrito recebeu a revisão pós-parecer identificada na proveniência. A disponibilidade descrita no manuscrito distingue a cópia pública selecionada da versão de origem e dos materiais externos registrados. A criação deste repositório não torna públicos os caches financeiros nem modifica permissões do Drive.
 
 As limitações científicas permanecem as descritas no artigo: seleção retrospectiva/sobrevivência, ausências preservadas, homologação econômica incompleta, limites de potência e de calibração. Uma revisão editorial posterior poderá atualizar a declaração de disponibilidade para este destino, com recompilação e conferência próprias.
 

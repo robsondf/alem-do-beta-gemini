@@ -1,0 +1,13 @@
+scenario,papel_id,ticker,setor_economico,diagnostic,date,observed_return,full_model_delete_one_delta_shift
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove1_largest_absolute_observation_influence,2020-03-09,-0.0747266535697468,-0.04741972735424696
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove5_largest_absolute_observation_influence,2016-03-17,0.1224621727420746,-0.01932932320133227
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove5_largest_absolute_observation_influence,2017-05-18,-0.1405568544619486,0.02167593756669885
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove5_largest_absolute_observation_influence,2020-03-09,-0.0747266535697468,-0.04741972735424696
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove5_largest_absolute_observation_influence,2020-03-10,0.0238201636104583,0.03267501782199036
+decada,BRBBDCACNPR8,BBDC4.SA,Financeiro,remove5_largest_absolute_observation_influence,2020-03-12,-0.1439326480033611,-0.024203324924934533
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove1_largest_absolute_observation_influence,2020-03-24,-0.0132453828913304,0.051385764776431184
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove5_largest_absolute_observation_influence,2016-02-04,-0.1776809875874125,0.034698117818855144
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove5_largest_absolute_observation_influence,2020-03-12,-0.2011994487402466,0.03402692607690284
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove5_largest_absolute_observation_influence,2020-03-13,0.0380276113105357,0.045981864989674597
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove5_largest_absolute_observation_influence,2020-03-24,-0.0132453828913304,0.051385764776431184
+decada,BRVULCACNOR2,VULC3.SA,Consumo Cíclico,remove5_largest_absolute_observation_influence,2020-03-25,0.1013524466026942,-0.0307061216983458

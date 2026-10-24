@@ -73,6 +73,9 @@ Sua operacionalização é bilateral:
 $H_{0i}:\Delta_i=0$ contra $H_{1i}:\Delta_i\ne0$.
 A direção $\Delta_i<0$ indica maior sensibilidade estimada nas quedas;
 não substitui o teste por uma alternativa unilateral.
+Essa hipótese individual não testa se a média, a mediana ou a prevalência
+de assimetria no conjunto fixo difere de um referencial. Esses alvos
+agregados exigem inferência própria e não são respondidos pelas contagens.
 
 A \textbf{H2 de pesquisa} é que a assimetria pode mudar entre
 subperíodos. Para os 80 ativos da década, testa-se
@@ -114,6 +117,9 @@ e presença histórica; portanto, é retrospectiva e sujeita a sobrevivência.
 O cadastro setorial B3 datado não reconstrói classificações disponíveis
 em cada época \cite{b3setorial}. Na década, Comunicações e Tecnologia
 da Informação têm um ativo cada, restringindo a interpretação setorial.
+Os 80 e 117 ativos correspondem a 76 e 112 emissores, respectivamente.
+Classes distintas podem ser dependentes; contagens e medianas descrevem
+ativos, sem pressupor observações independentes por emissor.
 
 Ativo e Ibovespa são pareados no calendário B3. O cache do fornecedor,
 consultado pela interface yfinance, foi confrontado com dados e
@@ -147,9 +153,11 @@ Estimam-se, com pares válidos por ativo e janela,
 \begin{align}
 \widehat\beta_i&=\frac{\widehat{\operatorname{Cov}}(r_i,m)}
  {\widehat{\operatorname{Var}}(m)},\\
-\widehat\beta_i^\pm&=\frac{\widehat{\operatorname{Cov}}(r_i,m\mid m\gtrless 0)}
- {\widehat{\operatorname{Var}}(m\mid m\gtrless 0)},\qquad
-\widehat\Delta_i=\widehat\beta_i^+-\widehat\beta_i^-.
+\widehat\beta_i^+&=\frac{\widehat{\operatorname{Cov}}(r_i,m\mid m>0)}
+ {\widehat{\operatorname{Var}}(m\mid m>0)},\qquad
+\widehat\beta_i^-=\frac{\widehat{\operatorname{Cov}}(r_i,m\mid m<0)}
+ {\widehat{\operatorname{Var}}(m\mid m<0)},\\
+\widehat\Delta_i&=\widehat\beta_i^+-\widehat\beta_i^-.
 \end{align}
 Cada regime tem centralização própria. O limiar zero é fixo e não foi
 escolhido para maximizar assimetria. Dias neutros entram no beta
@@ -163,6 +171,13 @@ com interceptos distintos e $b_i=\beta_i^-$. Os parâmetros descrevem
 projeções históricas; não se identifica um efeito causal do mercado.
 A incerteza de $\Delta_i$ utiliza a covariância conjunta do ajuste,
 sem tratar as duas inclinações como independentes.
+O parâmetro $g_i$ permite a centralização própria de cada regime;
+não representa uma descontinuidade causal imposta ao mercado. Impor
+$g_i=0$ define uma projeção contínua diferente, potencialmente mais
+precisa quando a restrição é verdadeira. A comparação entre ambas
+é uma sensibilidade ainda necessária, não uma correção automática
+do estimando. Os interceptos pontuais são disponibilizados por ativo;
+seu contraste não recebeu nova inferência nesta revisão.
 
 Exigem-se 200 pares totais,60 por regime, cobertura de 95\% e variância
 do mercado acima de $10^{-12}$. O piso total limita ajustes muito
@@ -179,6 +194,11 @@ marginais de 95\%. Os escores permanecem na grade original; ausências
 e neutros têm escore zero no contraste, sem imputação ou compressão
 do calendário. Holm a 5\% ajusta a família estática de 197 testes
 \cite{holm1979}. Os 80 comuns não acrescentam outras 80 hipóteses.
+O controle reúne as afirmações individuais nas duas janelas e admite
+sua sobreposição e a dependência entre classes, desde que os valores-p
+marginais sejam válidos. A escolha é conservadora e não responde a um
+teste da assimetria média. Repartir famílias após conhecer os resultados
+exigiria uma nova análise explicitamente pós-revisão.
 
 Para as metades da década, $Q_t=\mathbf{1}(t\in2021\text{--}2025)$
 e ajusta-se
@@ -230,17 +250,29 @@ não corrigiram uniformemente a calibração; seus resultados e relações
 com bootstrap dependente/máximos gaussianos
 \cite{shao2010,chernozhukov2013} permanecem no registro técnico.
 
-Para cada desenho e mecanismo $g$, o banco independente final contém
+Para cada desenho equivalente $d$ e mecanismo $g$, o banco independente final contém
 $B=99.999$ estatísticos $T=\widehat\Delta/\widehat{se}_{HC3-HAC5}$
 sob a nula, em três fluxos de 33.333. Define-se
 \begin{equation}
-p_g(T)=\frac{1+\sum_{b=1}^{B}\mathbf{1}(|T_{gb}|\ge|T|)}{B+1},
-\qquad p_{env}=\max_{g\in\{1,2,3\}}p_g(T).
+p_{dg}(T_i)=\frac{1+\sum_{b=1}^{B}\mathbf{1}(|T_{dgb}|\ge|T_i|)}{B+1},
+\quad p_{i,env}=\max_{g\in\{1,2,3\}}p_{d(i)g}(T_i).
 \end{equation}
 Postos assinados unilaterais atendem aos testes anuais e postos
 bilaterais ao contraste temporal \cite{dufour2006,phipson2010}.
-Sob o desenho fixo e um desses mecanismos, parâmetros de localização
-e escala positiva se cancelam no estatístico. A permutabilidade entre
+O mapa $d(i)$ preserva datas, máscara e tipo de contraste. O catálogo
+contém 25 desenhos: sete estáticos, 14 anuais e quatro entre metades.
+Um banco é reutilizado somente quando essas características coincidem;
+não se mistura a distribuição de máscaras diferentes.
+
+Se $C\gamma=0$ é a nula do contraste no desenho $X_d$ e
+$y=X_d\gamma+\sigma u$, então
+$C\widehat\gamma(y)=\sigma C\widehat\gamma(u)$ e
+$\widehat{se}(y)=\sigma\widehat{se}(u)$ para $\sigma>0$:
+o resíduo OLS elimina $X_d\gamma$, enquanto alavancagens e pesos
+dependem apenas do desenho. Isso justifica a invariância usada no banco.
+O perfil temporal de escala e o coeficiente AR continuam fixados pelo
+mecanismo; não são parâmetros desconhecidos que se cancelam livremente.
+Sob um desses mecanismos e com banco independente, a permutabilidade entre
 banco e estatístico nulo produz valor-p superuniforme; tomar o máximo
 protege a união finita e Holm permite dependência entre ativos.
 Essa garantia considera banco e estatístico conjuntamente, não
@@ -272,13 +304,14 @@ dos regimes \cite{kunsch1989}. Não se sorteiam empresas nem se
 criam observações para setores unitários. A aproximação estacionária
 dos blocos é uma limitação em períodos com mudanças de regime.
 
-O material de aula \cite{aulacapm2026} apoia a distinção entre
-exposição ao mercado e risco total. No modelo de mercado com
+Exposição ao mercado e risco total são objetos diferentes. No modelo de mercado com
 intercepto, sobre os mesmos pares e denominador $n-1$,
 \begin{equation}
 s_i^2=\widehat\beta_i^2 s_m^2+s_e^2,\qquad
 R_i^2=\widehat\beta_i^2 s_m^2/s_i^2.
 \end{equation}
+A identidade decorre da ortogonalidade entre resíduos OLS e regressor
+centrado, que anula o termo cruzado da variância amostral.
 Resíduos podem conter outros fatores comuns; a decomposição não
 é causal. Calculam-se volatilidade diária logarítmica, desvio de perdas
 relativo a zero e risco residual. Para $L=1-\exp(r)$, VaR 95 é o
@@ -613,6 +646,30 @@ vez no ajuste completo, sem exclusão iterativa. Influência não identifica
 erro nem autoriza correção dos dados. Os cenários de caixa especificados
 não limitam o impacto de todo evento econômico desconhecido.
 
+A Tabela~\ref{tab:criticos} apresenta os dois casos rejeitados no
+procedimento primário. A maior mudança de VULC3 nesses diagnósticos é
+0,154, enquanto os máximos de toda a amostra, 0,461 e 0,613,
+correspondem a CVCB3 na década e GFSA3 no recente. Quatro das cinco
+datas mais influentes de VULC3 pertencem a março de 2020, motivando
+sensibilidade específica a esse período. As exclusões conservam os
+sinais, mas os ICs marginais não demonstram sobrevivência da decisão
+Holm ou do envelope: essa inferência não foi recalibrada nas máscaras.
+
+\begin{table}[htbp]
+\centering
+\caption{Diagnósticos de influência na década, extraídos do Colab E
+conferido. IC marginal HAC5 de 95\%; sem nova decisão ajustada.
+A ordem de influência é fixada no ajuste completo.}
+\label{tab:criticos}
+\input{tables/casos_criticos.tex}
+\end{table}
+
+Uma diferença de inclinação de $-0,14$ representa diferença de
+$-0,0014$ na componente linear para movimento de mercado de $+1\%$
+entre as duas retas avaliadas algebricamente. A escala ajuda a ler
+o coeficiente, mas a função completa inclui interceptos e resíduos;
+não é prêmio de risco, custo de capital ou retorno de uma estratégia.
+
 Insuficiências são mantidas. Retirar o quarto trimestre de 2024 da Light deixa 190 pares
 em 2024, afetando linhas anuais e testes direcionais; o recorte
 PCAR3 pré-Assaí contém 37 pares. Não se reduzem pisos ou se eliminam
@@ -627,16 +684,23 @@ Hashes identificam a versão utilizada, mas não reconstroem dados
 disponíveis em cada data. Setores pequenos e classes correlacionadas
 limitam a generalização, mesmo com reamostragem síncrona.
 
-A auditoria econômica global continua 0/197: identidade, quantidade,
-bordas, direitos e harmonização fiscal não estão integralmente
-identificados. Permanecem zero taxas operacionais liberadas em 65
-registros RENDIMENTO e zero líquidos contemporâneos liberados em 48
-grupos. A divergência documental entre relógios/taxas é preservada,
-sem escolher uma fonte por conveniência. ICs estatísticos não
+A conciliação econômica integral dos 197 históricos permanece pendente,
+incluindo identidade, quantidade, bordas, direitos e convenções fiscais
+de proventos. Divergências entre datas econômicas, disponibilidade da
+fonte e taxas de atualização foram preservadas no registro técnico.
+ICs estatísticos não
 incorporam toda essa incerteza de mensuração. Portanto, as análises
 empíricas existem e são reproduzíveis sob a referência observada,
 enquanto a validade econômica de um histórico inteiramente harmonizado
 permanece pendente.
+
+Negociação não síncrona, modelos contínuos por regime e uma referência
+em retornos excedentes são sensibilidades ainda não executadas. A
+seleção por liquidez recente não comprova sincronismo em toda a década.
+Uma avaliação em excesso requer série diária e convenção de taxa
+livre de risco autenticadas. O alvo prospectivo de exposição futura
+também requer desenho próprio; a previsão do retorno seguinte não
+resolve essa pergunta.
 
 Por fim, a garantia do envelope é restrita aos mecanismos declarados;
 os blocos dependem de aproximações frágeis sob mudanças de regime.
@@ -709,10 +773,16 @@ técnicos e covariância sequencial não foram executados; sua inclusão
 exigiria hipótese, multiplicidade e avaliação incremental próprias.
 
 \section*{Disponibilidade e reprodutibilidade}
-Código, protocolos, tabelas e recibos estão no repositório privado
+Uma cópia selecionada de código, protocolos, artigo e tabelas está em
+\url{https://github.com/robsondf/alem-do-beta-gemini}, versão
+\texttt{774f11fccbcdc9ff8086cc4d7c64cc4fb64d494c}.
+O histórico completo permanece no repositório de desenvolvimento
 \url{https://github.com/robsondf/alem-do-beta}; caches e exports integrais
-permanecem no Drive. A abertura pública e os direitos de redistribuição
-ainda exigem decisão. Execuções Colab e verificadores independentes
+permanecem no Drive. A cópia pública não contém todas as entradas
+necessárias à reprodução integral, e seus materiais não receberam nova
+licença de redistribuição. Inventário de ativos, estimativas e diagnósticos
+por caso acompanham a revisão no repositório de desenvolvimento.
+Execuções Colab e verificadores independentes
 confirmaram reprodução numérica nos ambientes registrados, sem
 homologação econômica integral. Tolerâncias, versões e contagens
 estão nos recibos. A versão técnica anterior foi preservada em
