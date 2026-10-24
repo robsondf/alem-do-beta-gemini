@@ -10514,10 +10514,10 @@
     },
     {
       "path": "docs/lab03f_pos_parecer.md",
-      "git_blob_sha1": "9ce17cdb3f46cc72fe34188a387714b8db6c0c73",
-      "bytes": 9552,
+      "git_blob_sha1": "de25b2031543dbd13878673a26c4561a13b664ca",
+      "bytes": 9554,
       "mode": "100644",
-      "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f",
+      "source_commit": "71f0fd9a833f6f1538383d4198b91f34cf5c206a",
       "prior_versions": [
         {
           "path": "docs/lab03f_pos_parecer.md",
@@ -10525,6 +10525,13 @@
           "bytes": 9131,
           "mode": "100644",
           "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+        },
+        {
+          "path": "docs/lab03f_pos_parecer.md",
+          "git_blob_sha1": "9ce17cdb3f46cc72fe34188a387714b8db6c0c73",
+          "bytes": 9552,
+          "mode": "100644",
+          "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f"
         }
       ]
     },
@@ -10800,6 +10807,15 @@
         "data/lab03f/notebook_integracao_local.json"
       ],
       "user_Colab_executed": false
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Permanent Colab link independent of branch deletion",
+      "source_commit": "71f0fd9a833f6f1538383d4198b91f34cf5c206a",
+      "updated_paths": [
+        "docs/lab03f_pos_parecer.md"
+      ],
+      "notebook_commit": "c747c02c288b0bed45cda155e115624841e5e33b"
     }
   ]
 }

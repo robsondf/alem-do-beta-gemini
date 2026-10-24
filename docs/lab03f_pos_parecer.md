@@ -51,7 +51,7 @@ Os saltos g de VULC3/BBDC4 têm EP0,001956/0,001102. Suas não rejeições não 
 
 ## Execução Colab e local
 
-Notebook: [abrir F no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/feat/lab03f-resposta-empirica-20261024/notebooks/Lab03F_pos_parecer.ipynb). Arquivo: `notebooks/Lab03F_pos_parecer.ipynb`. Execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
+Notebook: [abrir F no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/c747c02c288b0bed45cda155e115624841e5e33b/notebooks/Lab03F_pos_parecer.ipynb). Arquivo: `notebooks/Lab03F_pos_parecer.ipynb`. Execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
 
 Execução local com o arquivo externo autenticado:
 
