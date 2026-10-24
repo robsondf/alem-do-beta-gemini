@@ -540,13 +540,18 @@ A seleção pública não contém todas as matrizes financeiras necessárias
 a materiais de terceiros. O manifesto de proveniência registra hashes
 e versões, inclusive o manuscrito anterior de 25 páginas.
 
-As execuções do autor no Colab das etapas anteriores foram conferidas
-externamente. Na mais recente,1.595.778 valores concordaram com a
-preparação local sob tolerâncias registradas, com diferença máxima de
-$6,79\times10^{-15}$. As análises adicionais desta edição, incluindo a reconstrução dos
-onze arquivos B3 e a variante com lacunas, foram executadas e verificadas localmente; a execução do novo lançador pelo autor no Colab
-permanece pendente. Protocolos e resultados novos estão em\texttt{data/lab03h/},
-\texttt{data/lab03i/} e nas pastas de resultados correspondentes.
+As execuções do autor no Colab, incluindo H/I, foram conferidas
+a partir dos notebooks salvos e exports autenticados. Em H/I, dez fontes
+de células coincidem com a entrega, seis códigos foram executados sem
+exceções e 149 fontes foram autenticadas. A conferência externa comparou
+722.947 valores de tabelas e bancos, com diferença máxima de
+$8,89\times10^{-15}$ sob tolerâncias absoluta $10^{-10}$ e relativa
+$10^{-9}$, preservando 612 posições de limiar de valores-p. As três
+figuras renderizadas coincidem com as do artigo. Foram reutilizados os
+onze caches B3, sem novas cotações ou repetição dos geradores anteriores.
+Os oráculos independentes foram reexecutados sobre cópias autenticadas
+das saídas. Protocolos, resultados e recibos estão em
+\texttt{data/lab03h/}, \texttt{data/lab03i/} e nas pastas correspondentes.
 O pacote externo recebido é identificado por hash; seus scripts não
 foram executados. As rotinas independentes usam os arquivos primários
 autenticados e entradas derivadas de retornos, com diferenças de filtro

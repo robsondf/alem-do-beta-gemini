@@ -1,0 +1,37 @@
+{
+  "H": {
+    "passed": true,
+    "production_H_G_F_imports": false,
+    "explicit_period_OLS": 480,
+    "max_OLS_difference": 3.1086244689504383e-15,
+    "explicit_bootstrap_statistics": 36,
+    "max_bootstrap_difference": 2.2273849431542203e-15,
+    "complete_bootstrap_statistic_rows": 12,
+    "CDF_rows_recomputed": 84,
+    "dense_covariance_cases": 5,
+    "economic_rows_checked": 1920,
+    "prior_source_pins": 78,
+    "scope": "numerical/method consistency;does not validate new masked-bootstrap size/coverage or CDF replacement"
+  },
+  "I": {
+    "passed": true,
+    "production_imported": false,
+    "eligible_2015_submitted_BDI02_filter": 211,
+    "reported_broad_liquidity_cache_eligible": 221,
+    "top80_exact_order_reproduced": true,
+    "asset_period_points_and_flags_checked": 960,
+    "complete_CI_p_rows": 120,
+    "explicit_row_resampled_aggregate_and_rank_statistics": 360,
+    "max_direct_draw_difference": 3.1086244689504383e-15,
+    "documented_missing_cells_protected": 7,
+    "bootstrap_vectors_verified": 120,
+    "bootstrap_values": 599880,
+    "separate_regime_lag_fits_checked": 1076,
+    "max_lag_difference": 1.709743457922741e-14,
+    "scope": "Computational/measurement consistency;not calibrated association size/coverage,economic event validation or causal selection identification"
+  },
+  "date": "2026-10-24",
+  "source": "Trusted versioned oracles run on copies of authenticated author exports",
+  "production_or_received_notebook_executed": false,
+  "scientific_scope": "Numerical/measurement audit;not economic event certification or calibration of new inference"
+}

@@ -1,11 +1,23 @@
 # Leitura, execução e verificações
 
+## Colab H/I do autor conferido — 24/10/2026
+
+[Cópia executada e salva](https://colab.research.google.com/drive/1pHcTi0deFoiIiEvmFK4ZtYr5MM9p_i9l); [export correspondente](https://drive.google.com/file/d/1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru/view), 21.813.582 bytes, SHA256 `ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e`. As dez fontes de células coincidem com a entrega imutável; seis códigos em sequência, zero exceções, 149 fontes autenticadas. O ZIP tem 207 membros: 206 arquivos cobertos pelo manifesto e o próprio manifesto. H e I foram reestimados no Colab; os 6.000 geradores anteriores não foram repetidos. Nenhuma nova cotação foi consultada.
+
+Conferência externa: **722.947 valores concordantes** (123.067 de tabelas/bancos H e 599.880 dos bancos I), diferença máxima `8,881784197e−15`, tolerâncias absoluta `1e−10` e relativa `1e−9`; preservadas 612 posições de limiar de valores-p. Os três PNGs embutidos coincidem com os exports e os três PDFs renderizados coincidem com os do artigo em 144 dpi. Não se alega identidade binária geral. A tabela LaTeX de defasagens é formatação exclusiva do artigo; seu CSV subjacente foi comparado numericamente.
+
+Oráculos independentes confiáveis reexecutados sobre cópias das saídas autenticadas: H confere 480 regressões por período, 36 estatísticas de sorteio, 84 linhas CDF, cinco covariâncias densas e 1.920 componentes econômicos; I confere 960 pontos/status, 120 linhas de IC/p, 360 estatísticas explícitas, 599.880 valores de bancos e 1.076 ajustes válidos separados por regime com defasagens. As sete lacunas estão preservadas. A checagem de tamanho/cobertura das novas associações e a validação econômica dos eventos continuam pendentes.
+
+Recibos: `data/lab03i/validacao_colab_20261024.json`, `manifesto_colab_20261024.json` e `oraculos_colab_20261024.json`. Auditor reproduzível: `scripts/verify_lab03i_colab.py`. O notebook executado, ZIP, matrizes diárias derivadas e bancos I permanecem no Drive, com organização/compartilhamento preservados; somente recibos e hashes são adicionados ao Git.
+
+**Não repetir H/I/F/G/E ou transferências. Nenhum notebook novo nesta conferência.** Os resultados, universos fixos 80/117, dez setores, famílias e interpretações permanecem. Auditoria econômica global 0/197 não significa 197 erros; eventos/cadeias de ISIN, seleção/attrition, vintages e calibração específica continuam limitações. KRR permanece proposta não implementada/avaliada. Próximo: revisão científica humana e fechamento editorial para entrega de 27/10/2026, extensão não confirmada.
+
 ## Reprodução atual H/I
 
 [Link imutável do único Colab H/I](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/fd51b25af552cb3dd3715c473c7b3156dd352b79/notebooks/Lab03I_selecao_liquidez.ipynb). Runtime `4689c35c49a303e84f35b66c55320190fb630937`, 149 fontes autenticadas.
 
 
-Executar somente `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU. Inclui H e I e reutiliza os caches existentes; não repete F/G/E ou os 6.000 geradores. [Métodos, resultados, entradas e limites](lab03i_selecao_liquidez.md). A preparação local não é execução Colab do autor. O ZIP externo foi recebido e reproduzido; eventos e cobertura inferencial específica continuam pendentes.
+Para reprodução futura, usar `notebooks/Lab03I_selecao_liquidez.ipynb`, em CPU; a execução atual foi conferida, sem necessidade de repetição. Inclui H e I e reutiliza os caches existentes; não repete F/G/E ou os 6.000 geradores. [Métodos, resultados, entradas e limites](lab03i_selecao_liquidez.md). A preparação local não é execução Colab do autor. O ZIP externo foi recebido e reproduzido; eventos e cobertura inferencial específica continuam pendentes.
 
 ## Ambiente
 
@@ -96,3 +108,13 @@ No Overleaf, carregue o conteúdo de `paper/`, defina `main.tex` como principal 
 ## Alcance da verificação
 
 A aprovação dos testes locais é diferente da conferência integral Colab registrada na origem, da calibração sob processos simulados e da identificação econômica dos retornos. Esta migração não repete essas etapas e não amplia suas garantias.
+
+## Auditar o Colab H/I salvo
+
+O auditor não executa código recebido; a pasta de saída deve ser nova. Os hashes/nome/tamanho do ZIP são confrontados com o stdout do notebook salvo. São verificadas as 149 fontes, os 206 arquivos cobertos pelo manifesto, as tabelas, os bancos H e as figuras. A comparação adicional dos 120 bancos I exige o export local anterior autenticado por `data/lab03i/validacao_notebook_local.json`; com essa opção, o total é 722.947 valores. Sem ela, são 123.067, com a ausência declarada no recibo.
+
+```bash
+python scripts/verify_lab03i_colab.py --notebook /caminho/I_executado.ipynb --export /caminho/resultados_lab03i_20261024T220259Z.zip --output /caminho/NOVA_AUDITORIA_I --local-export /caminho/resultados_lab03i_20261024T214024Z.zip
+```
+
+Os oráculos confiáveis `verify_lab03h.py` e `verify_review_2015.py` podem ser executados em cópias das pastas autenticadas `outputs` e `outputs_I`; H exige também o cache X autenticado. Não executar scripts extraídos do pacote externo. A conferência computacional não elimina limites econômicos ou inferenciais.
