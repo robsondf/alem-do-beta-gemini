@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage{graphicx,xurl,placeins}
+\graphicspath{{figures/lab02/}{paper/figures/lab02/}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\sloppy
+\title{Além do Beta Tradicional: Suplemento de Métodos e Validação}
+\author{Robson Dias Ferreira\inst{1}}
+\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
+Programa de Pós-Graduação em Computação (PPGC)\\
+Disciplina CMP609 -- Introdução aos Métodos Computacionais em Finanças
+\email{}}
+\begin{document}
+\maketitle
+Material complementar ao artigo. Mantém os experimentos individuais
+anteriores e a previsão exploratória com seus alvos e limitações próprios.
+Os resultados agregados posteriores não recebem a garantia do envelope.
+\input{suplemento_metodos}
+\section{Calibração agregada e sensibilidades completas}
+\begin{table}[htbp]\centering\small
+\caption{Calibração agregada sob nulidade global. FWER ajustada e
+Wilson95\% Monte Carlo;1.000 réplicas por mecanismo, bloco21.}
+\input{tables/lab03g_calibracao.tex}
+\end{table}
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{lab03g_calibracao.pdf}
+\caption{Erro familiar sob nulidade global. Wilson 95\% é incerteza
+Monte Carlo. Bancos, mercado e parâmetros geradores são fixados;
+os três últimos mecanismos são estresses.}
+\end{figure}
+As 84.000 linhas de replicações, 252 taxas por caso e 24 taxas familiares
+estão nos exports públicos. Incluem cobertura marginal, rejeição bruta
+e ajustada, viés, erro-padrão e intervalos Monte Carlo. Não abrangem
+mercados futuros, outros comprimentos ou os modelos dinâmicos/semanais.
+As 66 linhas observadas e seus sorteios preservam todos os blocos,
+estimativas, intervalos, status e valores-p; não se omitem sensibilidades.
+\begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup
+\end{document}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-24",
+  "execution": "complete local, not author Colab",
+  "plan_sha256": "d347bfbbcef27e96aa8e8db392cb72b172a09d07140e4a3da90753fd76419da1",
+  "observed_rows": 66,
+  "MonteCarlo_outer_replications": 6000,
+  "MonteCarlo_case_rows": 84000,
+  "B_per_case": 4999,
+  "FWER10_range": [
+    0.016,
+    0.031
+  ],
+  "FWER4_range": [
+    0.018,
+    0.056
+  ],
+  "coverage_range": [
+    0.518,
+    0.958
+  ],
+  "no_market_downloads": true,
+  "no_general_size_or_coverage_certification": true,
+  "source_freeze_preserved": 49,
+  "independent_verification": {
+    "passed": true,
+    "production_G_imports": false,
+    "explicit_bootstrap_statistics": 198,
+    "max_explicit_difference": 5.648259637780484e-15,
+    "complete_draw_rows": 66,
+    "calibration_replication_rows": 84000,
+    "independently_recomputed_rate_rows": 276,
+    "scope": "numerical consistency and summary audit; not a general size or coverage theorem"
+  },
+  "output_sha256": {
+    "microstructure.tex": "5c5e5eca48195f20735e1ea68b85ec628ea1019f4f0c6e26248a4aba0fd484c8",
+    "execution_all.json": "5975bba23583c6ccab67f768fcf60abbf1ec844037d796de7c586906f550daaf",
+    "temporal.tex": "c5f1c182368559477e3eee82b346ca26897c25f909492ea1a3961061a90234ad",
+    "plot_summary.json": "68714f6128263f101fbcf9cc572db9d3190728adba6c7f7a2e4fac84eb98256c",
+    "calibration_replications.csv.gz": "cb6537858edd89e4517c3bf41e1e08d0dbb410c08f10ecdc0adb1e33594f9a61",
+    "observed_aggregate.csv.gz": "c1b448523e4c0e86fc1d0aba3f2dbebbb4defa2878d066c720a669ad4f3a7a53",
+    "temporal_asset_points.csv": "84cf4fe6196ca1d2be8a955bde2a356c1c96f80fedc7b0198763c86948a135ff",
+    "independent_verification.json": "472198cc71ddc29184b7422c6f5a22a7d2c59f63051cec411ae2bd7bb28d3173",
+    "calibration.tex": "b9c3e721a0ad2b0d8b8e89777b7dcf86c623222bde6528cf3b24e1be372df653",
+    "observed_draws.npz": "6fadf6e088965808bc4fc39eb470bd96def884c3d0128597141ce37d304e3702",
+    "calibration_families.csv": "a980077971a21590ed6a04eacc2140bf1487390a793ab8134296c303fb8aeb86",
+    "calibration_cases.csv": "35e7263855f1c8d522e5d96ea4de3264a82f368843f6d16ba46149423f55dfc6",
+    "temporal_observations.csv": "1424027b30d6e5311ea2bff91f2d788ae1d9e75613d186529ae52e8bb415cecf"
+  },
+  "rejection_rule": "p_adjusted <0.05 (strict), same convention as prior analyses",
+  "runtime_sources_sha256": {
+    "src/lab03g.py": "e89d3723c71da6accecd469209ce39d1e902cd0e620b83a8ac28103ac11e8c9e",
+    "scripts/build_lab03g_notebook.py": "b35d9f5f749377c7337492d85fa0e319eca97b6b50ff983d556500ce6d1ef495",
+    "scripts/plot_lab03g.py": "61b12abf72d2f7e7ebf55bafe4fb8a505b9812fdee432dad50f5265905c6b697",
+    "scripts/run_lab03g.py": "44251bc1b8f248b2c7a471d466df2f7529e60e9ee952dcccf8d0608b1c9094f1",
+    "scripts/verify_lab03g.py": "6ee9d1f04570f5292c920f8d67c17d71cf6a728a2d165019a4a973b135d8595b",
+    "tests/test_lab03g.py": "eb402449b1ebed3eb01acf8184439973bff1d00ea8ce149d060d8e58a03e613c"
+  }
+}

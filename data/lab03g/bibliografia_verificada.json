@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24",
+  "new_reference": "faria2010",
+  "primary_article": "https://revistafae.fae.edu/revistafae/article/view/235",
+  "primary_pdf": "https://revistafae.fae.edu/revistafae/article/download/235/155/719",
+  "read_scope": "abstract; methods section2; equations8/9; selected results and article metadata, not a claimed full methodological replication",
+  "authors": [
+    "Adriana Moreira Bastos de Faria",
+    "Lucas Maia dos Santos"
+  ],
+  "issue": "Revista da FAE13(2),2010; PDF/issue year used; OJS page migration date2016-11-08 differs",
+  "verified_design": "21 stocks,2006-09-01 to2010-06-21,935 return observations,Ibovespa,Selic; D-CAPM truncates positive excesses of both asset and market",
+  "comparison": "different estimand from within-regime centered log-return slopes here; no harmonized replication or causal risk reduction claimed",
+  "reported_conclusion": "authors report no significant difference between betas in their t comparison; not adopted as proof of equivalence",
+  "caution": "text describes continuous compounding while extracted equation6 is visually ambiguous; do not claim identical return construction"
+}

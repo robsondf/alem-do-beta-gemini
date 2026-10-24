@@ -28,3 +28,9 @@ Preservam-se os testes bilaterais, as famílias197/474, janelas80/117, retornos 
 ## Extensão D autorizada em23/10
 
 Acrescenta pergunta exploratória: a projeção condicional melhora MSE/MAE do retorno logarítmico seguinte contra projeção tradicional e referenciais zero/média? Não é H3 confirmatória pré-registrada. Treino252primário/504sensibilidade e origens móveis estritamente passadas; modelo de mercado usa somente m_(t−1) e integra inovações passadas. Períodos preditivos2019–2025/2024–2025, mantendo comum descritivo2021–2025. Hipóteses H1/H2 e famílias197/474 preservadas. Não se troca janela por ganho observado; não rejeição não prova equivalência. Envelope de postos é complemento com garantia na união finita de três mecanismos e resoluçãoMC explícita; não substituição silenciosa do primário nem certificação de qualquer erro financeiro.
+
+## Complemento pós-terceiro-parecer
+
+Lab03G acrescenta famílias secundárias, sem substituir197/474: Holm4 para média/mediana inicial e mudança pareada dos mesmos80; Holm18 para média/mediana de três modelos em três painéis. A mudança agregada média não testa mudança de todos os ativos. A mediana de theta é calculada nas diferenças por ativo. O protocolo foi escrito antes dos resultados G, com F conhecido, e não é pré-registro independente.
+
+Calibração de tamanho/cobertura: famílias10/4 no bloco21 sob nulidade global, seis mecanismos,1.000 réplicas cada, bancos e mercado fixados. Não garante controle forte sob qualquer configuração, não se transfere ao18 e não remedia a subcobertura dos ICs básicos. Holm30 continua proteção conservadora entre escolhas, sem tratar os blocos como30 hipóteses científicas distintas. Ver `lab03g_parecer_v3.md` para resultados e matriz atual.

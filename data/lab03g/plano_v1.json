@@ -1,0 +1,41 @@
+{
+  "stage": "Lab03G",
+  "date": "2026-10-24",
+  "status": "post_review_v3_written_before_G_results_prior_F_results_known",
+  "independent_preregistration": false,
+  "private_base": "2ab42138ebc272b63960ca4e9ce16df763bcc718",
+  "public_base": "327fbfe1467a470cf2d110c2ce5c2c025784875c",
+  "review_sha256": "b02c396931703704c54def82616aeafa50965d1d83f8d64ff6e390d3a8895d55",
+  "unit": "fixed_security_class_ISIN; no issuer aggregation or portfolio weights",
+  "returns": "audited daily observed log returns; Ibovespa; existing X cache only; preserve missingness",
+  "observed_bootstrap": {
+    "B": 4999,
+    "seed": 2026102407,
+    "daily_blocks": [21,5,63],
+    "weekly_blocks": [4,1,13],
+    "temporal": "80 fixed securities; early2016_2020, late2021_2025 and theta_i=delta_late_i-delta_early_i, preserving paired securities; same F early/late block banks",
+    "temporal_family": "Holm4: mean/median early delta and mean/median theta; per block; late80 already belongs to F, not another new test",
+    "microstructure": ["lag1","leadlag1","weekly"],
+    "microstructure_family": "Holm18: mean/median times3 profiles times3 panels80long/80common/117recent; per corresponding block choice; common80 share recent117 draws",
+    "dynamic_rows": "construct current-regime market-feature rows before resampling; carry original lag/lead features with rows, never recompute shifts across artificial bootstrap joins",
+    "strata": "independent noncircular blocks within pre2021 and post2021 contiguous segments; keep target durations; weekly follows original F window endpoints",
+    "invalid": "no redraw, omission or minimum relaxation; any invalid draw retained/flagged and target inference withheld",
+    "interval": "marginal basic95 percent, approximate; centered bilateral p with plus1; no new studentized method selected by result",
+    "Holm30": "preserve F values as conservative protection across analysis choices; same scientific null across lengths, not30 distinct scientific hypotheses; main F remains fixed L21/Holm10"
+  },
+  "calibration": {
+    "outer_R": 1000,
+    "inner_B": 4999,
+    "block_sessions": 21,
+    "mechanisms": ["gaussian_iid","student_hetero","student_ar","garch_t5","variance_break_t5","ar06_t5"],
+    "generator": "unchanged lab03e_inference.noise_path; seed_entropy2026102407,purpose410; fixed observed market, original masks and previously calibrated117 sigmas; sqrt(.3)common+sqrt(.7)individual",
+    "null": "all conditional deltas zero; omit nuisance alpha+beta*m by exact contrast invariance, verified numerically",
+    "families": "all10 original F aggregate tests and all4 new temporal tests; Holm separately on10/4; report raw case rejection, adjusted case rejection, global family rejection, CI coverage, bias, MonteCarloSE and Wilson95",
+    "banks": "same fixed original F block21 banks for every outer draw; exact refits via response-linear operators; calibration conditional on these banks, observed market and declared nuisance values",
+    "limits": "first3 mechanisms original class, last3 stresses; no extension of finite guarantee; calibrates F aggregate and G temporal at L21, not dynamic/weekly or other block lengths",
+    "stopping": "fixed1000 per mechanism; do not extend or select methods based on size or significance; preserve failures"
+  },
+  "editorial": "correct causal crisis phrase, report all Holm10 block values, preserve Holm30 in secondary material, shorten next-return appendix, move detailed old individual calibration to supplement, add primary Brazilian Faria/Santos only after reading; no assumed early-period significance or simulated economic portfolio loss",
+  "originals": "do not change Lab02-Lab03F code, data, protocols, families197/474, receipts or previous scientific results",
+  "KRR": "proposal only; no new AI contribution claimed"
+}

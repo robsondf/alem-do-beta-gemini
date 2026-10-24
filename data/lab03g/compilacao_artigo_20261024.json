@@ -1,0 +1,57 @@
+{
+  "main": {
+    "cited_references": 38,
+    "sha256": "7d15af0e9136654c2ea6869bcef0a6f89b5f06ffa22f8b79fe058096412bf508",
+    "bytes": 466114,
+    "hyphenation": "local Portuguese babel files; no preloaded Portuguese patterns, language0 fallback",
+    "undefined_references": false,
+    "overfull_boxes": false,
+    "pages": 25
+  },
+  "suplemento": {
+    "cited_references": 8,
+    "sha256": "588e279e7d01072c4effd897159d0554b567b70fcf47f5e3188299aaa544b16b",
+    "bytes": 275585,
+    "hyphenation": "local Portuguese babel files; no preloaded Portuguese patterns, language0 fallback",
+    "undefined_references": false,
+    "overfull_boxes": false,
+    "pages": 7
+  },
+  "date": "2026-10-24",
+  "distinct_references_union": 43,
+  "figures_main": 9,
+  "tables_main": 11,
+  "visual_QA": {
+    "all_main_pages_inspected": 25,
+    "all_supplement_pages_inspected": 7,
+    "after_final_spacing_and_float_correction_changed_pages": {
+      "main": [
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        18,
+        19,
+        21
+      ],
+      "suplemento": [
+        6,
+        7
+      ]
+    },
+    "other_pages_pixel_identical_to_inspected_render": true,
+    "unresolved_layout_defects": []
+  },
+  "scope": "local pdfLaTeX/BibTeX rendering and visual review; no assertion of binary Overleaf equivalence or scientific validity",
+  "sources_sha256": {
+    "paper/main.tex": "2c107ae10b6b62bdda212a9eb76bf4191bb042b81ee175fa88346a588aeed079",
+    "paper/artigo_revisado.tex": "41d5b1064a834a1db171266eae86da0d243614fd456dc348e8e2f1d90a92584c",
+    "paper/references_artigo.bib": "d6fddbe769d1d94ff46f9e60a4b43447f546e4d99df18dd79ae5b0bcd58f4fb1",
+    "paper/lab03g_calibracao_texto.tex": "e1f983eaabdfa144e3ae4b8dee8244144e219bd098862a6e5f371b5564a7faee",
+    "paper/suplemento.tex": "39b786784f7fa26126ddbe708fe30c53de4c4f93c53bfa81acff07613aabaf20",
+    "paper/suplemento_metodos.tex": "78cd208ee68115e2d990efee6392047fce74e2fb07d43c7e7c01e48dc54a5195"
+  }
+}
