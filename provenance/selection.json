@@ -10856,10 +10856,19 @@
     },
     {
       "path": "docs/lab03g_parecer_v3.md",
-      "git_blob_sha1": "399531dc67c75b989dbcfd27551c7d43498688d3",
-      "bytes": 6818,
+      "git_blob_sha1": "915b5e31e7d4d1b8ad8d448322c6be00829a820d",
+      "bytes": 7354,
       "mode": "100644",
-      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+      "source_commit": "0081c9695fb5a7f8d8f8fbf16af685a0f3311d76",
+      "prior_versions": [
+        {
+          "path": "docs/lab03g_parecer_v3.md",
+          "git_blob_sha1": "399531dc67c75b989dbcfd27551c7d43498688d3",
+          "bytes": 6818,
+          "mode": "100644",
+          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+        }
+      ]
     },
     {
       "path": "paper/figures/lab02/lab03g_calibracao.pdf",
@@ -11265,6 +11274,17 @@
       "source_files": 70,
       "compared_values": 1594818,
       "export_members_verified": 88
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03G immutable notebook link and integration closure",
+      "source_commit": "0081c9695fb5a7f8d8f8fbf16af685a0f3311d76",
+      "immutable_notebook_public_commit": "f8bbed220998f002f390c31df0566b0cb942fce8",
+      "public_runtime_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+      "updated_paths": [
+        "docs/lab03g_parecer_v3.md"
+      ],
+      "user_Colab_executed": false
     }
   ]
 }

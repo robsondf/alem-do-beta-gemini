@@ -40,7 +40,7 @@ Parecer3:4 páginas,SHA256 `b02c396931703704c54def82616aeafa50965d1d83f8d64ff6e3
 
 ## Reprodução e próximos passos
 
-Notebook novo:`notebooks/Lab03G_mudanca_calibracao.ipynb`,código imutável público e pins individuais. Executar tudo em CPU,salvar cópia e export no Drive,sem repetir F/E. Progresso a cada50 réplicas; a simulação é a célula longa. Usa cache X existente e verifica SHA antes de estimar. Sem preencher lacunas ou baixar preços.
+Notebook novo:[abrir Lab03G no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/f8bbed220998f002f390c31df0566b0cb942fce8/notebooks/Lab03G_mudanca_calibracao.ipynb). Código fixado no commit público `880de4fa25a6ced45b137bd9d5f5126abf869f25`,70 pins individuais. O notebook imutável está em `f8bbed220998f002f390c31df0566b0cb942fce8`;10 células/seis códigos/20.096bytes,sem outputs embutidos. Integração serializada passou sem exceções,1.594.818 valores comparados e88 membros do export autenticados; reutilizou o Monte Carlo local completo, sem alegar nova simulação ou execução Colab do autor. Executar tudo em CPU,salvar cópia e export no Drive,sem repetir F/E. Progresso a cada50 réplicas; a simulação é a célula longa. Usa cache X existente e verifica SHA antes de estimar. Sem preencher lacunas ou baixar preços.
 
 CLI: `python scripts/run_lab03g.py --x-archive CAMINHO_X --output NOVA_PASTA --stage all`; depois `scripts/verify_lab03g.py` e `scripts/plot_lab03g.py` com os mesmos argumentos apropriados. Plano e manifesto em`data/lab03g/`; tabelas/sorteios/replicações em`results/tables/lab03g_pos_parecer_v3_20261024/`.
 

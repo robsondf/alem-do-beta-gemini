@@ -7,6 +7,8 @@ Esta é uma cópia selecionada do material de pesquisa já versionado em `robson
 
 ## Revisão G — terceiro parecer
 
+**[Abrir o único notebook novo no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/f8bbed220998f002f390c31df0566b0cb942fce8/notebooks/Lab03G_mudanca_calibracao.ipynb)** — execute tudo e salve uma cópia no Drive.
+
 [Análises, matriz de resposta e reprodução](docs/lab03g_parecer_v3.md): mudança agregada entre quinquênios, inferência defasada/semanal e calibração de seis mecanismos. São6.000 réplicas,84.000 linhas e66 alvos/blocos observados, com verificador independente. **A simulação expõe falhas:** cobertura dos ICs básicos51,8–95,8%; erro familiar temporal5,6% no estresse AR0,6. Não se declara validade nominal ou robustez uniforme.
 
 **Único notebook novo:** [Lab03G_mudanca_calibracao.ipynb](notebooks/Lab03G_mudanca_calibracao.ipynb). Executar tudo em CPU,salvar cópia/ZIP no Drive; não repetir F/E. A preparação G é local; o Colab novo do autor permanece pendente. Códigos/dados/recibos anteriores preservados.
