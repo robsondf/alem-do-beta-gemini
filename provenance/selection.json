@@ -412,10 +412,10 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "dfc287b320cd4afad03d11e881884985546dd821",
-      "bytes": 53733,
+      "git_blob_sha1": "f12bfec0a0761e9326e9c4bc5b082149b1d92f5b",
+      "bytes": 53895,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3",
       "prior_versions": [
         {
           "path": "paper/artigo_revisado.tex",
@@ -430,6 +430,13 @@
           "bytes": 42280,
           "mode": "100644",
           "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+        },
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "dfc287b320cd4afad03d11e881884985546dd821",
+          "bytes": 53733,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
         }
       ]
     },
@@ -489,10 +496,10 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "c0983174fed70e4700a24e2563360c5f66dc852e",
-      "bytes": 503327,
+      "git_blob_sha1": "ace1a0bc69895a90a2c9f9a1586f9c06cab3fe58",
+      "bytes": 503877,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3",
       "prior_versions": [
         {
           "path": "paper/main.pdf",
@@ -507,6 +514,13 @@
           "bytes": 453979,
           "mode": "100644",
           "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "c0983174fed70e4700a24e2563360c5f66dc852e",
+          "bytes": 503327,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
         }
       ]
     },
@@ -10405,10 +10419,10 @@
     },
     {
       "path": "docs/resposta_pareceres_20261024.md",
-      "git_blob_sha1": "05c094961508a63352c69ac625ca65ff05b078eb",
-      "bytes": 13831,
+      "git_blob_sha1": "91598b78de15b1780caf83db5652ebf6ee8496d3",
+      "bytes": 13909,
       "mode": "100644",
-      "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3",
       "prior_versions": [
         {
           "path": "docs/resposta_pareceres_20261024.md",
@@ -10416,6 +10430,13 @@
           "bytes": 13384,
           "mode": "100644",
           "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+        },
+        {
+          "path": "docs/resposta_pareceres_20261024.md",
+          "git_blob_sha1": "05c094961508a63352c69ac625ca65ff05b078eb",
+          "bytes": 13831,
+          "mode": "100644",
+          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
         }
       ]
     },
@@ -10514,10 +10535,10 @@
     },
     {
       "path": "docs/lab03f_pos_parecer.md",
-      "git_blob_sha1": "de25b2031543dbd13878673a26c4561a13b664ca",
-      "bytes": 9554,
+      "git_blob_sha1": "89cd868595ce951846ca5bc9a3037fd624952ab6",
+      "bytes": 10582,
       "mode": "100644",
-      "source_commit": "71f0fd9a833f6f1538383d4198b91f34cf5c206a",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3",
       "prior_versions": [
         {
           "path": "docs/lab03f_pos_parecer.md",
@@ -10532,6 +10553,13 @@
           "bytes": 9552,
           "mode": "100644",
           "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f"
+        },
+        {
+          "path": "docs/lab03f_pos_parecer.md",
+          "git_blob_sha1": "de25b2031543dbd13878673a26c4561a13b664ca",
+          "bytes": 9554,
+          "mode": "100644",
+          "source_commit": "71f0fd9a833f6f1538383d4198b91f34cf5c206a"
         }
       ]
     },
@@ -10718,6 +10746,27 @@
       "bytes": 828,
       "mode": "100644",
       "source_commit": "bbf7d9e37c8607c7029932c31789b17e59fa950f"
+    },
+    {
+      "path": "data/lab03f/validacao_colab_20261024.json",
+      "git_blob_sha1": "7f8eebae36ce7ec14008ec8afdc55dd8e389ad1e",
+      "bytes": 7839,
+      "mode": "100644",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3"
+    },
+    {
+      "path": "data/lab03f/manifesto_colab_20261024.json",
+      "git_blob_sha1": "c532cac45bfa82c1e5f6822f480c91048f5e6f37",
+      "bytes": 3484,
+      "mode": "100644",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3"
+    },
+    {
+      "path": "scripts/verify_lab03f_colab.py",
+      "git_blob_sha1": "67b8d953b0dfef175d744816d6bc256dccda6992",
+      "bytes": 5699,
+      "mode": "100644",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3"
     }
   ],
   "revisions": [
@@ -10816,6 +10865,26 @@
         "docs/lab03f_pos_parecer.md"
       ],
       "notebook_commit": "c747c02c288b0bed45cda155e115624841e5e33b"
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03F effective author Colab externally authenticated",
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3",
+      "prior_public_commit": "e05dc69dea49c8eca29c887199553fe3e502d4df",
+      "updated_paths": [
+        "docs/lab03f_pos_parecer.md",
+        "docs/resposta_pareceres_20261024.md",
+        "paper/artigo_revisado.tex",
+        "paper/main.pdf"
+      ],
+      "added_paths": [
+        "data/lab03f/validacao_colab_20261024.json",
+        "data/lab03f/manifesto_colab_20261024.json",
+        "scripts/verify_lab03f_colab.py"
+      ],
+      "user_Colab_executed": true,
+      "notebook_preserved_in_Drive": true,
+      "financial_matrices_not_published": true
     }
   ]
 }
