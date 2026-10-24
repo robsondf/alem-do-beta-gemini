@@ -1,7 +1,9 @@
 # Manuscrito principal
 
-Leia `main.pdf`. O arquivo principal para compilação é `main.tex`, que inclui `artigo_revisado.tex` e utiliza `references_artigo.bib`.
+Use `main.tex` como principal no Overleaf (pdfLaTeX/BibTeX). Ele inclui `artigo_revisado.tex` e `references_artigo.bib`. O diretório contém os estilos, dez figuras e seis arquivos de tabela necessários.
 
-O fonte e o PDF incorporam a revisão pós-parecer do commit `f06060c6e7db7de4f966f152b362c88283b44469`, PR #86 do projeto de origem. Os hashes atuais e os iniciais estão em `../provenance/selection.json`. Foram retidos somente os estilos, figuras e tabelas utilizados pelo principal. O dossiê e as versões anteriores continuam na origem e no histórico identificado.
+Edição F:26 páginas,42 referências citadas,10 figuras e9 tabelas. Inferência agregada, sensibilidades de2020, modelos dinâmicos/contínuo/semanal e fragilidade das rejeições foram incorporados ao principal. A previsão de retorno detalhada foi preservada em apêndice.
 
-O artigo tem 21 páginas, 34 referências citadas, oito figuras e sete ambientes de tabela. Quatro tabelas usam arquivos externos e as demais estão no corpo LaTeX. Para Overleaf, use o conteúdo deste diretório, `main.tex` como principal e pdfLaTeX/BibTeX. Veja `../docs/REPRODUCTION.md` e a matriz `../docs/resposta_pareceres_20261024.md`.
+Fontes/PDF/tabelas são distribuídos conjuntamente. `../provenance/selection.json` preserva os hashes e versões anteriores. O snapshot774f é histórico, não a edição atual. A reprodução completa usa o cache X autenticado, externo no Drive. A execução F do autor no Colab ainda será conferida.
+
+Veja `../docs/lab03f_pos_parecer.md` e `../data/lab03f/validacao_local.json`. Aprovação numérica não demonstra cobertura finita, homologação econômica integral ou contribuição em IA.

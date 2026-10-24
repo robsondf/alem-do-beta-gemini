@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-24",
+  "sources": [
+    {
+      "key": "hogan1974",
+      "url": "https://doi.org/10.2307/2329964",
+      "consultation": "Publisher extract and metadata; not full article"
+    },
+    {
+      "key": "bawa1977",
+      "url": "https://doi.org/10.1016/0304-405X(77)90017-4",
+      "consultation": "Primary publisher indexed abstract and metadata; full opening failed"
+    },
+    {
+      "key": "estrada2002",
+      "url": "https://doi.org/10.1016/S1566-0141(02)00042-0",
+      "consultation": "Primary publisher indexed abstract and metadata; full opening failed"
+    },
+    {
+      "key": "estrada2007",
+      "url": "https://blog.iese.edu/jestrada/files/2012/06/MSB2.pdf",
+      "consultation": "Author-hosted published PDF, abstract and section2.2/Eq10 directly consulted; no full empirical replication"
+    },
+    {
+      "key": "pettengill1995",
+      "url": "https://doi.org/10.2307/2331255",
+      "consultation": "Publisher abstract and metadata; not full article"
+    },
+    {
+      "key": "hong2007",
+      "url": "https://doi.org/10.1093/rfs/hhl037",
+      "consultation": "Publisher abstract and metadata; no implementation/replication of their tests"
+    },
+    {
+      "key": "harvey2000",
+      "url": "https://doi.org/10.1111/0022-1082.00247",
+      "consultation": "Publisher abstract and metadata; not full article"
+    },
+    {
+      "key": "dimson1979",
+      "url": "https://doi.org/10.1016/0304-405X(79)90013-8",
+      "consultation": "Primary publisher indexed abstract and metadata; adaptation specified explicitly, no full replication or unbiasedness guarantee"
+    }
+  ]
+}
