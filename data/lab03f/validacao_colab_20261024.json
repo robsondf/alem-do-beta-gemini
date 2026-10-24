@@ -1,0 +1,253 @@
+{
+  "passed": true,
+  "notebook_sha256": "85877df382ed22f1b033c628911227d6e038d90af4d3dac0e52b7d0e7ee1775b",
+  "export_sha256": "f9ab33f95d3126ff7be16f541f13cfebbc919dd421b1bc4fd1a787a361c16be7",
+  "export_bytes": 3783941,
+  "source_cells_identical": 10,
+  "sequential_code_cells": 6,
+  "exceptions": 0,
+  "source_pins_verified": 15,
+  "export_members": 31,
+  "tables": {
+    "aggregate.csv.gz": {
+      "rows": 30,
+      "columns": 19,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "existing_sensitivity_holm.csv.gz": {
+      "rows": 1970,
+      "columns": 24,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "hac_score_terms.csv.gz": {
+      "rows": 4137,
+      "columns": 5,
+      "max_absolute_difference": 1.1102230246251565e-16,
+      "byte_identical": false
+    },
+    "individual.csv.gz": {
+      "rows": 1939,
+      "columns": 47,
+      "max_absolute_difference": 1.459943277382081e-14,
+      "byte_identical": false
+    },
+    "profile_summary.csv": {
+      "rows": 21,
+      "columns": 10,
+      "max_absolute_difference": 2.2898349882893854e-16,
+      "byte_identical": false
+    }
+  },
+  "arrays": {
+    "daily_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_decada_periodo_comum_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "daily_recente_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_03_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    },
+    "exclude_2020_H1_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "images": {
+    "lab03f_agregado": {
+      "embedded_matches_export": true,
+      "PNG_pixels_identical_to_paper": true,
+      "PDF_render_identical_to_paper_144dpi": true
+    },
+    "lab03f_criticos": {
+      "embedded_matches_export": true,
+      "PNG_pixels_identical_to_paper": true,
+      "PDF_render_identical_to_paper_144dpi": true
+    }
+  },
+  "total_values_compared": 309848,
+  "max_absolute_difference": 1.459943277382081e-14,
+  "adjusted_threshold_decisions_preserved": 11725,
+  "arrays_count": 30,
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "scope": "Saved-source/output consistency and numerical reproduction; no economic homologation or finite-sample coverage claim",
+  "stage": "Lab03F effective author Colab externally verified",
+  "date": "2026-10-24",
+  "notebook_drive_id": "11biQglsj9zdEMXcEH71sijGvSuEAEQJH",
+  "notebook_url": "https://colab.research.google.com/drive/11biQglsj9zdEMXcEH71sijGvSuEAEQJH",
+  "notebook_modified_time": "2026-10-24T15:55:17.451Z",
+  "export_drive_id": "1scGGWZIALmKadqwIGWj8UuDvYTjIQ3Iv",
+  "export_url": "https://drive.google.com/file/d/1scGGWZIALmKadqwIGWj8UuDvYTjIQ3Iv/view",
+  "export_run": "20261024T155319Z",
+  "source_commit": "57727d3eee5796f51b0f0c4b297f91ba537a852e",
+  "source_plan_sha256": "f94cac62a6aa03249fb102ae7f74d5f45f3c28ca4968e503899f11b07cff6d1f",
+  "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+  "environment": {
+    "environment": "Colab",
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "notebook_comparison": {
+    "passed": true,
+    "environment": "Colab",
+    "source_commit": "57727d3eee5796f51b0f0c4b297f91ba537a852e",
+    "source_files": 15,
+    "compared_values": 241883,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "independent_recheck": {
+    "passed": true,
+    "full_OLS_sandwich_fits": 1939,
+    "max_OLS_difference": 1.9761969838327786e-14,
+    "explicit_bootstrap_statistics": 150,
+    "max_explicit_bootstrap_difference": 2.55351295663786e-14,
+    "all_bootstrap_interval_and_pvalue_rows": 30,
+    "production_imports": false,
+    "scope": "numerical consistency, not finite-sample coverage certification"
+  },
+  "primary_reproduced_cases": 197,
+  "individual_rows": 1939,
+  "aggregate_rows": 30,
+  "source_missing_decade": 7,
+  "source_missing_recent": 7,
+  "user_Colab_executed": true,
+  "generators_rerun_for_external_audit": false,
+  "scientific_results_changed": false,
+  "economic_homologation_completed": false,
+  "executed_notebook_preserved_in_Drive": true,
+  "prior_local_receipts_unchanged": true,
+  "frozen_E_sources_unchanged": 49,
+  "paper_update": {
+    "pages": 26,
+    "cited_references": 42,
+    "figures": 10,
+    "tables": 9,
+    "sha256": "24c0acd66398c1898e4822ad9143c5df581e80ef8673d26651b1e443ecede8ae",
+    "change": "availability declaration now reports externally verified author Colab; no scientific estimate or reference changed",
+    "compile": "pdfLaTeX; no undefined references, overfull boxes or rerun requests",
+    "rendered_pages": 26,
+    "changed_rendered_pages": [
+      20,
+      21
+    ],
+    "other_pages_pixel_identical_to_previous_PDF": 24,
+    "visual_review": "changed pages20/21 inspected; no clipping or overlap observed",
+    "language_note": "same documented local Portuguese hyphenation fallback as previous edition"
+  }
+}

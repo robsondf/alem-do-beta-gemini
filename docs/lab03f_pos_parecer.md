@@ -1,10 +1,14 @@
 # Lab03F — resposta empírica ao segundo parecer
 
+**Colab do autor conferido em24/10/2026. Não repetir F ou laboratórios anteriores para esta conferência.** [Notebook executado](https://colab.research.google.com/drive/11biQglsj9zdEMXcEH71sijGvSuEAEQJH); [export correspondente](https://drive.google.com/file/d/1scGGWZIALmKadqwIGWj8UuDvYTjIQ3Iv/view). Recibo:`data/lab03f/validacao_colab_20261024.json` e manifesto:`data/lab03f/manifesto_colab_20261024.json`. Fontes das10 células idênticas/seis códigos em sequência/zero exceções;31 membros autenticados;309.848 valores concordantes, máximo1,46e−14;11.725 posições de decisão ajustada preservadas. Dois PNGs com pixels idênticos e PDFs com render igual em144dpi. Não se alega identidade binária de todos os exports.
+
+O notebook executado e o ZIP permanecem no Drive, sem alterar compartilhamento ou substituir os recibos locais. Abaixo estão os métodos e os resultados da preparação, agora reproduzidos no Colab.
+
 ## O que foi executado
 
 Em 24/10/2026, após os PRs #86/#2 incorporados, o autor autorizou executar as pendências do segundo parecer Claude (3 páginas; SHA-256 `eb1671460c69f636c109d721bfdbc3b769c4e9613395d2c6e4fcef4e412be638`). O protocolo `data/lab03f/plano_pos_parecer_v1.json` foi escrito antes dos novos ajustes, após conhecimento de resultados anteriores e do parecer. Seu SHA-256 é `f94cac62a6aa03249fb102ae7f74d5f45f3c28ca4968e503899f11b07cff6d1f`; não é pré-registro independente.
 
-Foram executados e conferidos localmente **1.939 ajustes**, sete especificações nos 277 recortes, e **4.999 reamostragens por bloco (5/21/63)** para dez alvos agregados. Há tabelas completas, sorteios bootstrap, escores HAC por defasagem, incerteza do salto de intercepto e dois gráficos novos. A execução pelo autor no Colab continua distinta da preparação local.
+Foram executados e conferidos localmente **1.939 ajustes**, sete especificações nos 277 recortes, e **4.999 reamostragens por bloco (5/21/63)** para dez alvos agregados. Há tabelas completas, sorteios bootstrap, escores HAC por defasagem, incerteza do salto de intercepto e dois gráficos novos. A execução pelo autor no Colab foi conferida separadamente e concorda com a preparação local.
 
 Reutilizou-se somente o ZIP X do Drive, 18.973.143 bytes, SHA-256 `297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214`, com todos os 26 membros autenticados. Nenhuma cotação foi coletada novamente. As matrizes não foram alteradas ou copiadas para o repositório público.
 
@@ -51,7 +55,7 @@ Os saltos g de VULC3/BBDC4 têm EP0,001956/0,001102. Suas não rejeições não 
 
 ## Execução Colab e local
 
-Notebook: [abrir F no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/c747c02c288b0bed45cda155e115624841e5e33b/notebooks/Lab03F_pos_parecer.ipynb). Arquivo: `notebooks/Lab03F_pos_parecer.ipynb`. Execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
+Notebook: [abrir F no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/c747c02c288b0bed45cda155e115624841e5e33b/notebooks/Lab03F_pos_parecer.ipynb). Arquivo: `notebooks/Lab03F_pos_parecer.ipynb`. Para reproduções futuras, execute/salve **somente F**, sem repetir E/transferência/laboratórios anteriores; a execução atual já está conferida. Ele baixa código público fixado por commit/SHA, reutiliza o ZIP X existente no Drive por nome+hash, roda os testes, todos os ajustes/bootstrap, verificador, gráficos e exporta os resultados ao Drive. Nenhuma cotação nova é solicitada. O tempo varia por CPU/autenticação; a preparação local do cálculo principal levou cerca de17s, sem incluir transferência/verificações/figuras. Há mensagens por especificação e bloco.
 
 Execução local com o arquivo externo autenticado:
 
