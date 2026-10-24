@@ -48,7 +48,19 @@ As pastas de saída devem ser novas. Os experimentos são computacionalmente car
 
 Os cinco notebooks copiados são versões congeladas da origem. Eles preservam URLs, versões e caminhos originais; não se afirma que sejam lançadores autossuficientes deste repositório público. Para trabalhar apenas com esta cópia, prefira os scripts e as entradas autenticadas descritas acima. Não é necessário executar nenhum Colab novo para esta migração.
 
-## Revisão G: único Colab novo
+## Conferência efetiva do Colab G
+
+O autor executou/salvou G, e a conferência externa foi concluída em24/10/2026. Não repetir G/F/E/transferências; nenhum novo notebook nesta atualização. Fontes,88 arquivos e1.595.778 valores foram conferidos, preservando as decisões. Recibo:`data/lab03g/validacao_colab_20261024.json`.
+
+Para auditar futuramente a cópia do notebook e o ZIP correspondente, já autorizados e baixados do Drive:
+
+```bash
+python scripts/verify_lab03g_colab.py --notebook /caminho/G_executado.ipynb --export /caminho/resultados_lab03g_20261024T173413Z.zip --output /caminho/NOVA_AUDITORIA_G
+```
+
+O auditor verifica hash/nome/tamanho do export contra o stdout, células, fontes, seis CSVs,66 vetores, três tabelas LaTeX e figuras; não executa o código do notebook/export. A opção `--reference-figures` compara adicionalmente os PNGs locais, se disponíveis. O cache X permite reexecutar o oráculo confiável `scripts/verify_lab03g.py` sobre uma cópia da saída autenticada, sem novos geradores. Pillow/PyMuPDF são necessários aos auditores de gráficos. Reproduzir o cálculo não certifica cobertura nominal, controle forte ou homologação econômica.
+
+## Lançador G preservado para reprodução
 
 F do autor já foi executado e conferido; não repetir F/E/transferência. Execute somente `notebooks/Lab03G_mudanca_calibracao.ipynb` em CPU, usando a cópia pública imutável indicada na entrega. O código autentica fontes/entrada X, reutiliza o cache do Drive e rejeita divergências antes de estimar. As células Markdown não usam recuo de bloco de código.
 

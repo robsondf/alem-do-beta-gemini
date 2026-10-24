@@ -1,8 +1,10 @@
 # Notebooks e execução atual
 
-O único notebook novo para o autor é **Lab03G_mudanca_calibracao.ipynb**: executar tudo em CPU e salvar cópia/ZIP no Drive. O código é fixado por commit público imutável e SHA individual. Reutiliza o cache X autenticado; não baixa cotações. A simulação informa progresso a cada50 réplicas. A preparação local e a integração das células não são execução Colab do autor.
+**G e F do autor já foram executados e conferidos. Não repetir G/F/E/transferência; nenhum novo notebook nesta conferência.**
 
-F já foi executado/conferido, com recibo em `../data/lab03f/validacao_colab_20261024.json`; não repetir F/E/transferência. Ver `../docs/lab03g_parecer_v3.md` para o plano, resultados, falhas de cobertura e limitações.
+A cópia G executada está em https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ. Fontes10/seis códigos/zero exceções,70 arquivos do runtime e88 membros do export autenticados;6 CSVs/66 vetores/1.595.778 valores concordantes. `../data/lab03g/validacao_colab_20261024.json` registra a conferência efetiva, separada da integração local histórica que reutilizou o cálculo Monte Carlo.
+
+O lançador versionado continua disponível para reprodução futura, com código público imutável e pins individuais. Reutiliza o cache X existente no Drive, sem baixar cotações. Ver `../docs/lab03g_parecer_v3.md` para resultados e limitações. A conferência computacional não remove a subcobertura ou a auditoria econômica incompleta.
 
 ## Notebooks históricos preservados
 

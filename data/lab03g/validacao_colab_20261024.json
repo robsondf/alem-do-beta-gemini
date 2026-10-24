@@ -1,0 +1,394 @@
+{
+  "passed": true,
+  "notebook_sha256": "d9a1d6a2360c1d0a20a9c8af5f6eab94813f6c21acfb75e37a8a491f2dfa065d",
+  "notebook_bytes": 228011,
+  "export_sha256": "a8f391a7bf4edf67c109b303c9abcbd9cae8274e7a0d6b86430f407816df9158",
+  "export_bytes": 18065044,
+  "source_cells_identical": 10,
+  "sequential_code_cells": 6,
+  "exceptions": 0,
+  "source_pins_verified": 70,
+  "export_members": 88,
+  "source_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+  "full_Colab_execution": {
+    "stage": "Lab03G all",
+    "environment": "Colab",
+    "python": "3.13.16",
+    "plan_sha256": "d347bfbbcef27e96aa8e8db392cb72b172a09d07140e4a3da90753fd76419da1",
+    "elapsed_seconds": 3098.028437692,
+    "inputs_unchanged": true,
+    "no_market_downloads": true
+  },
+  "notebook_internal_comparison": {
+    "passed": true,
+    "environment": "Colab",
+    "source_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+    "source_files": 70,
+    "compared_values": 1594818,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "tables": {
+    "calibration_cases.csv": {
+      "rows": 252,
+      "columns": 12,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "calibration_families.csv": {
+      "rows": 24,
+      "columns": 8,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    "calibration_replications.csv.gz": {
+      "rows": 84000,
+      "columns": 15,
+      "max_absolute_difference": 1.5543122344752192e-15,
+      "byte_identical": false
+    },
+    "observed_aggregate.csv.gz": {
+      "rows": 66,
+      "columns": 18,
+      "max_absolute_difference": 6.786238238021269e-15,
+      "byte_identical": false
+    },
+    "temporal_asset_points.csv": {
+      "rows": 80,
+      "columns": 6,
+      "max_absolute_difference": 1.5543122344752192e-15,
+      "byte_identical": false
+    },
+    "temporal_observations.csv": {
+      "rows": 160,
+      "columns": 6,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    }
+  },
+  "arrays": {
+    "early_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "early_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 4.996003610813204e-16
+    },
+    "theta_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "theta_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 9.43689570931383e-16
+    },
+    "early_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "early_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 4.163336342344337e-16
+    },
+    "theta_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "theta_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 9.992007221626409e-16
+    },
+    "early_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 1.942890293094024e-16
+    },
+    "early_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 9.43689570931383e-16
+    },
+    "theta_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 1.3877787807814457e-16
+    },
+    "theta_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    "lag1_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.247402347028583e-15
+    },
+    "lag1_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.3029134982598407e-15
+    },
+    "lag1_recente_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.622102617839573e-15
+    },
+    "lag1_recente_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 4.6074255521944e-15
+    },
+    "lag1_decada_periodo_comum_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.5388358909926865e-15
+    },
+    "lag1_decada_periodo_comum_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.982925100842749e-15
+    },
+    "lag1_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 2.942091015256665e-15
+    },
+    "lag1_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.2751579226442118e-15
+    },
+    "lag1_recente_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.372302437298913e-15
+    },
+    "lag1_recente_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 5.329070518200751e-15
+    },
+    "lag1_decada_periodo_comum_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.264749581788351e-15
+    },
+    "lag1_decada_periodo_comum_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.851086116668512e-15
+    },
+    "lag1_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 2.9282132274488504e-15
+    },
+    "lag1_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    "lag1_recente_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 3.982925100842749e-15
+    },
+    "lag1_recente_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 4.98212582300539e-15
+    },
+    "lag1_decada_periodo_comum_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 3.8441472227646045e-15
+    },
+    "lag1_decada_periodo_comum_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 4.6629367034256575e-15
+    },
+    "leadlag1_decada_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.066991105526995e-15
+    },
+    "leadlag1_decada_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 4.371503159461554e-15
+    },
+    "leadlag1_recente_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.608224830031759e-15
+    },
+    "leadlag1_recente_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 5.10702591327572e-15
+    },
+    "leadlag1_decada_periodo_comum_mean_L21": {
+      "values": 4999,
+      "max_absolute_difference": 3.3792413312028202e-15
+    },
+    "leadlag1_decada_periodo_comum_median_L21": {
+      "values": 4999,
+      "max_absolute_difference": 4.558853294867049e-15
+    },
+    "leadlag1_decada_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.427813588530171e-15
+    },
+    "leadlag1_decada_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.969047313034935e-15
+    },
+    "leadlag1_recente_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    "leadlag1_recente_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 5.037636974236648e-15
+    },
+    "leadlag1_decada_periodo_comum_mean_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.389866512493178e-15
+    },
+    "leadlag1_decada_periodo_comum_median_L5": {
+      "values": 4999,
+      "max_absolute_difference": 3.8441472227646045e-15
+    },
+    "leadlag1_decada_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 3.039235529911366e-15
+    },
+    "leadlag1_decada_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 4.08006961549745e-15
+    },
+    "leadlag1_recente_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 4.496403249731884e-15
+    },
+    "leadlag1_recente_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 6.328271240363392e-15
+    },
+    "leadlag1_decada_periodo_comum_mean_L63": {
+      "values": 4999,
+      "max_absolute_difference": 4.350686477749832e-15
+    },
+    "leadlag1_decada_periodo_comum_median_L63": {
+      "values": 4999,
+      "max_absolute_difference": 5.856426454897701e-15
+    },
+    "weekly_decada_mean_L4": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "weekly_decada_median_L4": {
+      "values": 4999,
+      "max_absolute_difference": 6.245004513516506e-16
+    },
+    "weekly_recente_mean_L4": {
+      "values": 4999,
+      "max_absolute_difference": 1.6653345369377348e-16
+    },
+    "weekly_recente_median_L4": {
+      "values": 4999,
+      "max_absolute_difference": 1.0824674490095276e-15
+    },
+    "weekly_decada_periodo_comum_mean_L4": {
+      "values": 4999,
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    "weekly_decada_periodo_comum_median_L4": {
+      "values": 4999,
+      "max_absolute_difference": 7.771561172376096e-16
+    },
+    "weekly_decada_mean_L1": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "weekly_decada_median_L1": {
+      "values": 4999,
+      "max_absolute_difference": 3.885780586188048e-16
+    },
+    "weekly_recente_mean_L1": {
+      "values": 4999,
+      "max_absolute_difference": 2.7755575615628914e-16
+    },
+    "weekly_recente_median_L1": {
+      "values": 4999,
+      "max_absolute_difference": 1.2984405217686401e-15
+    },
+    "weekly_decada_periodo_comum_mean_L1": {
+      "values": 4999,
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    "weekly_decada_periodo_comum_median_L1": {
+      "values": 4999,
+      "max_absolute_difference": 6.661338147750939e-16
+    },
+    "weekly_decada_mean_L13": {
+      "values": 4999,
+      "max_absolute_difference": 1.1102230246251565e-16
+    },
+    "weekly_decada_median_L13": {
+      "values": 4999,
+      "max_absolute_difference": 6.245004513516506e-16
+    },
+    "weekly_recente_mean_L13": {
+      "values": 4999,
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    "weekly_recente_median_L13": {
+      "values": 4999,
+      "max_absolute_difference": 1.4988010832439613e-15
+    },
+    "weekly_decada_periodo_comum_mean_L13": {
+      "values": 4999,
+      "max_absolute_difference": 2.7755575615628914e-16
+    },
+    "weekly_decada_periodo_comum_median_L13": {
+      "values": 4999,
+      "max_absolute_difference": 5.724587470723463e-16
+    }
+  },
+  "images": {
+    "lab03g_temporal": {
+      "embedded_matches_export": true,
+      "PDF_render_identical_to_paper_144dpi": true,
+      "PDF_byte_identical": false,
+      "PNG_pixels_identical_to_local": true
+    },
+    "lab03g_calibracao": {
+      "embedded_matches_export": true,
+      "PDF_render_identical_to_paper_144dpi": true,
+      "PDF_byte_identical": false,
+      "PNG_pixels_identical_to_local": true
+    }
+  },
+  "tables_LaTeX": {
+    "temporal.tex": "byte_identical",
+    "microstructure.tex": "byte_identical",
+    "calibration.tex": "byte_identical"
+  },
+  "total_values_compared": 1595778,
+  "max_absolute_difference": 6.786238238021269e-15,
+  "adjusted_threshold_positions_preserved": 84066,
+  "raw_threshold_positions_preserved": 84066,
+  "arrays_count": 66,
+  "bootstrap_array_byte_identical": false,
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "scope": "Saved-source/export consistency and numerical reproduction; no general size/coverage theorem, economic homologation, or KRR validation",
+  "date": "2026-10-24",
+  "notebook_url": "https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ",
+  "notebook_drive_id": "1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ",
+  "notebook_modified_time": "2026-10-24T18:28:47.525Z",
+  "notebook_mime_type": "application/vnd.google.colaboratory",
+  "export_url": "https://drive.google.com/file/d/1jaKyp2CapivwnvHRoFGBtxneHr6N7Kd1/view",
+  "export_drive_id": "1jaKyp2CapivwnvHRoFGBtxneHr6N7Kd1",
+  "private_main_base": "4de2f69e660aaf9a07c98ea619c771ce9b22a32c",
+  "public_main_base": "f39c8375aea722187b2f945a2719a50bc1ec576d",
+  "prior_PRs_merged": [
+    89,
+    5
+  ],
+  "trusted_local_oracle_rerun_on_authenticated_output_copy": {
+    "passed": true,
+    "production_G_imports": false,
+    "explicit_bootstrap_statistics": 198,
+    "max_explicit_difference": 5.648259637780484e-15,
+    "complete_draw_rows": 66,
+    "calibration_replication_rows": 84000,
+    "independently_recomputed_rate_rows": 276,
+    "scope": "numerical consistency and summary audit; not a general size or coverage theorem"
+  },
+  "new_generators_run_for_audit": false,
+  "new_market_downloads": false,
+  "Drive_files_or_permissions_changed": false,
+  "global_economic_homologation_completed": false
+}
