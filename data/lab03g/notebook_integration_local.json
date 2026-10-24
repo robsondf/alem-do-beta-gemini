@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "notebook_sha256": "3ee7e9bc48c89e18bd81813d947d43b415c05f27a5f9ebc5b5c77c39c996da88",
+  "cells": 10,
+  "code_cells_executed": 6,
+  "exceptions": 0,
+  "environment": "local serialized notebook integration; NOT author Colab",
+  "reused_completed_local_MC": true,
+  "not_a_second_independent_MC_run": true,
+  "elapsed_seconds": 21.405610808000347,
+  "source_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+  "comparison": {
+    "passed": true,
+    "environment": "local_integration_reuses_completed_MC",
+    "source_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+    "source_files": 70,
+    "compared_values": 1594818,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "X_sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "outputs_path": "/workspace/scratch/5eabb55dee06/analysis_cache/notebook_g_integration/run_20261024T172438Z/outputs",
+  "export_manifest_members_verified": 88,
+  "export_sha256": "126d09c65f7804520abbc2c17045d64975e1726b137b564d6ad1c2fee00231b0",
+  "all70_runtime_files_verified_in_public_commit": true,
+  "private_return_matrix_not_exported": true
+}

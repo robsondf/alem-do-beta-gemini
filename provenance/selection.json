@@ -11056,6 +11056,20 @@
       "bytes": 2463,
       "mode": "100644",
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+    },
+    {
+      "path": "notebooks/Lab03G_mudanca_calibracao.ipynb",
+      "git_blob_sha1": "da160321761ed7341cfdadebf6b6c62c7326033a",
+      "bytes": 20096,
+      "mode": "100644",
+      "source_commit": "2a241aa4b483636678152b7dbafbf33503ebfb0b"
+    },
+    {
+      "path": "data/lab03g/notebook_integration_local.json",
+      "git_blob_sha1": "45814737f3049882af16decd7c16ae782ceef05f",
+      "bytes": 1245,
+      "mode": "100644",
+      "source_commit": "2a241aa4b483636678152b7dbafbf33503ebfb0b"
     }
   ],
   "revisions": [
@@ -11234,6 +11248,23 @@
       ],
       "no_general_size_or_coverage_certification": true,
       "financial_matrices_not_published": true
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03G compact immutable Colab and local serialized integration",
+      "source_commit": "2a241aa4b483636678152b7dbafbf33503ebfb0b",
+      "public_runtime_commit": "880de4fa25a6ced45b137bd9d5f5126abf869f25",
+      "added_paths": [
+        "notebooks/Lab03G_mudanca_calibracao.ipynb",
+        "data/lab03g/notebook_integration_local.json"
+      ],
+      "user_Colab_executed": false,
+      "reused_completed_local_MC_in_integration": true,
+      "code_cells_executed": 6,
+      "exceptions": 0,
+      "source_files": 70,
+      "compared_values": 1594818,
+      "export_members_verified": 88
     }
   ]
 }
