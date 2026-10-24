@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "scope": "Read-only summaries of authenticated outputs; no re-estimation, no new financial observations, no redefinition of families.",
+  "input_sha256": {
+    "results/tables/lab03e_colab_20261023/economic_sensitivities.csv.gz": "90ebc8dc0a71f65f0a41ebff6afe2d9deea6ffe9d18d57d7e86df4ba0a54fb11",
+    "results/tables/lab03e_colab_20261023/economic_removed_observations.csv.gz": "a0ac47f356cf6f98a5cfc9246320f616bdc54c900f69da60a803364533264fbd",
+    "results/tables/lab03e_colab_20261023/economic_ledger.csv.gz": "d095b6be7330ce8f5dc28b425a30b90ab70d1f90c1d63e80d424ab81e634e56e",
+    "results/tables/lab03e_colab_20261023/observed_static_precision.csv.gz": "374c396f18c52c6e1e1d2295411808af8c824d4dfafe97537c00f883814faa94",
+    "results/tables/lab03e_colab_20261023/bank_designs.csv.gz": "d0fe48ee6d20975ca37b6c8fdb39cbbf1face241c65b96735dcfcc868d92212d",
+    "results/tables/lab03b_colab_20261023/asset_betas.csv.gz": "0c2c54fc1f212d914cf083300757e2706a94d32ae762e64b8814e1a837192275"
+  },
+  "input_rows": {
+    "ledger": 197,
+    "sensitivities": 1970,
+    "metadata": 277
+  },
+  "samples": {
+    "decade_assets": 80,
+    "recent_assets": 117,
+    "decade_issuers": 76,
+    "recent_issuers": 112
+  },
+  "copied_critical_rows": 6,
+  "copied_primary_rows": 197,
+  "MC_designs": {
+    "annual": 14,
+    "static": 7,
+    "theta": 4
+  },
+  "MC_designs_total": 25,
+  "post_mask_adjusted_significance": "not_computed_not_claimed"
+}

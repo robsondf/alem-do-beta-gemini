@@ -2,7 +2,11 @@
 
 Origem fixa: `robsondf/alem-do-beta`, commit `c21b086b976ec11549fb4feb211099e0d78c61cc`, após o merge do PR #85. Destino criado pelo autor: `robsondf/alem-do-beta-gemini`, com visibilidade pública observada em 24/10/2026.
 
-## Critério de seleção
+## Revisão pós-parecer
+
+A revisão do commit `f06060c6e7db7de4f966f152b362c88283b44469` do projeto de origem, PR #86, atualiza o manuscrito e acrescenta resposta aos pareceres, proposta KRR e tabelas derivadas exclusivamente de resultados já existentes. A proveniência preserva hashes anteriores e identifica cada revisão. A cópia pública inicial `774f11fccbcdc9ff8086cc4d7c64cc4fb64d494c` continua identificando a versão examinada pelos avaliadores. A proposta KRR não foi implementada/avaliada.
+
+## Critério da seleção inicial
 
 Mantiveram-se o manuscrito principal e suas dependências LaTeX, os módulos usados no escopo final e seus imports internos, testes, scripts de execução/verificação, protocolos, recibos e resultados efetivos das etapas temporal, setorial/de risco, C, D e E. As 49 fontes do runtime E foram preservadas, inclusive dependências documentais e o notebook D exigidos por esse runtime.
 
@@ -14,7 +18,7 @@ Omitiram-se duplicatas de preparação local, notebooks de investigação anteri
 
 `provenance/selection.json` identifica cada arquivo selecionado e cada arquivo omitido da árvore original, com caminho, tamanho e SHA-1 do objeto Git. As razões de omissão descrevem o recorte desta cópia. Novos textos de navegação e o verificador de empacotamento são identificados separadamente.
 
-Nenhum código de estimação, teste original, protocolo congelado, resultado, figura ou fonte do manuscrito foi editado. Não houve execução de novos experimentos financeiros. O PDF é o mesmo da origem. Referências a repositório privado, recibos locais e arquivos externos são preservadas como fatos da versão examinada, sem atribuir disponibilidade pública aos respectivos dados.
+Na seleção inicial, nenhum código de estimação, teste original, protocolo congelado, resultado, figura ou fonte do manuscrito foi editado. Na revisão pós-parecer, o fonte e o PDF foram atualizados e os demais itens continuam preservados. Não houve execução de novos experimentos financeiros. Referências a repositório privado, recibos locais e arquivos externos são fatos das versões examinadas, sem atribuir disponibilidade pública aos respectivos dados.
 
 ## Materiais externos
 

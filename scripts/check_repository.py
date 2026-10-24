@@ -20,7 +20,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def verify_snapshot():
     manifest = json.loads((ROOT / 'provenance/selection.json').read_text())
-    for item in manifest['selected']:
+    artifacts = manifest['selected'] + manifest.get('revision_artifacts', [])
+    assert len({item['path'] for item in artifacts}) == len(artifacts), 'Duplicate provenance path'
+    for item in artifacts:
         raw = (ROOT / item['path']).read_bytes()
         blob = b'blob ' + str(len(raw)).encode() + b'\0' + raw
         assert len(raw) == item['bytes'], item['path']
@@ -45,6 +47,7 @@ def verify_snapshot():
         assert (ROOT / 'paper/figures/lab02' / name).is_file(), name
     assert (ROOT / 'paper/references_artigo.bib').is_file()
     return {'selected_source_files_verified': len(manifest['selected']),
+            'revision_artifacts_verified': len(manifest.get('revision_artifacts', [])),
             'frozen_E_pins_verified': len(pins),
             'internal_imports_and_article_dependencies': 'passed'}
 

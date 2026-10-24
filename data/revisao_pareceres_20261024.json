@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "source_commit": "c21b086b976ec11549fb4feb211099e0d78c61cc",
+  "reviewed_public_snapshot": "774f11fccbcdc9ff8086cc4d7c64cc4fb64d494c",
+  "reviews": [
+    {
+      "label": "Claude",
+      "pages": 9,
+      "sha256": "e25540cdc9851bfe82aa8ab7588bf8e868c8923a8ba5512b3604661e4ad6bb66",
+      "scope": "PDF only; no code/cache verification"
+    },
+    {
+      "label": "Gemini",
+      "pages": 15,
+      "sha256": "0f0af5ebb5ed308bc616af3931914dbfeff1f261e8a03f3e10408a028ed9d86b",
+      "scope": "PDF only; no external browsing or code/cache verification"
+    }
+  ],
+  "paper": {
+    "pages": 21,
+    "cited_references": 34,
+    "figures": 8,
+    "tables": 7,
+    "sha256": "4c6ae48fb226f1f5cf8b1e988d37a4d872f36abae08d7e1f5e7714e73b91ff63",
+    "compile": "pdfLaTeX + BibTeX; no undefined references, rerun warnings or overfull boxes",
+    "visual_review": "21 pages; all contact sheets and critical table inspected",
+    "language_note": "Official CTAN babel-portuges 1.2u extracted locally; Portuguese hyphenation patterns absent from preloaded format, language=0 fallback. Overleaf uses its own language installation."
+  },
+  "frozen_E_sources_unchanged": 49,
+  "new_estimation": false,
+  "new_Monte_Carlo": false,
+  "new_financial_downloads": false,
+  "new_notebook": false,
+  "adjusted_significance_after_masks_recalibrated": false,
+  "KRR_status": "proposed_not_implemented_not_evaluated",
+  "public_review_snapshot_modified": false,
+  "Drive_modified": false,
+  "global_homologated": 0,
+  "diagnostics_receipt": "results/tables/resposta_pareceres_20261024/verificacao.json"
+}

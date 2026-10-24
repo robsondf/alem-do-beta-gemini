@@ -1,12 +1,12 @@
 {
-  "schema": 1,
+  "schema": 2,
   "prepared_date": "2026-10-24",
   "source_repository": "robsondf/alem-do-beta",
   "source_commit": "c21b086b976ec11549fb4feb211099e0d78c61cc",
   "source_tree": "d975715d6e32029e6ee6b824fbd1b2acc89d282d",
   "intended_repository": "robsondf/alem-do-beta-gemini",
   "publication_state": "public_repository_created_by_author_review_branch",
-  "scope": "GitHub-only snapshot; no Drive download or change; no source-code, protocol, scientific-result or manuscript changes.",
+  "scope": "Initial GitHub-only selected snapshot, followed by explicitly versioned manuscript and review-response revisions; no Drive transfer, no financial re-estimation.",
   "selected": [
     {
       "path": ".gitignore",
@@ -412,9 +412,19 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "1031286a177a81ac6f51ffea9fc23ba9a0b522f7",
-      "bytes": 38167,
-      "mode": "100644"
+      "git_blob_sha1": "d0c78d8c1103f193d7842196f8b0d9cc22dfe214",
+      "bytes": 42280,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469",
+      "prior_versions": [
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "1031286a177a81ac6f51ffea9fc23ba9a0b522f7",
+          "bytes": 38167,
+          "mode": "100644",
+          "source_commit": "c21b086b976ec11549fb4feb211099e0d78c61cc"
+        }
+      ]
     },
     {
       "path": "paper/caption2.sty",
@@ -472,9 +482,19 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "2e647eb4fc3cca9614355dde375b023a8cf5abdc",
-      "bytes": 456770,
-      "mode": "100644"
+      "git_blob_sha1": "1f330e4499ef1f3602361dc3aa66c7f024bb5ac7",
+      "bytes": 453979,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469",
+      "prior_versions": [
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "2e647eb4fc3cca9614355dde375b023a8cf5abdc",
+          "bytes": 456770,
+          "mode": "100644",
+          "source_commit": "c21b086b976ec11549fb4feb211099e0d78c61cc"
+        }
+      ]
     },
     {
       "path": "paper/main.tex",
@@ -10319,5 +10339,119 @@
     "scripts/check_repository.py",
     "provenance/selection.json",
     "provenance/verification.json"
+  ],
+  "revision_artifacts": [
+    {
+      "path": "paper/tables/casos_criticos.tex",
+      "git_blob_sha1": "b85848c648ce0b8180ae9d1b224c15783610c2e8",
+      "bytes": 457,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "scripts/summarize_review_diagnostics.py",
+      "git_blob_sha1": "a8a39d3c6e32733135d4d1b2f3a4f536cdb61ef5",
+      "bytes": 6511,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "data/revisao_pareceres_20261024.json",
+      "git_blob_sha1": "07d001f7245d69fdb66d381d11a8e6f1afd612d4",
+      "bytes": 1609,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "docs/resposta_pareceres_20261024.md",
+      "git_blob_sha1": "55042d974dcecfbf5dd00cc41d6e9e4dd6e8bacc",
+      "bytes": 13384,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "docs/protocolo_representacao_raciocinio.md",
+      "git_blob_sha1": "9ddb5b83a592be3c99fa06a9eb87dccec9f07c14",
+      "bytes": 7787,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/casos_criticos.csv",
+      "git_blob_sha1": "be7bdc5ca15db75a940100021fe43e667f223d98",
+      "bytes": 2220,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/casos_criticos.tex",
+      "git_blob_sha1": "b85848c648ce0b8180ae9d1b224c15783610c2e8",
+      "bytes": 457,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/datas_influentes.csv",
+      "git_blob_sha1": "1eff951d46b905914ae3addc6fae922fb8c12335",
+      "bytes": 1804,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/estimativas_197.csv",
+      "git_blob_sha1": "e90759ba3684087ec8215c5098a107942a57a2c3",
+      "bytes": 64015,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/inventario_117.csv",
+      "git_blob_sha1": "7322655f547d7006a2bc135e4a31f8276efe0a95",
+      "bytes": 6482,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/maximos_amostra.csv",
+      "git_blob_sha1": "13d78b7d9c163a28095b3ba2bd503c259ee14029",
+      "bytes": 116,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "results/tables/resposta_pareceres_20261024/verificacao.json",
+      "git_blob_sha1": "699cb0c34ddd5ac258c9f0cca54e3730f1d01402",
+      "bytes": 1452,
+      "mode": "100644",
+      "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    }
+  ],
+  "revisions": [
+    {
+      "date": "2026-10-24",
+      "canonical_repository": "robsondf/alem-do-beta",
+      "canonical_commit": "f06060c6e7db7de4f966f152b362c88283b44469",
+      "canonical_PR": 86,
+      "previous_public_commit": "774f11fccbcdc9ff8086cc4d7c64cc4fb64d494c",
+      "updated_initial_paths": [
+        "paper/artigo_revisado.tex",
+        "paper/main.pdf"
+      ],
+      "new_scientific_artifacts": [
+        "paper/tables/casos_criticos.tex",
+        "scripts/summarize_review_diagnostics.py",
+        "data/revisao_pareceres_20261024.json",
+        "docs/resposta_pareceres_20261024.md",
+        "docs/protocolo_representacao_raciocinio.md",
+        "results/tables/resposta_pareceres_20261024/casos_criticos.csv",
+        "results/tables/resposta_pareceres_20261024/casos_criticos.tex",
+        "results/tables/resposta_pareceres_20261024/datas_influentes.csv",
+        "results/tables/resposta_pareceres_20261024/estimativas_197.csv",
+        "results/tables/resposta_pareceres_20261024/inventario_117.csv",
+        "results/tables/resposta_pareceres_20261024/maximos_amostra.csv",
+        "results/tables/resposta_pareceres_20261024/verificacao.json"
+      ],
+      "method": "Exact copy of scientific files from canonical PR; repository navigation and packaging verification adapted locally."
+    }
   ]
 }
