@@ -5,13 +5,19 @@ Robson Dias Ferreira — CMP609, PPGC/UFRGS.
 
 Esta é uma cópia selecionada do material de pesquisa já versionado em `robsondf/alem-do-beta`, destinada à avaliação do manuscrito. A seleção inicial foi seguida pelas revisões identificadas na proveniência; o lote F acrescenta análises pós-parecer, preservando os resultados e protocolos anteriores. Não contém a matriz privada de retornos ou downloads novos de cotações. O repositório de origem e os arquivos do Google Drive foram preservados.
 
+## Colab G do autor conferido — 24/10/2026
+
+[Cópia executada e salva](https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ);[export correspondente](https://drive.google.com/file/d/1jaKyp2CapivwnvHRoFGBtxneHr6N7Kd1/view),18.065.044 bytes/SHA256 `a8f391a7bf4edf67c109b303c9abcbd9cae8274e7a0d6b86430f407816df9158`. Dez fontes de células idênticas,seis códigos1–6,zero exceções;70 fontes e88 membros autenticados. A execução completa de6.000 réplicas está registrada como `Lab03G all`/`Colab`,sem novos downloads de mercado.
+
+Conferência externa:seis tabelas e66 vetores bootstrap,**1.595.778 valores concordantes**,máximo6,786238238e−15 sob tolerâncias1e−10 absoluta/1e−9 relativa. Preservadas84.066 posições ajustadas e84.066 brutas de limiar. Três CSVs e três tabelas LaTeX são idênticos em bytes; não se alega identidade binária geral. Dois PNGs embutidos iguais aos exports,pixels iguais à preparação local e PDFs com render igual ao artigo em144dpi.
+
 ## Revisão G — terceiro parecer
 
-**[Abrir o único notebook novo no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/f8bbed220998f002f390c31df0566b0cb942fce8/notebooks/Lab03G_mudanca_calibracao.ipynb)** — execute tudo e salve uma cópia no Drive.
+**[Abrir o único notebook novo no Colab](https://colab.research.google.com/github/robsondf/alem-do-beta-gemini/blob/f8bbed220998f002f390c31df0566b0cb942fce8/notebooks/Lab03G_mudanca_calibracao.ipynb)** — execução do autor já conferida; não repetir.
 
 [Análises, matriz de resposta e reprodução](docs/lab03g_parecer_v3.md): mudança agregada entre quinquênios, inferência defasada/semanal e calibração de seis mecanismos. São6.000 réplicas,84.000 linhas e66 alvos/blocos observados, com verificador independente. **A simulação expõe falhas:** cobertura dos ICs básicos51,8–95,8%; erro familiar temporal5,6% no estresse AR0,6. Não se declara validade nominal ou robustez uniforme.
 
-**Único notebook novo:** [Lab03G_mudanca_calibracao.ipynb](notebooks/Lab03G_mudanca_calibracao.ipynb). Executar tudo em CPU,salvar cópia/ZIP no Drive; não repetir F/E. A preparação G é local; o Colab novo do autor permanece pendente. Códigos/dados/recibos anteriores preservados.
+**Único notebook novo:** [Lab03G_mudanca_calibracao.ipynb](notebooks/Lab03G_mudanca_calibracao.ipynb). [Cópia do autor executada e conferida](https://colab.research.google.com/drive/1wMxL0eVrRmteeY_igYPG9KOiP18VwYLQ). Não repetir G/F/E/transferências; nenhum notebook novo nesta conferência. Códigos/dados/recibos anteriores preservados.
 
 ## Colab F conferido
 

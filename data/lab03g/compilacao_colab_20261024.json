@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "main_pdf_sha256": "2d8bdaf5b17b35368a25e2b4722235c970fdde5bc5c23f6ba3f0bb9f28f78156",
+  "previous_main_pdf_sha256": "7d15af0e9136654c2ea6869bcef0a6f89b5f06ffa22f8b79fe058096412bf508",
+  "main_pages": 25,
+  "cited_main_references": 38,
+  "all_other_article_sections_identical": true,
+  "changed_rendered_pages": [
+    22
+  ],
+  "unchanged_rendered_pages_pixel_identical_to_previously_inspected": 24,
+  "changed_pages_visually_inspected": [
+    22
+  ],
+  "unresolved_layout_defects": [],
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "supplement_unchanged_sha256": "588e279e7d01072c4effd897159d0554b567b70fcf47f5e3188299aaa544b16b",
+  "supplement_pages": 7,
+  "hyphenation": "local Portuguese babel support; language0 fallback, no binary Overleaf equivalence claimed",
+  "scope": "Availability/conference update only; no estimates, hypotheses, samples, families, references or scientific figures changed",
+  "source_sha256": {
+    "main.tex": "2c107ae10b6b62bdda212a9eb76bf4191bb042b81ee175fa88346a588aeed079",
+    "artigo_revisado.tex": "047d54215c954ef74c856b7ededb43806e8ada3fb5cb51778b83b6c9ade65a32",
+    "references_artigo.bib": "d6fddbe769d1d94ff46f9e60a4b43447f546e4d99df18dd79ae5b0bcd58f4fb1"
+  }
+}
