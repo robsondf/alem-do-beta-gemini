@@ -2,7 +2,7 @@
 
 ## Estado
 
-Lote executado e verificado localmente em 25/10/2026. A integração integral do notebook também passou: cinco códigos sem exceções, 20 fontes autenticadas, 72.724 valores e 12.381 posições de limiar concordantes. Execução do autor no Colab ainda não recebida. Não repetir J, I ou os demais labs. Amostras principais80/117, classes/ISINs, dez setores, retornos e ausências permanecem intactos.
+Execução do autor no Colab recebida e conferida em 25/10/2026: nove células com fontes idênticas à entrega, cinco códigos sem exceções, 20 fontes e 43 membros do ZIP autenticados. A conferência externa verificou 72.724 células de tabelas, 1.665.000 valores dos bancos e 12.381 posições de limiar. Gráfico idêntico em pixels e máscara de ausências do preperíodo preservada. Não é necessário executar outro notebook nesta etapa. Amostras principais 80/117, classes/ISINs, dez setores, retornos e ausências permanecem intactos.
 
 O protocolo `data/lab03k/protocol_v1.json` antecede os novos contrastes nos commits original `695508cca5406b51558a467f70edfff8b030c29d` e público `29cba58a0c5d0b70b3486c1489bb8fae240c930e`. Resultados J e pareceres já eram conhecidos: trata-se de extensão exploratória, não pré-registro.
 
@@ -16,7 +16,13 @@ O protocolo `data/lab03k/protocol_v1.json` antecede os novos contrastes nos comm
 - Calibração K:6leis×1000réplicas×4999sorteios, somente referência/bloco21/nula global condicional. FWER simulada0,6–2,6%; coberturas marginais89,5–94,8%, com subcobertura material. Wilson e erro Monte Carlo por alvo/lei exportados. Não valida universalmente os ICs, as sensibilidades, efeitos mistos ou os resultados anteriores.
 - Oráculo independente:4248ajustes temporais,96transversais,24caudas, erro máximo8,44e−15. Aceleração:608ajustes ponderados, erro1,05e−16. Cinco testes unitários passaram.
 
-## Execução
+## Conferência do Colab do autor
+
+[Notebook executado](https://colab.research.google.com/drive/1MCwjoZh864rnHgLbIScW0uM1HVXuVPZc) e [ZIP autenticado](https://drive.google.com/file/d/1BNhpQCD9GpZcAHp-ZAtnPRTESyiDn1Iu/view). Recibos em `data/lab03k/validacao_colab_20261025.json`, `manifesto_colab_20261025.json` e `oraculos_colab_20261025.json`. Comparações por tabela e banco também estão nessa pasta.
+
+A diferença máxima é 8,08e−14 nas tabelas e 1,20e−14 nos bancos observados, dentro das tolerâncias previamente declaradas (absoluta 1e−10, relativa 1e−9). Os 6.000 registros de calibração e seus resumos são idênticos nas tabelas; não foi necessário repetir as simulações. Oráculos reexecutados sobre cópias autenticadas. Matrizes, bancos e notebook com saídas continuam no Drive. O código e as referências congelados do lote permanecem inalterados.
+
+## Instruções de reprodução (execução já conferida)
 
 Abra `notebooks/Lab03K_porte_liquidez.ipynb` no Colab, faça uma cópia no Drive e execute tudo com CPU. O notebook autentica código por commit/SHA256, reutiliza os exports I/J existentes e baixa esses mesmos arquivos do Drive apenas se não encontrar cópia autenticada. Não baixa cotações ou onze ZIPs B3. Não modifique os IDs/hashes para aceitar arquivo divergente.
 

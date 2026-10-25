@@ -1,0 +1,35 @@
+{
+  "main": {
+    "sha256": "619d87ebaa91495d503e12d0cae56734e6322ff14908e66a6b6cc0774a837bab",
+    "pages": 18,
+    "undefined_references": false,
+    "missing_characters": false,
+    "overfull_boxes": []
+  },
+  "suplemento": {
+    "sha256": "f5262a1b975f6848f0fa659fb76dc87a7e033f4c3e92c2623165a27f5fed40cc",
+    "pages": 29,
+    "undefined_references": false,
+    "missing_characters": false,
+    "overfull_boxes": []
+  },
+  "visual_validation": {
+    "checked_pages": {
+      "main": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "suplemento": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    "status": "updated paragraphs and subsequent pages rendered, no clipping/overlap observed"
+  }
+}

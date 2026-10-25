@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "notebook_sha256": "c81b142ee27f8c865789e269e064174cdf85c4188c65371895a65fead91ff963",
+  "export_sha256": "ea84527ca1039fee3f5ba60d83ef070bb56845ac744a65ee98aa712affb10d5b",
+  "export_bytes": 13325738,
+  "source_commit": "276ebc08414f01b2363a5c4e554fb79b2a6a2dca",
+  "cell_sources": [
+    {
+      "cell": 0,
+      "kind": "markdown",
+      "sha256": "df044a1f13d415cc2999890629b96af8ca1c658f3b891cc960690d48f1e196ff"
+    },
+    {
+      "cell": 1,
+      "kind": "code",
+      "sha256": "2de1bb2b2b4f393f285f78d69bd4972a3d42b3b2fa060b2435749053739012af"
+    },
+    {
+      "cell": 2,
+      "kind": "markdown",
+      "sha256": "66f5497337490f2eaca3a818efc47a4384ac9fbf104ea0ff2168cfc2d9087bcb"
+    },
+    {
+      "cell": 3,
+      "kind": "code",
+      "sha256": "2b9bc6c428c9aaa57f65e4009fcb72f43a86bfe2e52fad2f6d0295825d8e5d9b"
+    },
+    {
+      "cell": 4,
+      "kind": "markdown",
+      "sha256": "557f193f7a3db781fe74043ff325dcd6ef22807071f15a4080f429e1926b1450"
+    },
+    {
+      "cell": 5,
+      "kind": "code",
+      "sha256": "47c889974400413f0df14cfaa05e3d831049eaf2a23b12e430b966a81320bc5b"
+    },
+    {
+      "cell": 6,
+      "kind": "code",
+      "sha256": "dcadadf58ec8fe7c8f9ae996a3d5e08ea2446deac2a93844073143db96b7e5f6"
+    },
+    {
+      "cell": 7,
+      "kind": "markdown",
+      "sha256": "b49538aa992fa8e64ce7e0ecaea649ed5394dec67ac4503ea42ed7306e00eaaa"
+    },
+    {
+      "cell": 8,
+      "kind": "code",
+      "sha256": "75043fcc652643d26d003a7e959e65789379e8ef2ef69f63dd969e0ceeaa4073"
+    }
+  ],
+  "code_cells": 5,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "errors": 0,
+  "authenticated_export_members": 43,
+  "source_files": 20,
+  "table_cells": 72724,
+  "finite_numeric_table_values": 29200,
+  "threshold_positions": 12381,
+  "max_table_difference": 8.08242361927114e-14,
+  "observed_bank_arrays": 30,
+  "observed_bank_values": 1665000,
+  "max_bank_difference": 1.199040866595169e-14,
+  "preperiod_missing_mask_identical": true,
+  "embedded_plot_matches_export": true,
+  "plot_reconstruction": {
+    "same_shape": true,
+    "pixels_equal": true
+  },
+  "calibration_rows": 6000,
+  "calibration_not_rerun": true,
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "scope": "external numerical reproduction; no economic or universal inferential certification",
+  "notebook_drive_id": "1MCwjoZh864rnHgLbIScW0uM1HVXuVPZc",
+  "notebook_url": "https://colab.research.google.com/drive/1MCwjoZh864rnHgLbIScW0uM1HVXuVPZc",
+  "export_drive_id": "1BNhpQCD9GpZcAHp-ZAtnPRTESyiDn1Iu",
+  "author_environment": {
+    "passed": true,
+    "environment": "author_Colab",
+    "source_commit": "276ebc08414f01b2363a5c4e554fb79b2a6a2dca",
+    "source_files": 20,
+    "compared_values": 72724,
+    "p_threshold_positions": 12381,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "I_sha256": "ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e",
+    "J_sha256": "96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce",
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "rebuild_I_archive_sha256": "2f61beb15aac8638cf92dae0eef58de8bc70cded3a6fe833519171f21f554f06",
+  "J_archive_sha256": "96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce"
+}

@@ -10880,6 +10880,27 @@
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
+      "path": "data/lab03k/colab_bank_comparisons.csv",
+      "git_blob_sha1": "fd0e86716191cb4109f9d560b47c55d7577e65d2",
+      "bytes": 1915,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+    },
+    {
+      "path": "data/lab03k/colab_table_comparisons.csv",
+      "git_blob_sha1": "96db92463c5a9cd3f20bf89c77c57d53f0fff605",
+      "bytes": 387,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+    },
+    {
+      "path": "data/lab03k/compilacao_colab_20261025.json",
+      "git_blob_sha1": "87c751c595579e886c7594f072afb0d096472157",
+      "bytes": 755,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+    },
+    {
       "path": "data/lab03k/execution.json",
       "git_blob_sha1": "9e7b06d217bf399d07beccb252b4fedf82aaa2e8",
       "bytes": 294,
@@ -10908,11 +10929,25 @@
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
+      "path": "data/lab03k/manifesto_colab_20261025.json",
+      "git_blob_sha1": "f816bd06324ac23a6ee5bdd4aabca01405a23cbb",
+      "bytes": 5162,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+    },
+    {
       "path": "data/lab03k/notebook_validation.json",
       "git_blob_sha1": "67106f16b74e74169b110321ad757b8165127c98",
       "bytes": 1257,
       "mode": "100644",
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+    },
+    {
+      "path": "data/lab03k/oraculos_colab_20261025.json",
+      "git_blob_sha1": "2b2b8bbda671a5b3d8e83ab3333bf4b055b5c3db",
+      "bytes": 1086,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "data/lab03k/protocol_v1.json",
@@ -10927,6 +10962,13 @@
       "bytes": 656,
       "mode": "100644",
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+    },
+    {
+      "path": "data/lab03k/validacao_colab_20261025.json",
+      "git_blob_sha1": "f81c5d792e26502569b315c41e23c76066a177b1",
+      "bytes": 3275,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "data/lab03k/visual_validation.json",
@@ -11027,10 +11069,10 @@
     },
     {
       "path": "docs/lab03k_fechamento.md",
-      "git_blob_sha1": "92f9596e481d4415ce636ac2a90e7608718204ca",
-      "bytes": 4642,
+      "git_blob_sha1": "1202644e1bb5ef9c067e2bfcb59b042b5343bb53",
+      "bytes": 5711,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "docs/protocolo_representacao_raciocinio.md",
@@ -11041,16 +11083,16 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "git_blob_sha1": "ec713de379cc5d781dfc7a446ff6d4e86298b326",
-      "bytes": 2988,
+      "bytes": 3145,
+      "git_blob_sha1": "d597c0aaff4f17fb18142174c7ce2c64e09f256c",
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "git_blob_sha1": "f8ab0f069d61eaefc25f5710550e205d2d3c61d0",
-      "bytes": 12855,
+      "bytes": 13012,
+      "git_blob_sha1": "897954f1c1d45ba619eb70266702af37f1f95282",
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
@@ -11115,10 +11157,10 @@
     },
     {
       "path": "docs/resposta_pareceres_K.md",
-      "git_blob_sha1": "1b0bfc9d6e53d1b76d943a45f35230789a873096",
-      "bytes": 3298,
+      "git_blob_sha1": "41a6038aa981e8b95052533aaf6222c19e1e920e",
+      "bytes": 3427,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "notebooks/Lab03F_pos_parecer.ipynb",
@@ -11157,10 +11199,10 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "7d585c1c86260bd8f5ba2e93a70bb27dff04b78f",
-      "bytes": 42017,
+      "git_blob_sha1": "387174708976bcbe3e7926e43edfd3b1d4a79d2c",
+      "bytes": 42534,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "paper/figures/lab02/lab03f_agregado.pdf",
@@ -11276,10 +11318,10 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "a2501803eca57e786fa6b0fcc60e3fa7541dfe74",
-      "bytes": 350267,
+      "git_blob_sha1": "285b499affb8ba9e1d2e52ebb668f601e03f862f",
+      "bytes": 350574,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "paper/main.tex",
@@ -11304,17 +11346,17 @@
     },
     {
       "path": "paper/suplemento.pdf",
-      "git_blob_sha1": "67e1bba6ef288d28745f9fe546b0322004228e3b",
-      "bytes": 555503,
+      "git_blob_sha1": "4fc1f8d62b1555fe6c5fb364ec934360de571579",
+      "bytes": 556229,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "paper/suplemento.tex",
-      "git_blob_sha1": "2c6bc0abf32b5e5f2bc52ff9f5dca6586aa4ff9e",
-      "bytes": 29379,
+      "git_blob_sha1": "0dbe23f831d3b4c64e54991f279252eb51a6d2ad",
+      "bytes": 30289,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "paper/tables/casos_criticos.tex",
@@ -11544,9 +11586,17 @@
       "origin": "public_packaging"
     },
     {
+      "path": "provenance/verification_K_colab_20261025.json",
+      "bytes": 3920,
+      "git_blob_sha1": "1ca45dd6aa07e669a16ce206adb0d94848386596",
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
       "path": "README.md",
-      "git_blob_sha1": "0ee9e4468f92e69f2c419d9a0fd360120da3b54f",
-      "bytes": 13811,
+      "bytes": 13989,
+      "git_blob_sha1": "cf1361a0b4fb39efab07f514c56f320e917623fa",
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
@@ -12566,6 +12616,13 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "scripts/verify_lab03k_colab.py",
+      "git_blob_sha1": "e974f6f0d6bcbf6c11a2004864e853196157b7ce",
+      "bytes": 6821,
+      "mode": "100644",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+    },
+    {
       "path": "scripts/verify_lab03k.py",
       "git_blob_sha1": "c76a486ef4ef8cf43d09df4e396b6ea4c0fbb1ec",
       "bytes": 4423,
@@ -13572,6 +13629,101 @@
         }
       ],
       "author_K_Colab_status": "pending; local five code cells completed"
+    },
+    {
+      "date": "2026-10-25",
+      "stage": "Author K Colab execution and export externally verified; availability updated",
+      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a",
+      "previous_public_commit": "2a75bcffbf1e9b24fa4f4a83d4c4304f071a2885",
+      "updated_paths": [
+        "scripts/verify_lab03k_colab.py",
+        "data/lab03k/validacao_colab_20261025.json",
+        "data/lab03k/manifesto_colab_20261025.json",
+        "data/lab03k/oraculos_colab_20261025.json",
+        "data/lab03k/compilacao_colab_20261025.json",
+        "data/lab03k/colab_table_comparisons.csv",
+        "data/lab03k/colab_bank_comparisons.csv",
+        "paper/artigo_revisado.tex",
+        "paper/suplemento.tex",
+        "paper/main.pdf",
+        "paper/suplemento.pdf",
+        "docs/lab03k_fechamento.md",
+        "docs/resposta_pareceres_K.md"
+      ],
+      "public_packaging_paths": [
+        "README.md",
+        "docs/RELEASE_STATUS.md",
+        "docs/REPRODUCTION.md",
+        "provenance/verification_K_colab_20261025.json"
+      ],
+      "preserved_previous_manifest_entries": [
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "7d585c1c86260bd8f5ba2e93a70bb27dff04b78f",
+          "bytes": 42017,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "paper/suplemento.tex",
+          "git_blob_sha1": "2c6bc0abf32b5e5f2bc52ff9f5dca6586aa4ff9e",
+          "bytes": 29379,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "a2501803eca57e786fa6b0fcc60e3fa7541dfe74",
+          "bytes": 350267,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "paper/suplemento.pdf",
+          "git_blob_sha1": "67e1bba6ef288d28745f9fe546b0322004228e3b",
+          "bytes": 555503,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "docs/lab03k_fechamento.md",
+          "git_blob_sha1": "92f9596e481d4415ce636ac2a90e7608718204ca",
+          "bytes": 4642,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "docs/resposta_pareceres_K.md",
+          "git_blob_sha1": "1b0bfc9d6e53d1b76d943a45f35230789a873096",
+          "bytes": 3298,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha1": "0ee9e4468f92e69f2c419d9a0fd360120da3b54f",
+          "bytes": 13811,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/RELEASE_STATUS.md",
+          "git_blob_sha1": "ec713de379cc5d781dfc7a446ff6d4e86298b326",
+          "bytes": 2988,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/REPRODUCTION.md",
+          "git_blob_sha1": "f8ab0f069d61eaefc25f5710550e205d2d3c61d0",
+          "bytes": 12855,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        }
+      ]
     }
   ]
 }

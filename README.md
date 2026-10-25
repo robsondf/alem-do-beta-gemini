@@ -2,9 +2,9 @@
 
 ## Lab03K — lote de porte e liquidez
 
-Extensão exploratória executada e conferida localmente: testes conjuntos, beta de 2015, exclusão de ativos sinalizados, Amihud e seis leis de calibração. [Resultados e execução](docs/lab03k_fechamento.md) · [Disposição dos dois pareceres](docs/resposta_pareceres_K.md).
+Extensão exploratória executada pelo autor no Colab e conferida externamente: testes conjuntos, beta de 2015, exclusão de ativos sinalizados, Amihud e seis leis de calibração. [Resultados e execução](docs/lab03k_fechamento.md) · [Disposição dos dois pareceres](docs/resposta_pareceres_K.md).
 
-Único novo notebook: [Lab03K](notebooks/Lab03K_porte_liquidez.ipynb). Faça uma cópia no Colab e execute tudo; a execução do autor será auditada separadamente. Matrizes e caches permanecem no Drive.
+**Lab03K do autor conferido:** cinco códigos sem exceções; 72.724 células de tabelas e 1.665.000 valores de bancos concordantes; 12.381 limiares preservados e gráfico idêntico. [Notebook executado](https://colab.research.google.com/drive/1MCwjoZh864rnHgLbIScW0uM1HVXuVPZc). Nenhum novo notebook nesta conferência. Matrizes e caches permanecem no Drive.
 
 
 **Lab03J do autor conferido:** cinco códigos sem exceções, 372.959 valores concordantes e gráficos idênticos. [Registro e limites](docs/lab03j_pareceres.md). Os PDFs atualizados registram a execução efetiva; pronto para nova revisão externa.

@@ -1,0 +1,31 @@
+{
+  "scope": "Separate author and external numerical oracles; existing I local reconstruction audited equivalent, not claimed byte-identical to author I export",
+  "author_Colab": {
+    "passed": true,
+    "temporal_dense_fits": 4248,
+    "cross_sectional_dense_fits": 96,
+    "joint_tail_checks": 24,
+    "max_difference": 1.1546319456101628e-14,
+    "scope": "numerical oracle, not coverage or economic certification"
+  },
+  "external_rerun": {
+    "passed": true,
+    "temporal_dense_fits": 4248,
+    "cross_sectional_dense_fits": 96,
+    "joint_tail_checks": 24,
+    "max_difference": 8.43769498715119e-15,
+    "scope": "numerical oracle, not coverage or economic certification"
+  },
+  "author_calibration_acceleration": {
+    "passed": true,
+    "scope": "six finite conditional null laws, not universal coverage or DGP compatibility",
+    "R_per_case": 1000,
+    "B": 4999,
+    "block": 21,
+    "mask_groups": 23,
+    "dense_weighted_regime_fits": 608,
+    "max_oracle_error": 1.1102230246251565e-16,
+    "elapsed_seconds": 265.641090561
+  },
+  "no_new_outer_simulations": true
+}

@@ -2,7 +2,7 @@
 
 ## Checkpoint K — fechamento dos pareceres
 
-Consulte [Lab03K](lab03k_fechamento.md) e [as disposições](resposta_pareceres_K.md). Lote e calibração executados localmente; execução K do autor ainda não recebida. Não repetir J/I. Artigo e suplemento atualizados; resultados e famílias anteriores preservados. Apenas retornos nas regressões, sem preenchimento.
+Consulte [Lab03K](lab03k_fechamento.md) e [as disposições](resposta_pareceres_K.md). Execução do autor no Colab conferida: cinco códigos sem exceções, 20 fontes, 43 membros autenticados, 72.724 células de tabelas e 1.665.000 valores de bancos concordantes; 12.381 limiares preservados e gráfico idêntico. Não repetir os labs ou executar outro notebook nesta conferência. Artigo e suplemento registram a execução efetiva, preservando os resultados e as limitações.
 
 
 ## Colab J do autor conferido
