@@ -1,88 +1,69 @@
 \section{Introdução}
-Uma inclinação única em relação ao mercado pode ocultar respostas
-diferentes em altas e quedas. Essa possibilidade motiva estimar betas
-condicionais, mas não estabelece, por si, sua estabilidade ou utilidade
-prospectiva. O problema é determinar quanto a assimetria estimada depende de
-liquidez, composição e janela, distinguindo associação transversal,
-mudança temporal e identificação individual.
+Uma exposição única ao mercado pode ocultar respostas distintas em altas
+e quedas. Investigamos a assimetria dos betas de 80 ativos brasileiros em
+2016--2025 e 117 em 2021--2025, em dez setores, distinguindo nível agregado,
+identificação individual e sensibilidade temporal. Os mesmos 80 no período
+recente permitem comparar janelas com composição fixa.
 
-O CAPM relaciona retorno esperado e exposição ao mercado
-\cite{sharpe1964}; a literatura de risco de queda oferece motivação
-econômica para considerar estados adversos \cite{ang2006}.
-Levi e Welch \cite{leviwelch2020} questionam a vantagem prospectiva
-dos betas assimétricos. Nosso contraste descreve projeções de retornos
-observados, sem testar prêmio de risco ou previsão do beta futuro.
-Na versão de trabalho de Ang et al. \cite{ang2004working}, o evento
-condicionante usa o excesso de retorno abaixo de sua média; aqui,
-o limiar é zero no log-retorno observado do mercado.
+O CAPM relaciona retorno esperado e exposição ao mercado \cite{sharpe1964};
+risco de queda motiva examinar estados adversos \cite{ang2006}. Levi e Welch
+\cite{leviwelch2020} questionam a vantagem prospectiva dos betas assimétricos.
+Aqui, descrevem-se projeções de retornos observados, sem testar prêmio de
+risco ou beta futuro. O limiar zero no log-retorno do mercado difere do
+excesso abaixo da média em Ang et al. \cite{ang2004working} e de medidas
+de Estrada \cite{estrada2002,estrada2007}.
 
-No Brasil, Fortunato et al. \cite{fortunato2010} examinam medidas
-de risco e custo de capital em 50 ações com dados mensais de 1995--2006.
-Faria e Santos \cite{faria2010} comparam CAPM/D-CAPM em 21 ações,
-de 2006--2010, com Ibovespa e Selic. Seu D-CAPM trunca excessos
-positivos do ativo e do mercado; as projeções centralizadas por regime
-adotadas aqui têm outro estimando. Estrada \cite{estrada2002,estrada2007}
-também usa definições distintas. Frequência, referencial e universo
-precisam ser harmonizados antes de comparar sinais ou magnitudes.
-O suplemento amplia esse contexto, sem reivindicar pioneirismo brasileiro.
+No Brasil, Fortunato et al. \cite{fortunato2010} estudam risco e custo de
+capital em 50 ações com dados mensais de 1995--2006. Faria e Santos
+\cite{faria2010} comparam CAPM/D-CAPM em 21 ações de 2006--2010;
+seu D-CAPM trunca excessos positivos, outro estimando. Definições,
+frequência e universo precisam ser harmonizados antes da comparação;
+o suplemento amplia o contexto, sem reivindicar pioneirismo.
 
-A liquidez oferece duas interpretações que precisam ser distinguidas.
-Acharya e Pedersen \cite{acharyapedersen2005} modelam remuneração
-associada a custos e covariâncias de liquidez; Brunnermeier e Pedersen
-\cite{brunnermeierpedersen2009} relacionam negociação e financiamento,
-com espirais sob condições específicas. Chordia et al.
-\cite{chordia2000} documentam componentes comuns de liquidez.
-Esses mecanismos econômicos coexistem com negociação infrequente e
-assincronia na mensuração. Volume financeiro é uma aproximação de atividade,
-não uma medida direta de spread, custo ou risco de liquidez; nossa
-regressão não testa os modelos de precificação dessas referências.
+Acharya e Pedersen \cite{acharyapedersen2005} modelam remuneração por
+custos e covariâncias de liquidez; Brunnermeier e Pedersen
+\cite{brunnermeierpedersen2009} relacionam negociação e financiamento;
+Chordia et al. \cite{chordia2000} documentam liquidez comum. Esses mecanismos
+coexistem com negociação infrequente e assincronia. Volume financeiro
+aproxima atividade, não spread ou custo, e nossas regressões não testam
+esses modelos de precificação.
 
-
-Investigamos 80 ativos em 2016--2025 e 117 em 2021--2025, em dez setores.
-O recorte dos mesmos 80 no período recente permite distinguir,
-descritivamente, janela e composição. O núcleo é a existência e a
-sensibilidade temporal da assimetria; setores e risco organizam a
-heterogeneidade. Indicadores técnicos e métodos sequenciais de
-covariância permanecem extensões não executadas. A contribuição empírica é quantificar a sensibilidade da assimetria a
-universo, liquidez e controles observados, articulando evidência agregada,
-identificação individual e limites da inferência. A associação condicional
-é exploratória e não foi pré-registrada; resultados anteriores eram conhecidos.
+A contribuição é quantificar como assimetria histórica e mudança dependem
+de amostra, liquidez e controles observados. O núcleo é empírico; setores
+e risco organizam a heterogeneidade. Indicadores técnicos e covariância
+sequencial permanecem extensões não executadas. Hipóteses e análises
+complementares foram explicitadas após resultados anteriores, sem
+pré-registro do estudo.
 
 \section{Dados, perguntas e alcance}
 \subsection{Amostras e construção dos retornos}
-As amostras são fixas: 80 ativos em 2016--2025 e 117 em 2021--2025.
-A primeira está contida na segunda; não há seleção anual, colapso
-de classes, agregação por emissor ou pesos empresariais. Os grupos
-correspondem a 76 e 112 emissores. Classes distintas podem ser dependentes.
-A seleção considera volume financeiro negociado em 2025 e presença
-histórica, produzindo vieses retrospectivo e de sobrevivência.
-O cadastro setorial datado não reconstrói classificações disponíveis
-em cada época \cite{b3setorial}.
+As amostras fixas contêm 80 ativos em 2016--2025 e 117 em 2021--2025,
+correspondentes a 76 e 112 emissores. A primeira está contida na segunda;
+não há seleção anual, agregação de classes ou pesos empresariais. A seleção
+por volume financeiro de 2025 e presença histórica introduz vieses
+retrospectivo e de sobrevivência. Classes podem ser dependentes, e o cadastro
+setorial arquivado não reconstrói a informação de cada época \cite{b3setorial}.
 
-Ativo e Ibovespa são pareados no calendário B3. Usam-se log-retornos
-diários, construídos de um cache consultado por yfinance e confrontado
-com fontes B3 \cite{yfinance,b3cotacoes,b3layout,b3empresas}.
-Preços são insumos da construção e auditoria; as regressões utilizam
-retornos. A referência observada contém reconciliações rastreadas,
-sem pressupor harmonização econômica e tributária integral entre
-fatores do fornecedor e o índice de retorno total \cite{b3indices}.
+Log-retornos diários do ativo e do Ibovespa são pareados no calendário B3,
+a partir de cache yfinance confrontado com fontes oficiais
+\cite{yfinance,b3cotacoes,b3layout,b3empresas}. Preços são insumos de auditoria;
+as regressões usam retornos. Reconciliações rastreadas não implicam
+harmonização econômica/tributária integral dos fatores do fornecedor com
+o índice de retorno total \cite{b3indices}.
 
-Cinco retornos diários permanecem não identificáveis: ABCB4 em 4 e 5/1/2016
-e UGPA3 em 28--30/6/2021. Preservam-se ausências, sem interpolação
-ou distribuição de pontes acumuladas entre dias. Duas ausências de
-ANIM3 em 20 e 23/11/2020 elevam a sete o total da década; quatro
-de AZUL4 e três de UGPA3 também totalizam sete no recente.
-Nos 80 comuns há três. Light em 30/10/2024 foi reconciliada
-\cite{abcb2015,ultra2021,light2024,b3lightcustodia,b3lightnegocios,b3diaria2026}.
-As mesmas matrizes e máscaras são reutilizadas nas novas análises.
+Cinco retornos diários seguem não identificáveis: ABCB4 em 4--5/1/2016
+e UGPA3 em 28--30/6/2021. Duas ausências de ANIM3 em 20 e 23/11/2020
+elevam a sete as lacunas da década; quatro de AZUL4 e três de UGPA3
+totalizam sete no recente, e os 80 comuns têm três. Não há interpolação
+ou distribuição de pontes acumuladas. Light em 30/10/2024 foi reconciliada
+\cite{abcb2015,ultra2021,light2024}.
 
-Embora 73 dos 74 ativos de uma frente documental tenham revisão local,
-nenhum dos 197 históricos ativo--período cumpre todos os requisitos
-de homologação econômica. Isso significa certificação incompleta,
-não erro em todos os retornos. Identidade, quantidade, bordas, ANIM3
-e harmonização de caixa continuam entre as pendências. A tabela oficial
-Frasle foi extraída, mas contém inconsistências cronológicas preservadas
-\cite{frasinventario2026}. Registros e documentos estão no material suplementar.
+Nenhum dos 197 históricos ativo--período cumpre todos os critérios de
+homologação econômica, apesar da revisão local de 73/74 ativos de uma
+frente documental. Isso significa certificação incompleta, não 197 erros.
+Identidade, quantidades, bordas e caixa permanecem no inventário;
+inconsistências cronológicas da tabela Frasle foram preservadas
+\cite{frasinventario2026}. Matrizes e máscaras são reutilizadas.
 
 \subsection{Hipóteses e estimandos}
 Sejam $r_{it}$ e $m_t $ os log-retornos do ativo e do mercado.
@@ -112,7 +93,7 @@ famílias; não se alega controle de erro sobre todo o programa.
 \begin{table}[htbp]\centering\footnotesize
 \caption{Alvos e multiplicidade. Ajustes separados por bloco, salvo HAC.
 ICs bootstrap são marginais nominais, não intervalos simultâneos.}
-\label{tab:familias}\input{tables/lab03k_families.tex}
+\label{tab:familias}\input{tables/editorial_v8_families.tex}
 \end{table}
 
 \section{Métodos}
@@ -124,15 +105,11 @@ Com pares válidos por ativo e janela, estimam-se
 \widehat\Delta_i=\widehat\beta_i^+-\widehat\beta_i^-.
 \end{align}
 Cada regime tem centralização própria. Dias neutros entram no beta
-tradicional e no risco, mas não no contraste condicional. A regressão
-conjunta equivalente, nos dias não neutros, é
-\begin{equation}
-r_{it}=a_i+g_iD_t+b_im_t+\Delta_iD_tm_t+e_{it},
-\quad D_t=\mathbf{1}\{m_t>0\}.
-\end{equation}
-Assim, $b_i=\beta_i^-$ e $g_i $ permite interceptos próprios;
-não representa uma descontinuidade causal. A covariância conjunta
-preserva a dependência entre as duas inclinações.
+tradicional e no risco, mas não no contraste condicional. A regressão equivalente nos dias não neutros é
+$r_{it}=a_i+g_iD_t+b_im_t+\Delta_iD_tm_t+e_{it}$, com
+$D_t=\mathbf{1}\{m_t>0\}$ e $b_i=\beta_i^-$.
+O termo $g_i$ permite interceptos próprios, sem interpretação causal;
+a covariância conjunta preserva a dependência das inclinações.
 
 Exigem-se 200 pares, 60 por regime, 95\% de cobertura elegível e variância
 do mercado acima de $10^{-12}$. São salvaguardas contra ajustes curtos
@@ -156,9 +133,7 @@ e 117 recentes compartilham exatamente os sorteios recentes.
 
 O bloco principal é 21 sessões; 5 e 63 são sensibilidades reportadas.
 Com $T^*$ reestimado, usam-se
-\begin{equation}
-p=\frac{1+\#\{|T^*-\widehat T|\ge|\widehat T|\}}{5000}
-\end{equation}
+$p=(1+\#\{|T^*-\widehat T|\ge|\widehat T|\})/5000$
 e ICs básicos marginais nominais de 95\%. A centralização é aproximada;
 o acréscimo de um não produz teste Monte Carlo exato. Valores-p bilaterais
 centrados e ICs básicos assimétricos não são duais. A calibração
@@ -167,7 +142,7 @@ não substitui o teste ajustado. A interpretação dos blocos requer
 regularidade e dependência suficientemente fraca nos trechos.
 
 As famílias agregadas e suas proteções constam da Tabela~\ref{tab:familias}.
-Holm 30 permanece sensibilidade conservadora sobre F10 nos três blocos.
+Holm 30 permanece sensibilidade conservadora sobre os dez alvos de níveis nos três blocos.
 
 \subsection{Sensibilidade da mudança à crise}
 \label{sec:crise}
@@ -177,10 +152,10 @@ Retiram-se março/2020 ou 2020-S1 apenas da primeira metade; a segunda
 e os 80 ativos são mantidos. O contraste é calculado por ativo antes
 de resumir. Cada trecho contíguo restante é reamostrado separadamente,
 sem blocos atravessando a lacuna. Reutilizam-se os bancos originais
-das exclusões e o mesmo banco recente, reproduzindo também o G original.
+das exclusões e o mesmo banco recente e os resultados do contraste integral.
 
-A nova família H4 reúne média/mediana de $\theta $ nas duas exclusões,
-com Holm 4 por bloco. Ela tem composição diferente de G4: a tabela
+A família das exclusões reúne média/mediana de $\theta $ nas duas exclusões,
+com Holm 4 por bloco. Ela difere da família do contraste integral: a tabela
 informa valores brutos e ajustados de ambas, sem comparar suas decisões
 como se diferissem apenas nos dados. Nenhum sorteio inválido é substituído;
 a inferência do alvo seria retida. Os ICs das novas máscaras não
@@ -193,10 +168,10 @@ A calibração preservada usa 1.000 réplicas em seis mecanismos, com os
 mesmos 4.999 sorteios internos/bloco 21. Mantém mercado, máscaras,
 escalas individuais estimadas e dependência por fator comum de variância 0,3.
 Inclui normal iid, componentes t5 heterocedásticos, t5/AR0,3 e estresses
-GARCH t5, quebra de escala e AR 0,6. As famílias F10/G4 são avaliadas
+GARCH t5, quebra de escala e AR 0,6. As famílias de níveis e metades são avaliadas
 separadamente sob nulidade global individual; isso não demonstra controle
 forte para toda configuração de efeitos, nula agregada ou lei financeira.
-H4, modelos dinâmicos/semanais e outros blocos não foram calibrados.
+As exclusões de crise, modelos dinâmicos/semanais e outros blocos não foram calibrados.
 O gerador condiciona no caminho observado do mercado e da escala;
 o bootstrap de pares também reamostra o desenho e não studentiza
 $T^*-\widehat T$. Isso pode alterar a concentração dos pesos em
@@ -204,28 +179,11 @@ sessões de alta variância. É uma explicação plausível para a diferença
 de precisão, não uma decomposição demonstrada da subcobertura.
 
 
-A escala heterocedástica é proporcional a
-$\sqrt{0,5+0,5m_{t-1}^2/\overline{m^2}}$, normalizada para
-$T^{-1}\sum h_t^2=1$. Isso não iguala a precisão dos estimadores:
-variância colocada onde o contraste tem maior peso produz outro efeito.
-Se $a_{ti}=\sigma_iw_{it}/N $ e $w_{it}$ calcula $\widehat\Delta_i $,
-na ausência de AR a variância condicional da média é
-\begin{equation}
-\sum_t h_t^2\left[0,3\left(\sum_i a_{ti}\right)^2+
-0,7\sum_i a_{ti}^2\right].
-\end{equation}
-A fórmula AR completa e sua conferência independente estão no suplemento.
-O estresse de quebra multiplica dois fatores normalizados; o produto
-tem média quadrática 1,02955. Nenhum gerador foi alterado após os resultados.
-
-Como diagnóstico exploratório, transformam-se os valores-p observados
-pela CDF empírica dos valores-p nulos de cada mecanismo:
-$\widetilde p_{jg}=(1+\#\{p^0_{jgr}\le p_j\})/1001$.
-Recalibram-se todas as dez ou quatro marginais antes de reordenar Holm.
-O banco existente não fornece validação independente dessa transformação;
-contagens, incerteza Monte Carlo e alcance condicionado aos parâmetros
-estimados são reportados. Esses diagnósticos não substituem os testes
-originais, corrigem seus ICs ou ampliam a garantia do complemento individual.
+A posição da variância no calendário pode alterar a precisão mesmo com
+escala global normalizada. O suplemento apresenta a fórmula condicional,
+sua conferência e o diagnóstico exploratório pela CDF empírica dos
+valores-p simulados. Essa transformação usa o banco existente, sem validação
+independente; não substitui os testes originais nem corrige seus ICs.
 
 \subsection{Setores, risco e especificações alternativas}
 Por setor, apresentam-se mediana/IQR e agrupamento pontual $\eta^2$;
@@ -247,113 +205,62 @@ sensibilidades permanecem no suplemento e nos exports.
 
 
 \subsection{Seleção anterior ao período e liquidez}
-Uma análise secundária reconstrói as cotações oficiais de 2015--2025,
-por ISIN, a partir de onze ZIPs B3 autenticados já existentes.
-Comparam-se os 80 originais com 80 escolhidos uma única vez pelo volume
-financeiro médio por sessão em 2015, exigindo presença em pelo menos
-90\% dos pregões daquele ano. Não se alteram os universos principais.
-A elegibilidade posterior é reportada separadamente por alvo; selecionar
-antes do período não elimina a seleção decorrente de perdas de identidade
-ou de cobertura. Mantêm-se somente pares de pregões consecutivos,
-sem distribuir retornos acumulados. Dividendos não são harmonizados;
-uma regra de extremos/fatores gera 83 marcações de eventos, ainda
-sem validação econômica integral. A reconstrução literal é um diagnóstico;
-a variante usada para interpretação preserva adicionalmente as sete
-ausências documentadas dos 80, incluindo os cinco dias de direitos.
-Não se substitui a referência auditada por essa máscara heurística.
+A análise secundária reconstrói cotações COTAHIST por ISIN em onze ZIPs
+B3 autenticados. Compara os 80 originais com 80 selecionados uma única
+vez pelo volume médio por sessão de 2015 e presença em 90\% dos pregões
+daquele ano. Não altera os universos principais. A elegibilidade posterior
+depende de identidade e cobertura; dividendos não são harmonizados.
+Somente pares de sessões consecutivas geram retornos. A regra heurística
+de extremos/fatores mascara 83 marcações; preservam-se adicionalmente
+as sete lacunas documentadas dos originais, sem substituir a referência.
 
-A associação de postos entre liquidez inicial e $\Delta$ inicial usa
-4.999 sorteios síncronos, reestimando os betas, com coortes fixas e
-sem reamostrar ativos como unidades iid. As associações anteriores
-com $\theta$ são preservadas no suplemento, com seu Holm 8 original;
-não constituem confirmação independente, pois $\theta$ já contém
-$-\Delta_{2016-2020}$. Acoplamento e regressão à média são explicações
-possíveis, sem implicar uma correlação negativa necessária.
+Associações de postos e regressões transversais reestimam os betas nos
+mesmos 4.999 sorteios síncronos, sem reamostrar ativos como iid.
+O porte aproxima capitalização por quantidades divulgadas até 31/12/2015
+e preços por classe em 30/12/2015 \cite{cvmfre}, sem certificar inventário
+exato, tesouraria ou free float. Controles ausentes não são imputados.
+Exigem-se 40 ativos, 10 graus de liberdade residuais e posto completo;
+os casos completos representam nove setores, mantendo os dez originais
+nos universos principais.
 
-Na análise condicional adicional, ajusta-se por ativo
-\begin{equation}
- \widehat\Delta_{i, 2016-2020}=a+\lambda\log V_{i, 2015}
- +\gamma\log C_{i, 2015}^{\mathrm{div}}
- +\sum_s\zeta_s\mathbf1\{S_i=s\}+\eta\widehat\beta_{i, 2016-2020}+u_i.
-\end{equation}
-$V$ é volume financeiro médio por sessão. $C^{\mathrm{div}}$ combina
-quantidades emitidas ou integralizadas, divulgadas até 31/12/2015,
-e preços de fechamento por classe em 30/12/2015 \cite{cvmfre}.
-É aproximação de capitalização divulgada, sem certificar quantidade
-exata no fim do ano, ações em tesouraria ou free float. Classes sem
-preço inequívoco e controles ausentes não são imputados. As versões
-arquivadas e o cadastro setorial introduzem limitações de vintage.
-Oito subconjuntos dos três controles usam os mesmos casos completos
-em cada coorte. Exigem-se 40 ativos, 10 graus de liberdade residuais
-e posto completo: salvaguardas de estabilidade, não garantia de potência.
-Os modelos completos têm nove setores representados; as amostras
-principais continuam nos dez setores originais.
-
-Em cada sorteio, reestimam-se conjuntamente $\Delta$, beta tradicional
-e a regressão transversal; porte, setor e volume de 2015 ficam fixos.
-Holm 16 cobre oito modelos em duas coortes por bloco. Estimam-se também
-$\rho_S(\theta,\log\bar V_{2021-2025}-\log\bar V_{2016-2020})$ e a
-associação com o nível inicial, reestimando ambos os argumentos
-variáveis nos mesmos sorteios; Holm 4 cobre dois alvos em duas coortes.
-Volumes médios usam todos os pregões, com zero quando não há negócio
-regular; isso não preenche retornos. ICs básicos e testes centrados
-mantêm caráter aproximado e não foram calibrados para esses alvos.
-
+Oito subconjuntos de porte, setor e beta contemporâneo usam casos comuns
+e Holm 16 nas duas coortes. A associação entre $\theta$ e nível ou mudança
+de liquidez tem Holm 4; associações anteriores de postos preservam Holm 8,
+sem confirmação independente, pois $\theta$ contém $-\Delta_{2016-2020}$.
+Volume médio inclui zero sem negócio regular, sem preencher retornos.
+Fórmulas, controles e limitações de calibração estão no suplemento.
 
 \subsection{Contraste conjunto de porte e liquidez}
-Uma extensão exploratória fixa o modelo de referência com volume,
-capitalização divulgada e setor, sem beta contemporâneo obrigatório.
-As covariáveis financeiras precedem o alvo de 2016--2020; o setor mantém
-o cadastro arquivado, inclusive de 2022, e não é informação datada de 2015.
-O beta contemporâneo compartilha retornos com o desfecho e continua
-como sensibilidade na família anterior. Acrescenta-se uma sensibilidade
-com $\widehat\beta_{2015}$, reestimado em estrato separado, com os mesmos
-pisos de pares, regimes e cobertura. Essa estratificação omite covariância
-entre bordas dos períodos; não transforma o desenho em previsão prospectiva.
+O modelo de referência explora $\widehat\Delta_{2016-2020}$ em função
+de log-volume e log-capitalização divulgada de 2015, com controles setoriais.
+O setor conserva o cadastro arquivado, inclusive de 2022, não informação
+disponível em 2015. O beta contemporâneo compartilha retornos com o desfecho
+e permanece como sensibilidade na família de 16 coeficientes.
+Testa-se $H_0:(\lambda,\gamma)=(0,0)$ por raio quadrático padronizado pela
+covariância dos 4.999 vetores bootstrap, com cauda centrada e Holm 2 nas
+duas coortes por bloco. Não se studentiza cada sorteio; ICs individuais são
+nominais. Dependência entre modelos não invalida Holm, cuja proteção
+requer validade marginal \cite{holm1979}.
 
-Testa-se $H_0:(\lambda,\gamma)=(0,0)$ por
-$Q=\widehat b'\widehat\Sigma_*^{-1}\widehat b$, com
-$\widehat b=(\widehat\lambda,\widehat\gamma)'$ e covariância dos
-4.999 vetores reamostrados. A cauda usa
-$(b^*-\widehat b)'\widehat\Sigma_*^{-1}(b^*-\widehat b)$, com acréscimo
-de um. A mesma matriz fixa padroniza todos os raios; não é bootstrap-t
-com erros-padrão próprios de cada sorteio. Matrizes sem posto dois ou
-condição acima de $10^{12}$ retêm a inferência, sem regularização adaptativa.
-Holm 2 cobre as duas nulas conjuntas sobrepostas por comprimento de bloco.
-ICs e valores-p marginais são nominais/descritivos. A família anterior
-de 16 coeficientes é preservada: dependência entre modelos não invalida
-Holm, cuja garantia requer valores-p marginais válidos \cite{holm1979}.
-São famílias e perguntas diferentes, sem proteção global sobre as revisões.
-
-As sensibilidades conjuntas formam outra família de seis: beta de 2015,
-exclusão integral de ativos com qualquer marcação sem correspondência
-no ledger de 2015--2025 e substituição de volume por Amihud de 2015,
-em duas coortes. A última usa a média de $|\exp(r)-1|/V$ em reais nominais,
-somente com retorno observado e volume positivo, pelo menos 200 pares
-e 95\% das sessões; não preenche volume ou retornos \cite{amihud2002}.
-Exclusão de ativos é retrospectiva e altera a população condicional.
-Os casos de cada modelo e perdas são exportados; pisos não são relaxados.
-
-A transformação $\log G=\log V-\log C^{\mathrm{div}}$ fornece
-$\lambda\log G+(\lambda+\gamma)\log C^{\mathrm{div}}$.
-O giro é aproximado, com denominador divulgado; preserva ajuste, sorteios
-e nula conjunta. É reparametrização, não replicação ou robustez independente.
-Calibra-se somente o teste conjunto de referência no bloco 21, com
-mil réplicas em seis leis condicionais, descritas no suplemento.
-Mercado, máscaras, desenho e escalas residuais ficam fixos; avaliam-se
-normal iid, t5 com escala determinística e GARCH t5, cada qual com
-fator comum de 0,04 ou 0,30. Não se selecionam leis pelos resultados.
+Definir $\log G=\log V-\log C^{\mathrm{div}}$ reescreve o mesmo ajuste como
+$\lambda\log G+(\lambda+\gamma)\log C^{\mathrm{div}}$:
+giro com porte fixo e porte com giro fixo, sem nova evidência independente.
+Holm 6 cobre três sensibilidades nas duas coortes: beta de 2015 reestimado
+em estrato próprio; exclusão de ativos com marcações sem correspondência
+em 2015--2025; e Amihud de 2015, média de $|\exp(r)-1|/V$ com volume
+positivo em reais, 200 pares e cobertura de 95\% \cite{amihud2002}.
+Pisos e ausências são preservados. O suplemento detalha perda de casos,
+critérios numéricos, independência entre estratos e a calibração de referência
+em seis leis condicionais, sem escolher mecanismos pelos resultados.
 
 \section{Resultados}
 \subsection{Níveis, ativos e comparação comum}
-A média de $\Delta $ na década é $-0,130668$, com $p_{Holm10}=0,0234$
-no bloco 21; nos blocos 5/63,0,0080/0,0108. A mediana é $-0,135720$,
-com $p_{Holm10}=0,0592$. Os painéis recentes têm resumos próximos
-de zero e valores agregados ajustados 1 (Tabela~\ref{tab:niveis}).
-Isso mantém os níveis recentes inconclusivos, sem evidência de equivalência.
-Holm 30 produz 0,0624 para a média integral no bloco 21, uma sensibilidade
-ao alcance da proteção entre escolhas. A Figura~\ref{fig:agregado}
-apresenta os ICs nominais, sujeitos à calibração descrita adiante.
+A média de $\Delta$ na década é $-0,130668$ (Holm 10 $=0,0234$,
+bloco 21; 0,0080/0,0108 em 5/63). A mediana é $-0,135720$
+($p^*=0,0592$). Os painéis recentes ficam próximos de zero, com valores
+ajustados 1 (Tabela~\ref{tab:niveis}), sem evidência de equivalência.
+A proteção Holm 30 entre blocos produz 0,0624 para a média integral
+no bloco 21. A Figura~\ref{fig:agregado} apresenta os ICs nominais.
 
 \begin{table}[htbp]\centering\small
 \caption{Universos fixos. $p_m^*/p_q^*$: Holm 10, média/mediana, bloco 21.
@@ -367,24 +274,22 @@ A cobertura não é uniformemente 95\%; cruzar zero não substitui Holm 10.}
 \label{fig:agregado}
 \end{figure}
 
-Na família individual, VULC3 $(-0,496642;p_{Holm197}=0,002116)$
-e BBDC4 $(0,246606;0,019561)$ rejeitam simetria, com sinais opostos;
-nenhum recente rejeita. O complemento restrito às leis declaradas
-mantém apenas VULC3 $(p=0,01970)$, enquanto BBDC4 passa a 0,09408.
-As duas rejeições originais não sobrevivem às exclusões de crise
-nas sensibilidades individuais. Identificação frágil e assimetria média
-são achados distintos; 59 sinais negativos na década não testam prevalência.
+Somente VULC3 e BBDC4 rejeitam na família individual da década, com
+sinais opostos; nenhum recente rejeita. O complemento restrito às leis
+declaradas mantém apenas VULC3. As duas rejeições originais não sobrevivem
+às exclusões de crise. Identificação frágil e assimetria média são achados
+distintos; 59 sinais negativos na década não testam prevalência.
 
 \subsection{Mudança entre quinquênios e exclusões de 2020}
 A média inicial é $-0,176760$, contra $-0,010080$ nos mesmos 80 recentes.
-A mudança média pareada é $0,166680$, com $p_{Holm4}=0,0252$ em G4;
+A mudança média pareada é $0,166680$, com $p_{Holm4}=0,0252$ na família das metades;
 nos blocos 5/63,0,0224/0,0216. A mediana de $\theta $ é $0,135591$,
 com 0,0508 no bloco 21 e 0,0594/0,0396 nos outros. A mediana é sensível
 ao bloco; escolher 63 após observar a rejeição alteraria a interpretação.
 
 As exclusões reduzem a mudança média para $0,125359$ sem março
 e $0,145623$ sem 2020-S1. Os sinais permanecem positivos, mas nenhum
-dos quatro alvos H4 rejeita na escolha principal: valores ajustados
+dos quatro alvos das exclusões rejeita na escolha principal: valores ajustados
 de 0,1794 e 0,0680 para as médias (Tabela~\ref{tab:crise}).
 A retirada apenas de março também leva o valor bruto da média a 0,0602;
 sem o semestre, o bruto é 0,0170. Portanto, os dados preservam uma
@@ -393,15 +298,11 @@ Os ajustes usam famílias diferentes, explicitadas nos métodos.
 
 \begin{table}[htbp]\centering\small
 \caption{Mudança pareada dos 80. $p_{21}$: bruto; $p^*$: ajustado no bloco
-indicado. Integral usa G4; exclusões usam a nova H4. São famílias distintas.}
+indicado. Integral e exclusões usam famílias distintas de quatro alvos.}
 \label{tab:crise}\input{tables/lab03h_crisis.tex}
 \end{table}
-\begin{figure}[htbp]\centering
-\includegraphics[width=\textwidth]{lab03h_crise.pdf}
-\caption{Mudança pareada e ICs básicos nominais. Cobertura das máscaras novas
-não validada; decisões usam os valores-p e famílias da Tabela~\ref{tab:crise}.}
-\label{fig:crise}
-\end{figure}
+A visualização com intervalos das exclusões está no suplemento.
+
 
 Sem 2020-S1, a média rejeita em 63 sessões $(p_{Holm4}=0,0448)$,
 mas não em 5 ou 21. Essa sensibilidade é preservada. Reduzir o conjunto
@@ -439,19 +340,12 @@ isso motiva os dois níveis da nova calibração, sem teste formal de
 compatibilidade, explicação integral da escala ou descarte dos estresses.
 
 A fórmula condicional prevê DP de 0,14061 no mecanismo heterocedástico,
-próximo de 0,13864 simulado. A dispersão elevada é compatível com o
-posicionamento da variância em relação aos pesos do estimador, apesar
-da normalização global. Não se elimina um estresse por ser desfavorável.
-
-As FWERs ajustadas sob nulidade global são 1,6--3,1\% em F10 e 1,8--5,6\%
-em G4. Sob AR 0,6, G4 alcança 5,6\%, Wilson 95\%[4,34; 7,20].
-Não se demonstra controle forte ou validade geral. No diagnóstico CDF,
-seguido de Holm na família completa, a média da década tem valores
-de 0,01998 a 0,08092; sob AR0,3 e quebra, 0,08092/0,05395.
-A mudança média varia de 0,02997 a 0,06194; a mediana, 0,05295--0,11988.
-Esses números qualificam a leitura, sem validar um método substituto.
-Banco finito, parâmetros estimados e nulas globais restringem seu alcance;
-contagens e incerteza Monte Carlo estão no suplemento.
+próximo de 0,13864 simulado; localização da variância e normalização não
+igualam a precisão. As FWERs ajustadas das famílias de níveis/metades
+são 1,6--3,1\% e 1,8--5,6\%; sob AR 0,6, a segunda chega a 5,6\%
+(Wilson 95\% [4,34; 7,20]). Os diagnósticos por CDF também mudam as
+decisões conforme a lei. Detalhes e contagens estão no suplemento;
+nenhum estresse foi excluído por resultado desfavorável.
 
 A calibração adicional do teste conjunto é apresentada na
 Tabela~\ref{tab:calibracaok}. As taxas estimam desempenho sob seis nulas
@@ -486,10 +380,10 @@ com 0,0216/0,0238; o resultado não é uniforme entre escolhas.
 Na reconstrução COTAHIST dos originais, as médias iniciais para
 $K=0,1,5,10$ são $-0,169$, $-0,152$, $-0,297$ e $-0,295$;
 as correlações de postos com liquidez são 0,530, 0,482, 0,533 e 0,442.
-São adaptações retrospectivas com outros estimandos, sem novos testes
-ajustados. O padrão não isola risco econômico de liquidez de negociação
-infrequente, nem elimina ambas as explicações; dados de microestrutura
-e um desenho identificador seriam necessários para distingui-las.
+A média não se aproxima sistematicamente de zero ao somar defasagens.
+Essa correção descritiva não elimina a assimetria, mas altera o estimando
+e a precisão, sem novos testes ajustados. O padrão não identifica se a
+associação deriva de risco econômico de liquidez ou de microestrutura.
 
 A Figura~\ref{fig:periodo} conserva todos os dez anos, sem seleção anual.
 As faixas são dispersão entre ativos, não ICs ou evidência de persistência.
@@ -520,7 +414,7 @@ Na fonte COTAHIST, a média inicial é $-0,1685$ nos 78 originais elegíveis
 e $-0,0857$ nos 64 elegíveis da seleção de 2015. A mudança média é
 $0,1481$ em 77 pares originais e $0,0640$ em 46 pares do outro universo;
 os valores ajustados são 0,0392 e 0,2576. São famílias secundárias
-diferentes de F10: sua significância não pode ser comparada diretamente
+diferentes da família principal de níveis: sua significância não pode ser comparada diretamente
 à do resumo integral original. Entre os dois universos da tabela,
 fonte e máscara são comuns; variam composição, elegibilidade e precisão.
 A comparação com a referência original acrescenta diferenças de fonte
@@ -529,21 +423,18 @@ causal de seleção nem constituem um teste direto entre universos.
 
 \begin{table}[!htbp]\centering\small
 \caption{COTAHIST com lacunas preservadas, bloco 21. $p^*$: Holm 4 para
-nível inicial/mudança e Holm 2 para década; não é a família F10 original.
+nível inicial/mudança e Holm 2 para década; família distinta dos níveis da referência original.
 A máscara de eventos permanece heurística.}
 \label{tab:selecao}\input{tables/lab03i_selection.tex}
 \end{table}
 
-Os universos compartilham 42 ISINs, dos quais 41 são elegíveis ao
-contraste pareado. Só cinco pares vêm dos 38 ISINs exclusivos da
-seleção de 2015; os originais exclusivos fornecem 36. Assim, o painel
-pareado alternativo também está condicionado à permanência de identidade
-e cobertura. Não rejeitar sua mudança não demonstra equivalência ou
-uma população sem mudança. Uma sensibilidade separada encadeia apenas três mudanças documentadas
-de código, sem alterar a unidade das análises principais: KROT3/COGN3,
-ESTC3/YDUQ3 e TBLE3/EGIE3 \cite{cogna2019,yduqs2019,engie2016}.
-Na seleção de 2015, os elegíveis iniciais passam de 64 a 67 e a média
-fica em $-0,0894$; não se conclui o inventário de todas as sucessões.
+Os universos compartilham 42 ISINs, 41 elegíveis ao contraste pareado;
+só cinco pares vêm dos 38 exclusivos de 2015. Continuidade e cobertura
+também condicionam o painel alternativo. Encadear somente três mudanças
+documentadas de código (KROT3/COGN3, ESTC3/YDUQ3, TBLE3/EGIE3)
+\cite{cogna2019,yduqs2019,engie2016} eleva os elegíveis iniciais de 64
+a 67, com média $-0,0894$. É sensibilidade separada: ISINs principais
+e inventário incompleto de sucessões permanecem.
 
 Na união elegível, a associação inicial é positiva
 ($\rho_S=0,4928$, $N=100$, Holm 8=0,0168; Figura~\ref{fig:liquidez}).
@@ -555,11 +446,9 @@ $\widehat\lambda=0,0330/0,0209$ e $\widehat\gamma=0,0272/0,0515$
 (Tabela~\ref{tab:controles}). O teste conjunto produz $p=0,0172/0,0192$
 e Holm 2 de 0,0344 em ambas as coortes. Isso indica incompatibilidade
 com a nula de ambos os coeficientes iguais a zero sob o procedimento,
-sem demonstrar dois efeitos separados ou causalidade. Os valores brutos
-marginais são 0,0206/0,0712 para volume e 0,1724/0,0428 para porte;
-não recebem afirmações individuais ajustadas. Na parametrização de giro,
-o coeficiente de porte passa a $\lambda+\gamma=0,0602/0,0724$;
-a mesma informação sustenta a mesma nula conjunta.
+sem demonstrar dois efeitos separados ou causalidade. Valores-p marginais permanecem nominais e são exportados, sem afirmações individuais ajustadas. Na parametrização de giro, o coeficiente de porte é
+$\lambda+\gamma=0,0602/0,0724$, com ICs nominais positivos em ambas
+as coortes. Esse padrão é descritivo, não um teste de estabilidade ou de importância econômica.
 
 As correlações de log-volume/log-porte são 0,705/0,724; VIFs completos
 do volume são 2,714/2,443. A sobreposição das duas coortes impede tratá-las
@@ -574,16 +463,15 @@ sem reduzir retrospectivamente sua família.
 \caption{Modelo exploratório de porte e setor, bloco 21. ICs marginais
 básicos nominais; $p^*$ testa conjuntamente volume e porte, com Holm 2.
 Rejeição conjunta não identifica qual coeficiente difere de zero.}
-\label{tab:controles}\resizebox{\textwidth}{!}{\input{tables/lab03k_reference_21.tex}}
+\label{tab:controles}\resizebox{\textwidth}{!}{\input{tables/editorial_v8_controls.tex}}
 \end{table}
 
-As sensibilidades perdem casos: beta de 2015 usa 59/73, exclusão de
-ativos sinalizados 54/67 e Amihud 59/73. No bloco 21, os testes conjuntos
-com beta de 2015 têm Holm 6 de 0,1456/0,0800; com exclusão, 0,0800/0,0828.
-Amihud produz 0,1004/0,0060. São evidências não uniformes, em populações
-e medidas diferentes. Não se atribui a mudança exclusivamente ao controle
-adicional nem se transfere a rejeição de Amihud para um efeito isolado
-de liquidez. Tabelas dos três blocos, ICs e perdas estão no suplemento.
+As sensibilidades usam 59/73 casos com beta de 2015, 54/67 ao excluir
+ativos sinalizados e 59/73 com Amihud. Só Amihud na união rejeita após
+Holm 6 no bloco 21 ($p^*=0,0060$). Quatro dos seis valores brutos ficam
+abaixo de 0,05; os brutos não substituem o ajuste. São populações e medidas
+distintas. ICs, perdas e valores brutos/ajustados dos três blocos estão
+no suplemento, sem transferir a rejeição a um efeito isolado de liquidez.
 
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{lab03j_liquidez_inicial.pdf}
@@ -598,119 +486,74 @@ Holm 4=0,4276. Não se obtém evidência ajustada de que a melhora da liquidez
 acompanhe a mudança de beta. Esse alvo difere da associação com o nível
 inicial e não identifica a explicação do deslocamento temporal.
 
-O cruzamento das 83 marcações com tabelas oficiais de capital recuperadas
-classifica 41 com fator compatível, 19 como candidatas à grade de um
-centavo e 23 sem correspondência. Das 56 marcações em 2016--2025,
-37 têm fator compatível e 19 não encontram registro; as demais 27 são
-de 2015. Aprovação e quantidade não certificam data ex: nenhuma das 83
-recebe homologação econômica integral por esse cruzamento. O suplemento
-preserva o inventário e os limites de cobertura das fontes CVM.
+Das 83 marcações de eventos, 41 têm fator de capital compatível,
+19 são candidatas à grade de um centavo e 23 não encontram correspondência
+nas tabelas recuperadas. Dentro de 2016--2025, são 37 compatíveis e
+19 sem registro. O suplemento preserva fontes e inventário; aprovação
+e quantidade não certificam data ex ou homologação econômica.
 
 \section{Discussão e limitações}
-A evidência mais consistente é a distinção entre níveis históricos
-agregados, heterogeneidade individual e sensibilidade temporal.
-A média da década é negativa na família secundária principal;
-identificação individual se concentra em poucos nomes e muda com
-observações e especificações. No período recente, estimativas próximas
-de zero coexistem com incerteza; não se conclui desaparecimento da assimetria.
+Assimetria média, identificação individual e mudança temporal respondem
+a perguntas distintas. O contraste médio negativo na década não implica
+predominância populacional ou assimetria em cada ativo; os painéis recentes
+continuam inconclusivos. A mudança entre quinquênios é sensível às exclusões
+de 2020, sem identificar o papel causal da crise. Nem a não rejeição
+individual nem sinais anuais demonstram constância ou persistência futura.
 
-A mudança média entre quinquênios recebe evidência na família G4,
-mas as exclusões de 2020 não mantêm rejeição na escolha principal H4.
-Os sinais continuam positivos. A leitura deve considerar simultaneamente
-a redução do contraste, os valores brutos e as famílias distintas.
-Não se identifica uma transição estrutural ou um mecanismo causal.
-As não rejeições temporais individuais tampouco demonstram constância:
-testes de mesmo sinal em todos os anos têm potência muito baixa.
+A associação transversal conjunta de porte/liquidez não isola seus efeitos
+causais. Coortes sobrepostas, capitalização aproximada, cadastro setorial
+revisado e perdas de casos restringem a interpretação. A seleção por volume
+de 2025 e presença histórica introduz vieses retrospectivo e de sobrevivência;
+a comparação com seleção pela negociação de 2015 também muda elegibilidade.
+Homologação econômica incompleta significa incerteza documental, não erro
+em todos os retornos. As sensibilidades de caixa, lacunas, Light, influência
+e continuidade e os limites da harmonização entre ativo e índice estão
+documentados no suplemento.
 
-A calibração evita tratar todo intervalo rotulado 95\% como validado.
-O desempenho varia por alvo e mecanismo; validade sob leis específicas
-não se transfere a outros desenhos ou às máscaras novas. Os diagnósticos
-CDF ajudam a caracterizar essa dependência, mas não justificam seleção
-de um gerador favorável ou substituição retrospectiva da referência.
-Maior precisão Monte Carlo não acrescenta informação empírica ou
-resolve incerteza econômica dos retornos.
-
-Seleção por liquidez de 2025, sobrevivência, setores pequenos e versões
-revisadas limitam a generalização. Hashes identificam versões, sem
-reconstituir informação disponível em cada data. A relação simples
-com liquidez se reduz com os controles e não permanece detectada nos
-modelos completos após Holm 16. O desenho não distingue risco econômico
-de liquidez, negociação infrequente e outros confundidores; tampouco
-identifica que a seleção tenha causado a assimetria ou a mudança.
-A capitalização aproximada e os casos completos mantêm incerteza de
-mensuração e seleção adicional. As análises complementares são
-exploratórias, com hipóteses e resultados anteriores conhecidos.
-
-A conciliação econômica integral permanece incompleta, e ICs estatísticos
-não incorporam toda a incerteza dos eventos. As sensibilidades de caixa,
-lacunas, Light, influência e continuidade permanecem no suplemento.
-Retornos excedentes requerem taxa diária autenticada e outro alvo.
-A previsão exploratória preservada não prevê beta futuro e não demonstrou
-superioridade preditiva nem contribuição própria em IA.
+As falhas de cobertura simuladas são materiais e não foram removidas por
+seleção de mecanismos. A calibração do teste conjunto cobre somente leis
+e nula declaradas, não todas as sensibilidades ou configurações de efeitos.
+Retornos excedentes exigem taxa diária autenticada e outro alvo; a previsão
+exploratória preservada não prevê beta futuro nem demonstrou superioridade.
+Indicadores técnicos e representação/raciocínio permanecem investigações
+próprias, sem contribuição em IA reivindicada por este estudo.
 
 \section{Conclusões}
-Nas amostras fixas, a média da assimetria na década é negativa, mas a
-identificação individual é frágil e os níveis recentes são inconclusivos.
-A detecção da mudança depende da janela e da família; excluir períodos
-de 2020 reduz o contraste e perde rejeição na escolha principal.
-A seleção por 2015 altera composição e elegibilidade. Liquidez inicial
-tem associação simples com assimetria inicial, porém os modelos com
-porte, setor e beta contemporâneo preservam a não rejeição na família
-original. O novo teste conjunto de porte/liquidez rejeita na referência,
-mas não uniformemente nas sensibilidades. A relação
-entre mudanças de liquidez e de assimetria tampouco recebe detecção
-ajustada. Esses resultados delimitam uma associação condicionada ao
-desenho, sem estabelecer causalidade, equivalência ou estabilidade futura.
+A assimetria média entre betas de alta e baixa é negativa na década
+($-0,131$), com identificação individual frágil. Nos mesmos 80 ativos,
+a média inicial de $-0,177$ passa a $-0,010$; a mudança pareada de $0,167$
+perde detecção ajustada nas exclusões da crise. Em reconstrução COTAHIST,
+as médias iniciais de $-0,169$ e $-0,086$ mostram sensibilidade a composição
+e elegibilidade, sem quantificar efeito causal da seleção.
 
-A contribuição é uma análise empírica reproduzível da sensibilidade
-dos betas condicionais a amostra, mensuração e inferência. Não se
-estabelecem assimetria generalizada, ganho econômico ou mecanismo
-único. Auditoria econômica e calibração para os desenhos adicionais
-permanecem limites explícitos; exposição futura e métodos de
-representação/raciocínio requerem investigações próprias.
+Liquidez inicial se associa à assimetria inicial ($\rho_S=0,493$), e o
+modelo de porte/setor rejeita a nula conjunta nas duas coortes
+($p$ ajustado $=0,0344$). Os coeficientes de porte com giro fixo são
+$0,0602/0,0724$, com ICs nominais positivos; não constituem efeitos
+individuais ajustados. A família de 16 coeficientes preserva as não rejeições
+dos modelos completos, e as sensibilidades conjuntas não são uniformes.
+O estudo caracteriza exposições históricas condicionadas a amostra,
+mensuração e inferência, sem identificar causalidade, prêmio de risco ou
+estabilidade futura.
 
 \section*{Disponibilidade e reprodutibilidade}
-Código, protocolos, artigo, suplemento, estimativas e diagnósticos
-estão em \url{https://github.com/robsondf/alem-do-beta-gemini};
-o histórico de desenvolvimento está em \url{https://github.com/robsondf/alem-do-beta}.
-A seleção pública não contém todas as matrizes financeiras necessárias
-à reprodução integral, mantidas no Drive. Não foi atribuída nova licença
-a materiais de terceiros. O manifesto de proveniência registra hashes
-e versões, inclusive o manuscrito anterior de 25 páginas.
-
-As execuções anteriores do autor no Colab, incluindo as regressões do lote J,
-diagnósticos e três continuidades, foram conferidas por exports
-autenticados. No lote J, nove fontes de células coincidem
-com a entrega; cinco códigos foram executados sem exceções e 52 fontes
-foram autenticadas. A conferência externa comparou 13.031 valores de
-tabelas e 359.928 de bancos, com diferença máxima $4,66\times10^{-15}$
-e 816 posições de limiar preservadas, sob tolerâncias absoluta $10^{-10}$
-e relativa $10^{-9}$. Os dois gráficos coincidem em pixels. Os oráculos
-densos foram reexecutados sobre cópias autenticadas dos resultados.
-O lote K também foi executado pelo autor no Colab e conferido externamente:
-nove fontes de células coincidem com a entrega, cinco códigos foram
-executados sem exceções e 20 fontes foram autenticadas. A conferência
-verificou 43 membros do export, 72.724 células de tabelas e 1.665.000
-valores dos bancos observados, com diferença máxima inferior a
-$8,1\times10^{-14}$ e 12.381 posições de limiar preservadas.
-O gráfico reconstruído coincide em pixels e as máscaras de ausências
-do preperíodo são idênticas. Os oráculos densos foram reexecutados sobre
-cópias autenticadas; os resultados das 6.000 simulações concordam com
-as referências, sem repetir os geradores. Seu protocolo foi commitado antes dos novos contrastes,
-com os resultados J e os pareceres já conhecidos. Protocolos, entradas
-públicas, resultados e recibos estão em \texttt{data/lab03j/},
-\texttt{data/lab03k/} e nas pastas correspondentes. Matrizes diárias
-e caches B3 são reutilizados do Drive, sem novas cotações. O experimento
-externo de seleção em 2015 foi fornecido no processo de revisão assistido
-por IA; seu código foi lido, e a reprodução usa implementação própria,
-não execução dos scripts recebidos. Independência de código não equivale
-a validação por terceiro humano nem a homologação econômica.
+Código, fontes LaTeX, tabelas, figuras e recibos estão em
+\url{https://github.com/robsondf/alem-do-beta-gemini}; o histórico está em
+\url{https://github.com/robsondf/alem-do-beta}.
+O pacote editorial contém arquivos versionados, manifesto SHA-256,
+instruções de compilação e verificador. Os dados publicados permitem
+reconstruir as tabelas finais; a reestimação integral exige matrizes e caches
+autenticados mantidos no Drive, sob os termos das fontes.
+O suplemento detalha as conferências do Colab, tolerâncias e proveniência.
+Reprodução numérica não equivale a revisão humana ou homologação econômica;
+o inventário de direitos explicita materiais de terceiros e decisões de licença.
 
 \section*{Uso de inteligência artificial}
-ChatGPT/Codex (OpenAI) apoiou planejamento, programação, verificadores,
-figuras, busca documental e redação. O processo incluiu reconstrução
-de experimento fornecido por IA, diagnóstico de escala e discussão de
-pareceres assistidos por outras IAs. Identidades e versões não verificadas
-desses avaliadores não são atribuídas; seus pareceres motivaram novas
-análises, sem substituir validação de referências ou revisão humana. Responsabilidade pelas escolhas,
-referências, interpretação e aprovação final permanece com o autor humano.
+ChatGPT/Codex (OpenAI) apoiou programação, verificadores, figuras, busca
+documental e redação. Materiais externos identificados como produzidos com
+Claude (Anthropic) incluíram reconstrução de 2015, diagnóstico de erros-padrão
+e pareceres; Gemini (Google) foi utilizado em pareceres críticos.
+A reconstrução foi reimplementada e conferida no código do projeto.
+Versões exatas dos modelos não foram registradas. Escolhas metodológicas,
+verificação das fontes, interpretação e aprovação final são responsabilidade
+do autor humano; pareceres assistidos por IA não substituem revisão por pares.

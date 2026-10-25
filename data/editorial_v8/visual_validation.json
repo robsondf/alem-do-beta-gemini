@@ -1,0 +1,15 @@
+{
+  "edition": "editorial-v8-20261025",
+  "pages_rendered": {
+    "main": 15,
+    "suplemento": 34
+  },
+  "visual_inspection": "all49pages rendered and inspected via contact sheets; seven main tables, three main figures and transferred technical details readable; no clipping/overlap observed",
+  "pdf_sha256": {
+    "main": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec",
+    "suplemento": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+  },
+  "new_point_and_joint_tables_reconstructed_from_frozen_CSV": true,
+  "first_page_rechecked_after_shortening_abstract": true,
+  "metadata_only_suppression_preserves_rendered_text": true
+}

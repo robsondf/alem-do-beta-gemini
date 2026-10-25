@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Ao citar, identifique a edição editorial e o commit utilizado; este repositório contém um manuscrito de trabalho e seu código."
+title: "Além do Beta Tradicional: Assimetria, Liquidez e Seleção em Ações Brasileiras"
+authors:
+  - family-names: Ferreira
+    given-names: Robson Dias
+version: editorial-v8-20261025
+date-released: 2026-10-25
+url: "https://github.com/robsondf/alem-do-beta-gemini"
+repository-code: "https://github.com/robsondf/alem-do-beta-gemini"
+type: software
+preferred-citation:
+  type: unpublished
+  title: "Além do Beta Tradicional: Assimetria, Liquidez e Seleção em Ações Brasileiras"
+  authors:
+    - family-names: Ferreira
+      given-names: Robson Dias
+  year: 2026
+  url: "https://github.com/robsondf/alem-do-beta-gemini"
+  notes: "Manuscrito de trabalho, edição editorial v8 de 25/10/2026; indicar também o commit consultado."

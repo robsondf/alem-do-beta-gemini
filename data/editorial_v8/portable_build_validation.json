@@ -1,0 +1,14 @@
+{
+  "main": {
+    "compiled_from_zip_alone": true,
+    "binary_equal": true,
+    "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec"
+  },
+  "suplemento": {
+    "compiled_from_zip_alone": true,
+    "binary_equal": true,
+    "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+  },
+  "tested_zip_sha256": "ec3a1134f0119da82b54cc5914551e864fb01f2f17fe1efeecda6dafe5be9c29",
+  "scope": "isolated source ZIP, same TeX environment, no original paper directory in TEXINPUTS"
+}

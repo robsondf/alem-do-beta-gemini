@@ -1,9 +1,17 @@
-# Manuscrito e suplemento
+# Manuscrito — edição editorial v8 (25/10/2026)
 
-No Overleaf, selecione **main.tex** como principal (pdfLaTeX/BibTeX). Ele inclui `artigo_revisado.tex` e `references_artigo.bib`. Carregue o diretório `paper/` completo, preservando as subpastas de figuras/tabelas.
+Artigo: **15 páginas**, incluindo referências. Suplemento: **34 páginas**. Fonte e margens SBC preservados. Os PDFs desta edição são identificados por SHA-256 no manifesto da distribuição; não use arquivos de outras pastas ou cópias com nomes genéricos para avaliar esta edição.
 
-Edição G:25 páginas,38 referências citadas,9 figuras e11 tabelas. Suplemento independente:`suplemento.tex`/`suplemento.pdf`,7 páginas e8 referências;43 referências distintas no conjunto. Ele mantém detalhes do complemento Monte Carlo individual, previsão exploratória e calibração agregada. Não selecionar o suplemento ou o registro técnico histórico como principal do artigo.
+## Compilar no Overleaf
 
-G acrescenta mudança agregada e calibração; os ICs básicos apresentam subcobertura material e a família temporal chega a5,6% no estresse AR0,6. O texto distingue resultados, aproximações e limitações. F e G do autor foram executados e conferidos externamente; a preparação local anterior permanece identificada por recibo. A atualização atual muda somente a declaração de disponibilidade. Ver `../docs/lab03g_parecer_v3.md` e `../data/lab03g/`.
+Envie o ZIP `distribution/alem_do_beta_v8_overleaf_20261025.zip`. Ele contém este diretório diretamente na raiz. Defina **main.tex** como principal, com pdfLaTeX/BibTeX. Para o suplemento, defina **suplemento.tex**. Preserve as pastas `figures/` e `tables/`.
 
-Fontes/PDF/tabelas são distribuídos conjuntamente, com hashes/versões anteriores na proveniência. Cache X permanece externo no Drive. Compilação local usa suporte Babel português e fallback documentado de hifenização; não se alega equivalência binária com Overleaf. Conferência numérica/visual não significa homologação econômica integral ou contribuição de IA.
+## Compilar localmente
+
+Na raiz do repositório: `python scripts/build_paper.py`. Requer pdfLaTeX, BibTeX, Poppler e Babel para português brasileiro. O build não baixa dados nem executa estimadores; sua saída e recibo identificam versão e hashes. O ZIP também contém `docs/EDICAO_V8.md`, com o guia da edição.
+
+Os valores de λ, γ e λ+γ e todos os p-valores da revisão são reconstruídos dos CSVs congelados por `scripts/build_editorial_tables.py`; a opção `--check` só confere as saídas. Os números e as famílias anteriores não foram recalculados ou alterados.
+
+## Compartilhar e verificar
+
+Distribua os PDFs com nomes de versão, o pacote de fontes e o manifesto em `distribution/`, ou os links fixados no commit da entrega. A compilação pode ser feita sem Drive; a reestimação integral exige os insumos externos identificados nos recibos. `docs/DIREITOS_E_DADOS.md`, incluído no ZIP, delimita direitos e acesso. Não se atribuiu licença geral a materiais de terceiros nem se certificou validade estatística universal.

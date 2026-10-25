@@ -1,0 +1,12 @@
+{
+  "fitted_new_models": false,
+  "source_rows": {
+    "coefficients": 333,
+    "joint_tests": 24
+  },
+  "raw_p_below_005_block21": 4,
+  "source_sha256": {
+    "coefficients.csv": "f30d21900294467ed003dde2b625b6c4f6186262c69009f3de502c770990bc4b",
+    "joint_tests.csv": "4d0431f27fe2c5bbaaf089f72e6892e92c5ca8215aa856c6d28b7d7172ae2987"
+  }
+}

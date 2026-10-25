@@ -1,0 +1,11 @@
+{
+  "method": "whitespace words, each inline mathematical expression counts as one token",
+  "counts": {
+    "abstract": 126,
+    "resumo": 131
+  },
+  "rendered_pdf_whitespace_tokens": {
+    "abstract": 136,
+    "resumo": 147
+  }
+}
