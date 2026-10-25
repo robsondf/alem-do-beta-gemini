@@ -1,5 +1,18 @@
 # Lab03J — Liquidez condicional, fontes e resposta aos pareceres
 
+## Execução do autor no Colab conferida
+
+A [cópia executada](https://colab.research.google.com/drive/1alqzGsbG4-cwQlTyeF2JSoZRQIZQEfsR) foi conferida externamente: nove fontes de células iguais à entrega, cinco códigos sequenciais sem exceções, 52 fontes e 151 membros do manifesto autenticados. São 13.031 valores de tabelas e 359.928 dos 72 vetores bootstrap concordantes, diferença máxima 4,66294e−15 (atol1e−10/rtol1e−9), 816 posições de limiar preservadas e dois gráficos com pixels idênticos. Os oráculos independentes foram reexecutados sobre cópias autenticadas.
+
+O [export](https://drive.google.com/file/d/17DxLLmCd-UD0NXlFXDQNANbk1fxmqZ2q/view) tem 18.714.863 bytes, 152 membros, SHA256 `96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce`. Notebook executado, ZIP, matrizes e bancos ficam no Drive; somente recibos/hashes e o auditor são versionados. Organização e compartilhamento preservados.
+
+Não é necessário executar outro notebook para esta conferência. Nenhum resultado, universo, lacuna, piso ou família mudou. Artigo e suplemento podem seguir para **nova revisão externa**, com as limitações econômicas/inferenciais explicitadas; isso não é certificação de publicação ou homologação global. Recibos: `data/lab03j/validacao_colab_20261024.json`, `manifesto_colab_20261024.json`, `oraculos_colab_20261024.json`; auditor: `scripts/verify_lab03j_colab.py`.
+
+Entre referências I salvas em ambientes diferentes, há diferenças de arredondamento de até 2,78e−17 nas linhas não encadeadas. A conferência entre exports usa as tolerâncias já declaradas 1e−10/1e−9 e máscaras exatamente iguais. O verificador original, congelado, continua a exigir identidade exata dentro da própria execução. Não se alterou dado, piso ou estatística para acomodar essa diferença. A etiqueta local fixa do registro interno da CLI não identifica o ambiente efetivo; esse é fundamentado pelo notebook Colab e seu `notebook_comparison.json`.
+
+## Protocolo e preparação — checkpoint anterior
+
+
 Checkpoint de 24/10/2026. Análise complementar exploratória, não pré-registrada. Os resultados anteriores e os pareceres eram conhecidos. O protocolo de oito subconjuntos de controles foi escrito e versionado em `ab3509ead421843b44cf2be49995ed3417604589` antes das saídas J; os adendos registram ajustes de recuperabilidade das fontes e o momento da sensibilidade de continuidade. Isso não é confirmação independente nem pré-registro externo.
 
 ## O que foi obtido
@@ -46,4 +59,4 @@ O LaTeX principal continua `paper/main.tex`. Artigo16 páginas e suplemento26 ne
 
 O quadro `docs/resposta_pareceres_J.md` dá disposição a todos os apontamentos novos. Limites científicos que a evidência não elimina são relatados, não marcados como resolvidos: inventário exato de ações/tesouraria, datas ex, conciliação econômica global, causalidade e calibração dos novos alvos. Não há merge automático nem garantia de publicação.
 
-Integração final do notebook entregue: cinco células de código serializadas, zero exceções,52 fontes autenticadas,13.031 valores de tabelas e816 posições de limiar concordantes (atol1e−10/rtol1e−9). Os dois PNGs coincidem com os do artigo. O ZIP privado de integração tem18.186.010 bytes, SHA256 `d974d4a151939b11b36296ab9ef5a815f1c4ac60f4ae60c72203bd27f3622022`; foi relido por CRC/SHA. O runtime imutável é `657627b0addc16d8df3369dad9bcee0f1dc1c0da`. Recibo: `data/lab03j/notebook_validation.json`. Essa é validação local, não execução do autor no Colab.
+Integração final do notebook entregue: cinco células de código serializadas, zero exceções, 52 fontes autenticadas,13.031 valores de tabelas e816 posições de limiar concordantes (atol1e−10/rtol1e−9). Os dois PNGs coincidem com os do artigo. O ZIP privado de integração tem18.186.010 bytes, SHA256 `d974d4a151939b11b36296ab9ef5a815f1c4ac60f4ae60c72203bd27f3622022`; foi relido por CRC/SHA. O runtime imutável é `657627b0addc16d8df3369dad9bcee0f1dc1c0da`. Recibo: `data/lab03j/notebook_validation.json`. Essa é validação local, não execução do autor no Colab.

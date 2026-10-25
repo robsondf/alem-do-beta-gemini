@@ -1,8 +1,10 @@
 # Além do Beta
 
+**Lab03J do autor conferido:** cinco códigos sem exceções, 372.959 valores concordantes e gráficos idênticos. [Registro e limites](docs/lab03j_pareceres.md). Os PDFs atualizados registram a execução efetiva; pronto para nova revisão externa.
+
 ## Lab03J — controles e pareceres adicionais (24/10/2026)
 
-[Resultados, limites e único notebook a executar](docs/lab03j_pareceres.md). A associação com liquidez diminui com porte, setor e beta tradicional; modelos completos não rejeitam após Holm16. O lote inclui84 diagnósticos das simulações existentes,83 disposições de eventos e três continuidades documentadas. Artigo16 páginas, suplemento26; gráfico dos dez anos preservado. Execução local validada; novo Colab do autor é etapa distinta. Não repetir H/I/F/G/E ou os geradores. Limites de mensuração e calibração são explícitos. Branch+PR, sem merge automático.
+[Resultados, limites e único notebook a executar](docs/lab03j_pareceres.md). A associação com liquidez diminui com porte, setor e beta tradicional; modelos completos não rejeitam após Holm16. O lote inclui84 diagnósticos das simulações existentes,83 disposições de eventos e três continuidades documentadas. Artigo16 páginas, suplemento26; gráfico dos dez anos preservado. Execução do autor no Colab e export conferidos; nenhum novo notebook necessário nesta conferência. Não repetir H/I/F/G/E ou os geradores. Limites de mensuração e calibração são explícitos. Branch+PR, sem merge automático.
 
 
 ## Colab H/I do autor conferido — 24/10/2026

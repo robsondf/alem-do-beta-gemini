@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "purpose": "Author J execution availability update;no estimates/families changed",
+  "main": {
+    "pages": 16,
+    "sha256": "437e1ceaf0191cf18144aa350fb2250ccf5f99507a8ae9f364b749c69ddd4bcc"
+  },
+  "suplemento": {
+    "pages": 26,
+    "sha256": "164cc67c4cd15d6ee8cf6326dd09598cf33f59acda409b37d7439a9502d03036"
+  }
+}

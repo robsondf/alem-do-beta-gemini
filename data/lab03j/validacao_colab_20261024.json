@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "author_notebook_id": "1alqzGsbG4-cwQlTyeF2JSoZRQIZQEfsR",
+  "author_export_id": "17DxLLmCd-UD0NXlFXDQNANbk1fxmqZ2q",
+  "source_cells_equal": 9,
+  "code_cells": 5,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exceptions": 0,
+  "notebook_sha256": "50d8f299ae9c11a74a6fcca5849a69ef1661bdc92cd834e95afe357941116545",
+  "export_sha256": "96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce",
+  "export_bytes": 18714863,
+  "members": 152,
+  "manifest_checked_members": 151,
+  "source_pins_checked": 52,
+  "table_values_compared": 13031,
+  "bootstrap_values_compared": 359928,
+  "bootstrap_vectors_compared": 72,
+  "p_threshold_positions": 816,
+  "max_absolute_difference": 4.6629367034256575e-15,
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "figures": [
+    {
+      "name": "lab03j_assimetria_anual",
+      "size": [
+        1332,
+        468
+      ],
+      "pixels_equal_local": true
+    },
+    {
+      "name": "lab03j_liquidez_inicial",
+      "size": [
+        1332,
+        486
+      ],
+      "pixels_equal_local": true
+    }
+  ],
+  "independent_oracles_rerun": true,
+  "cross_export_reference_roundoff": 2.7755575615628914e-17,
+  "comparison": {
+    "passed": true,
+    "environment": "author_Colab",
+    "source_commit": "657627b0addc16d8df3369dad9bcee0f1dc1c0da",
+    "source_files": 52,
+    "compared_values": 13031,
+    "p_threshold_positions": 816,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "I_archive_sha256": "ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e",
+    "new_outer_generators": 0,
+    "new_quote_downloads": 0,
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "scope": "Author Colab execution and external computational audit;does not certify economic returns,exact share inventory,causality or new test coverage",
+  "author_colab_executed": true,
+  "comparison_total_values": 372959,
+  "execution_metadata_note": "run_lab03j.py carries a static legacy local tag;actual author environment is grounded by exact saved Colab cells and notebook_comparison.json,not that static CLI tag"
+}

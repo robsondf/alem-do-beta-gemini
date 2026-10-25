@@ -577,11 +577,15 @@ A seleção pública não contém todas as matrizes financeiras necessárias
 a materiais de terceiros. O manifesto de proveniência registra hashes
 e versões, inclusive o manuscrito anterior de 25 páginas.
 
-As execuções do autor no Colab até as análises de seleção/liquidez
-foram conferidas com exports autenticados. As novas regressões,
-diagnósticos e três continuidades foram executados localmente e
-conferidos por OLS densa independente; a execução do novo notebook
-pelo autor é uma etapa distinta, ainda não realizada nesta versão.
+As execuções do autor no Colab, incluindo as novas regressões,
+diagnósticos e três continuidades, foram conferidas por exports
+autenticados. No lote adicional, nove fontes de células coincidem
+com a entrega; cinco códigos foram executados sem exceções e 52 fontes
+foram autenticadas. A conferência externa comparou 13.031 valores de
+tabelas e 359.928 de bancos, com diferença máxima $4,66\times10^{-15}$
+e 816 posições de limiar preservadas, sob tolerâncias absoluta $10^{-10}$
+e relativa $10^{-9}$. Os dois gráficos coincidem em pixels. Os oráculos
+densos foram reexecutados sobre cópias autenticadas dos resultados.
 Protocolos, entradas públicas, resultados e recibos estão em
 \texttt{data/lab03j/} e nas pastas correspondentes. Matrizes diárias
 e caches B3 são reutilizados do Drive, sem novas cotações. O experimento

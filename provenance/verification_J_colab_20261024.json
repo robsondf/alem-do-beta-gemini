@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6",
+  "files": {
+    "scripts/verify_lab03j_colab.py": {
+      "sha256": "a9431b3a452ab29781df32ecc63a7a2cc268d940ceaa2dd75c435f45cd12cf61",
+      "git_blob_sha1": "22a73d76a2460e48fa837a0e031a7594faac42f2",
+      "bytes": 9551,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "data/lab03j/validacao_colab_20261024.json": {
+      "sha256": "7afa41ecb0b7019f3078f00dae746d1953f454fb138ad422c65f17d8f969cb20",
+      "git_blob_sha1": "ce50c3f03beb7bc79d686034cad66cd82c646369",
+      "bytes": 2135,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "data/lab03j/manifesto_colab_20261024.json": {
+      "sha256": "782fd85db66ab69b6430b98537196ff3fbadb26cb4311829ee39d362fcbbc639",
+      "git_blob_sha1": "5fe985f71ad2dd2afbaec6ef6f23da718c8b2033",
+      "bytes": 19482,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "data/lab03j/oraculos_colab_20261024.json": {
+      "sha256": "8476eb5a12c76818368a889ec8bf6b342dd6652aa240fe8041a50f2d8a26e559",
+      "git_blob_sha1": "a37582b58b68e0d780d987f9b7041d918649b908",
+      "bytes": 1062,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "data/lab03j/compilacao_colab_20261024.json": {
+      "sha256": "c80b738bb8c6d61843422cb0aedddd2ab7360c4a3b232d2939f050a899399957",
+      "git_blob_sha1": "2111bdbb12b7d3b832c340369e6390df76f2ac56",
+      "bytes": 342,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "paper/artigo_revisado.tex": {
+      "sha256": "0e88caac7379b333bc035b85fa1380aa5ef50f6b1c1135163ea2ad41e6c0e96c",
+      "git_blob_sha1": "ab5eb8a9268b75781054f3cabde202579831670e",
+      "bytes": 35160,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "paper/suplemento.tex": {
+      "sha256": "9d25ec21b6af95fc017f08349a3e1be007f76b90b420f468a8a8ecbf6bd95fb3",
+      "git_blob_sha1": "7ce9a82789eaa52f654f2609ab29b5617243df4d",
+      "bytes": 22429,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "paper/main.pdf": {
+      "sha256": "437e1ceaf0191cf18144aa350fb2250ccf5f99507a8ae9f364b749c69ddd4bcc",
+      "git_blob_sha1": "8394221aff001dd0b68daa932e8c503f5ca3230b",
+      "bytes": 352310,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "paper/suplemento.pdf": {
+      "sha256": "164cc67c4cd15d6ee8cf6326dd09598cf33f59acda409b37d7439a9502d03036",
+      "git_blob_sha1": "caf6823bf7896cef12184850a0cf6c0d82e7e2f2",
+      "bytes": 516260,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "docs/lab03j_pareceres.md": {
+      "sha256": "737876cf7a66bf64340c29087d103d90608e327771b804dfb7758da5d1f5ce24",
+      "git_blob_sha1": "765d8a87589c32adbc37ced88bd57f58d2a7e893",
+      "bytes": 9922,
+      "source_private_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    "README.md": {
+      "sha256": "893a6284ce25446be9509ebedb3559b7d334d953fe5bd9c6458dcb2cbcc78745",
+      "git_blob_sha1": "36f5ee5eed125396816fded0a4858e4d6e17463e",
+      "bytes": 13284,
+      "source_private_commit": null
+    },
+    "docs/RELEASE_STATUS.md": {
+      "sha256": "feb1d3e408410e2d6eced3c2a0d1e6ecbfa21718d879e3a5066e0e13ef2faac1",
+      "git_blob_sha1": "cdfaa0b86a136b38d6b49f524dc749a17461f929",
+      "bytes": 2617,
+      "source_private_commit": null
+    },
+    "docs/REPRODUCTION.md": {
+      "sha256": "8c1468e87aef02245de1d58c4e7b279b54aa631d3af78cd3f363fce137b2097e",
+      "git_blob_sha1": "d59ad423be73decf402727e60e63aa45f678d591",
+      "bytes": 12484,
+      "source_private_commit": null
+    }
+  },
+  "table_values": 13031,
+  "bootstrap_values": 359928,
+  "max_absolute_difference": 4.6629367034256575e-15,
+  "source_pins": 52,
+  "author_Colab_verified": true,
+  "no_estimates_changed": true,
+  "no_new_notebook": true,
+  "scope": "Execution/source equivalence,not economic certification or calibrated new inference"
+}
