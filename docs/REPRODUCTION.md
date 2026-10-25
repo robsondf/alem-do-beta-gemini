@@ -1,6 +1,11 @@
 # Leitura, execução e verificações
 
-## Lab03J,24/10/2026
+## Colab J do autor conferido
+
+[Registro, fontes e limites](lab03j_pareceres.md). Cinco códigos sem exceções, 372.959 valores concordantes, 816 limiares preservados e dois gráficos idênticos. Nenhum novo notebook nesta conferência; artigo/suplemento atualizados para nova revisão externa. Matrizes e export permanecem no Drive.
+
+
+## Checkpoint anterior — Lab03J preparado localmente
 
 Consulte [o lote J](lab03j_pareceres.md) e [as disposições dos pareceres](resposta_pareceres_J.md). A nova execução usa apenas export I e caches B3 já existentes; execução local conferida, Colab do autor ainda distinto. Artigo e suplemento distinguem associação condicional, limitações de mensuração e resultados efetivos. Não repetir estágios anteriores.
 

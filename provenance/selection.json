@@ -10380,8 +10380,8 @@
   "revision_artifacts": [
     {
       "path": "README.md",
-      "git_blob_sha1": "462e15545228a20264b0b82d784c2b4c1b901da2",
-      "bytes": 12996,
+      "git_blob_sha1": "36f5ee5eed125396816fded0a4858e4d6e17463e",
+      "bytes": 13284,
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
@@ -10769,6 +10769,13 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "data/lab03j/compilacao_colab_20261024.json",
+      "git_blob_sha1": "2111bdbb12b7d3b832c340369e6390df76f2ac56",
+      "bytes": 342,
+      "mode": "100644",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    {
       "path": "data/lab03j/covariates_2015.csv",
       "git_blob_sha1": "d4483588c022a7b036b6056c515d94cbe095c12e",
       "bytes": 25475,
@@ -10811,11 +10818,25 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "data/lab03j/manifesto_colab_20261024.json",
+      "git_blob_sha1": "5fe985f71ad2dd2afbaec6ef6f23da718c8b2033",
+      "bytes": 19482,
+      "mode": "100644",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    {
       "path": "data/lab03j/notebook_validation.json",
       "git_blob_sha1": "bcd94fd62995d9a9c2393c2d1c08e9dca7f71f6d",
       "bytes": 1248,
       "mode": "100644",
       "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
+    },
+    {
+      "path": "data/lab03j/oraculos_colab_20261024.json",
+      "git_blob_sha1": "a37582b58b68e0d780d987f9b7041d918649b908",
+      "bytes": 1062,
+      "mode": "100644",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "data/lab03j/original2015_recovery_receipt.json",
@@ -10853,6 +10874,13 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "data/lab03j/validacao_colab_20261024.json",
+      "git_blob_sha1": "ce50c3f03beb7bc79d686034cad66cd82c646369",
+      "bytes": 2135,
+      "mode": "100644",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    {
       "path": "data/revisao_pareceres_20261024.json",
       "git_blob_sha1": "07d001f7245d69fdb66d381d11a8e6f1afd612d4",
       "bytes": 1609,
@@ -10861,16 +10889,16 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "git_blob_sha1": "07f9a233294d2feb69f254838d85a7e4166dd68b",
-      "bytes": 2246,
+      "git_blob_sha1": "cdfaa0b86a136b38d6b49f524dc749a17461f929",
+      "bytes": 2617,
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "git_blob_sha1": "7f6ae5e1812cc7b480ba122ca0b4a37e320a723c",
-      "bytes": 12113,
+      "git_blob_sha1": "d59ad423be73decf402727e60e63aa45f678d591",
+      "bytes": 12484,
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
@@ -10953,10 +10981,10 @@
     },
     {
       "path": "docs/lab03j_pareceres.md",
-      "git_blob_sha1": "96a7055117c4169376ca114d722d991646e19b4b",
-      "bytes": 7856,
+      "git_blob_sha1": "765d8a87589c32adbc37ced88bd57f58d2a7e893",
+      "bytes": 9922,
       "mode": "100644",
-      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "docs/protocolo_representacao_raciocinio.md",
@@ -11053,10 +11081,10 @@
     },
     {
       "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "9e0799e1193415dd17198688859461cf0423fa78",
-      "bytes": 34867,
+      "git_blob_sha1": "ab5eb8a9268b75781054f3cabde202579831670e",
+      "bytes": 35160,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "paper/figures/lab02/lab03f_agregado.pdf",
@@ -11158,10 +11186,10 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "b3fbd03fcd9c6ba0b4b3181f18c3f828082ae446",
-      "bytes": 351775,
+      "git_blob_sha1": "8394221aff001dd0b68daa932e8c503f5ca3230b",
+      "bytes": 352310,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "paper/main.tex",
@@ -11179,17 +11207,17 @@
     },
     {
       "path": "paper/suplemento.pdf",
-      "git_blob_sha1": "d27a854d14bee7979032fbe2fdf1e391cca4d14b",
-      "bytes": 515724,
+      "git_blob_sha1": "caf6823bf7896cef12184850a0cf6c0d82e7e2f2",
+      "bytes": 516260,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "paper/suplemento.tex",
-      "git_blob_sha1": "732560bfde8312c0886f8b7fdee19db56afc198e",
-      "bytes": 21828,
+      "git_blob_sha1": "7ce9a82789eaa52f654f2609ab29b5617243df4d",
+      "bytes": 22429,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
     },
     {
       "path": "paper/suplemento_metodos.tex",
@@ -12257,6 +12285,13 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "scripts/verify_lab03j_colab.py",
+      "git_blob_sha1": "22a73d76a2460e48fa837a0e031a7594faac42f2",
+      "bytes": 9551,
+      "mode": "100644",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6"
+    },
+    {
       "path": "scripts/verify_lab03j_successions.py",
       "git_blob_sha1": "9780db2ffd38d697e127766114fde29e7dc71fc7",
       "bytes": 4095,
@@ -13034,6 +13069,90 @@
           "bytes": 7265,
           "mode": "100644",
           "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Author J Colab execution and export externally verified;availability updated",
+      "source_commit": "8c6b1080df4d965d87d07acec9022b81163fa8a6",
+      "previous_public_commit": "d4e38d597740c427305e9370dd43448e282d1b2b",
+      "updated_paths": [
+        "scripts/verify_lab03j_colab.py",
+        "data/lab03j/validacao_colab_20261024.json",
+        "data/lab03j/manifesto_colab_20261024.json",
+        "data/lab03j/oraculos_colab_20261024.json",
+        "data/lab03j/compilacao_colab_20261024.json",
+        "paper/artigo_revisado.tex",
+        "paper/suplemento.tex",
+        "paper/main.pdf",
+        "paper/suplemento.pdf",
+        "docs/lab03j_pareceres.md"
+      ],
+      "public_packaging_paths": [
+        "README.md",
+        "docs/RELEASE_STATUS.md",
+        "docs/REPRODUCTION.md"
+      ],
+      "preserved_previous_manifest_entries": [
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "9e0799e1193415dd17198688859461cf0423fa78",
+          "bytes": 34867,
+          "mode": "100644",
+          "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+        },
+        {
+          "path": "paper/suplemento.tex",
+          "git_blob_sha1": "732560bfde8312c0886f8b7fdee19db56afc198e",
+          "bytes": 21828,
+          "mode": "100644",
+          "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "b3fbd03fcd9c6ba0b4b3181f18c3f828082ae446",
+          "bytes": 351775,
+          "mode": "100644",
+          "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+        },
+        {
+          "path": "paper/suplemento.pdf",
+          "git_blob_sha1": "d27a854d14bee7979032fbe2fdf1e391cca4d14b",
+          "bytes": 515724,
+          "mode": "100644",
+          "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+        },
+        {
+          "path": "docs/lab03j_pareceres.md",
+          "git_blob_sha1": "96a7055117c4169376ca114d722d991646e19b4b",
+          "bytes": 7856,
+          "mode": "100644",
+          "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha1": "462e15545228a20264b0b82d784c2b4c1b901da2",
+          "bytes": 12996,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/RELEASE_STATUS.md",
+          "git_blob_sha1": "07f9a233294d2feb69f254838d85a7e4166dd68b",
+          "bytes": 2246,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/REPRODUCTION.md",
+          "git_blob_sha1": "7f6ae5e1812cc7b480ba122ca0b4a37e320a723c",
+          "bytes": 12113,
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
         }
       ]
     }

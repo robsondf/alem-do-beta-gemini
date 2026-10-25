@@ -1,0 +1,26 @@
+{
+  "independent_verification.json": {
+    "passed": true,
+    "production_imported": false,
+    "dense_time_series_regressions": 7080,
+    "dense_control_regressions_and_CI_p": 192,
+    "explicit_change_rank_statistics": 36,
+    "max_difference": 2.2551405187698492e-15,
+    "documented_gaps_protected": 7,
+    "source_dates_checked": true,
+    "scope": "Independent numerical verification;not calibrated test size/coverage,exact yearend/free-float share certification or causal identification"
+  },
+  "succession_cross_export_verification.json": {
+    "passed": true,
+    "production_imported": false,
+    "dense_regime_fits": 2360,
+    "max_difference": 1.2073675392798577e-15,
+    "documented_transitions": 3,
+    "gaps_protected": 7,
+    "primary_other_ISINs_unchanged": true,
+    "reference_roundoff": 2.7755575615628914e-17,
+    "reference_atol": 1e-10,
+    "reference_rtol": 1e-09,
+    "scope": "Cross-export numerical audit;bit identity is not assumed between independently serialized I references. Missing masks exact;not economic certification"
+  }
+}
