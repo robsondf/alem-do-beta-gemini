@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "stage": "Author K Colab execution externally verified; numerical agreement does not expand inferential or economic certification",
+  "common_scientific_files": [
+    {
+      "path": "scripts/verify_lab03k_colab.py",
+      "bytes": 6821,
+      "sha256": "170ab62ce08005830642190269862e08b468f70752576e46644864627bf7d440",
+      "git_blob_sha1": "e974f6f0d6bcbf6c11a2004864e853196157b7ce"
+    },
+    {
+      "path": "data/lab03k/validacao_colab_20261025.json",
+      "bytes": 3275,
+      "sha256": "958e5e1233212905ae6dc26a882f0de8bf718b1b2f478d63a3a53199e4f3044a",
+      "git_blob_sha1": "f81c5d792e26502569b315c41e23c76066a177b1"
+    },
+    {
+      "path": "data/lab03k/manifesto_colab_20261025.json",
+      "bytes": 5162,
+      "sha256": "1fc515cee348713421651a308dcbe6d410b2e3a1a814ff057876a0109e58e6de",
+      "git_blob_sha1": "f816bd06324ac23a6ee5bdd4aabca01405a23cbb"
+    },
+    {
+      "path": "data/lab03k/oraculos_colab_20261025.json",
+      "bytes": 1086,
+      "sha256": "35f203a9485a4b07b853711932bf8759cab5a9beb42fa710026fb01837fbe332",
+      "git_blob_sha1": "2b2b8bbda671a5b3d8e83ab3333bf4b055b5c3db"
+    },
+    {
+      "path": "data/lab03k/compilacao_colab_20261025.json",
+      "bytes": 755,
+      "sha256": "f1e2ec00bb68eb0e88a61ac5582d2debc9fc5427dc021ab729767da93f9b48f8",
+      "git_blob_sha1": "87c751c595579e886c7594f072afb0d096472157"
+    },
+    {
+      "path": "data/lab03k/colab_table_comparisons.csv",
+      "bytes": 387,
+      "sha256": "c742c6f350b21af8f3bb1536fd9855d390228abcd197857624d47c4850fd7ab3",
+      "git_blob_sha1": "96db92463c5a9cd3f20bf89c77c57d53f0fff605"
+    },
+    {
+      "path": "data/lab03k/colab_bank_comparisons.csv",
+      "bytes": 1915,
+      "sha256": "91de2ccfd523af6a28b62fc40594743b688c8acc90f896008ec2ca9ee8fa0a1c",
+      "git_blob_sha1": "fd0e86716191cb4109f9d560b47c55d7577e65d2"
+    },
+    {
+      "path": "paper/artigo_revisado.tex",
+      "bytes": 42534,
+      "sha256": "c9001fb9494a3694cc8afe6a6d4942b9b02f0dc8cda39e1ab75b2db498358d88",
+      "git_blob_sha1": "387174708976bcbe3e7926e43edfd3b1d4a79d2c"
+    },
+    {
+      "path": "paper/suplemento.tex",
+      "bytes": 30289,
+      "sha256": "7579fc18da14b809d0b4b04a538eaa23db7aab6e783572669828a9d0b2d9313f",
+      "git_blob_sha1": "0dbe23f831d3b4c64e54991f279252eb51a6d2ad"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 350574,
+      "sha256": "619d87ebaa91495d503e12d0cae56734e6322ff14908e66a6b6cc0774a837bab",
+      "git_blob_sha1": "285b499affb8ba9e1d2e52ebb668f601e03f862f"
+    },
+    {
+      "path": "paper/suplemento.pdf",
+      "bytes": 556229,
+      "sha256": "f5262a1b975f6848f0fa659fb76dc87a7e033f4c3e92c2623165a27f5fed40cc",
+      "git_blob_sha1": "4fc1f8d62b1555fe6c5fb364ec934360de571579"
+    },
+    {
+      "path": "docs/lab03k_fechamento.md",
+      "bytes": 5711,
+      "sha256": "bfa8b4da4fdb343f3e9f06f54039e21b808cdff20489123fcc89e31639ab5cef",
+      "git_blob_sha1": "1202644e1bb5ef9c067e2bfcb59b042b5343bb53"
+    },
+    {
+      "path": "docs/resposta_pareceres_K.md",
+      "bytes": 3427,
+      "sha256": "293a1181d65637eec2114bf35384627a8668c033e85362b5e26aec7d8ce60aed",
+      "git_blob_sha1": "41a6038aa981e8b95052533aaf6222c19e1e920e"
+    }
+  ],
+  "verified_notebook": "https://colab.research.google.com/drive/1MCwjoZh864rnHgLbIScW0uM1HVXuVPZc",
+  "notebook_sha256": "c81b142ee27f8c865789e269e064174cdf85c4188c65371895a65fead91ff963",
+  "export_drive_id": "1BNhpQCD9GpZcAHp-ZAtnPRTESyiDn1Iu",
+  "export_sha256": "ea84527ca1039fee3f5ba60d83ef070bb56845ac744a65ee98aa712affb10d5b",
+  "source_files": 20,
+  "export_members": 43,
+  "table_cells": 72724,
+  "observed_bank_values": 1665000,
+  "threshold_positions": 12381,
+  "main_pages": 18,
+  "supplement_pages": 29,
+  "no_new_notebook": true,
+  "no_new_quotes": true,
+  "no_new_outer_simulations": true,
+  "private_source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+}

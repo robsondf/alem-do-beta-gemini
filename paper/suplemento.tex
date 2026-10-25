@@ -506,8 +506,22 @@ sem importar as funções de produção K, verifica 4.248 ajustes temporais,
 96 regressões transversais e 24 caudas conjuntas; diferença máxima
 $8,44\times10^{-15}$. Cinco testes unitários cobrem invariância,
 singularidade, máscaras, beta reestimado e pisos. Concordância numérica
-não certifica ajustes econômicos. A execução local e a futura execução
-do autor no Colab são estados distintos.
+não certifica ajustes econômicos.
+
+A execução posterior do autor no Colab foi conferida separadamente:
+nove fontes de células idênticas à entrega, cinco códigos sem exceções,
+20 fontes e 43 membros do export autenticados. A comparação externa
+verificou 72.724 células de tabelas e 1.665.000 valores em 30 bancos,
+com diferenças máximas de $8,08\times10^{-14}$ e $1,20\times10^{-14}$,
+respectivamente, sob tolerâncias absoluta $10^{-10}$ e relativa $10^{-9}$.
+As 12.381 posições de limiar são preservadas; as máscaras de ausências
+do preperíodo e os pixels do gráfico reconstruído coincidem.
+Os 6.000 registros de calibração e seus 30 resumos concordam exatamente
+nas tabelas, sem nova execução dos geradores. O oráculo executado no Colab
+tem diferença máxima $1,15\times10^{-14}$; a reexecução externa sobre
+cópia autenticada encontra $8,44\times10^{-15}$. São conferências
+numéricas distintas, sem mudança das estimativas, famílias ou limitações
+de cobertura e homologação econômica.
 
 \FloatBarrier
 \begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup

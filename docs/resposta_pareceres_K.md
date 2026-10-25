@@ -17,4 +17,4 @@ Os pareceres são insumos críticos, não validação humana independente. As mu
 | Alegações de símbolos ausentes | Não substituir símbolos corretos por falhas de extração/OCR. Compilação e inspeção visual dos novos PDFs, sem Missing character ou referência indefinida. Corrigidos espaços reais antes de URLs. |
 | Nível de publicação e linha em IA | Não inserir ML sem pergunta/validação próprias. Artigo empírico/metodológico; sem garantia de aceite, citações ou contribuição inédita em representação/raciocínio. |
 
-O lote K foi validado localmente. A conferência J do Colab permanece concluída; a nova execução K do autor deve ser recebida e auditada separadamente. Não se diz que toda limitação foi eliminada.
+O lote K foi executado pelo autor no Colab e conferido externamente em 25/10/2026: 72.724 células de tabelas, 1.665.000 valores de bancos e 12.381 limiares preservados; gráfico idêntico em pixels. A conferência J permanece concluída. Os recibos K registram a execução efetiva, sem afirmar que toda limitação foi eliminada.

@@ -1,0 +1,9 @@
+file,rows,columns,cells,max_absolute_difference
+calibration_replications.csv.gz,6000,10,60000,0.0
+calibration_summary.csv,30,10,300,0.0
+coefficients.csv,333,16,5328,7.105427357601002e-15
+covariates.csv,118,22,2596,0.0
+design_diagnostics.csv,2,5,10,1.3322676295501878e-15
+eligibility.csv,552,7,3864,0.0
+joint_tests.csv,24,15,360,8.08242361927114e-14
+succession_inventory.csv,38,7,266,0.0
