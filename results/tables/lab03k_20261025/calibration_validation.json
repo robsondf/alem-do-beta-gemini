@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "six finite conditional null laws, not universal coverage or DGP compatibility",
+  "R_per_case": 1000,
+  "B": 4999,
+  "block": 21,
+  "mask_groups": 23,
+  "dense_weighted_regime_fits": 608,
+  "max_oracle_error": 1.0408340855860843e-16,
+  "elapsed_seconds": 167.226136913
+}

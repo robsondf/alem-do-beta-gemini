@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "sources": [
+    {
+      "reference": "Amihud2002",
+      "url": "https://www.cis.upenn.edu/~mkearns/finread/amihud.pdf",
+      "read_scope": "primary published paper, definition of period mean absolute daily simple return divided by traded monetary volume, pages31-33; nominal BRL adaptation explicit; no empirical result transferred"
+    },
+    {
+      "reference": "Holm/arbitrary dependence",
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html",
+      "read_scope": "official R stats documentation, marginal validity prerequisite retained; does not validate bootstrap p-values"
+    }
+  ]
+}

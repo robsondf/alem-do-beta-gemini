@@ -1,5 +1,10 @@
 # Leitura, execução e verificações
 
+## Checkpoint K — fechamento dos pareceres
+
+Consulte [Lab03K](lab03k_fechamento.md) e [as disposições](resposta_pareceres_K.md). Lote e calibração executados localmente; execução K do autor ainda não recebida. Não repetir J/I. Artigo e suplemento atualizados; resultados e famílias anteriores preservados. Apenas retornos nas regressões, sem preenchimento.
+
+
 ## Colab J do autor conferido
 
 [Registro, fontes e limites](lab03j_pareceres.md). Cinco códigos sem exceções, 372.959 valores concordantes, 816 limiares preservados e dois gráficos idênticos. Nenhum novo notebook nesta conferência; artigo/suplemento atualizados para nova revisão externa. Matrizes e export permanecem no Drive.

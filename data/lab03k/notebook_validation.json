@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "environment": "local_notebook_integration_not_author_Colab",
+  "code_cells": 5,
+  "exceptions": 0,
+  "source_commit": "276ebc08414f01b2363a5c4e554fb79b2a6a2dca",
+  "run": "analysis_cache/notebook_k_integration/run_20261025T104020Z",
+  "export": "analysis_cache/notebook_k_integration/run_20261025T104020Z/resultados_lab03k_20261025T104020Z.zip",
+  "export_sha256": "ad44f8b3d2a0b443c0f2b2cf38a17b1ba5b12ab3734a8b5f288b050ceadae55c",
+  "elapsed_seconds": 179.75901428400016,
+  "comparison": {
+    "passed": true,
+    "environment": "local_notebook_integration",
+    "source_commit": "276ebc08414f01b2363a5c4e554fb79b2a6a2dca",
+    "source_files": 20,
+    "compared_values": 72724,
+    "p_threshold_positions": 12381,
+    "atol": 1e-10,
+    "rtol": 1e-09,
+    "I_sha256": "2f61beb15aac8638cf92dae0eef58de8bc70cded3a6fe833519171f21f554f06",
+    "J_sha256": "96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "notebook_sha256": "21af64487b2fd6513750b4feb679cb09b32148df89486f1b0af48cabb07bd24b",
+  "editorial_note": "Markdown spacing edited after execution; all five code-cell sources unchanged."
+}

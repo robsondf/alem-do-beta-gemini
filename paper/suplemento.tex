@@ -384,6 +384,131 @@ distintos, o resíduo máximo de arredondamento é $2,78\times10^{-17}$;
 as máscaras são idênticas e os oráculos usam as tolerâncias declaradas.
 Essa conferência não acrescenta certificação econômica ou inferencial.
 
+
+\section{Extensão exploratória de porte e liquidez}
+O protocolo K foi registrado em commits antes de seus novos contrastes,
+com os resultados e pareceres anteriores já conhecidos. Não é
+pré-registro do estudo. Preserva as famílias J de 16 coeficientes e
+as demais famílias históricas. Dependência entre especificações não
+invalida Holm; sua proteção continua condicionada à validade marginal.
+O novo alvo é conjunto, $H_0:\lambda=\gamma=0$, em modelo sem beta
+contemporâneo obrigatório. O cadastro setorial é fixo e arquivado,
+inclusive de 2022; não é informação disponível em 2015.
+
+O coeficiente de capitalização mede uma aproximação baseada em
+quantidades divulgadas, sem inventário certificado de ações no fim de
+2015. Os modelos são projeções associativas entre ativos, com nove
+setores representados, não testes de efeitos causais ou prêmios de risco.
+O novo Holm 2 cobre as duas nulas conjuntas por bloco; as coortes
+sobrepõem ativos. Valores-p dos coeficientes e seus ICs básicos são
+marginais nominais, não decisões individuais ajustadas ou intervalos
+simultâneos. O teste usa raio quadrático padronizado pela covariância
+bootstrap fixa, não studentização por sorteio.
+
+\begin{table}[htbp]\centering\small
+\caption{Referência de porte e setor, bloco 21. $p^*$: conjunto, Holm 2.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_reference_21.tex}}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Referência, bloco 5. Mesmos casos e família, outra escolha de bloco.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_reference_5.tex}}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Referência, bloco 63. Não há proteção global entre escolhas.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_reference_63.tex}}
+\end{table}
+
+\subsection{Giro, preperíodo e marcas de eventos}
+Definir $\log G=\log V-\log C$ produz coeficientes
+$(\lambda,\lambda+\gamma)$ para giro e capitalização.
+Nos dois modelos, $\lambda+\gamma$ é 0,0602/0,0724; os ICs nominais
+são [0,0268; 0,1110] e [0,0430; 0,1319]. Essa transformação não
+cria evidência independente, nova amostra ou estimando de spread.
+O oráculo verifica os ajustes e sorteios em ambas as coordenadas.
+
+A sensibilidade de beta de 2015 conserva os pisos: 200 pares válidos,
+60 por sinal e cobertura de 95\%, sem preenchimento. O primeiro retorno
+sem cotação anterior é ausente; a cotação da primeira sessão é preservada
+para calcular a segunda. O mercado tem uma ausência inicial em 2015;
+o denominador de cobertura do beta usa sessões de mercado válidas.
+Os sorteios do preperíodo usam semente separada e reestimam beta,
+omitindo covariância entre estratos anuais. Perdem-se três casos em
+cada coorte; não se interpreta a diferença como efeito isolado do controle.
+
+Excluem-se integralmente ativos com qualquer uma das 23 marcas sem
+correspondência no ledger fixo de 2015--2025, mesmo se fora do alvo
+inicial. É sensibilidade retrospectiva conservadora, não seleção principal
+nem diagnóstico de retorno incorreto. Caem oito/nove casos completos.
+Continuam ausentes os retornos já mascarados, inclusive direitos e ANIM3.
+O inventário exportado informa primeira/última cotação e códigos observados
+para ativos externos de 2015, com continuidades previamente documentadas
+ou estado econômico desconhecido. Fim de cotação não é data de saída
+certificada; não se inventam encadeamentos ou incorporações.
+
+Amihud de 2015 substitui log-volume por log da média anual de
+$|\exp(r_{it})-1|/V_{it}$, com volume positivo em reais nominais
+e retorno diário válido \cite{amihud2002}. Pelo menos 200 pares e
+95\% das 246 sessões são exigidos; não há preenchimento de volume.
+Essa medida antecede o desfecho, mas também carrega limitações dos
+retornos e eventos de 2015. A unidade e o sinal econômico diferem de
+volume, e os casos elegíveis mudam. Não é réplica independente.
+
+\begin{table}[htbp]\centering\small
+\caption{Sensibilidades conjuntas, bloco 21, Holm 6. Em Amihud, $\lambda$
+é o coeficiente de log-iliquidez, não de log-volume. ICs nominais.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_sensitivity_21.tex}}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{As mesmas seis sensibilidades, bloco 5.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_sensitivity_5.tex}}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{As mesmas seis sensibilidades, bloco 63.}
+\resizebox{\textwidth}{!}{\input{tables/lab03k_sensitivity_63.tex}}
+\end{table}
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{lab03k_controls.pdf}
+\caption{Modelos de volume e porte. ICs marginais nominais 95\%; cada
+modelo tem sua população elegível. Cruzar zero não substitui teste conjunto.}
+\end{figure}
+
+\subsection{Seis leis condicionais para o novo teste conjunto}
+Mil réplicas por lei, 4.999 sorteios internos e bloco 21 avaliam
+exclusivamente a referência conjunta. Mantêm-se mercado, máscaras,
+covariáveis e escalas residuais RMS do ajuste inicial por regime.
+Em cada lei, $\epsilon_{it}=\sigma_i[\sqrt\rho f_t+
+\sqrt{1-\rho}z_{it}]$, com componentes independentes e $\rho=0,04/0,30$.
+Usam-se normal iid; t5 de variância unitária com escala 1/2 nas metades,
+normalizada por sua média quadrática; e componentes GARCH t5 com
+$h_t^2=0,05+0,05\epsilon_{t-1}^2+0,90h_{t-1}^2$, início 1 e
+500 passos de aquecimento. O fator comum e cada componente individual
+têm recursões próprias. Não se pretende estimar a lei financeira verdadeira.
+
+A nula simulada tem $\Delta_i=0$. Efeitos de setor em $\Delta_i$
+também são anulados algebricamente pelos controles fixos, verificados
+nas duas coortes; não se simulam todas as configurações de nula conjunta
+ou efeitos mistos. A FWER é a frequência de qualquer rejeição após
+Holm 2; a cobertura é calculada separadamente para quatro ICs marginais.
+Exportam-se indicadores por réplica, Wilson 95\% e erro Monte Carlo.
+Calibração finita de uma nula não prova controle forte ou validade de
+beta2015, Amihud, exclusões, outros blocos ou famílias antigas.
+
+\begin{table}[htbp]\centering\small
+\caption{Calibração condicional do novo teste: taxas em \%, Wilson para
+FWER e faixa de coberturas entre os quatro coeficientes.}
+\input{tables/lab03k_calibration.tex}
+\end{table}
+
+A aceleração agrupa 23 máscaras idênticas e aplica o funcional linear
+exato das diferenças de inclinações por regime. Um oráculo de mínimos
+quadrados ponderados confere 608 ajustes temporais. Outro verificador,
+sem importar as funções de produção K, verifica 4.248 ajustes temporais,
+96 regressões transversais e 24 caudas conjuntas; diferença máxima
+$8,44\times10^{-15}$. Cinco testes unitários cobrem invariância,
+singularidade, máscaras, beta reestimado e pisos. Concordância numérica
+não certifica ajustes econômicos. A execução local e a futura execução
+do autor no Colab são estados distintos.
+
 \FloatBarrier
 \begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup
 \end{document}

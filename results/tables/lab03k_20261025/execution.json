@@ -1,0 +1,15 @@
+{
+  "stage": "Lab03K",
+  "B": 4999,
+  "blocks": [
+    21,
+    5,
+    63
+  ],
+  "rows": 333,
+  "joint_tests": 24,
+  "protected_missing_unchanged": true,
+  "reparameterization_max_error": 4.0523140398818214e-14,
+  "environment": "local_not_author_Colab",
+  "elapsed_seconds": 4.344897269999933
+}
