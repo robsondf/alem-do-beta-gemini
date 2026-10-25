@@ -7,6 +7,10 @@
 \usepackage[brazil]{babel}
 \usepackage{amsmath, amssymb, booktabs}
 \usepackage[hidelinks]{hyperref}
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+\hypersetup{pdfauthor={Robson Dias Ferreira},pdfsubject={Edicao editorial v8, 25/10/2026}}
 \sloppy
 \renewcommand{\topfraction}{.9}
 \renewcommand{\bottomfraction}{.9}
@@ -22,10 +26,10 @@ Disciplina CMP609 -- Introdução aos Métodos Computacionais em Finanças
 \begin{document}
 \maketitle
 \begin{abstract}
-We examine how upside/downside beta asymmetry depends on sample composition, liquidity and time. Fixed samples contain 80 Brazilian securities in 2016--2025 and 117 in 2021--2025, using daily log returns and the Ibovespa. The decade mean contrast is $-0.131$, while individual identification is fragile. Initial liquidity is positively associated with initial asymmetry in a separate reconstruction selected using 2015 activity. In an exploratory size-and-sector model, joint size/liquidity nulls reject in two overlapping complete-case cohorts, but sensitivity analyses and earlier specification-wide adjustments qualify attribution to liquidity alone. Temporal changes depend on crisis exclusions. Changes in liquidity lack adjusted detection of association with changes in asymmetry. Conditional simulations expose target-dependent inferential performance. The evidence describes sensitivity of historical exposures, without identifying a causal liquidity effect, generalized asymmetry or future persistence.
+We examine upside/downside beta asymmetry in fixed samples of 80 Brazilian securities in 2016--2025 and 117 in 2021--2025, using daily log returns and the Ibovespa. Mean asymmetry is $-0.131$ over the decade; the change between five-year periods loses adjusted detection after crisis exclusions. In a separate COTAHIST reconstruction, initial means are $-0.169$ for 78 eligible original securities and $-0.086$ for 64 selected using 2015 activity. Initial liquidity correlates positively with initial asymmetry ($\rho_S=0.493$; adjusted $p=0.0168$). Size/liquidity joint nulls reject in both overlapping complete-case cohorts ($N=62/76$; adjusted $p=0.0344$). Historical asymmetry therefore varies with composition and observation window and is jointly associated with size and trading activity; nonuniform sensitivities, approximate capitalization and finite-sample coverage failures limit attribution to liquidity alone and do not establish causality or future persistence.
 \end{abstract}
 \begin{resumo}
-Examinamos como a assimetria dos betas de alta e baixa depende de composição, liquidez e período. As amostras fixas contêm 80 ativos brasileiros em 2016--2025 e 117 em 2021--2025, com retornos logarítmicos diários e Ibovespa. A diferença média na década é $-0,131$, com identificação individual frágil. Liquidez inicial se associa positivamente à assimetria inicial em uma reconstrução selecionada pela negociação de 2015. No modelo exploratório de porte e setor, nulas conjuntas de porte/liquidez rejeitam em duas coortes sobrepostas de casos completos, mas sensibilidades e ajustes anteriores entre especificações qualificam a atribuição à liquidez isoladamente. Mudanças temporais dependem das exclusões da crise. Mudanças de liquidez não têm associação ajustada detectada com mudanças de assimetria. Simulações condicionais revelam desempenho inferencial dependente do alvo. A evidência caracteriza sensibilidade das exposições históricas, sem identificar efeito causal, assimetria generalizada ou persistência futura.
+Examinamos a assimetria dos betas em amostras fixas de 80 ativos brasileiros em 2016--2025 e 117 em 2021--2025, com log-retornos diários e Ibovespa. A assimetria média na década é $-0,131$; a mudança entre quinquênios perde detecção ajustada após exclusões da crise. Em reconstrução COTAHIST separada, as médias iniciais são $-0,169$ nos 78 originais elegíveis e $-0,086$ nos 64 selecionados pela negociação de 2015. Liquidez inicial se associa positivamente à assimetria inicial ($\rho_S=0,493$; $p$ ajustado $=0,0168$). A nula conjunta de porte/liquidez é rejeitada nas duas coortes sobrepostas de casos completos ($N=62/76$; $p$ ajustado $=0,0344$). A assimetria histórica varia com composição e janela e se associa conjuntamente a porte e negociação; sensibilidades não uniformes, capitalização aproximada e falhas de cobertura limitam a atribuição à liquidez isolada e não estabelecem causalidade ou persistência futura.
 \end{resumo}
 \input{artigo_revisado}
 \begingroup\small

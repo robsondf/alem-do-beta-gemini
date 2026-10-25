@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "edition": "editorial-v8-20261025",
+  "canonical_repository": "robsondf/alem-do-beta",
+  "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9",
+  "previous_public_commit": "cbd16eb77969310db1d0d7e7ce3ca58e9d25137f",
+  "shared_files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 897,
+      "git_blob_sha1": "d59f26c5a04e88948704728b44f5f35ca66a2ba9",
+      "sha256": "118ba05276a3eeb7c7cc4801146bec8949f8c468c0b986e71ef364acd0181892"
+    },
+    {
+      "path": "data/editorial_v8/abstract_counts.json",
+      "bytes": 232,
+      "git_blob_sha1": "03eaafae5535f9a2afabcefd4dbf9614bf35d54c",
+      "sha256": "85791dbb9fbf1cd5ddfe216d26b7a5ff38069bca3ee9ea1fccd33f6b187aab67"
+    },
+    {
+      "path": "data/editorial_v8/distribution_validation.json",
+      "bytes": 202,
+      "git_blob_sha1": "62e889806ad82c492aa86e2b7021f1e0200efbf0",
+      "sha256": "492f4e4ec156324d449f4426b53fc5c9f7bc24c69172a6a761adbe7d2478f0f4"
+    },
+    {
+      "path": "data/editorial_v8/external_inputs.json",
+      "bytes": 1087,
+      "git_blob_sha1": "4ad1d120cb637d477dcff1556ccb0faa2d5dd94c",
+      "sha256": "ab80400a9edca4cd110ab3c00a27eb60042aa7e9b8db437dda01e96cae30261a"
+    },
+    {
+      "path": "data/editorial_v8/latex_validation.json",
+      "bytes": 729,
+      "git_blob_sha1": "c7e4e7d339f89b704e1378c985b0b47c555f53ae",
+      "sha256": "da55e09504042385174fe40ef59b5c4690160a834ba3c87876d5f8a7234e0f76"
+    },
+    {
+      "path": "data/editorial_v8/portable_build_validation.json",
+      "bytes": 520,
+      "git_blob_sha1": "5301bcf498d2d22d1b8e4ec50b082c139c8b3116",
+      "sha256": "79b36da902b634d648d4e3d3f8719dd1c24511ef2372f4d0dd472a1c979bcd3e"
+    },
+    {
+      "path": "data/editorial_v8/reproduction_validation.json",
+      "bytes": 613,
+      "git_blob_sha1": "927a5f56d8b970c766b419ca431068976c2ee656",
+      "sha256": "811d2a6e7974d8d1956dbf7417add6f6ac07e01c674b9d3398ace8d8ad7b573a"
+    },
+    {
+      "path": "data/editorial_v8/table_derivation.json",
+      "bytes": 344,
+      "git_blob_sha1": "3d62b83e6e71b892a3fdd9f2a09f3f5c0f4e0004",
+      "sha256": "46118dd1079fe575bd42b0cb9e6abb8c7578ab736a6c404bdd511c0508cdbd03"
+    },
+    {
+      "path": "data/editorial_v8/visual_validation.json",
+      "bytes": 671,
+      "git_blob_sha1": "7d3cf0f2f55553b9bba8ae06120990af1664f0f9",
+      "sha256": "0462c0f0eb24ddd6fdbe34c95b91ef85d3667cebbf64428c3dc49c93c749bd3e"
+    },
+    {
+      "path": "distribution/SHA256SUMS_v8_20261025.txt",
+      "bytes": 449,
+      "git_blob_sha1": "7757370a0e6152821c73599cefbe008c8444f1d5",
+      "sha256": "6f83f8e2d57f5a81598d5d80cc33514ff0a9007f126774e1ec243c4954f02d65"
+    },
+    {
+      "path": "distribution/alem_do_beta_v8_20261025.pdf",
+      "bytes": 322689,
+      "git_blob_sha1": "86d05053499ade37a297b8ecfcce13a5e0f5cb00",
+      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec"
+    },
+    {
+      "path": "distribution/alem_do_beta_v8_overleaf_20261025.zip",
+      "bytes": 367689,
+      "git_blob_sha1": "3b513d8f396bac8500e7e53554ddae39ab8c8304",
+      "sha256": "ec3a1134f0119da82b54cc5914551e864fb01f2f17fe1efeecda6dafe5be9c29"
+    },
+    {
+      "path": "distribution/manifest_v8_20261025.json",
+      "bytes": 111767,
+      "git_blob_sha1": "1f88501a0c5272f0df8b5978271a91c6835f4ce3",
+      "sha256": "94485b5b292ad68f8957d719f7cf1f71c942ce8155516e2440b6db84609d2096"
+    },
+    {
+      "path": "distribution/suplemento_alem_do_beta_v8_20261025.pdf",
+      "bytes": 590071,
+      "git_blob_sha1": "28fae9a08384d2d2d937bad360c32a39ce39432e",
+      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+    },
+    {
+      "path": "docs/DIREITOS_E_DADOS.md",
+      "bytes": 2711,
+      "git_blob_sha1": "69dbcc07021d4c829a0ae951a7575646c5f482ac",
+      "sha256": "12f724ff15abb9fa65e545ebffe83dbc4fe1fc2cb768a02e5cd51013d0169eed"
+    },
+    {
+      "path": "docs/EDICAO_V8.md",
+      "bytes": 5197,
+      "git_blob_sha1": "05cbf623458cbef942fd7462255f73cca7930b93",
+      "sha256": "7ca5267f4c7812722122e3337351e8141f121606c1458607fc0dde78887e423f"
+    },
+    {
+      "path": "docs/resposta_pareceres_V7.md",
+      "bytes": 4401,
+      "git_blob_sha1": "f4bb4f4eadc68b044a44266e986e3587611abbc9",
+      "sha256": "b1c7349551729e09e6d83f3e944957cb53db420eb6e577a912bc50efd0f18bda"
+    },
+    {
+      "path": "paper/README.md",
+      "bytes": 1681,
+      "git_blob_sha1": "3c945bba297753caa875ef00d9e6485239a8ceaf",
+      "sha256": "2aeb00884b398b1c54eacf7d2c601f283c0f9b9fc42353f6904cbb45e3a833af"
+    },
+    {
+      "path": "paper/artigo_revisado.tex",
+      "bytes": 33248,
+      "git_blob_sha1": "30c8624068df71957a7a433a0b6783ea5965db78",
+      "sha256": "1db56407d8986abcd3363cf8b729aba8654ba79bbb92333f7ca430388a18d018"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 322689,
+      "git_blob_sha1": "86d05053499ade37a297b8ecfcce13a5e0f5cb00",
+      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 3268,
+      "git_blob_sha1": "b06da68acab1b3a14cb1234f2f254365bb7daf5c",
+      "sha256": "d9a4fa1e5b6ba434dceb32313c55563a08bb157aac1bfde7af0d7b1f1b84a77d"
+    },
+    {
+      "path": "paper/suplemento.pdf",
+      "bytes": 590071,
+      "git_blob_sha1": "28fae9a08384d2d2d937bad360c32a39ce39432e",
+      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+    },
+    {
+      "path": "paper/suplemento.tex",
+      "bytes": 43926,
+      "git_blob_sha1": "08ffd9e2efcec80ac6729680e0646248a3f2fe7f",
+      "sha256": "f42327c8ad55e6aff66608c814fc2691b865f3de00c2f8c60bf67b136a692927"
+    },
+    {
+      "path": "paper/tables/editorial_v8_controls.tex",
+      "bytes": 459,
+      "git_blob_sha1": "94ed9bc4e83b8e305c1030133fdb6c90e6a432f3",
+      "sha256": "d227689e905437380315df149dcf94a2935d9e57b9d79110ee4ce660e91bfe2b"
+    },
+    {
+      "path": "paper/tables/editorial_v8_families.tex",
+      "bytes": 960,
+      "git_blob_sha1": "9621ea4b428215a0361109fe4a3e206c8f651602",
+      "sha256": "66997b01e7bd1eacdf89ffb95d76785c6787b100ece79c752981271edcede0e5"
+    },
+    {
+      "path": "paper/tables/editorial_v8_joint_sensitivity.tex",
+      "bytes": 1216,
+      "git_blob_sha1": "f0b2d84895b2c707c2dda68831b1b01513e54e4d",
+      "sha256": "c70070f227e21570aacfac3a37aca5cb113a4c1cc911af9488d000d7524f5b35"
+    },
+    {
+      "path": "results/tables/editorial_v8/displayed_coefficients.csv",
+      "bytes": 1065,
+      "git_blob_sha1": "bf659b68e90178fe0b9108021289eda227b3b610",
+      "sha256": "d989ca647b1a01464a91755b1a315a0fde742fe62ae2654409e3b5b09b848ccc"
+    },
+    {
+      "path": "results/tables/editorial_v8/displayed_joint_sensitivities.csv",
+      "bytes": 1252,
+      "git_blob_sha1": "9bb062e61576129d56d1e61888055ea78943d85e",
+      "sha256": "2b640a9b7549d4ab35a3360fa2a089cbda99520b4b480a15d8ffdc79df6580be"
+    },
+    {
+      "path": "scripts/build_editorial_tables.py",
+      "bytes": 3956,
+      "git_blob_sha1": "270e9d0840acb197f088567a9127f916dd43564a",
+      "sha256": "9c6b2dbab7c1fda865169c24fc4b200b47a3233affaf711b9dafbc4fc7dd4550"
+    },
+    {
+      "path": "scripts/build_paper.py",
+      "bytes": 3507,
+      "git_blob_sha1": "a32a3d4e00cad22fd58a7a5dd66157f286aeabe9",
+      "sha256": "d788c24bf822a1f193ca8b4a074d0f9c2b5cbdcb87c050b1ab182c2254d95704"
+    },
+    {
+      "path": "scripts/package_review.py",
+      "bytes": 4382,
+      "git_blob_sha1": "9acc3d11a31d536ea4d02c13e8c50d0cb15b1acd",
+      "sha256": "c1cde71736c7d8ea1c528c8fa2bf420b6ca6284541806e07e732a2f171ae9089"
+    },
+    {
+      "path": "scripts/verify_distribution.py",
+      "bytes": 2740,
+      "git_blob_sha1": "829fae58c28f3ac2bc01e28fe359ce71de9d4251",
+      "sha256": "121810bc5d17c1177037058ec8236c8a5c6c5e7fa39ef1c60e8f4a0747e87c2a"
+    },
+    {
+      "path": "tests/test_distribution.py",
+      "bytes": 1315,
+      "git_blob_sha1": "178db885cc88ccdfced0bd7379e6ee9de0f95cd5",
+      "sha256": "94fe75acd51bf78e67d1a31979e80f0d599ce1c59d45f40e454107a989a6213e"
+    }
+  ],
+  "public_packaging_files": [
+    {
+      "path": "README.md",
+      "bytes": 2633,
+      "git_blob_sha1": "32c241fbaaa39b5c2afab5152a65626326d957d5",
+      "sha256": "ed794eee5fa65dd353ee21fb0f3702dda7c67025cce1573bcb6b341527570e8b"
+    },
+    {
+      "path": "docs/RELEASE_STATUS.md",
+      "bytes": 3538,
+      "git_blob_sha1": "99b833fb265409dfe1d061d41f54922e3d097b1c",
+      "sha256": "0e323bf2b4220b407f0d884d933768ab375e08082785f2fcc8d548b9a00840a0"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 13405,
+      "git_blob_sha1": "f767a9d3811ea15455ba4da2836958e9a0a512ce",
+      "sha256": "e3526f5e61386a762cd0278b846a2f1664ee3fe023a46ca79cbbcfaeb20a8249"
+    }
+  ],
+  "scope": "Editorial revision M1-M4 and R1-R3, public compilation/distribution verification. No new quotes, estimates or simulations.",
+  "main_pages": 15,
+  "supplement_pages": 34,
+  "checks": {
+    "baseline_scientific_files_unchanged": 470,
+    "protected_production_pins_unchanged": 70,
+    "distribution_files_verified": 558,
+    "overleaf_members_verified": 67,
+    "distribution_unit_tests_passed": 3,
+    "isolated_overleaf_rebuild": "Byte-identical in the tested TeX environment"
+  },
+  "receipts": [
+    "data/editorial_v8/latex_validation.json",
+    "data/editorial_v8/reproduction_validation.json",
+    "data/editorial_v8/portable_build_validation.json",
+    "data/editorial_v8/distribution_validation.json",
+    "data/editorial_v8/visual_validation.json"
+  ],
+  "limitations": [
+    "Raw authenticated inputs remain in Drive; complete estimation requires those inputs and their access rights.",
+    "No blanket license for third-party data or templates is granted.",
+    "Hashes identify supplied files; they are not statistical certification or an author signature.",
+    "No cross-TeX-version binary identity claim."
+  ]
+}

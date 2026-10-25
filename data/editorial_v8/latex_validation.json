@@ -1,0 +1,24 @@
+{
+  "edition": "editorial-v8-20261025",
+  "source_date_epoch": 1792886400,
+  "scope": "PDF compilation only; no data downloads or estimation",
+  "pdfs": {
+    "main": {
+      "bytes": 322689,
+      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec",
+      "pages": 15,
+      "undefined_references": false,
+      "missing_characters": false,
+      "overfull_boxes": []
+    },
+    "suplemento": {
+      "bytes": 590071,
+      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729",
+      "pages": 34,
+      "undefined_references": false,
+      "missing_characters": false,
+      "overfull_boxes": []
+    }
+  },
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)"
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "existing authenticated Drive inputs, not included in public distribution; access permissions unchanged",
+  "inputs": {
+    "X": {
+      "drive_id": "1aExT7v-GD8s5xKzM0K-0LIIJER8E8Twg",
+      "sha256": "297da2afde534082c398324f308df7af134c9692e7d61d6e0b2b820341ea5214",
+      "receipt": "data/lab02/validacao_lab02x_colab_20261022.json"
+    },
+    "I": {
+      "drive_id": "1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru",
+      "sha256": "ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e",
+      "receipt": "data/lab03i/validacao_colab_20261024.json"
+    },
+    "J": {
+      "drive_id": "17DxLLmCd-UD0NXlFXDQNANbk1fxmqZ2q",
+      "sha256": "96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce",
+      "receipt": "data/lab03j/validacao_colab_20261024.json"
+    },
+    "K": {
+      "drive_id": "1BNhpQCD9GpZcAHp-ZAtnPRTESyiDn1Iu",
+      "sha256": "ea84527ca1039fee3f5ba60d83ef070bb56845ac744a65ee98aa712affb10d5b",
+      "receipt": "data/lab03k/validacao_colab_20261025.json"
+    }
+  },
+  "B3_2015_2025_cache_manifest": "data/lab03i/b3_cache_manifest.json"
+}

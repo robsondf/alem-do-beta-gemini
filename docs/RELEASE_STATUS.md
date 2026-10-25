@@ -1,5 +1,10 @@
 # Direitos e estado editorial
 
+## Edição editorial v8 — fechamento
+
+Artigo de 15 páginas e suplemento de 34, com PDFs versionados, fontes para Overleaf, manifesto SHA-256 e verificador. Consulte [o guia da edição](EDICAO_V8.md) e [direitos/dados](DIREITOS_E_DADOS.md). Todos os resultados anteriores são preservados; esta etapa não requer outro notebook ou simulação. Os checkpoints seguintes são históricos.
+
+
 ## Checkpoint K — fechamento dos pareceres
 
 Consulte [Lab03K](lab03k_fechamento.md) e [as disposições](resposta_pareceres_K.md). Execução do autor no Colab conferida: cinco códigos sem exceções, 20 fontes, 43 membros autenticados, 72.724 células de tabelas e 1.665.000 valores de bancos concordantes; 12.381 limiares preservados e gráfico idêntico. Não repetir os labs ou executar outro notebook nesta conferência. Artigo e suplemento registram a execução efetiva, preservando os resultados e as limitações.

@@ -1,0 +1,16 @@
+{
+  "edition": "editorial-v8-20261025",
+  "binary_rebuild_identical_in_two_directories": true,
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+  "source_date_epoch": 1792886400,
+  "original_scientific_files_unchanged": 470,
+  "new_estimates": 0,
+  "new_simulations": 0,
+  "new_downloads_of_quotes": 0,
+  "inherited_tables_preserved": true,
+  "pdf_sha256": {
+    "main": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec",
+    "suplemento": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+  },
+  "binary_rebuild_identical_from_isolated_source_zip": true
+}

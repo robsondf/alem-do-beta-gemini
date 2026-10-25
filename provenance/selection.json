@@ -420,13 +420,6 @@
       "mode": "100644"
     },
     {
-      "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "b9a9e6e52ac2b1d534bab1f0a81862b5eaab0a44",
-      "bytes": 33049,
-      "mode": "100644",
-      "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
-    },
-    {
       "path": "paper/caption2.sty",
       "git_blob_sha1": "0575c72fc021ed6d133b201a4e8fe43db250733a",
       "bytes": 15190,
@@ -479,71 +472,6 @@
       "git_blob_sha1": "18c1585cae2501e3f4a4dcb3e975b71bf1e8897b",
       "bytes": 18835,
       "mode": "100644"
-    },
-    {
-      "path": "paper/main.pdf",
-      "git_blob_sha1": "13653dc2136ac6433469b127a3a267be29f2cf5e",
-      "bytes": 353281,
-      "mode": "100644",
-      "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
-    },
-    {
-      "path": "paper/main.tex",
-      "git_blob_sha1": "4db8b805379f010821e7f4253c371ccae27b0403",
-      "bytes": 3709,
-      "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
-      "prior_versions": [
-        {
-          "path": "paper/main.tex",
-          "git_blob_sha1": "ad2093e5350815456fbd19dea287354a73a1f943",
-          "bytes": 3281,
-          "mode": "100644"
-        },
-        {
-          "path": "paper/main.tex",
-          "git_blob_sha1": "15814fdf6b54c269deabb5b7e0f4875dad5fce8d",
-          "bytes": 3331,
-          "mode": "100644",
-          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
-        },
-        {
-          "path": "paper/main.tex",
-          "git_blob_sha1": "e642754a919c9185cc3ee2125bd2c5c2616dcb03",
-          "bytes": 3185,
-          "mode": "100644",
-          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-        },
-        {
-          "path": "paper/main.tex",
-          "git_blob_sha1": "25239ffc9797801a4d54d57179dcf2671789b3f1",
-          "bytes": 3547,
-          "mode": "100644",
-          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
-        }
-      ]
-    },
-    {
-      "path": "paper/references_artigo.bib",
-      "git_blob_sha1": "0dcbfd1c145dc4a721d7009f4f7c085111c86c00",
-      "bytes": 14313,
-      "mode": "100644",
-      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7",
-      "prior_versions": [
-        {
-          "path": "paper/references_artigo.bib",
-          "git_blob_sha1": "c09a1dc158dcb9b663fc1d95803ec61a4f59ea0d",
-          "bytes": 11659,
-          "mode": "100644"
-        },
-        {
-          "path": "paper/references_artigo.bib",
-          "git_blob_sha1": "a033164003db205eae681b11911f0fe7e4380001",
-          "bytes": 13836,
-          "mode": "100644",
-          "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
-        }
-      ]
     },
     {
       "path": "paper/sbc-template.sty",
@@ -10379,6 +10307,77 @@
   ],
   "revision_artifacts": [
     {
+      "path": "CITATION.cff",
+      "git_blob_sha1": "d59f26c5a04e88948704728b44f5f35ca66a2ba9",
+      "bytes": 897,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "32c241fbaaa39b5c2afab5152a65626326d957d5",
+      "bytes": 2633,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
+      "path": "data/editorial_v8/abstract_counts.json",
+      "git_blob_sha1": "03eaafae5535f9a2afabcefd4dbf9614bf35d54c",
+      "bytes": 232,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/distribution_validation.json",
+      "git_blob_sha1": "62e889806ad82c492aa86e2b7021f1e0200efbf0",
+      "bytes": 202,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/external_inputs.json",
+      "git_blob_sha1": "4ad1d120cb637d477dcff1556ccb0faa2d5dd94c",
+      "bytes": 1087,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/latex_validation.json",
+      "git_blob_sha1": "c7e4e7d339f89b704e1378c985b0b47c555f53ae",
+      "bytes": 729,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/portable_build_validation.json",
+      "git_blob_sha1": "5301bcf498d2d22d1b8e4ec50b082c139c8b3116",
+      "bytes": 520,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/reproduction_validation.json",
+      "git_blob_sha1": "927a5f56d8b970c766b419ca431068976c2ee656",
+      "bytes": 613,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/table_derivation.json",
+      "git_blob_sha1": "3d62b83e6e71b892a3fdd9f2a09f3f5c0f4e0004",
+      "bytes": 344,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "data/editorial_v8/visual_validation.json",
+      "git_blob_sha1": "7d3cf0f2f55553b9bba8ae06120990af1664f0f9",
+      "bytes": 671,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
       "path": "data/lab03f/fontes_literatura.json",
       "git_blob_sha1": "358ff69b2859a9c5be99841a4892a8222d0ce1bb",
       "bytes": 1617,
@@ -10591,13 +10590,6 @@
       "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
     },
     {
-      "path": "data/lab03i/compilacao_colab_20261024.json",
-      "git_blob_sha1": "d9e504bf08b6a44aea95b6573cf2e2060e4196e0",
-      "bytes": 880,
-      "mode": "100644",
-      "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
-    },
-    {
       "path": "data/lab03i/compilacao.json",
       "git_blob_sha1": "44e5a22dd101185445dff11f1a7269c2db5d03c8",
       "bytes": 2017,
@@ -10612,6 +10604,13 @@
           "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
         }
       ]
+    },
+    {
+      "path": "data/lab03i/compilacao_colab_20261024.json",
+      "git_blob_sha1": "d9e504bf08b6a44aea95b6573cf2e2060e4196e0",
+      "bytes": 880,
+      "mode": "100644",
+      "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
     },
     {
       "path": "data/lab03i/inputs_manifest.json",
@@ -10985,6 +10984,71 @@
       "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
     },
     {
+      "path": "distribution/SHA256SUMS_v8_20261025.txt",
+      "git_blob_sha1": "7757370a0e6152821c73599cefbe008c8444f1d5",
+      "bytes": 449,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "distribution/alem_do_beta_v8_20261025.pdf",
+      "git_blob_sha1": "86d05053499ade37a297b8ecfcce13a5e0f5cb00",
+      "bytes": 322689,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "distribution/alem_do_beta_v8_overleaf_20261025.zip",
+      "git_blob_sha1": "3b513d8f396bac8500e7e53554ddae39ab8c8304",
+      "bytes": 367689,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "distribution/manifest_v8_20261025.json",
+      "git_blob_sha1": "1f88501a0c5272f0df8b5978271a91c6835f4ce3",
+      "bytes": 111767,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "distribution/suplemento_alem_do_beta_v8_20261025.pdf",
+      "git_blob_sha1": "28fae9a08384d2d2d937bad360c32a39ce39432e",
+      "bytes": 590071,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "docs/DIREITOS_E_DADOS.md",
+      "git_blob_sha1": "69dbcc07021d4c829a0ae951a7575646c5f482ac",
+      "bytes": 2711,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "docs/EDICAO_V8.md",
+      "git_blob_sha1": "05cbf623458cbef942fd7462255f73cca7930b93",
+      "bytes": 5197,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "docs/RELEASE_STATUS.md",
+      "git_blob_sha1": "99b833fb265409dfe1d061d41f54922e3d097b1c",
+      "bytes": 3538,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "git_blob_sha1": "f767a9d3811ea15455ba4da2836958e9a0a512ce",
+      "bytes": 13405,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
       "path": "docs/lab03f_pos_parecer.md",
       "git_blob_sha1": "89cd868595ce951846ca5bc9a3037fd624952ab6",
       "bytes": 10582,
@@ -11082,22 +11146,6 @@
       "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
     },
     {
-      "path": "docs/RELEASE_STATUS.md",
-      "bytes": 3145,
-      "git_blob_sha1": "d597c0aaff4f17fb18142174c7ce2c64e09f256c",
-      "mode": "100644",
-      "source_commit": null,
-      "origin": "public_packaging"
-    },
-    {
-      "path": "docs/REPRODUCTION.md",
-      "bytes": 13012,
-      "git_blob_sha1": "897954f1c1d45ba619eb70266702af37f1f95282",
-      "mode": "100644",
-      "source_commit": null,
-      "origin": "public_packaging"
-    },
-    {
       "path": "docs/resposta_pareceres_20261024.md",
       "git_blob_sha1": "30ff2244181d390498476c1d3f97284716a9bf8f",
       "bytes": 14620,
@@ -11163,6 +11211,13 @@
       "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
+      "path": "docs/resposta_pareceres_V7.md",
+      "git_blob_sha1": "f4bb4f4eadc68b044a44266e986e3587611abbc9",
+      "bytes": 4401,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
       "path": "notebooks/Lab03F_pos_parecer.ipynb",
       "git_blob_sha1": "85f468182d63b195a11dfa1fd87a7023747ac9dd",
       "bytes": 12922,
@@ -11198,11 +11253,18 @@
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
-      "path": "paper/artigo_revisado.tex",
-      "git_blob_sha1": "387174708976bcbe3e7926e43edfd3b1d4a79d2c",
-      "bytes": 42534,
+      "path": "paper/README.md",
+      "git_blob_sha1": "3c945bba297753caa875ef00d9e6485239a8ceaf",
+      "bytes": 1681,
       "mode": "100644",
-      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "paper/artigo_revisado.tex",
+      "git_blob_sha1": "30c8624068df71957a7a433a0b6783ea5965db78",
+      "bytes": 33248,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "paper/figures/lab02/lab03f_agregado.pdf",
@@ -11318,17 +11380,17 @@
     },
     {
       "path": "paper/main.pdf",
-      "git_blob_sha1": "285b499affb8ba9e1d2e52ebb668f601e03f862f",
-      "bytes": 350574,
+      "git_blob_sha1": "86d05053499ade37a297b8ecfcce13a5e0f5cb00",
+      "bytes": 322689,
       "mode": "100644",
-      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "paper/main.tex",
-      "git_blob_sha1": "2bcb5cf70b3257eb9d5a1752a7140609bb4085dd",
-      "bytes": 3170,
+      "git_blob_sha1": "b06da68acab1b3a14cb1234f2f254365bb7daf5c",
+      "bytes": 3268,
       "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "paper/references_artigo.bib",
@@ -11338,25 +11400,25 @@
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
+      "path": "paper/suplemento.pdf",
+      "git_blob_sha1": "28fae9a08384d2d2d937bad360c32a39ce39432e",
+      "bytes": 590071,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "paper/suplemento.tex",
+      "git_blob_sha1": "08ffd9e2efcec80ac6729680e0646248a3f2fe7f",
+      "bytes": 43926,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
       "path": "paper/suplemento_metodos.tex",
       "git_blob_sha1": "dedcd618ce244e39d95390055d5d7175773fe020",
       "bytes": 31374,
       "mode": "100644",
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
-    },
-    {
-      "path": "paper/suplemento.pdf",
-      "git_blob_sha1": "4fc1f8d62b1555fe6c5fb364ec934360de571579",
-      "bytes": 556229,
-      "mode": "100644",
-      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
-    },
-    {
-      "path": "paper/suplemento.tex",
-      "git_blob_sha1": "0dbe23f831d3b4c64e54991f279252eb51a6d2ad",
-      "bytes": 30289,
-      "mode": "100644",
-      "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
     },
     {
       "path": "paper/tables/casos_criticos.tex",
@@ -11373,6 +11435,27 @@
           "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
         }
       ]
+    },
+    {
+      "path": "paper/tables/editorial_v8_controls.tex",
+      "git_blob_sha1": "94ed9bc4e83b8e305c1030133fdb6c90e6a432f3",
+      "bytes": 459,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "paper/tables/editorial_v8_families.tex",
+      "git_blob_sha1": "9621ea4b428215a0361109fe4a3e206c8f651602",
+      "bytes": 960,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "paper/tables/editorial_v8_joint_sensitivity.tex",
+      "git_blob_sha1": "f0b2d84895b2c707c2dda68831b1b01513e54e4d",
+      "bytes": 1216,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "paper/tables/lab03f_agregado.tex",
@@ -11594,12 +11677,26 @@
       "origin": "public_packaging"
     },
     {
-      "path": "README.md",
-      "bytes": 13989,
-      "git_blob_sha1": "cf1361a0b4fb39efab07f514c56f320e917623fa",
+      "path": "provenance/verification_editorial_v8_20261025.json",
+      "git_blob_sha1": "ce7a45c8dfadd28fe9b85f409c72584742e332cb",
+      "bytes": 9907,
       "mode": "100644",
       "source_commit": null,
       "origin": "public_packaging"
+    },
+    {
+      "path": "results/tables/editorial_v8/displayed_coefficients.csv",
+      "git_blob_sha1": "bf659b68e90178fe0b9108021289eda227b3b610",
+      "bytes": 1065,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
+      "path": "results/tables/editorial_v8/displayed_joint_sensitivities.csv",
+      "git_blob_sha1": "9bb062e61576129d56d1e61888055ea78943d85e",
+      "bytes": 1252,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "results/tables/lab03f_pos_parecer_20261024/aggregate.csv.gz",
@@ -11679,6 +11776,13 @@
       "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
     },
     {
+      "path": "results/tables/lab03g_pos_parecer_v3_20261024/calibration.tex",
+      "git_blob_sha1": "dc5c6b26ad5e3f2e87ad694270e00c71f64f8018",
+      "bytes": 444,
+      "mode": "100644",
+      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+    },
+    {
       "path": "results/tables/lab03g_pos_parecer_v3_20261024/calibration_cases.csv",
       "git_blob_sha1": "811813cb84fca777164f4f695fc3a1585e956d94",
       "bytes": 33168,
@@ -11696,13 +11800,6 @@
       "path": "results/tables/lab03g_pos_parecer_v3_20261024/calibration_replications.csv.gz",
       "git_blob_sha1": "83f07315d888b0cc07c003145ef3eea9a557e860",
       "bytes": 5469725,
-      "mode": "100644",
-      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-    },
-    {
-      "path": "results/tables/lab03g_pos_parecer_v3_20261024/calibration.tex",
-      "git_blob_sha1": "dc5c6b26ad5e3f2e87ad694270e00c71f64f8018",
-      "bytes": 444,
       "mode": "100644",
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
     },
@@ -11749,6 +11846,13 @@
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
     },
     {
+      "path": "results/tables/lab03g_pos_parecer_v3_20261024/temporal.tex",
+      "git_blob_sha1": "d4513bdfb769dad07406978d6d1ad173f334f3d0",
+      "bytes": 449,
+      "mode": "100644",
+      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+    },
+    {
       "path": "results/tables/lab03g_pos_parecer_v3_20261024/temporal_asset_points.csv",
       "git_blob_sha1": "e913f86908fad28c9cc97c632f43f21ae7bedcf5",
       "bytes": 8109,
@@ -11763,23 +11867,9 @@
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
     },
     {
-      "path": "results/tables/lab03g_pos_parecer_v3_20261024/temporal.tex",
-      "git_blob_sha1": "d4513bdfb769dad07406978d6d1ad173f334f3d0",
-      "bytes": 449,
-      "mode": "100644",
-      "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-    },
-    {
       "path": "results/tables/lab03h_pos_parecer_v4_20261024/annual_overview.csv",
       "git_blob_sha1": "3ee824310199d7c7d6ada894e901a8919303cecb",
       "bytes": 2249,
-      "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
-    },
-    {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/cdf_diagnostics.csv",
-      "git_blob_sha1": "bd32f643b1ba8b6ace8c23a337484c15c8e474fd",
-      "bytes": 18814,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
@@ -11791,9 +11881,23 @@
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/cdf_diagnostics.csv",
+      "git_blob_sha1": "bd32f643b1ba8b6ace8c23a337484c15c8e474fd",
+      "bytes": 18814,
+      "mode": "100644",
+      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+    },
+    {
       "path": "results/tables/lab03h_pos_parecer_v4_20261024/coverage_by_target.csv",
       "git_blob_sha1": "bba8c3764c6a03340679b9f92391ed2336922be1",
       "bytes": 5378,
+      "mode": "100644",
+      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+    },
+    {
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/crisis.tex",
+      "git_blob_sha1": "b81e2e6e28adbbc83ae5f19a0e37f0d58403a652",
+      "bytes": 577,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
@@ -11815,13 +11919,6 @@
       "path": "results/tables/lab03h_pos_parecer_v4_20261024/crisis_draws.npz",
       "git_blob_sha1": "34f5058e8bd713a4cea0cd8ed19f1372bcd71e93",
       "bytes": 457047,
-      "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
-    },
-    {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/crisis.tex",
-      "git_blob_sha1": "b81e2e6e28adbbc83ae5f19a0e37f0d58403a652",
-      "bytes": 577,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
@@ -11854,16 +11951,16 @@
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/microstructure_raw_and_adjusted.csv",
-      "git_blob_sha1": "84cbb160b1381846e99feee30011a514f107d9b4",
-      "bytes": 11391,
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/microstructure.tex",
+      "git_blob_sha1": "2a7fe4f9fc250501bc0960b5846bfc523c502794",
+      "bytes": 322,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/microstructure.tex",
-      "git_blob_sha1": "2a7fe4f9fc250501bc0960b5846bfc523c502794",
-      "bytes": 322,
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/microstructure_raw_and_adjusted.csv",
+      "git_blob_sha1": "84cbb160b1381846e99feee30011a514f107d9b4",
+      "bytes": 11391,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
@@ -11882,16 +11979,16 @@
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/scale_diagnostics.csv",
-      "git_blob_sha1": "141b3a5472fdc4d1b7c9b4039513b799bf3ace33",
-      "bytes": 1495,
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/scale.tex",
+      "git_blob_sha1": "f2f36604a5d28750ab33624c6bf8bc102be6a877",
+      "bytes": 459,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
-      "path": "results/tables/lab03h_pos_parecer_v4_20261024/scale.tex",
-      "git_blob_sha1": "f2f36604a5d28750ab33624c6bf8bc102be6a877",
-      "bytes": 459,
+      "path": "results/tables/lab03h_pos_parecer_v4_20261024/scale_diagnostics.csv",
+      "git_blob_sha1": "141b3a5472fdc4d1b7c9b4039513b799bf3ace33",
+      "bytes": 1495,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
@@ -12323,6 +12420,13 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "scripts/build_editorial_tables.py",
+      "git_blob_sha1": "270e9d0840acb197f088567a9127f916dd43564a",
+      "bytes": 3956,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
       "path": "scripts/build_lab03f_notebook.py",
       "git_blob_sha1": "49fa28b008a98bca2c119cb4478b1682971df3d6",
       "bytes": 11445,
@@ -12406,6 +12510,13 @@
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
+      "path": "scripts/build_paper.py",
+      "git_blob_sha1": "a32a3d4e00cad22fd58a7a5dd66157f286aeabe9",
+      "bytes": 3507,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
+    },
+    {
       "path": "scripts/calibrate_lab03k.py",
       "git_blob_sha1": "d9358548811723d51aa1956f38c7a375708663fd",
       "bytes": 6472,
@@ -12446,6 +12557,13 @@
       "bytes": 2145,
       "mode": "100644",
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/package_review.py",
+      "git_blob_sha1": "9acc3d11a31d536ea4d02c13e8c50d0cb15b1acd",
+      "bytes": 4382,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "scripts/plot_lab03f.py",
@@ -12511,6 +12629,13 @@
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
+      "path": "scripts/run_lab03j.py",
+      "git_blob_sha1": "37074ba6af62874485495b25534c0697fdba2d16",
+      "bytes": 2990,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "scripts/run_lab03j_batch.py",
       "git_blob_sha1": "c3e53dd73f1ada526afc1bc5cb18cf1e6cc332cb",
       "bytes": 2637,
@@ -12521,13 +12646,6 @@
       "path": "scripts/run_lab03j_successions.py",
       "git_blob_sha1": "6b8fd2ef8b33c262a3c4f9bfd494d4035978bfea",
       "bytes": 5534,
-      "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
-    },
-    {
-      "path": "scripts/run_lab03j.py",
-      "git_blob_sha1": "37074ba6af62874485495b25534c0697fdba2d16",
-      "bytes": 2990,
       "mode": "100644",
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
@@ -12553,11 +12671,11 @@
       "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
     },
     {
-      "path": "scripts/verify_lab03f_colab.py",
-      "git_blob_sha1": "67b8d953b0dfef175d744816d6bc256dccda6992",
-      "bytes": 5699,
+      "path": "scripts/verify_distribution.py",
+      "git_blob_sha1": "829fae58c28f3ac2bc01e28fe359ce71de9d4251",
+      "bytes": 2740,
       "mode": "100644",
-      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3"
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "scripts/verify_lab03f.py",
@@ -12567,11 +12685,11 @@
       "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
     },
     {
-      "path": "scripts/verify_lab03g_colab.py",
-      "git_blob_sha1": "0aff42474043ce27c0f6475dbeb55f8d0c3c7828",
-      "bytes": 7570,
+      "path": "scripts/verify_lab03f_colab.py",
+      "git_blob_sha1": "67b8d953b0dfef175d744816d6bc256dccda6992",
+      "bytes": 5699,
       "mode": "100644",
-      "source_commit": "7d2e07e8d5f132510a27c621b2dcb3b928b830d2"
+      "source_commit": "fb5ccb7fe04d005a1376f732d2e025b28c357ef3"
     },
     {
       "path": "scripts/verify_lab03g.py",
@@ -12579,6 +12697,13 @@
       "bytes": 7360,
       "mode": "100644",
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
+    },
+    {
+      "path": "scripts/verify_lab03g_colab.py",
+      "git_blob_sha1": "0aff42474043ce27c0f6475dbeb55f8d0c3c7828",
+      "bytes": 7570,
+      "mode": "100644",
+      "source_commit": "7d2e07e8d5f132510a27c621b2dcb3b928b830d2"
     },
     {
       "path": "scripts/verify_lab03h.py",
@@ -12595,6 +12720,13 @@
       "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
     },
     {
+      "path": "scripts/verify_lab03j.py",
+      "git_blob_sha1": "13f094bbda9a0380196daeff25a4c47c273c5818",
+      "bytes": 5838,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "scripts/verify_lab03j_colab.py",
       "git_blob_sha1": "22a73d76a2460e48fa837a0e031a7594faac42f2",
       "bytes": 9551,
@@ -12609,11 +12741,11 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
-      "path": "scripts/verify_lab03j.py",
-      "git_blob_sha1": "13f094bbda9a0380196daeff25a4c47c273c5818",
-      "bytes": 5838,
+      "path": "scripts/verify_lab03k.py",
+      "git_blob_sha1": "c76a486ef4ef8cf43d09df4e396b6ea4c0fbb1ec",
+      "bytes": 4423,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
       "path": "scripts/verify_lab03k_colab.py",
@@ -12621,13 +12753,6 @@
       "bytes": 6821,
       "mode": "100644",
       "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
-    },
-    {
-      "path": "scripts/verify_lab03k.py",
-      "git_blob_sha1": "c76a486ef4ef8cf43d09df4e396b6ea4c0fbb1ec",
-      "bytes": 4423,
-      "mode": "100644",
-      "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
     },
     {
       "path": "scripts/verify_review_2015.py",
@@ -12670,6 +12795,13 @@
       "bytes": 2843,
       "mode": "100644",
       "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+    },
+    {
+      "path": "tests/test_distribution.py",
+      "git_blob_sha1": "178db885cc88ccdfced0bd7379e6ee9de0f95cd5",
+      "bytes": 1315,
+      "mode": "100644",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9"
     },
     {
       "path": "tests/test_lab03f.py",
@@ -13724,6 +13856,169 @@
           "origin": "public_packaging"
         }
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "stage": "Editorial v8 finalization and verifiable versioned distribution",
+      "source_commit": "1cc21f8af179f7da0e02f986a79b13e9fc6b1eb9",
+      "previous_public_commit": "cbd16eb77969310db1d0d7e7ce3ca58e9d25137f",
+      "updated_paths": [
+        "CITATION.cff",
+        "data/editorial_v8/abstract_counts.json",
+        "data/editorial_v8/distribution_validation.json",
+        "data/editorial_v8/external_inputs.json",
+        "data/editorial_v8/latex_validation.json",
+        "data/editorial_v8/portable_build_validation.json",
+        "data/editorial_v8/reproduction_validation.json",
+        "data/editorial_v8/table_derivation.json",
+        "data/editorial_v8/visual_validation.json",
+        "distribution/SHA256SUMS_v8_20261025.txt",
+        "distribution/alem_do_beta_v8_20261025.pdf",
+        "distribution/alem_do_beta_v8_overleaf_20261025.zip",
+        "distribution/manifest_v8_20261025.json",
+        "distribution/suplemento_alem_do_beta_v8_20261025.pdf",
+        "docs/DIREITOS_E_DADOS.md",
+        "docs/EDICAO_V8.md",
+        "docs/resposta_pareceres_V7.md",
+        "paper/README.md",
+        "paper/artigo_revisado.tex",
+        "paper/main.pdf",
+        "paper/main.tex",
+        "paper/suplemento.pdf",
+        "paper/suplemento.tex",
+        "paper/tables/editorial_v8_controls.tex",
+        "paper/tables/editorial_v8_families.tex",
+        "paper/tables/editorial_v8_joint_sensitivity.tex",
+        "results/tables/editorial_v8/displayed_coefficients.csv",
+        "results/tables/editorial_v8/displayed_joint_sensitivities.csv",
+        "scripts/build_editorial_tables.py",
+        "scripts/build_paper.py",
+        "scripts/package_review.py",
+        "scripts/verify_distribution.py",
+        "tests/test_distribution.py"
+      ],
+      "public_packaging_paths": [
+        "README.md",
+        "docs/RELEASE_STATUS.md",
+        "docs/REPRODUCTION.md",
+        "provenance/verification_editorial_v8_20261025.json"
+      ],
+      "preserved_previous_manifest_entries": [
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "b9a9e6e52ac2b1d534bab1f0a81862b5eaab0a44",
+          "bytes": 33049,
+          "mode": "100644",
+          "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "13653dc2136ac6433469b127a3a267be29f2cf5e",
+          "bytes": 353281,
+          "mode": "100644",
+          "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
+        },
+        {
+          "path": "paper/main.tex",
+          "git_blob_sha1": "4db8b805379f010821e7f4253c371ccae27b0403",
+          "bytes": 3709,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        },
+        {
+          "path": "paper/suplemento.pdf",
+          "git_blob_sha1": "4fc1f8d62b1555fe6c5fb364ec934360de571579",
+          "bytes": 556229,
+          "mode": "100644",
+          "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+        },
+        {
+          "path": "paper/suplemento.tex",
+          "git_blob_sha1": "0dbe23f831d3b4c64e54991f279252eb51a6d2ad",
+          "bytes": 30289,
+          "mode": "100644",
+          "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+        },
+        {
+          "path": "README.md",
+          "bytes": 13989,
+          "git_blob_sha1": "cf1361a0b4fb39efab07f514c56f320e917623fa",
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/RELEASE_STATUS.md",
+          "bytes": 3145,
+          "git_blob_sha1": "d597c0aaff4f17fb18142174c7ce2c64e09f256c",
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "docs/REPRODUCTION.md",
+          "bytes": 13012,
+          "git_blob_sha1": "897954f1c1d45ba619eb70266702af37f1f95282",
+          "mode": "100644",
+          "source_commit": null,
+          "origin": "public_packaging"
+        },
+        {
+          "path": "paper/artigo_revisado.tex",
+          "git_blob_sha1": "387174708976bcbe3e7926e43edfd3b1d4a79d2c",
+          "bytes": 42534,
+          "mode": "100644",
+          "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+        },
+        {
+          "path": "paper/main.pdf",
+          "git_blob_sha1": "285b499affb8ba9e1d2e52ebb668f601e03f862f",
+          "bytes": 350574,
+          "mode": "100644",
+          "source_commit": "f742a757f0fd5f7e743de9d64c4d39ace806255a"
+        },
+        {
+          "path": "paper/main.tex",
+          "git_blob_sha1": "2bcb5cf70b3257eb9d5a1752a7140609bb4085dd",
+          "bytes": 3170,
+          "mode": "100644",
+          "source_commit": "54e1418663c31bf6013ce67cdf997c73cd5de45c"
+        },
+        {
+          "path": "paper/references_artigo.bib",
+          "git_blob_sha1": "0dcbfd1c145dc4a721d7009f4f7c085111c86c00",
+          "bytes": 14313,
+          "mode": "100644",
+          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7",
+          "prior_versions": [
+            {
+              "path": "paper/references_artigo.bib",
+              "git_blob_sha1": "c09a1dc158dcb9b663fc1d95803ec61a4f59ea0d",
+              "bytes": 11659,
+              "mode": "100644"
+            },
+            {
+              "path": "paper/references_artigo.bib",
+              "git_blob_sha1": "a033164003db205eae681b11911f0fe7e4380001",
+              "bytes": 13836,
+              "mode": "100644",
+              "source_commit": "21e6a3ad880bf421a6f1888c4762eb3386513921"
+            }
+          ]
+        }
+      ],
+      "new_estimation": false,
+      "new_Colab_required": false,
+      "method": "Exact copy of the canonical editorial files; versioned PDFs and Overleaf ZIP plus SHA-256 verifier. Historical scientific outputs and statistical families unchanged.",
+      "packaging_manifest_repair": {
+        "duplicate_paths_resolved": [
+          "paper/artigo_revisado.tex",
+          "paper/main.pdf",
+          "paper/main.tex",
+          "paper/references_artigo.bib"
+        ],
+        "method": "One current entry per path; superseded records retained in revision history. No source file changed."
+      }
     }
   ]
 }

@@ -1,0 +1,7 @@
+cohort,meaning,estimate,ci_low,ci_high,raw_marginal_p,interval_role
+original80,volume_or_turnover_at_fixed_size,0.032954243426969086,0.00842314396587241,0.06241970107238343,0.0206,"nominal basic95%, not simultaneous or dual to centered test"
+union118,volume_or_turnover_at_fixed_size,0.020885623231024563,-0.0009334710608605648,0.04540898063135533,0.0712,"nominal basic95%, not simultaneous or dual to centered test"
+original80,size_at_fixed_volume,0.02720444183101572,-0.010891766596607035,0.07250899622208523,0.1724,"nominal basic95%, not simultaneous or dual to centered test"
+union118,size_at_fixed_volume,0.05148064710023699,0.019947532682523812,0.11170846958051683,0.0428,"nominal basic95%, not simultaneous or dual to centered test"
+original80,size_at_fixed_turnover,0.06015868525798557,0.026806097096291587,0.11096833338540663,0.013,"nominal basic95%, not simultaneous or dual to centered test"
+union118,size_at_fixed_turnover,0.07236627033126143,0.043033792035214194,0.13193429396537112,0.0088,"nominal basic95%, not simultaneous or dual to centered test"
