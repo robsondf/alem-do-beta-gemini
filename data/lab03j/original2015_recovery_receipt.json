@@ -1,0 +1,405 @@
+{
+  "files": [
+    {
+      "codeCVM": 20958,
+      "CNPJ": "28.195.667/0001-06",
+      "ID_DOC": 52648,
+      "version": 10,
+      "received": "2015-12-30",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=52648",
+      "prefix_bytes_read": 262144,
+      "prefix_sha256": "af94cb7a32e1c3771473232b6698085302bc0149b8471e1ff71cebe1e15a42f6",
+      "full_archive_downloaded": false,
+      "outer_archive_CRC_not_claimed": true,
+      "complete_XML_members_CRC_verified": true,
+      "XML_sha256": {
+        "Documento.xml": "78352e4a25fbb28768a83f17812f23b25d0b6f5d89c9618ab1bea9e5104554df",
+        "CapitalSocial.xml": "9c4d134ded3168fdc7a2dede9dc32bcb7b0a2bb5e654bf76c48bb0b47685b420",
+        "DistribuicaoCapitalSocial.xml": "639dc49b7b868557a5e8d053f0e8cd964e66de7d7e0f444bc1013d5254400327",
+        "DesdobramentoGrupamentoBonificacao.xml": "8e986a9228b5ae8763ad8d0b1eb28fa92ea13354a921608ffd1305f2874e6dc9",
+        "AumentoCapitalEmissor.xml": "3c7e71458a65c3c8a227e6ca95fb682f494875e18128ea40400fcc8ca40e9f67",
+        "ReducaoCapitalEmissor.xml": "02f11ff50d337709b32b7e4c50fb73989d32e3fd769db2cbde6f484a79c80ca1",
+        "ValorMobiliarioMantidoTesourariaNegocios.xml": "2e78a7eeb5ea7696dcc287430b3427c8542e1b051e016ae426e26078b79300f1"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "codeCVM": 11592,
+      "error": "ValueError('Required complete XML unavailable:11592')"
+    },
+    {
+      "codeCVM": 20982,
+      "error": "ValueError('Required complete XML unavailable:20982')"
+    },
+    {
+      "codeCVM": 18465,
+      "error": "ValueError('Required complete XML unavailable:18465')"
+    },
+    {
+      "codeCVM": 21121,
+      "error": "ValueError('Required complete XML unavailable:21121')"
+    },
+    {
+      "codeCVM": 21350,
+      "error": "ValueError('Required complete XML unavailable:21350')"
+    },
+    {
+      "codeCVM": 20770,
+      "error": "ValueError('Required complete XML unavailable:20770')"
+    },
+    {
+      "codeCVM": 20516,
+      "error": "ValueError('Required complete XML unavailable:20516')"
+    },
+    {
+      "codeCVM": 23248,
+      "error": "ValueError('Required complete XML unavailable:23248')"
+    },
+    {
+      "codeCVM": 19836,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 18660,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 19763,
+      "error": "ValueError('Required complete XML unavailable:19763')"
+    },
+    {
+      "codeCVM": 12572,
+      "error": "ValueError('Required complete XML unavailable:12572')"
+    },
+    {
+      "codeCVM": 16101,
+      "error": "ValueError('Required complete XML unavailable:16101')"
+    },
+    {
+      "codeCVM": 20494,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 16292,
+      "error": "ValueError('Required complete XML unavailable:16292')"
+    },
+    {
+      "codeCVM": 17671,
+      "error": "ValueError('Required complete XML unavailable:17671')"
+    },
+    {
+      "codeCVM": 20028,
+      "error": "ValueError('Required complete XML unavailable:20028')"
+    },
+    {
+      "codeCVM": 22470,
+      "error": "ValueError('Required complete XML unavailable:22470')"
+    },
+    {
+      "codeCVM": 11762,
+      "error": "ValueError('Required complete XML unavailable:11762')"
+    },
+    {
+      "codeCVM": 20788,
+      "error": "ValueError('Required complete XML unavailable:20788')"
+    },
+    {
+      "codeCVM": 23310,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 6343,
+      "error": "ValueError('Required complete XML unavailable:6343')"
+    },
+    {
+      "codeCVM": 21733,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 4669,
+      "error": "ValueError('Required complete XML unavailable:4669')"
+    },
+    {
+      "codeCVM": 22497,
+      "error": "ValueError('Required complete XML unavailable:22497')"
+    },
+    {
+      "codeCVM": 19615,
+      "error": "ValueError('Required complete XML unavailable:19615')"
+    },
+    {
+      "codeCVM": 20800,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 2453,
+      "error": "ValueError('Required complete XML unavailable:2453')"
+    },
+    {
+      "codeCVM": 20087,
+      "error": "ValueError('Required complete XML unavailable:20087')"
+    },
+    {
+      "codeCVM": 19348,
+      "error": "ValueError('Required complete XML unavailable:19348')"
+    },
+    {
+      "codeCVM": 3980,
+      "error": "ValueError('Required complete XML unavailable:3980')"
+    },
+    {
+      "codeCVM": 19445,
+      "error": "ValueError('Required complete XML unavailable:19445')"
+    },
+    {
+      "codeCVM": 14320,
+      "error": "ValueError('Required complete XML unavailable:14320')"
+    },
+    {
+      "codeCVM": 23159,
+      "error": "ValueError('Required complete XML unavailable:23159')"
+    },
+    {
+      "codeCVM": 20745,
+      "error": "ValueError('Required complete XML unavailable:20745')"
+    },
+    {
+      "codeCVM": 20125,
+      "error": "ValueError('Required complete XML unavailable:20125')"
+    },
+    {
+      "codeCVM": 22012,
+      "error": "ValueError('Required complete XML unavailable:22012')"
+    },
+    {
+      "codeCVM": 8656,
+      "error": "ValueError('Required complete XML unavailable:8656')"
+    },
+    {
+      "codeCVM": 10456,
+      "error": "ValueError('Required complete XML unavailable:10456')"
+    },
+    {
+      "codeCVM": 20575,
+      "error": "ValueError('Required complete XML unavailable:20575')"
+    },
+    {
+      "codeCVM": 2437,
+      "error": "ValueError('Required complete XML unavailable:2437')"
+    },
+    {
+      "codeCVM": 23221,
+      "error": "ValueError('Required complete XML unavailable:23221')"
+    },
+    {
+      "codeCVM": 4030,
+      "error": "ValueError('Required complete XML unavailable:4030')"
+    },
+    {
+      "codeCVM": 8575,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 20915,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 5258,
+      "error": "ValueError('Required complete XML unavailable:5258')"
+    },
+    {
+      "codeCVM": 5410,
+      "error": "ValueError('Required complete XML unavailable:5410')"
+    },
+    {
+      "codeCVM": 7617,
+      "error": "ValueError('Required complete XML unavailable:7617')"
+    },
+    {
+      "codeCVM": 20605,
+      "error": "ValueError('Required complete XML unavailable:20605')"
+    },
+    {
+      "codeCVM": 21490,
+      "error": "ValueError('Required complete XML unavailable:21490')"
+    },
+    {
+      "codeCVM": 4170,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 6211,
+      "error": "ValueError('Required complete XML unavailable:6211')"
+    },
+    {
+      "codeCVM": 2577,
+      "error": "ValueError('Required complete XML unavailable:2577')"
+    },
+    {
+      "codeCVM": 8451,
+      "error": "ValueError('Required complete XML unavailable:8451')"
+    },
+    {
+      "codeCVM": 18724,
+      "error": "ValueError('Required complete XML unavailable:18724')"
+    },
+    {
+      "codeCVM": 14109,
+      "error": "ValueError('Required complete XML unavailable:14109')"
+    },
+    {
+      "codeCVM": 14460,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 20338,
+      "error": "ValueError('Required complete XML unavailable:20338')"
+    },
+    {
+      "codeCVM": 19879,
+      "error": "ValueError('Required complete XML unavailable:19879')"
+    },
+    {
+      "codeCVM": 19909,
+      "error": "ValueError('Required complete XML unavailable:19909')"
+    },
+    {
+      "codeCVM": 22187,
+      "error": "ValueError('Required complete XML unavailable:22187')"
+    },
+    {
+      "codeCVM": 14311,
+      "error": "ValueError('Required complete XML unavailable:14311')"
+    },
+    {
+      "codeCVM": 16659,
+      "error": "ValueError('Required complete XML unavailable:16659')"
+    },
+    {
+      "codeCVM": 17639,
+      "error": "ValueError('Required complete XML unavailable:17639')"
+    },
+    {
+      "codeCVM": 21237,
+      "error": "ValueError('Required complete XML unavailable:21237')"
+    },
+    {
+      "codeCVM": 19925,
+      "error": "ValueError('Required complete XML unavailable:19925')"
+    },
+    {
+      "codeCVM": 1210,
+      "error": "ValueError('Required complete XML unavailable:1210')"
+    },
+    {
+      "codeCVM": 18376,
+      "error": "ValueError('Required complete XML unavailable:18376')"
+    },
+    {
+      "codeCVM": 23264,
+      "error": "ValueError('Required complete XML unavailable:23264')"
+    },
+    {
+      "codeCVM": 14761,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 11932,
+      "error": "ValueError('Required complete XML unavailable:11932')"
+    },
+    {
+      "codeCVM": 20010,
+      "error": "ValueError('Required complete XML unavailable:20010')"
+    },
+    {
+      "codeCVM": 4820,
+      "error": "ValueError('Required complete XML unavailable:4820')"
+    },
+    {
+      "codeCVM": 20524,
+      "error": "ValueError('Required complete XML unavailable:20524')"
+    },
+    {
+      "codeCVM": 18821,
+      "error": "ValueError('Required complete XML unavailable:18821')"
+    },
+    {
+      "codeCVM": 1023,
+      "error": "ValueError('Required complete XML unavailable:1023')"
+    },
+    {
+      "codeCVM": 7870,
+      "error": "ValueError('Required complete XML unavailable:7870')"
+    },
+    {
+      "codeCVM": 20257,
+      "error": "ValueError('Required complete XML unavailable:20257')"
+    },
+    {
+      "codeCVM": 19453,
+      "error": "ValueError('Required complete XML unavailable:19453')"
+    },
+    {
+      "codeCVM": 20532,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 21091,
+      "error": "ValueError('Required complete XML unavailable:21091')"
+    },
+    {
+      "codeCVM": 8087,
+      "error": "ValueError('Required complete XML unavailable:8087')"
+    },
+    {
+      "codeCVM": 12653,
+      "error": "ValueError('Required complete XML unavailable:12653')"
+    },
+    {
+      "codeCVM": 21199,
+      "error": "ValueError('Required complete XML unavailable:21199')"
+    },
+    {
+      "codeCVM": 14443,
+      "error": "ValueError('Required complete XML unavailable:14443')"
+    },
+    {
+      "codeCVM": 21881,
+      "error": "ValueError('Required complete XML unavailable:21881')"
+    },
+    {
+      "codeCVM": 906,
+      "error": "ValueError('Required complete XML unavailable:906')"
+    },
+    {
+      "codeCVM": 19992,
+      "error": "ValueError('Required complete XML unavailable:19992')"
+    },
+    {
+      "codeCVM": 8133,
+      "error": "ValueError('Required complete XML unavailable:8133')"
+    },
+    {
+      "codeCVM": 19739,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "codeCVM": 20931,
+      "error": "ValueError('Required complete XML unavailable:20931')"
+    },
+    {
+      "codeCVM": 18627,
+      "error": "IncompleteRead(902415 bytes read)"
+    },
+    {
+      "codeCVM": 21431,
+      "error": "ValueError('Required complete XML unavailable:21431')"
+    },
+    {
+      "codeCVM": 9512,
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    }
+  ],
+  "scope": "Bounded retrieval of95original2015filings;1complete capital XML recovery,94not recovered;no full-archive validation claim. Primary size uses recovered structured dated tables,not95originally verified filings."
+}

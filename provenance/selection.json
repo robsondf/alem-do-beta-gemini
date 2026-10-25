@@ -10811,6 +10811,20 @@
       "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
+      "path": "data/lab03j/notebook_validation.json",
+      "git_blob_sha1": "bcd94fd62995d9a9c2393c2d1c08e9dca7f71f6d",
+      "bytes": 1248,
+      "mode": "100644",
+      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
+    },
+    {
+      "path": "data/lab03j/original2015_recovery_receipt.json",
+      "git_blob_sha1": "c6cf9e42703fe5632e2b24da05b9e09aad4793a1",
+      "bytes": 11461,
+      "mode": "100644",
+      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
+    },
+    {
       "path": "data/lab03j/plano_v1.json",
       "git_blob_sha1": "4192de066e93dc2d763c8a6b4e6bf140c0391e3e",
       "bytes": 3340,
@@ -10939,10 +10953,10 @@
     },
     {
       "path": "docs/lab03j_pareceres.md",
-      "git_blob_sha1": "96612381d4cb2d63998299095bc187dbd3463388",
-      "bytes": 7265,
+      "git_blob_sha1": "96a7055117c4169376ca114d722d991646e19b4b",
+      "bytes": 7856,
       "mode": "100644",
-      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
     },
     {
       "path": "docs/protocolo_representacao_raciocinio.md",
@@ -11029,6 +11043,13 @@
       "bytes": 33550,
       "mode": "100644",
       "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
+    },
+    {
+      "path": "notebooks/Lab03J_liquidez_controles.ipynb",
+      "git_blob_sha1": "6b2f9df6a80e1c25beae7e18fde1cf055806a6fd",
+      "bytes": 19526,
+      "mode": "100644",
+      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb"
     },
     {
       "path": "paper/artigo_revisado.tex",
@@ -12991,6 +13012,28 @@
           "bytes": 31349,
           "mode": "100644",
           "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Final pinned J notebook and complete serialized integration",
+      "source_commit": "33bce9abc539cef1b01e035d7c83a800af928ebb",
+      "previous_public_commit": "657627b0addc16d8df3369dad9bcee0f1dc1c0da",
+      "runtime_public_commit": "657627b0addc16d8df3369dad9bcee0f1dc1c0da",
+      "updated_paths": [
+        "notebooks/Lab03J_liquidez_controles.ipynb",
+        "data/lab03j/notebook_validation.json",
+        "data/lab03j/original2015_recovery_receipt.json",
+        "docs/lab03j_pareceres.md"
+      ],
+      "preserved_previous_manifest_entries": [
+        {
+          "path": "docs/lab03j_pareceres.md",
+          "git_blob_sha1": "96612381d4cb2d63998299095bc187dbd3463388",
+          "bytes": 7265,
+          "mode": "100644",
+          "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
         }
       ]
     }
