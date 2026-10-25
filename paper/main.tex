@@ -1,18 +1,18 @@
-\documentclass[12pt]{article}
+\documentclass[12 pt]{article}
 \usepackage{sbc-template}
-\usepackage{graphicx,xurl,placeins}
+\usepackage{graphicx, xurl, placeins}
 \graphicspath{{figures/lab02/}{paper/figures/lab02/}}
-\usepackage[utf8]{inputenc}
+\usepackage[utf 8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
-\usepackage{amsmath,amssymb,booktabs}
+\usepackage{amsmath, amssymb, booktabs}
 \usepackage[hidelinks]{hyperref}
 \sloppy
 \renewcommand{\topfraction}{.9}
 \renewcommand{\bottomfraction}{.9}
 \renewcommand{\textfraction}{.1}
 \renewcommand{\floatpagefraction}{.8}
-\makeatletter\setlength{\@fptop}{0pt}\setlength{\@fpsep}{12pt}\makeatother
+\makeatletter\setlength{\@fptop}{0 pt}\setlength{\@fpsep}{12 pt}\makeatother
 \title{Além do Beta Tradicional: Assimetria, Liquidez e Seleção em Ações Brasileiras}
 \author{Robson Dias Ferreira\inst{1}}
 \address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
@@ -22,10 +22,10 @@ Disciplina CMP609 -- Introdução aos Métodos Computacionais em Finanças
 \begin{document}
 \maketitle
 \begin{abstract}
-We study upside/downside market sensitivities in fixed samples of 80 Brazilian securities in 2016--2025 and 117 in 2021--2025, using daily log returns and the Ibovespa. In the original 80, the mean contrast is $-0.177$ in 2016--2020 and $-0.010$ subsequently; the paired change is $0.167$ (Holm4-adjusted p=0.0252). Excluding March or the first half of 2020 preserves positive changes but loses adjusted detection in the primary new family. An independent COTAHIST reconstruction with a universe selected using 2015 information yields an initial mean of $-0.086$ in 64 eligible securities and a paired change of $0.064$ in 46 pairs (adjusted p=0.2576), preserving documented gaps. In the eligible union, initial liquidity correlates with initial asymmetry ($0.493$) and temporal change ($-0.288$); joint session resampling gives Holm8-adjusted p=0.0168/0.0344. These are post-review associations with approximate inference and appreciable bootstrap displacement, not independent or causal confirmation. Individual identification is fragile; simulation reveals target-dependent coverage failures. Composition, attrition, retrospective selection, event measurement and inference constrain generalization. The results establish neither generalized asymmetry nor future persistence or economic gains.
+How sensitive is estimated upside/downside beta asymmetry to liquidity, sample selection and temporal aggregation? We examine fixed samples of 80 Brazilian securities in 2016--2025 and 117 in 2021--2025, using daily log returns and the Ibovespa. The decade mean contrast is $-0.131$, with fragile individual identification. A separate COTAHIST reconstruction selected using 2015 trading activity yields an initial mean of $-0.086$ in 64 eligible securities. Initial liquidity is positively associated with initial asymmetry, but its coefficient declines after size, sector and traditional-beta controls. In common complete cases, full-model coefficients are 0.0316 and 0.0172 for the original and union cohorts; neither rejects after Holm adjustment of 16 comparisons. Size is an explicitly approximate capitalization proxy based on dated disclosures. Temporal changes depend on crisis exclusions; changes in liquidity have no adjusted detection of association with beta-asymmetry changes. Joint session resampling preserves dependence, while simulation reveals target-dependent coverage failures. The exploratory results document sensitivity to composition, measurement and inference, without identifying a causal liquidity effect, generalized asymmetry or future persistence.
 \end{abstract}
 \begin{resumo}
-Estudamos sensibilidades de alta/baixa em amostras fixas de 80 ativos brasileiros em 2016--2025 e 117 em 2021--2025, com retornos logarítmicos diários e Ibovespa. Nos 80 originais, a diferença média é $-0,177$ em 2016--2020 e $-0,010$ depois; a mudança pareada é $0,167$ (p ajustado por Holm4=0,0252). Excluir março ou o primeiro semestre de 2020 mantém mudanças positivas, mas perde a detecção ajustada na nova família principal. Uma reconstrução independente COTAHIST com universo selecionado por informação de 2015 produz média inicial $-0,086$ em 64 ativos elegíveis e mudança $0,064$ em 46 pares (p ajustado=0,2576), preservando lacunas documentadas. Na união elegível, liquidez inicial se correlaciona com assimetria inicial ($0,493$) e mudança temporal ($-0,288$); reamostragem conjunta de sessões dá valores Holm8 de 0,0168/0,0344. São associações pós-parecer, com inferência aproximada e deslocamento bootstrap apreciável, sem confirmação independente ou causal. A identificação individual é frágil; a simulação revela falhas de cobertura dependentes do alvo. Composição, perdas de elegibilidade, seleção retrospectiva, mensuração de eventos e inferência limitam a generalização. Não se estabelecem assimetria generalizada, persistência futura ou ganho econômico.
+Quanto a assimetria estimada dos betas de alta/baixa depende de liquidez, seleção e agregação temporal? Examinamos amostras fixas de 80 ativos brasileiros em 2016--2025 e 117 em 2021--2025, com retornos logarítmicos diários e Ibovespa. A diferença média na década é $-0,131$, com identificação individual frágil. Uma reconstrução COTAHIST selecionada pela negociação de 2015 produz média inicial $-0,086$ em 64 ativos elegíveis. Liquidez inicial se associa positivamente à assimetria inicial, mas seu coeficiente diminui com controles de porte, setor e beta tradicional. Nos casos completos comuns, os modelos integrais das coortes original e união têm coeficientes 0,0316 e 0,0172; nenhum rejeita após Holm em 16 comparações. O porte é uma aproximação explícita de capitalização baseada em divulgações datadas. Mudanças temporais dependem das exclusões da crise; mudanças na liquidez não têm associação detectada após ajuste com mudanças na assimetria. A reamostragem conjunta preserva dependência, enquanto simulações revelam falhas de cobertura por alvo. Os resultados exploratórios documentam sensibilidade a composição, mensuração e inferência, sem identificar efeito causal da liquidez, assimetria generalizada ou persistência futura.
 \end{resumo}
 \input{artigo_revisado}
 \begingroup\small

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-24",
+  "literature": [
+    {
+      "key": "acharyapedersen2005",
+      "read": "Full PDF obtained;abstract/introduction and model framing inspected",
+      "sha256": "04f45d1ac474c5787d1001184f8daeabe6b72a4c2ca6579b26082c126a9b8052"
+    },
+    {
+      "key": "brunnermeierpedersen2009",
+      "read": "Author-hosted full PDF through web;abstract/introduction/model framing pages1-7 inspected;binary CLI returned403;no file SHA claimed"
+    },
+    {
+      "key": "chordia2000",
+      "read": "Author repository abstract and metadata only;full PDF recovery failed;citation restricted to commonality statement"
+    }
+  ],
+  "primary_counts": "Selected public CVM FRE2014/2015 tables, received/approval cutoff2015-12-31;retrieved archive vintage2026,not certified complete real-time information",
+  "capital_originals": "1complete XML recovered from95bounded attempts;94not fully recovered;no full-original validation claim",
+  "renames": "Company-authored notices/report;effective dates and source access in adendo_sucessoes_v1.json",
+  "AI_contribution": "External AI-assisted review supplied2015reconstruction experiment;own reimplementation,not an independent human validation",
+  "optional_Amihud": "Not implemented;financial turnover remains activity proxy,not spread or direct liquidity risk"
+}

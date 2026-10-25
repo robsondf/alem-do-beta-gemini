@@ -6,7 +6,7 @@
   "source_tree": "d975715d6e32029e6ee6b824fbd1b2acc89d282d",
   "intended_repository": "robsondf/alem-do-beta-gemini",
   "publication_state": "public_repository_created_by_author_review_branch",
-  "scope": "Selected original GitHub material with F/G/H/I revisions. I independently reconstructs the external2015 universe experiment from existing authenticated Drive caches,protects seven documented gaps and adds post-review joint liquidity associations and descriptive lag sensitivities. No raw stock-price caches,daily stock-return matrices or I bootstrap banks are published. Original80/117 and frozen scientific protocols remain preserved.",
+  "scope": "Selected original GitHub material with F/G/H/I/J revisions. J adds exploratory conditional liquidity controls,dated public CVM members with upstream attribution,all83event dispositions and3documented ordinary-share renames. Original80/117 and frozen old protocols preserved;no daily stock-return/turnover matrices,raw COTAHIST ZIPs or J bootstrap banks published. Approximate size,event ex-date gaps and uncalibrated new inference are explicit.",
   "selected": [
     {
       "path": ".gitignore",
@@ -10379,6 +10379,14 @@
   ],
   "revision_artifacts": [
     {
+      "path": "README.md",
+      "git_blob_sha1": "462e15545228a20264b0b82d784c2b4c1b901da2",
+      "bytes": 12996,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
       "path": "data/lab03f/fontes_literatura.json",
       "git_blob_sha1": "358ff69b2859a9c5be99841a4892a8222d0ce1bb",
       "bytes": 1617,
@@ -10733,11 +10741,125 @@
       "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
     },
     {
+      "path": "data/lab03j/adendo_fontes_tamanho_v1.json",
+      "git_blob_sha1": "d8b5fcd413a89ad58c692fd4b1435090fc3e91f3",
+      "bytes": 1361,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/adendo_recuperacao_v2.json",
+      "git_blob_sha1": "4064f93ae94bb0e5f40dd32b95df1235b336a15e",
+      "bytes": 1747,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/adendo_sucessoes_v1.json",
+      "git_blob_sha1": "fb631442237a3b95e1d069c8aa4f252027ec3dfa",
+      "bytes": 2149,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/batch_validation.json",
+      "git_blob_sha1": "aad3c7946c1cd8f852893822a47efbb611475790",
+      "bytes": 852,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/covariates_2015.csv",
+      "git_blob_sha1": "d4483588c022a7b036b6056c515d94cbe095c12e",
+      "bytes": 25475,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/cvm_selected_members.zip",
+      "git_blob_sha1": "de701ba6ab1a03c91ce639b66b941b89228d489f",
+      "bytes": 1475219,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/cvm_sources_manifest.json",
+      "git_blob_sha1": "4744d10cf661ae000b4d82ee653054e84b655895",
+      "bytes": 11803,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/inputs_manifest.json",
+      "git_blob_sha1": "8187f1ef921839c97f041776313839ecaad01567",
+      "bytes": 6332,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/issuer_map.csv",
+      "git_blob_sha1": "9c14489ba5840e57220667dfc73a09094a63e2d4",
+      "bytes": 12642,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/latex_validation.json",
+      "git_blob_sha1": "6f824938ac6f1fa7b04111a3ae27216fc8b8dd93",
+      "bytes": 607,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/plano_v1.json",
+      "git_blob_sha1": "4192de066e93dc2d763c8a6b4e6bf140c0391e3e",
+      "bytes": 3340,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/size_source_audit.csv",
+      "git_blob_sha1": "bbc78c83bd884c1cfae167119a843c58c01dfa6a",
+      "bytes": 10948,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/source_reading_ledger.json",
+      "git_blob_sha1": "6d90fc9025a262023fd1101964e8d8b9adda7a0b",
+      "bytes": 1319,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "data/lab03j/test_validation.json",
+      "git_blob_sha1": "31248be0c70aff5907c505d2dcc0504d2446578a",
+      "bytes": 258,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "data/revisao_pareceres_20261024.json",
       "git_blob_sha1": "07d001f7245d69fdb66d381d11a8e6f1afd612d4",
       "bytes": 1609,
       "mode": "100644",
       "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "docs/RELEASE_STATUS.md",
+      "git_blob_sha1": "07f9a233294d2feb69f254838d85a7e4166dd68b",
+      "bytes": 2246,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "git_blob_sha1": "7f6ae5e1812cc7b480ba122ca0b4a37e320a723c",
+      "bytes": 12113,
+      "mode": "100644",
+      "source_commit": null,
+      "origin": "public_packaging"
     },
     {
       "path": "docs/lab03f_pos_parecer.md",
@@ -10816,6 +10938,13 @@
       "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
     },
     {
+      "path": "docs/lab03j_pareceres.md",
+      "git_blob_sha1": "96612381d4cb2d63998299095bc187dbd3463388",
+      "bytes": 7265,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "docs/protocolo_representacao_raciocinio.md",
       "git_blob_sha1": "9ddb5b83a592be3c99fa06a9eb87dccec9f07c14",
       "bytes": 7787,
@@ -10874,6 +11003,13 @@
       ]
     },
     {
+      "path": "docs/resposta_pareceres_J.md",
+      "git_blob_sha1": "e8ef0b882d6a804d6730f571d6f8bfc0bdaceac1",
+      "bytes": 4340,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "notebooks/Lab03F_pos_parecer.ipynb",
       "git_blob_sha1": "85f468182d63b195a11dfa1fd87a7023747ac9dd",
       "bytes": 12922,
@@ -10893,6 +11029,13 @@
       "bytes": 33550,
       "mode": "100644",
       "source_commit": "91171651856db8b0801a8867863fc57e8a951f31"
+    },
+    {
+      "path": "paper/artigo_revisado.tex",
+      "git_blob_sha1": "9e0799e1193415dd17198688859461cf0423fa78",
+      "bytes": 34867,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "paper/figures/lab02/lab03f_agregado.pdf",
@@ -10958,6 +11101,34 @@
       "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
     },
     {
+      "path": "paper/figures/lab02/lab03j_assimetria_anual.pdf",
+      "git_blob_sha1": "99d0653da17ba022c387b53b0414d8eed23abaeb",
+      "bytes": 15242,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/figures/lab02/lab03j_assimetria_anual.png",
+      "git_blob_sha1": "e38c8333799774e598b23386cbd39851490833d0",
+      "bytes": 78012,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/figures/lab02/lab03j_liquidez_inicial.pdf",
+      "git_blob_sha1": "e915ce2aa518b22f7fec35499601976df7111f53",
+      "bytes": 18551,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/figures/lab02/lab03j_liquidez_inicial.png",
+      "git_blob_sha1": "36c5e841015a4cd33c54e7270e61f8ad28346512",
+      "bytes": 54130,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "paper/lab03g_calibracao_texto.tex",
       "git_blob_sha1": "2a223bb457092e5ac23d03fcaff46106dfa1ee14",
       "bytes": 1530,
@@ -10965,66 +11136,46 @@
       "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
     },
     {
-      "path": "paper/suplemento.pdf",
-      "git_blob_sha1": "f27f8e0543bb1ca3808642901dccd985ce8a9eaf",
-      "bytes": 444900,
+      "path": "paper/main.pdf",
+      "git_blob_sha1": "b3fbd03fcd9c6ba0b4b3181f18c3f828082ae446",
+      "bytes": 351775,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
-      "prior_versions": [
-        {
-          "path": "paper/suplemento.pdf",
-          "git_blob_sha1": "153669d34fb0326e37dd1470e3fa7aa63d1db9ce",
-          "bytes": 275585,
-          "mode": "100644",
-          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-        },
-        {
-          "path": "paper/suplemento.pdf",
-          "git_blob_sha1": "581ad2762c563b3ce47ad1e9acec503bbbf2790c",
-          "bytes": 437336,
-          "mode": "100644",
-          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
-        }
-      ]
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/main.tex",
+      "git_blob_sha1": "6589ba4df43625b8c40c95a0412256f58bde42cb",
+      "bytes": 3667,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/references_artigo.bib",
+      "git_blob_sha1": "b282b646a8d36b62216d2e2380f7c00e4ebca505",
+      "bytes": 16609,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/suplemento.pdf",
+      "git_blob_sha1": "d27a854d14bee7979032fbe2fdf1e391cca4d14b",
+      "bytes": 515724,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "paper/suplemento.tex",
-      "git_blob_sha1": "917af825732a7b1b3601c1969d77ff5be8df5808",
-      "bytes": 10771,
+      "git_blob_sha1": "732560bfde8312c0886f8b7fdee19db56afc198e",
+      "bytes": 21828,
       "mode": "100644",
-      "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958",
-      "prior_versions": [
-        {
-          "path": "paper/suplemento.tex",
-          "git_blob_sha1": "3541e7867d5ad09ce8d2392259dac2550f93dae7",
-          "bytes": 2017,
-          "mode": "100644",
-          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-        },
-        {
-          "path": "paper/suplemento.tex",
-          "git_blob_sha1": "67177ee330575d602c21c4579c162994ed146fe4",
-          "bytes": 6190,
-          "mode": "100644",
-          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
-        }
-      ]
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "paper/suplemento_metodos.tex",
-      "git_blob_sha1": "c1a981ec33ff5a6cbb5efe779bc3eca5da1b92b0",
-      "bytes": 31349,
+      "git_blob_sha1": "dedcd618ce244e39d95390055d5d7175773fe020",
+      "bytes": 31374,
       "mode": "100644",
-      "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f",
-      "prior_versions": [
-        {
-          "path": "paper/suplemento_metodos.tex",
-          "git_blob_sha1": "2022c2158f794f2d6254067abf8aeb4ec0a675ea",
-          "bytes": 11667,
-          "mode": "100644",
-          "source_commit": "30c7c390e4a36d224f9b9a7515321c614dfeb0a7"
-        }
-      ]
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "paper/tables/casos_criticos.tex",
@@ -11139,6 +11290,55 @@
       "bytes": 536,
       "mode": "100644",
       "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+    },
+    {
+      "path": "paper/tables/lab03j_change.tex",
+      "git_blob_sha1": "65eefe0bfb96b9bba43fc269ca421e52e618f959",
+      "bytes": 380,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_controls_21.tex",
+      "git_blob_sha1": "6ba908513ccfa51fab88f4fa0ade232280841b1e",
+      "bytes": 827,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_controls_5.tex",
+      "git_blob_sha1": "2b6cc702c96ac5157c537dbfa12ebc00a83f1eed",
+      "bytes": 827,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_controls_63.tex",
+      "git_blob_sha1": "303983de8691354b6d36a89f9b32869bc4357b1e",
+      "bytes": 828,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_families.tex",
+      "git_blob_sha1": "4655b2ba9eb525561e548bcaf85bfad290c73636",
+      "bytes": 930,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_se.tex",
+      "git_blob_sha1": "24b938681f42d80e2c46ca2ff29ded6b137c5ecf",
+      "bytes": 545,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "paper/tables/lab03j_successions.tex",
+      "git_blob_sha1": "da8dc67d0e172cce8ad07dc7977122f9be848a3f",
+      "bytes": 377,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "results/tables/lab03f_pos_parecer_20261024/aggregate.csv.gz",
@@ -11603,6 +11803,132 @@
       "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
     },
     {
+      "path": "results/tables/lab03j_pareceres_20261024/all_control_coefficients.csv",
+      "git_blob_sha1": "8b0349e83a43c8bbbbfee3f6aaa634c4fd08dd53",
+      "bytes": 78432,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/calibration_SE_diagnostic.csv",
+      "git_blob_sha1": "f8dd7a1c25d3a3f1910560b3f06a8d894cd074ba",
+      "bytes": 18510,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/calibration_SE_scope.json",
+      "git_blob_sha1": "5839e879fcade9385336635f4c8749ca18bfe96c",
+      "bytes": 294,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/complete_case_audit.csv",
+      "git_blob_sha1": "8b6268e00ccde5d163f82ea17d9e5c1fd73767f4",
+      "bytes": 6802,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/controlled_regressions.csv",
+      "git_blob_sha1": "a73cbd305d50453ede756d9f2f86766e01416fd8",
+      "bytes": 8908,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/covariates_used.csv",
+      "git_blob_sha1": "02b5a94ca990bf3cf4e6749f21b0d84ac9a60832",
+      "bytes": 27592,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/dependence_realism.json",
+      "git_blob_sha1": "9a446cbe0359b287dfc92f0bfb1bbb6010a4d556",
+      "bytes": 298,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/event_audit_83.csv",
+      "git_blob_sha1": "a280ce4e10af1df741cb176d1d2c2326376613b8",
+      "bytes": 10019,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/event_audit_scope.json",
+      "git_blob_sha1": "802db21e1f40a31a94031522df834f7c0e9ab4f8",
+      "bytes": 4143,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/event_capital_candidates.csv",
+      "git_blob_sha1": "4474426f5d8bd70eec3936edea35b2d52a4f66b5",
+      "bytes": 9180,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/execution.json",
+      "git_blob_sha1": "635f99505f73361b17e95daecb31e939b8361fb7",
+      "bytes": 660,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/independent_verification.json",
+      "git_blob_sha1": "3de0003d750fc2d3fb4df29b8e151798ada086f5",
+      "bytes": 443,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/liquidity_change.csv",
+      "git_blob_sha1": "0b7118f01b1771c0adc966802fc4d32b934ac379",
+      "bytes": 2261,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/succession_early_eligibility.csv",
+      "git_blob_sha1": "165af8b319420f3551b61bfb7386e1400f4b3d34",
+      "bytes": 2890,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/succession_new_flags.csv",
+      "git_blob_sha1": "d944b1bac1e521bc364a9b134509e99c2bc674aa",
+      "bytes": 23,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/succession_sensitivity.csv",
+      "git_blob_sha1": "14b81bb60d2a7fdebf6870895bcda743aaccfc52",
+      "bytes": 2236,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/succession_transitions.csv",
+      "git_blob_sha1": "6975d8363b4f0bcc60a2d62cd7b77c9767740728",
+      "bytes": 536,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "results/tables/lab03j_pareceres_20261024/succession_verification.json",
+      "git_blob_sha1": "2c863f4c82c5e87b3e0fd7bc276d1f0e299ddc8b",
+      "bytes": 333,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "results/tables/resposta_pareceres_20261024/casos_criticos.csv",
       "git_blob_sha1": "be7bdc5ca15db75a940100021fe43e667f223d98",
       "bytes": 2220,
@@ -11650,6 +11976,13 @@
       "bytes": 1452,
       "mode": "100644",
       "source_commit": "f06060c6e7db7de4f966f152b362c88283b44469"
+    },
+    {
+      "path": "scripts/audit_lab03j_events.py",
+      "git_blob_sha1": "f03149602e22c3e41ac4d8af3809f3630a87dbd7",
+      "bytes": 3983,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "scripts/build_lab03f_notebook.py",
@@ -11707,6 +12040,55 @@
       ]
     },
     {
+      "path": "scripts/build_lab03j_notebook.py",
+      "git_blob_sha1": "d2e19fb143c6c63110b2476388117576950551a7",
+      "bytes": 12615,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/build_lab03j_paper.py",
+      "git_blob_sha1": "b7d15fa1d3b70704d9519ae24fb690549442a58c",
+      "bytes": 4976,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/collect_lab03j_cvm.py",
+      "git_blob_sha1": "453e631ffe3b19501c058bc04c3299de5a081926",
+      "bytes": 3292,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/collect_lab03j_originals.py",
+      "git_blob_sha1": "507456de52b3adbccf3b082caaa8c7b1f0080063",
+      "bytes": 4351,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/diagnose_lab03j_calibration.py",
+      "git_blob_sha1": "9f9cd50a1718e4e177ed16035bf74c5b3951a7a0",
+      "bytes": 3418,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/export_lab03j_controls.py",
+      "git_blob_sha1": "d54c9b0fa930a307735fa481345763d5cbb54ca3",
+      "bytes": 3064,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/extract_lab03j_turnover.py",
+      "git_blob_sha1": "75c8c8d6fb9e8341504b1900c08d8e3323d646ea",
+      "bytes": 2145,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "scripts/plot_lab03f.py",
       "git_blob_sha1": "08f291898725cd23f0a49db35eb4291719259d94",
       "bytes": 5246,
@@ -11735,6 +12117,13 @@
       "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
     },
     {
+      "path": "scripts/prepare_lab03j_covariates.py",
+      "git_blob_sha1": "eb342008ceefbf3202cacf6090d374f68973bc1a",
+      "bytes": 3966,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "scripts/replicate_review_2015.py",
       "git_blob_sha1": "402b6139f91fd5e3ec8e9b70ec1342a8c7b0296e",
       "bytes": 13499,
@@ -11761,6 +12150,27 @@
       "bytes": 1353,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+    },
+    {
+      "path": "scripts/run_lab03j.py",
+      "git_blob_sha1": "37074ba6af62874485495b25534c0697fdba2d16",
+      "bytes": 2990,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/run_lab03j_batch.py",
+      "git_blob_sha1": "c3e53dd73f1ada526afc1bc5cb18cf1e6cc332cb",
+      "bytes": 2637,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/run_lab03j_successions.py",
+      "git_blob_sha1": "6b8fd2ef8b33c262a3c4f9bfd494d4035978bfea",
+      "bytes": 5534,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "scripts/sensitivity_review_2015_lags.py",
@@ -11819,6 +12229,20 @@
       "source_commit": "b397b483385c41b7c4bb194c5799eb0c03308e6f"
     },
     {
+      "path": "scripts/verify_lab03j.py",
+      "git_blob_sha1": "13f094bbda9a0380196daeff25a4c47c273c5818",
+      "bytes": 5838,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
+      "path": "scripts/verify_lab03j_successions.py",
+      "git_blob_sha1": "9780db2ffd38d697e127766114fde29e7dc71fc7",
+      "bytes": 4095,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "scripts/verify_review_2015.py",
       "git_blob_sha1": "d68e20ebb52227bdedb52a3806e7c0ea18ed0594",
       "bytes": 8607,
@@ -11847,6 +12271,13 @@
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
     },
     {
+      "path": "src/lab03j.py",
+      "git_blob_sha1": "62566235e351d081634d3720b2fcb780b1999975",
+      "bytes": 7408,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
+    },
+    {
       "path": "tests/test_lab03f.py",
       "git_blob_sha1": "257e28ce94f9098e66aec918a69854d65b230073",
       "bytes": 3416,
@@ -11866,6 +12297,13 @@
       "bytes": 2371,
       "mode": "100644",
       "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+    },
+    {
+      "path": "tests/test_lab03j.py",
+      "git_blob_sha1": "34ac89a0ddaa3897cd7148d6cd6bc4da1907f83e",
+      "bytes": 2471,
+      "mode": "100644",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67"
     },
     {
       "path": "tests/test_review_2015.py",
@@ -12451,6 +12889,110 @@
       "economic_or_inference_homologation_claimed": false,
       "financial_matrices_published": false,
       "prior_packaging_verification_public_commit": "06e05ace7c5436352cbfaec4bac6aa7bc5cc5280"
+    },
+    {
+      "date": "2026-10-24",
+      "stage": "Lab03J conditional liquidity study and two additional review dispositions",
+      "source_commit": "8e5b48dece23dd7a73d190f334bf001f67342d67",
+      "previous_public_commit": "5b2bd9c4e2b1fee32afa239394ccdedbedfa8e30",
+      "updated_paths": [
+        "data/lab03j/adendo_fontes_tamanho_v1.json",
+        "data/lab03j/adendo_recuperacao_v2.json",
+        "data/lab03j/adendo_sucessoes_v1.json",
+        "data/lab03j/batch_validation.json",
+        "data/lab03j/covariates_2015.csv",
+        "data/lab03j/cvm_selected_members.zip",
+        "data/lab03j/cvm_sources_manifest.json",
+        "data/lab03j/inputs_manifest.json",
+        "data/lab03j/issuer_map.csv",
+        "data/lab03j/latex_validation.json",
+        "data/lab03j/plano_v1.json",
+        "data/lab03j/size_source_audit.csv",
+        "data/lab03j/source_reading_ledger.json",
+        "data/lab03j/test_validation.json",
+        "docs/lab03j_pareceres.md",
+        "docs/resposta_pareceres_J.md",
+        "paper/artigo_revisado.tex",
+        "paper/figures/lab02/lab03j_assimetria_anual.pdf",
+        "paper/figures/lab02/lab03j_assimetria_anual.png",
+        "paper/figures/lab02/lab03j_liquidez_inicial.pdf",
+        "paper/figures/lab02/lab03j_liquidez_inicial.png",
+        "paper/main.pdf",
+        "paper/main.tex",
+        "paper/references_artigo.bib",
+        "paper/suplemento.pdf",
+        "paper/suplemento.tex",
+        "paper/suplemento_metodos.tex",
+        "paper/tables/lab03j_change.tex",
+        "paper/tables/lab03j_controls_21.tex",
+        "paper/tables/lab03j_controls_5.tex",
+        "paper/tables/lab03j_controls_63.tex",
+        "paper/tables/lab03j_families.tex",
+        "paper/tables/lab03j_se.tex",
+        "paper/tables/lab03j_successions.tex",
+        "results/tables/lab03j_pareceres_20261024/all_control_coefficients.csv",
+        "results/tables/lab03j_pareceres_20261024/calibration_SE_diagnostic.csv",
+        "results/tables/lab03j_pareceres_20261024/calibration_SE_scope.json",
+        "results/tables/lab03j_pareceres_20261024/complete_case_audit.csv",
+        "results/tables/lab03j_pareceres_20261024/controlled_regressions.csv",
+        "results/tables/lab03j_pareceres_20261024/covariates_used.csv",
+        "results/tables/lab03j_pareceres_20261024/dependence_realism.json",
+        "results/tables/lab03j_pareceres_20261024/event_audit_83.csv",
+        "results/tables/lab03j_pareceres_20261024/event_audit_scope.json",
+        "results/tables/lab03j_pareceres_20261024/event_capital_candidates.csv",
+        "results/tables/lab03j_pareceres_20261024/execution.json",
+        "results/tables/lab03j_pareceres_20261024/independent_verification.json",
+        "results/tables/lab03j_pareceres_20261024/liquidity_change.csv",
+        "results/tables/lab03j_pareceres_20261024/succession_early_eligibility.csv",
+        "results/tables/lab03j_pareceres_20261024/succession_new_flags.csv",
+        "results/tables/lab03j_pareceres_20261024/succession_sensitivity.csv",
+        "results/tables/lab03j_pareceres_20261024/succession_transitions.csv",
+        "results/tables/lab03j_pareceres_20261024/succession_verification.json",
+        "scripts/audit_lab03j_events.py",
+        "scripts/build_lab03j_notebook.py",
+        "scripts/build_lab03j_paper.py",
+        "scripts/collect_lab03j_cvm.py",
+        "scripts/collect_lab03j_originals.py",
+        "scripts/diagnose_lab03j_calibration.py",
+        "scripts/export_lab03j_controls.py",
+        "scripts/extract_lab03j_turnover.py",
+        "scripts/prepare_lab03j_covariates.py",
+        "scripts/run_lab03j.py",
+        "scripts/run_lab03j_batch.py",
+        "scripts/run_lab03j_successions.py",
+        "scripts/verify_lab03j.py",
+        "scripts/verify_lab03j_successions.py",
+        "src/lab03j.py",
+        "tests/test_lab03j.py"
+      ],
+      "public_packaging_paths": [
+        "README.md",
+        "docs/RELEASE_STATUS.md",
+        "docs/REPRODUCTION.md"
+      ],
+      "preserved_previous_manifest_entries": [
+        {
+          "path": "paper/suplemento.pdf",
+          "git_blob_sha1": "f27f8e0543bb1ca3808642901dccd985ce8a9eaf",
+          "bytes": 444900,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        },
+        {
+          "path": "paper/suplemento.tex",
+          "git_blob_sha1": "917af825732a7b1b3601c1969d77ff5be8df5808",
+          "bytes": 10771,
+          "mode": "100644",
+          "source_commit": "206f3a4ed9203808e7340d9ce7506c1842b75958"
+        },
+        {
+          "path": "paper/suplemento_metodos.tex",
+          "git_blob_sha1": "c1a981ec33ff5a6cbb5efe779bc3eca5da1b92b0",
+          "bytes": 31349,
+          "mode": "100644",
+          "source_commit": "d06f16549b1f8eddc0db39f85552326d21d2843f"
+        }
+      ]
     }
   ]
 }

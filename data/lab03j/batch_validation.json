@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "environment": "local_batch_not_author_Colab",
+  "B": 4999,
+  "blocks": [
+    21,
+    5,
+    63
+  ],
+  "compared_values_against_previous_local_run": 10749,
+  "source_zip_members": 63,
+  "daily_B3_records_reused": 277795,
+  "new_quote_downloads": 0,
+  "new_outer_generators": 0,
+  "controls_rows": 48,
+  "all_coefficients": 336,
+  "change_rows": 12,
+  "SE_diagnostics": 84,
+  "event_flags": 83,
+  "succession_rows": 12,
+  "protected_missing": 7,
+  "metadata_corrections": "Canonical sorted capital-source copies;correct sector-source labels and missing-class status;zero-flag CSV has schema. Estimates,quantities,dates,sectors and decisions unchanged",
+  "scope": "Complete CPU batch including preparation and independent numerical oracles;author execution of new notebook and economic/inferential certification remain distinct"
+}

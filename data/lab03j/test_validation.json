@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "ran": 114,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    "test_lab02.BetaTests.test_notebook_embeds_exact_versioned_code_and_lock",
+    "test_lab03.TemporalTests.test_authenticated_data_keeps_all_seven_missing_decade_cells"
+  ]
+}

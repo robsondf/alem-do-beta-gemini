@@ -1,0 +1,119 @@
+papel_id,prefix,codeCVM,CNPJ,issuer_name,sector,sector_source,original80
+BRABCBACNPR4,ABCB,20958.0,28.195.667/0001-06,BCO ABC BRASIL S.A.,Financeiro,original_fixed_inventory,True
+BRABEVACNOR1,ABEV,23264.0,07.526.557/0001-00,AMBEV S.A.,Consumo não Cíclico,original_fixed_inventory,True
+BRALPAACNPR7,ALPA,10456.0,61.079.117/0001-05,ALPARGATAS S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRALUPCDAM15,ALUP,21490.0,08.364.948/0001-38,ALUPAR INVESTIMENTO S/A,Utilidade Pública,original_fixed_inventory,True
+BRANIMACNOR6,ANIM,23248.0,09.288.252/0001-32,ANIMA HOLDING S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRBBASACNOR3,BBAS,1023.0,00.000.000/0001-91,BCO BRASIL S.A.,Financeiro,original_fixed_inventory,True
+BRBBDCACNOR1,BBDC,906.0,60.746.948/0001-12,BCO BRADESCO S.A.,Financeiro,original_fixed_inventory,True
+BRBBDCACNPR8,BBDC,906.0,60.746.948/0001-12,BCO BRADESCO S.A.,Financeiro,original_fixed_inventory,True
+BRBBSEACNOR5,BBSE,23159.0,17.344.597/0001-94,BB SEGURIDADE PARTICIPAÇÕES S.A.,Financeiro,original_fixed_inventory,True
+BRBBTGUNT007,BBTG,,,,,unavailable_not_imputed,False
+BRBEEFACNOR6,BEEF,20931.0,67.620.377/0001-14,MINERVA S.A.,Consumo não Cíclico,original_fixed_inventory,True
+BRBPANACNPR1,BPAN,21199.0,59.285.411/0001-13,BCO PAN S.A.,Financeiro,original_fixed_inventory,True
+BRBRAPACNPR2,BRAP,18724.0,03.847.461/0001-92,BRADESPAR S.A.,Materiais Básicos,original_fixed_inventory,True
+BRBRFSACNOR8,BRFS,16292.0,01.838.723/0001-27,BRF S.A.,Consumo não Cíclico,B3_2022_cached,False
+BRBRKMACNPA4,BRKM,4820.0,42.150.391/0001-70,BRASKEM S.A.,Materiais Básicos,original_fixed_inventory,True
+BRBRMLACNOR9,BRML,19909.0,06.977.745/0001-91,BR MALLS PARTICIPACOES S.A.,Financeiro,B3_2022_cached,False
+BRBRPRACNOR9,BRPR,19925.0,06.977.751/0001-49,BR PROPERTIES S.A.,Financeiro,B3_2022_cached,False
+BRBRSRACNPB4,BRSR,1210.0,92.702.067/0001-96,BCO ESTADO DO RIO GRANDE DO SUL S.A.,Financeiro,original_fixed_inventory,True
+BRBVMFACNOR3,BVMF,,,,,unavailable_not_imputed,False
+BRCCROACNOR2,CCRO,18821.0,02.846.056/0001-97,MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A.,Bens Industriais,B3_2022_cached,False
+BRCESPACNPB4,CESP,2577.0,60.933.603/0001-78,CESP - CIA ENERGETICA DE SAO PAULO,Não Classificados,B3_GetDetail_20261024,False
+BRCIELACNOR3,CIEL,21733.0,01.027.058/0001-91,CIELO S.A. -  INSTITUIÇÃO DE PAGAMENTO,Financeiro,B3_2022_cached,False
+BRCMIGACNPR3,CMIG,2453.0,17.155.730/0001-64,CIA ENERGETICA DE MINAS GERAIS - CEMIG,Utilidade Pública,original_fixed_inventory,True
+BRCPFEACNOR0,CPFE,18660.0,02.429.144/0001-93,CPFL ENERGIA S.A.,Utilidade Pública,original_fixed_inventory,True
+BRCPLEACNOR8,CPLE,14311.0,76.483.817/0001-20,CIA PARANAENSE DE ENERGIA - COPEL,Utilidade Pública,original_fixed_inventory,True
+BRCPLEACNPB9,CPLE,14311.0,76.483.817/0001-20,CIA PARANAENSE DE ENERGIA - COPEL,Utilidade Pública,B3_2022_cached,False
+BRCRUZACNOR0,CRUZ,,,,,unavailable_not_imputed,False
+BRCSANACNOR6,CSAN,19836.0,50.746.577/0001-15,COSAN S.A.,"Petróleo, Gás e Biocombustíveis",original_fixed_inventory,True
+BRCSMGACNOR5,CSMG,19445.0,17.281.106/0001-03,CIA SANEAMENTO DE MINAS GERAIS-COPASA MG,Utilidade Pública,original_fixed_inventory,True
+BRCSNAACNOR6,CSNA,4030.0,33.042.730/0001-04,CIA SIDERURGICA NACIONAL,Materiais Básicos,original_fixed_inventory,True
+BRCTIPACNOR2,CTIP,,,,,unavailable_not_imputed,False
+BRCVCBACNOR1,CVCB,23310.0,10.760.260/0001-19,CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRCYREACNOR7,CYRE,14460.0,73.178.600/0001-18,CYRELA BRAZIL REALTY S.A.EMPREEND E PART,Consumo Cíclico,original_fixed_inventory,True
+BRDIRRACNOR0,DIRR,21350.0,16.614.075/0001-00,DIRECIONAL ENGENHARIA S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRDTEXACNOR3,DTEX,21091.0,97.837.181/0001-47,DEXCO S.A.,Materiais Básicos,B3_2022_cached_DXCO_alias_same_CVM21091,False
+BRECORACNOR8,ECOR,19453.0,04.149.454/0001-80,ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A.,Bens Industriais,original_fixed_inventory,True
+BRELETACNOR6,ELET,2437.0,00.001.180/0001-26,CENTRAIS ELET BRAS S.A. - ELETROBRAS,Utilidade Pública,B3_2022_cached,False
+BRELETACNPB7,ELET,2437.0,00.001.180/0001-26,CENTRAIS ELET BRAS S.A. - ELETROBRAS,Utilidade Pública,B3_2022_cached,False
+BREMBRACNOR4,EMBR,20087.0,07.689.002/0001-89,EMBRAER S.A.,Bens Industriais,B3_2022_cached,False
+BRENBRACNOR2,ENBR,19763.0,03.983.431/0001-03,EDP - ENERGIAS DO BRASIL S.A.,Utilidade Pública,B3_2022_cached,False
+BRENEVACNOR8,ENEV,21237.0,04.423.567/0001-21,ENEVA S.A,Utilidade Pública,original_fixed_inventory,True
+BREQTLACNOR0,EQTL,20010.0,03.220.438/0001-73,EQUATORIAL S.A.,Utilidade Pública,original_fixed_inventory,True
+BRESTCACNOR5,ESTC,,,,,unavailable_not_imputed,False
+BREVENACNOR8,EVEN,20524.0,43.470.988/0001-65,EVEN CONSTRUTORA E INCORPORADORA S.A.,Consumo Cíclico,original_fixed_inventory,True
+BREZTCACNOR0,EZTC,20770.0,08.312.229/0001-73,EZ TEC EMPREEND. E PARTICIPACOES S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRFIBRACNOR9,FIBR,,,,,unavailable_not_imputed,False
+BRFLRYACNOR5,FLRY,21881.0,60.840.055/0001-31,FLEURY S.A.,Saúde,original_fixed_inventory,True
+BRFRASACNOR0,FRAS,6211.0,88.610.126/0001-29,FRASLE MOBILITY S.A.,Bens Industriais,original_fixed_inventory,True
+BRGETIACNPR4,GETI,,,,,unavailable_not_imputed,False
+BRGFSAACNOR3,GFSA,16101.0,01.545.826/0001-07,GAFISA S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRGGBRACNPR8,GGBR,3980.0,33.611.500/0001-19,GERDAU S.A.,Materiais Básicos,original_fixed_inventory,True
+BRGOAUACNPR8,GOAU,8656.0,92.690.783/0001-09,METALURGICA GERDAU S.A.,Materiais Básicos,original_fixed_inventory,True
+BRGRNDACNOR3,GRND,19615.0,89.850.341/0001-60,GRENDENE S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRGUARACNOR4,GUAR,4669.0,08.402.943/0001-52,GUARARAPES CONFECCOES S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRHGTXACNOR9,HGTX,14761.0,78.876.950/0001-71,CIA HERING,,unavailable_not_imputed,False
+BRHYPEACNOR0,HYPE,21431.0,02.932.074/0001-91,HYPERA S.A.,Saúde,original_fixed_inventory,True
+BRIGTAACNOR5,IGTA,20494.0,51.218.147/0001-93,IGUATEMI EMPRESA DE SHOPPING CENTERS S.A,Financeiro,B3_GetDetail_20261024,False
+BRITSAACNPR7,ITSA,7617.0,61.532.644/0001-15,ITAÚSA S.A.,Financeiro,original_fixed_inventory,True
+BRITUBACNOR4,ITUB,19348.0,60.872.504/0001-23,ITAU UNIBANCO HOLDING S.A.,Financeiro,original_fixed_inventory,True
+BRITUBACNPR1,ITUB,19348.0,60.872.504/0001-23,ITAU UNIBANCO HOLDING S.A.,Financeiro,original_fixed_inventory,True
+BRJBSSACNOR8,JBSS,20575.0,02.916.265/0001-60,JBS S.A.,Consumo não Cíclico,B3_2022_cached,False
+BRJHSFACNOR2,JHSF,20605.0,08.294.224/0001-65,JHSF PARTICIPACOES S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRKEPLACNOR1,KEPL,7870.0,91.983.056/0001-69,KEPLER WEBER S.A.,Bens Industriais,original_fixed_inventory,True
+BRKLBNACNPR9,KLBN,12653.0,89.637.490/0001-45,KLABIN S.A.,Materiais Básicos,original_fixed_inventory,True
+BRKLBNCDAM18,KLBN,12653.0,89.637.490/0001-45,KLABIN S.A.,Materiais Básicos,original_fixed_inventory,True
+BRKROTACNOR9,KROT,,,,,unavailable_not_imputed,False
+BRLAMEACNPR6,LAME,8087.0,33.014.556/0001-96,LOJAS AMERICANAS S.A.,,unavailable_not_imputed,False
+BRLEVEACNOR2,LEVE,8575.0,60.476.884/0001-87,MAHLE METAL LEVE S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRLIGTACNOR2,LIGT,19879.0,03.378.521/0001-75,LIGHT S.A. - EM RECUPERAÇÃO JUDICIAL,Utilidade Pública,original_fixed_inventory,True
+BRLRENACNOR1,LREN,8133.0,92.754.738/0001-62,LOJAS RENNER S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRMDIAACNOR7,MDIA,20338.0,07.206.816/0001-15,M.DIAS BRANCO S.A. IND COM DE ALIMENTOS,Consumo não Cíclico,original_fixed_inventory,True
+BRMGLUACNOR2,MGLU,22470.0,47.960.950/0001-21,MAGAZINE LUIZA S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRMILSACNOR2,MILS,22012.0,27.093.558/0001-15,"MILLS LOCAÇÃO, SERVIÇOS E LOGÍSTICA S.A.",Bens Industriais,original_fixed_inventory,True
+BRMPLUACNOR3,MPLU,,,,,unavailable_not_imputed,False
+BRMRFGACNOR0,MRFG,20788.0,03.853.896/0001-40,MARFRIG GLOBAL FOODS S.A.,Consumo não Cíclico,B3_2022_cached,False
+BRMRVEACNOR2,MRVE,20915.0,08.343.492/0001-20,MRV ENGENHARIA E PARTICIPACOES S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRMULTACNOR5,MULT,20982.0,07.816.890/0001-53,MULTIPLAN - EMPREEND IMOBILIARIOS S.A.,Financeiro,original_fixed_inventory,True
+BRMYPKACNOR7,MYPK,11932.0,61.156.113/0001-75,IOCHPE MAXION S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRNATUACNOR6,NATU,,,,,unavailable_not_imputed,False
+BRODPVACNOR4,ODPV,20125.0,58.119.199/0001-51,ODONTOPREV S.A.,Saúde,original_fixed_inventory,True
+BROIBRACNPR8,OIBR,,,,Comunicações,B3_2022_cached,False
+BRPCARACNPR0,PCAR,,,,Consumo não Cíclico,B3_2022_cached,False
+BRPETRACNOR9,PETR,9512.0,33.000.167/0001-01,PETROLEO BRASILEIRO S.A. PETROBRAS,"Petróleo, Gás e Biocombustíveis",original_fixed_inventory,True
+BRPETRACNPR6,PETR,9512.0,33.000.167/0001-01,PETROLEO BRASILEIRO S.A. PETROBRAS,"Petróleo, Gás e Biocombustíveis",original_fixed_inventory,True
+BRPOMOACNPR7,POMO,8451.0,88.611.835/0001-29,MARCOPOLO S.A.,Bens Industriais,original_fixed_inventory,True
+BRPRIOACNOR1,PRIO,22187.0,10.629.105/0001-68,PRIO S.A.,"Petróleo, Gás e Biocombustíveis",original_fixed_inventory,True
+BRPSSAACNOR7,PSSA,16659.0,02.149.205/0001-69,PORTO SEGURO S.A.,Financeiro,original_fixed_inventory,True
+BRQUALACNOR6,QUAL,22497.0,11.992.680/0001-93,QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A.,Saúde,B3_2022_cached,False
+BRRADLACNOR0,RADL,5258.0,61.585.865/0001-51,RAIA DROGASIL S.A.,Saúde,original_fixed_inventory,True
+BRRAPTACNPR4,RAPT,14109.0,89.086.144/0001-16,RANDONCORP S.A.,Bens Industriais,original_fixed_inventory,True
+BRRCSLACNPR1,RCSL,12572.0,91.333.666/0001-17,RECRUSUL S.A.,Bens Industriais,original_fixed_inventory,True
+BRRENTACNOR4,RENT,19739.0,16.670.085/0001-55,LOCALIZA RENT A CAR S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRSANBCDAM13,SANB,20532.0,90.400.888/0001-42,BCO SANTANDER (BRASIL) S.A.,Financeiro,original_fixed_inventory,True
+BRSAPRACNPR6,SAPR,18627.0,76.484.013/0001-45,CIA SANEAMENTO DO PARANA - SANEPAR,Utilidade Pública,original_fixed_inventory,True
+BRSBSPACNOR5,SBSP,14443.0,43.776.517/0001-80,CIA SANEAMENTO BASICO EST SAO PAULO,Utilidade Pública,original_fixed_inventory,True
+BRSEERACNOR5,SEER,23221.0,04.986.320/0001-13,SER EDUCACIONAL S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRSLCEACNOR2,SLCE,20745.0,89.096.457/0001-55,SLC AGRICOLA S.A.,Consumo não Cíclico,original_fixed_inventory,True
+BRSMLEACNOR1,SMLE,,,,,unavailable_not_imputed,False
+BRSMTOACNOR3,SMTO,20516.0,51.466.860/0001-56,SAO MARTINHO S.A.,Consumo não Cíclico,original_fixed_inventory,True
+BRSULACDAM12,SULA,21121.0,29.978.814/0001-87,SUL AMERICA S.A.,Financeiro,B3_2022_cached,False
+BRSUZBACNPA3,SUZB,,,,Materiais Básicos,B3_2022_cached,False
+BRTAEECDAM10,TAEE,20257.0,07.859.971/0001-30,TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.,Utilidade Pública,original_fixed_inventory,True
+BRTBLEACNOR2,TBLE,,,,,unavailable_not_imputed,False
+BRTGMAACNOR7,TGMA,20800.0,02.351.144/0001-18,TEGMA GESTAO LOGISTICA S.A.,Bens Industriais,original_fixed_inventory,True
+BRTIMPACNOR1,TIMP,17639.0,02.558.115/0001-21,TIM PARTICIPACOES S.A.,,unavailable_not_imputed,False
+BRTOTSACNOR8,TOTS,19992.0,53.113.791/0001-22,TOTVS S.A.,Tecnologia da Informação,original_fixed_inventory,True
+BRTRPLACNPR1,TRPL,18376.0,02.998.611/0001-04,ISA ENERGIA BRASIL,Utilidade Pública,B3_2022_cached,False
+BRTUPYACNOR1,TUPY,6343.0,84.683.374/0001-49,TUPY S.A.,Bens Industriais,original_fixed_inventory,True
+BRUGPAACNOR8,UGPA,18465.0,33.256.439/0001-39,ULTRAPAR PARTICIPACOES S.A.,"Petróleo, Gás e Biocombustíveis",original_fixed_inventory,True
+BRUNIPACNPB8,UNIP,11592.0,33.958.695/0001-78,UNIPAR CARBOCLORO S.A.,Materiais Básicos,original_fixed_inventory,True
+BRUSIMACNPA6,USIM,14320.0,60.894.730/0001-05,USINAS SID DE MINAS GERAIS S.A.-USIMINAS,Materiais Básicos,original_fixed_inventory,True
+BRVALEACNOR0,VALE,4170.0,33.592.510/0001-54,VALE S.A.,Materiais Básicos,original_fixed_inventory,True
+BRVALEACNPA3,VALE,4170.0,33.592.510/0001-54,VALE S.A.,Materiais Básicos,B3_2022_cached,False
+BRVIVTACNOR0,VIVT,17671.0,02.558.157/0001-62,TELEFÔNICA BRASIL S.A,Comunicações,original_fixed_inventory,True
+BRVIVTACNPR7,VIVT,17671.0,02.558.157/0001-62,TELEFÔNICA BRASIL S.A,Comunicações,B3_2022_cached,False
+BRVLIDACNOR5,VLID,20028.0,33.113.309/0001-47,VALID SOLUÇÕES S.A.,Bens Industriais,original_fixed_inventory,True
+BRVULCACNOR2,VULC,11762.0,50.926.955/0001-42,VULCABRAS S.A.,Consumo Cíclico,original_fixed_inventory,True
+BRWEGEACNOR0,WEGE,5410.0,84.429.695/0001-11,WEG S.A.,Bens Industriais,original_fixed_inventory,True

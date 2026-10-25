@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "main_pages": 16,
+  "supplement_pages": 26,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "visual_review": "All42pages in contact sheets,changed equation/table/plots at full resolution;no clipping or missing symbols",
+  "old_source_hash_counts": {
+    "frozen_E_pins_lab03g": 49,
+    "source_pins_lab03h": 78,
+    "source_pins_lab03i": 21
+  },
+  "main_sha256": "fe3b6148dd647a719e36ff31545469deec80fc6d9472c77b6c35704b28fadeab",
+  "main_references": 36,
+  "suplemento_sha256": "b62593a9869368bbaa63306841670de3b77814167271c65e98a9baff7a9904f4",
+  "suplemento_references": 29
+}

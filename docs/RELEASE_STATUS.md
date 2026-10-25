@@ -1,5 +1,10 @@
 # Direitos e estado editorial
 
+## Lab03J,24/10/2026
+
+Consulte [o lote J](lab03j_pareceres.md) e [as disposições dos pareceres](resposta_pareceres_J.md). A nova execução usa apenas export I e caches B3 já existentes; execução local conferida, Colab do autor ainda distinto. Artigo e suplemento distinguem associação condicional, limitações de mensuração e resultados efetivos. Não repetir estágios anteriores.
+
+
 O destino foi criado pelo autor com visibilidade pública. Esta seleção disponibiliza uma versão de avaliação do material já presente no GitHub. Não representa aceite, revisão por pares, endosso institucional ou versão final publicada em periódico/conferência.
 
 Não havia licença geral na árvore de origem e nenhuma foi atribuída nesta migração. Acesso público não equivale a uma licença de redistribuição ou de software livre. A escolha de licença pelo autor e a compatibilidade dos materiais de terceiros permanecem decisões específicas. Estilos SBC, documentos de fontes primárias e dados derivados mantêm suas próprias condições; não foram relicenciados.

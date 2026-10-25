@@ -1,0 +1,4 @@
+old,new,date,adjacent_sessions,factor,transition_return,source
+KROT3,COGN3,2019-10-11,True,1,0.025679014417691447,https://financenews.com.br/wp-content/uploads/2019/10/017973000101011-1.pdf
+ESTC3,YDUQ3,2019-07-23,True,1,0.024750821502172133,https://www.agorainvest.com.br/uploads/Avisos/comunicado-estacio-23-07.pdf
+TBLE3,EGIE3,2016-07-21,True,1,0.0062620628522105076,https://www.pefran.com.br/empresas2012/engie_brasil_energia/legal/%5B30384%5D-engie_brasil_energia_legal_bal_anual_31-12-16_dcsc_doesc/internet/arte/%5B30384%5D-33.pdf

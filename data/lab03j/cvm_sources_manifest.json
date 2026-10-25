@@ -1,0 +1,324 @@
+{
+  "source": "CVM Dados Abertos,FRE annual archives",
+  "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/FRE/DADOS/",
+  "license": "Open Database License (ODbL);upstream attribution retained;not relicensed as project code",
+  "scope": "Selected original public corporate disclosure members,not full archive downloads;source.json records range requests and CRC/raw SHA where collected;2021 reuses earlier authenticated cache",
+  "members": [
+    {
+      "path": "2014/directory.json",
+      "bytes": 8458,
+      "sha256": "e5735153409a8102811c23e1830b41ebde55bc45ac4bef2e29994d46c5925fe5"
+    },
+    {
+      "path": "2014/fre_cia_aberta_2014.csv",
+      "bytes": 849657,
+      "sha256": "e32720560b9c51d37c8710d305bb92026b7b02b161ea20e4b130325392ebfbb9"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_2014.csv",
+      "bytes": 364473,
+      "sha256": "785e25e20c810eccc7bb0561bb582b686c5725626275cffa6ba21e3204b504f8"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_aumento_2014.csv",
+      "bytes": 1062833,
+      "sha256": "829641226f9ba02d5fba4fa0565e49d7ba8dfd9919ce0a19914aaa9705f36882"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_aumento_classe_acao_2014.csv",
+      "bytes": 17052,
+      "sha256": "0e9f6a5920c3d6729a1a54203b388ac1e812fa87cb9d11ddb456d4e697df37ad"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_classe_acao_2014.csv",
+      "bytes": 48762,
+      "sha256": "500c0949cbf8155ea3b1c4d25971e6100472d0857c39524a4997762e96af7350"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_desdobramento_2014.csv",
+      "bytes": 27647,
+      "sha256": "a4714320d1d2d977417015b21bfa9f7ad725c861faf11cafd590806766dfb599"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_desdobramento_classe_acao_2014.csv",
+      "bytes": 4009,
+      "sha256": "de692ae41dcd272cf3d203b9ab677b9656441e8e8427f8ad33c2b98559b94728"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_reducao_2014.csv",
+      "bytes": 72129,
+      "sha256": "75da2d544432f55995515ebb7fe81a796657e7f5e40fbeaa9cdb07bb7e8cc64f"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_reducao_classe_acao_2014.csv",
+      "bytes": 1148,
+      "sha256": "d887857992f3e97ac6b06073ab05843092763b53714a7160804277ec72732327"
+    },
+    {
+      "path": "2014/fre_cia_aberta_capital_social_titulo_conversivel_2014.csv",
+      "bytes": 12031,
+      "sha256": "2cdba9416910154f79399e3e84c29d16b62d3ad821778f533625426209d1b4fc"
+    },
+    {
+      "path": "2014/fre_cia_aberta_valor_mobiliario_tesouraria_ultimo_exercicio_2014.csv",
+      "bytes": 156554,
+      "sha256": "01a4961e22c6c680e2a89db612378baab81dff02506b2a5912c12b78a79adf79"
+    },
+    {
+      "path": "2014/source.json",
+      "bytes": 4112,
+      "sha256": "619d7e82de031b21ff3a8170dc50f0d42b89a25454e9f774c7a2537b2f9cd45c"
+    },
+    {
+      "path": "2015/directory.json",
+      "bytes": 8454,
+      "sha256": "482355eb0f5c624fda2ad7a8dfa6d282ce34ce8803c4cdb71545461dec1ee9b3"
+    },
+    {
+      "path": "2015/fre_cia_aberta_2015.csv",
+      "bytes": 869184,
+      "sha256": "c34dffb79081a27a65a38d6db1c946d9cc35abba4cfce9fd4cc28811b6405f25"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_2015.csv",
+      "bytes": 348875,
+      "sha256": "f2ec95a9f2e5068ed23c1f84203eaeab133f5ab2954c8d223df89ac25732d151"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_aumento_2015.csv",
+      "bytes": 1063984,
+      "sha256": "eab27b6c225fea7db4cec5276f19f1d3c10001a1f375ae9b67e12ffe9ff9d86d"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_aumento_classe_acao_2015.csv",
+      "bytes": 17847,
+      "sha256": "c325bed328867e7a1e337d5b088c6cb0be333c77e1a09a24fa753c848a6c4c8a"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_classe_acao_2015.csv",
+      "bytes": 53012,
+      "sha256": "3b8e049cc995f334e4594b8469eb521ddfc9e0df53a2ab4dac7807474a789cfd"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_desdobramento_2015.csv",
+      "bytes": 27358,
+      "sha256": "38a966c1864a5db65da968b8716e9c9d259e1871fccc692f11a1da576a7cfd4c"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_desdobramento_classe_acao_2015.csv",
+      "bytes": 3458,
+      "sha256": "21ecd68068125b7cffbd3c399c6100eda0ea8aa2f3fd6838e15f730351804809"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_reducao_2015.csv",
+      "bytes": 70284,
+      "sha256": "c0b2909d5a2ed77c17ede22c67200816b109843b7b29750604a6a34924124919"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_reducao_classe_acao_2015.csv",
+      "bytes": 1049,
+      "sha256": "ba4824a319bc7787d199f978c525e0190eddc362b8a15de61cbb971916b4a284"
+    },
+    {
+      "path": "2015/fre_cia_aberta_capital_social_titulo_conversivel_2015.csv",
+      "bytes": 12681,
+      "sha256": "246bf8bb84ddb559e8f905d39b0811cd4ca371f6a2ad37dcdeb6cb5cc1101100"
+    },
+    {
+      "path": "2015/fre_cia_aberta_valor_mobiliario_tesouraria_ultimo_exercicio_2015.csv",
+      "bytes": 225976,
+      "sha256": "aa34c7c7436272b41bd39a9010a53ef1516543c7831725ca13793bb7d51f8105"
+    },
+    {
+      "path": "2015/source.json",
+      "bytes": 4113,
+      "sha256": "4507093b13e110c8009412282ef6a4b3ced482e4ae13228b11771b77be87577e"
+    },
+    {
+      "path": "2016/directory.json",
+      "bytes": 8626,
+      "sha256": "2087f730df855bbaba886c5391940e4d4228c1643a79e6a4a8d7e1bf152ffad4"
+    },
+    {
+      "path": "2016/fre_cia_aberta_2016.csv",
+      "bytes": 912201,
+      "sha256": "13dcdbb1261746d81c1f7b2829747445143bd15cb38aa7970e65262fb9b92109"
+    },
+    {
+      "path": "2016/fre_cia_aberta_capital_social_desdobramento_2016.csv",
+      "bytes": 27871,
+      "sha256": "124319f8ed855b4b99b5bcf923a72284abbccea87cdb531888c4550d274d2b6d"
+    },
+    {
+      "path": "2016/fre_cia_aberta_capital_social_desdobramento_classe_acao_2016.csv",
+      "bytes": 3996,
+      "sha256": "2a99e529e0122182d38dc81c05b51abd7bb816a681928b5affd0b6679a6168f5"
+    },
+    {
+      "path": "2016/source.json",
+      "bytes": 1472,
+      "sha256": "6df1adb4d6114901210dccdc525ba767312468baa5c1ea34905af5ed07e1a224"
+    },
+    {
+      "path": "2017/directory.json",
+      "bytes": 8225,
+      "sha256": "b7e88ce2b126ab996e7e4a5fa88fcde3bbd850f354b303ee0ed9c313a297d6d5"
+    },
+    {
+      "path": "2017/fre_cia_aberta_2017.csv",
+      "bytes": 914014,
+      "sha256": "be33d1963efdcd1b009a07c37bf6c2b4cccce475790e5d2471a8b4aa8b9acdb9"
+    },
+    {
+      "path": "2017/fre_cia_aberta_capital_social_desdobramento_2017.csv",
+      "bytes": 28843,
+      "sha256": "867c1cf3929b77ece2483ea547557ec32c04da82302ccdaf0e28b314e9eacb35"
+    },
+    {
+      "path": "2017/fre_cia_aberta_capital_social_desdobramento_classe_acao_2017.csv",
+      "bytes": 3907,
+      "sha256": "5efe358d35e0e16895bf0c2f596fd55f399cb1d771e2c31adbcef7faaa59f489"
+    },
+    {
+      "path": "2017/source.json",
+      "bytes": 1473,
+      "sha256": "7da75c6ffc690a8129838706285d995282c2021ab07af75b99f22f29cfad5de1"
+    },
+    {
+      "path": "2018/directory.json",
+      "bytes": 8416,
+      "sha256": "efcbad3b094a4aa42dc9900f1fdf04c18ee8bc083c65e5d434e8bf4c73884c5b"
+    },
+    {
+      "path": "2018/fre_cia_aberta_2018.csv",
+      "bytes": 940279,
+      "sha256": "d24001c1a18088fad13cfbe7b180e0f0e32c6dc5ee336ac04eca0bd3f8426435"
+    },
+    {
+      "path": "2018/fre_cia_aberta_capital_social_desdobramento_2018.csv",
+      "bytes": 28031,
+      "sha256": "7bd77a9f15c4dca3a77aa98c6313eda2592edd959736c2f838e4317b6eecbcb6"
+    },
+    {
+      "path": "2018/fre_cia_aberta_capital_social_desdobramento_classe_acao_2018.csv",
+      "bytes": 3761,
+      "sha256": "9c2baa9d4c7058c222a3017036f9e6bec9ae7e07528a19de1aa4d8f28b6819ea"
+    },
+    {
+      "path": "2018/source.json",
+      "bytes": 1475,
+      "sha256": "918bab3a73d29df6796c0ec3623d5ed3e2ffa1a2bd030ce964b940be6940549e"
+    },
+    {
+      "path": "2019/directory.json",
+      "bytes": 8603,
+      "sha256": "fffb61d79a0f85856bce78e82c17e0426d9fc91d3a4404f9b1db4e2861bd0cd2"
+    },
+    {
+      "path": "2019/fre_cia_aberta_2019.csv",
+      "bytes": 953670,
+      "sha256": "2031f7a43370d72639a9baa9c18b57e3d6ac440df708f3d3c7894bae8665d238"
+    },
+    {
+      "path": "2019/fre_cia_aberta_capital_social_desdobramento_2019.csv",
+      "bytes": 26989,
+      "sha256": "5fbdd45bed7ac4badd27520327d82b91226858a46ad7dbf4f2f46de941288724"
+    },
+    {
+      "path": "2019/fre_cia_aberta_capital_social_desdobramento_classe_acao_2019.csv",
+      "bytes": 3961,
+      "sha256": "103dd5e2ed75dd22e8d13453c655c515fe6cbc38da65d888ec8f7f9541095216"
+    },
+    {
+      "path": "2019/source.json",
+      "bytes": 1474,
+      "sha256": "af3171121be973b4ef899a68b0effdbe79a11749ed9c8fadbff60b9bc0e44c2c"
+    },
+    {
+      "path": "2020/directory.json",
+      "bytes": 8603,
+      "sha256": "ca4a75e8b26e4359c294fe6d934384bd30efc2afcd9dda41e8138743b0234503"
+    },
+    {
+      "path": "2020/fre_cia_aberta_2020.csv",
+      "bytes": 900244,
+      "sha256": "91d2ba36421315df25d983fb0748f427c240554dfe8ca1422c966aaa216e976f"
+    },
+    {
+      "path": "2020/fre_cia_aberta_capital_social_desdobramento_2020.csv",
+      "bytes": 33386,
+      "sha256": "1e4860765443e190487a24a3c5a7ab693c1707f2568ac34dd1283f305b9027bf"
+    },
+    {
+      "path": "2020/fre_cia_aberta_capital_social_desdobramento_classe_acao_2020.csv",
+      "bytes": 3933,
+      "sha256": "27a632a2aba061296153ee6b5d7bc168ec70ddcee12ec36e14d4e7b214afa51f"
+    },
+    {
+      "path": "2020/source.json",
+      "bytes": 1474,
+      "sha256": "6790a23034a835e006d5a9fdb40fdd33f560a3d8a8d5a8b12e538b0389afb325"
+    },
+    {
+      "path": "2021/fre_cia_aberta_2021.csv",
+      "bytes": 1080369,
+      "sha256": "29498e1e6c4fe133c763eb74ca68ae47bd09ce9ab09e9dfa14b3df53550ae1a4"
+    },
+    {
+      "path": "2021/fre_cia_aberta_capital_social_desdobramento_2021.csv",
+      "bytes": 39123,
+      "sha256": "ae1c9339e01de522cf9c2fc5fb12563911e83187903c42fd78a3721e942e8796"
+    },
+    {
+      "path": "2021/fre_cia_aberta_capital_social_desdobramento_classe_acao_2021.csv",
+      "bytes": 3937,
+      "sha256": "aa1ea9853154cff6952cf8f50473254a9bbc187f8aaa37c47ea0d96a778c783d"
+    },
+    {
+      "path": "2022/directory.json",
+      "bytes": 8616,
+      "sha256": "d2827b84d6a6e86580930d23bd05d3f2ce40e19fead5f3ca3c2f14739830bcee"
+    },
+    {
+      "path": "2022/fre_cia_aberta_2022.csv",
+      "bytes": 1085849,
+      "sha256": "7d5eeda6c84346f72784941b63d5b0917c59b9f1507819465ac0f15555809990"
+    },
+    {
+      "path": "2022/fre_cia_aberta_capital_social_desdobramento_2022.csv",
+      "bytes": 40207,
+      "sha256": "06e527d3a9c0e18b297d581a35fb01319952f16b23d1eac896afe1853bedbb15"
+    },
+    {
+      "path": "2022/fre_cia_aberta_capital_social_desdobramento_classe_acao_2022.csv",
+      "bytes": 4072,
+      "sha256": "07986a304917b259824caf054888aa8c071647897a394a1e48dd089e178074a8"
+    },
+    {
+      "path": "2022/source.json",
+      "bytes": 1479,
+      "sha256": "bcbf75cafa216f72ed597c5156570a6062b0333bdb6a54ad59b0d248df088d08"
+    },
+    {
+      "path": "2023/directory.json",
+      "bytes": 10636,
+      "sha256": "02be18cc46a214a3a142dd63f7bf71e7d0dbe7ceacfebeb954abaacc6c1b3e18"
+    },
+    {
+      "path": "2023/fre_cia_aberta_2023.csv",
+      "bytes": 1108880,
+      "sha256": "cbdfb535b0a76ee57f0437eb17100da625e62581f106f649006eecaf7b6a13d2"
+    },
+    {
+      "path": "2023/fre_cia_aberta_capital_social_desdobramento_2023.csv",
+      "bytes": 670,
+      "sha256": "b506185af285df66b09b9ebfaf440e3eabf900cc53e3737b1ee3b0bfad5d5483"
+    },
+    {
+      "path": "2023/source.json",
+      "bytes": 1133,
+      "sha256": "c06a55d0eaef3f13f37a82249d8dfa9f92896d283a0f752b61dc9c228f7704f7"
+    }
+  ],
+  "zip_sha256": "988662919aa9f216a30186bc59337159d42fcee04279fcdc82107dd73ee9a59a"
+}
