@@ -1,5 +1,10 @@
 # Além do Beta
 
+## Lab03J — controles e pareceres adicionais (24/10/2026)
+
+[Resultados, limites e único notebook a executar](docs/lab03j_pareceres.md). A associação com liquidez diminui com porte, setor e beta tradicional; modelos completos não rejeitam após Holm16. O lote inclui84 diagnósticos das simulações existentes,83 disposições de eventos e três continuidades documentadas. Artigo16 páginas, suplemento26; gráfico dos dez anos preservado. Execução local validada; novo Colab do autor é etapa distinta. Não repetir H/I/F/G/E ou os geradores. Limites de mensuração e calibração são explícitos. Branch+PR, sem merge automático.
+
+
 ## Colab H/I do autor conferido — 24/10/2026
 
 [Cópia executada e salva](https://colab.research.google.com/drive/1pHcTi0deFoiIiEvmFK4ZtYr5MM9p_i9l); [export correspondente](https://drive.google.com/file/d/1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru/view), 21.813.582 bytes, SHA256 `ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e`. As dez fontes de células coincidem com a entrega imutável; seis códigos em sequência, zero exceções, 149 fontes autenticadas. O ZIP tem 207 membros: 206 arquivos cobertos pelo manifesto e o próprio manifesto. H e I foram reestimados no Colab; os 6.000 geradores anteriores não foram repetidos. Nenhuma nova cotação foi consultada.

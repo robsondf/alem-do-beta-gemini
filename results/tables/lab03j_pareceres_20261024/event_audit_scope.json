@@ -1,0 +1,109 @@
+{
+  "flags": 83,
+  "status_counts": {
+    "capital_event_documented_consistent_factor": 41,
+    "no_matching_capital_record_in_recovered_tables": 23,
+    "one_cent_price_grid_candidate": 19
+  },
+  "inside_estimation": 56,
+  "outside_estimation": 27,
+  "exact_ex_date_certifications": 0,
+  "source_members": [
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2014.csv",
+      "sha256": "a4714320d1d2d977417015b21bfa9f7ad725c861faf11cafd590806766dfb599",
+      "rows": 195
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2014.csv",
+      "sha256": "de692ae41dcd272cf3d203b9ab677b9656441e8e8427f8ad33c2b98559b94728",
+      "rows": 35
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2015.csv",
+      "sha256": "38a966c1864a5db65da968b8716e9c9d259e1871fccc692f11a1da576a7cfd4c",
+      "rows": 191
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2015.csv",
+      "sha256": "21ecd68068125b7cffbd3c399c6100eda0ea8aa2f3fd6838e15f730351804809",
+      "rows": 30
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2016.csv",
+      "sha256": "124319f8ed855b4b99b5bcf923a72284abbccea87cdb531888c4550d274d2b6d",
+      "rows": 195
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2016.csv",
+      "sha256": "2a99e529e0122182d38dc81c05b51abd7bb816a681928b5affd0b6679a6168f5",
+      "rows": 35
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2017.csv",
+      "sha256": "867c1cf3929b77ece2483ea547557ec32c04da82302ccdaf0e28b314e9eacb35",
+      "rows": 202
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2017.csv",
+      "sha256": "5efe358d35e0e16895bf0c2f596fd55f399cb1d771e2c31adbcef7faaa59f489",
+      "rows": 34
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2018.csv",
+      "sha256": "7bd77a9f15c4dca3a77aa98c6313eda2592edd959736c2f838e4317b6eecbcb6",
+      "rows": 195
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2018.csv",
+      "sha256": "9c2baa9d4c7058c222a3017036f9e6bec9ae7e07528a19de1aa4d8f28b6819ea",
+      "rows": 33
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2019.csv",
+      "sha256": "5fbdd45bed7ac4badd27520327d82b91226858a46ad7dbf4f2f46de941288724",
+      "rows": 187
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2019.csv",
+      "sha256": "103dd5e2ed75dd22e8d13453c655c515fe6cbc38da65d888ec8f7f9541095216",
+      "rows": 35
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2020.csv",
+      "sha256": "1e4860765443e190487a24a3c5a7ab693c1707f2568ac34dd1283f305b9027bf",
+      "rows": 232
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2020.csv",
+      "sha256": "27a632a2aba061296153ee6b5d7bc168ec70ddcee12ec36e14d4e7b214afa51f",
+      "rows": 34
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2021.csv",
+      "sha256": "ae1c9339e01de522cf9c2fc5fb12563911e83187903c42fd78a3721e942e8796",
+      "rows": 275
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2021.csv",
+      "sha256": "aa1ea9853154cff6952cf8f50473254a9bbc187f8aaa37c47ea0d96a778c783d",
+      "rows": 34
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2022.csv",
+      "sha256": "06e527d3a9c0e18b297d581a35fb01319952f16b23d1eac896afe1853bedbb15",
+      "rows": 282
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_classe_acao_2022.csv",
+      "sha256": "07986a304917b259824caf054888aa8c071647897a394a1e48dd089e178074a8",
+      "rows": 35
+    },
+    {
+      "member": "fre_cia_aberta_capital_social_desdobramento_2023.csv",
+      "sha256": "b506185af285df66b09b9ebfaf440e3eabf900cc53e3737b1ee3b0bfad5d5483",
+      "rows": 2
+    }
+  ],
+  "scope": "Cross-reference of disclosed capital movements and heuristic flags;approval dates/ratios do not certify exact ex dates,non-events,taxes or complete economic returns"
+}

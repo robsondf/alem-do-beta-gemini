@@ -1,0 +1,25 @@
+{
+  "stage": "Lab03J",
+  "environment": "local_not_author_Colab",
+  "B": 4999,
+  "blocks": [
+    21,
+    5,
+    63
+  ],
+  "preserved_original_80_117": true,
+  "protected_missing_not_filled": true,
+  "bootstrap_beta_reestimated": true,
+  "new_outer_generators": 0,
+  "regression_rows": 48,
+  "association_rows": 12,
+  "independent_dense_checks": {
+    "dense_FWL_checks": 144,
+    "max_difference": 2.123301534595612e-15,
+    "passed": true
+  },
+  "source_filing_cutoff": "2015-12-31",
+  "size_measure": "disclosed-share capitalization proxy;not certified exact yearend/free float",
+  "size_missing_not_imputed": true,
+  "elapsed_seconds": 3.0701421960002335
+}

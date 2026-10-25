@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "production_imported": false,
+  "dense_regime_fits": 2360,
+  "max_difference": 1.1102230246251565e-15,
+  "documented_transitions": 3,
+  "gaps_protected": 7,
+  "primary_other_ISINs_unchanged": true,
+  "scope": "Numerical/continuity sensitivity audit;not exhaustive succession or economic-return certification"
+}

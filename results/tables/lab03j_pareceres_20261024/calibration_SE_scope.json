@@ -1,0 +1,9 @@
+{
+  "cases": 84,
+  "saved_replication_rows": 84000,
+  "new_generators": 0,
+  "mechanisms_excluded": 0,
+  "formal_fit_test": false,
+  "new_design_coverage_validated": false,
+  "scope": "One-dimensional descriptive SE comparison;not model rejection or observed-interval coverage certification"
+}

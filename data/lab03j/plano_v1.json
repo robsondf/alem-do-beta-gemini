@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-24",
+  "stage": "Fifth and independent reviews: conditional liquidity association",
+  "timing": "Written before controlled-regression results;previous H/I results and review claims known;not independent preregistration",
+  "review5_sha256": "0b6717970ecda1c477b856a2517b43eee6c7ecd8f2c1a98553c8e2dff675b0b3",
+  "independent_review_sha256": "13ae018bbd420b7b825814dbb31886c7cc69e3aeefb72f23cfa7ca7af4cbb172",
+  "primary_outcome": "beta_plus minus beta_minus2016-2020;gap-preserved COTAHIST sensitivity",
+  "cohorts": ["original80","union118"],
+  "core": "Original fixed80/117 unchanged;equal assets/classes/ISINs,no return aggregation or issuer weights",
+  "floors": "200total,60per sign,95percent coverage;never relaxed",
+  "liquidity": "log2015financial turnover/246market sessions;positive observed values",
+  "size": "Official dated2015share counts and corresponding2015prices;historical class/issuer valuation,treasury and units distinguished;document availability and revision vintage explicit;no volume substitute",
+  "sector": "Fixed ten-sector taxonomy and source vintage;original classification retained;extra issuers require documented mapping",
+  "beta": "Traditional OLS on same valid early pairs;reestimated jointly with delta in every resample",
+  "models": "Intercept plus log liquidity and all8subsets of(size,sector,beta);common complete-case cohort across specifications;all excluded IDs/reasons exported",
+  "bootstrap": {"B":4999,"primary_block":21,"sensitivity_blocks":[5,63],"seed_base":20261025,"method":"Synchronous noncircular session blocks;generated beta and delta reestimated;size/sector/2015liquidity held fixed","min_assets":40,"min_residual_df":10,"full_rank_required":true,"p":"two-sided centered plus-one","CI":"Basic95percent nominal;new design not calibrated","adjustment":"Holm16(eight models,two cohorts)per block;all statuses kept;no program-wideFWER guarantee"},
+  "liquidity_change": "Theta versus log mean turnover2021-25 minus log mean turnover2016-20;all sessions in denominators;paired fixed eligibility;both theta and liquidity changes/ranks recalculated in synchronous early/late draws;Holm4(level/change,two cohorts)per block;descriptive conditional association,not independent evidence or causality",
+  "coverage": "All84mechanism-target diagnostics from84000stored G rows;observedSE percentile,simulatedSE range,coverage;no new generators,no mechanism exclusion,no fit certification from a single statistic",
+  "events": "Audit all83flags with dated official capital tables and prior primary documents;exact issuer/date evidence,separate2015outside estimation,unmatched and discreteness cases retained;no economic certificate from large returns alone",
+  "successions": "Only documented1:1same-class/issuer rename or conversion sensitivity;factor/effective date/source required;no ticker-only links,merger/cash conversions,or distributed bridges;primary ISINs unchanged",
+  "editorial": "Liquidity/selection reframing disclosed as exploratory with prior results known;preserve original hypotheses,families,full-period graphics and negative results;move sector/risk detail to supplement;no forcedML/KRR or publication guarantee",
+  "disposition": "E1-E5,R1-R6 and independent comments all receive evidence-backed dispositions;nonidentification is never labeled solved"
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-24",
+  "prior_plan_commit": "ab3509ead421843b44cf2be49995ed3417604589",
+  "timing": "Before controlled-regression results;archive version problem found during source inspection",
+  "decision": "Primary size uses original2015filings actually received by2015-12-31,complete capital XMLs verified individually from bounded download prefixes;latest revised annual CSV is diagnostic only",
+  "capital_measure": "Issuer issued or paid-in capitalization as disclosed in latest2015filing;not free float. Treasury availability reported and never silently zero. Each issuer-size covariate is copied to its assets,without aggregating returns or changing asset weights",
+  "prices": "Last2015market session class prices;all issued classes must have unambiguous matched prices;otherwise size is missing. No implicit unit decomposition or total PN assignment across unverified classes",
+  "count_type": "Prefer issued(type2);if absent,paid-in(type3) explicitly flagged;subscribed/unpaid(type1) and authorized(type4) excluded",
+  "sector": "Original fixed taxonomy retained;extra missing classifications excluded rather than imputed;any analyst crosswalk separately labeled",
+  "uncertainty": "Share count report date need not equal lastmarketday;subsequent documented2015capital changes flagged;no claim of complete yearend share or tax harmonization"
+}

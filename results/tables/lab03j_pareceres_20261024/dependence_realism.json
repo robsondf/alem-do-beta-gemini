@@ -1,0 +1,7 @@
+{
+  "residual_pair_correlations": 3160,
+  "mean_pair_correlation": 0.03753087956410758,
+  "median_pair_correlation": 0.03666625346649936,
+  "generator_fixed_common_innovation_correlation": 0.3,
+  "scope": "Descriptive residual comparison,not latent innovation identification or formal model fit"
+}

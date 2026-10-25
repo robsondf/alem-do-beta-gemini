@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "production_imported": false,
+  "dense_time_series_regressions": 7080,
+  "dense_control_regressions_and_CI_p": 192,
+  "explicit_change_rank_statistics": 36,
+  "max_difference": 2.2551405187698492e-15,
+  "documented_gaps_protected": 7,
+  "source_dates_checked": true,
+  "scope": "Independent numerical verification;not calibrated test size/coverage,exact yearend/free-float share certification or causal identification"
+}

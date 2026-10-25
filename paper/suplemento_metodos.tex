@@ -165,13 +165,13 @@ terminada na sexta-feira, descartando as semanas inicial/final de cada
 painel. Uma única ausência torna o retorno semanal do ativo ausente;
 não se reconstrói retorno diário nem se preenche uma ponte.
 O regime é o sinal do mercado semanal. As novas decisões individuais
-usam HAC5 normal e Holm197 por especificação; o envelope antigo não
+usam HAC5 normal e Holm 197 por especificação; o envelope antigo não
 foi transferido a desenhos novos. Máscaras escolhidas pela influência
 são diagnósticos após seleção, sem controle de erro familiar demonstrado.
 
 Para média/mediana nas versões defasada, com avanço e semanal,
 uma nova família reúne 18 testes: três especificações, três painéis
-e dois resumos. Holm18 é aplicado em cada escolha correspondente
+e dois resumos. Holm 18 é aplicado em cada escolha correspondente
 de blocos: 21/5/63 sessões e 4/1/13 semanas. As linhas com todas as
 defasagens/avanços são construídas no calendário original antes da
 reamostragem; não se criam defasagens atravessando junções artificiais.
@@ -186,7 +186,7 @@ Na década, medianas setoriais de $\Delta $ variam de $-0{,}267630$
 em Bens Industriais a $0{,}043869$ em Financeiro, com tamanhos de 1
 a 19 ativos. O agrupamento pontual $\eta^2$ é 0,3265 na década,
 0,3893 nos 80 comuns e 0,3687 nos 117. O intervalo marginal por
-blocos de 10 sessões na década é[0,1327;0,3924]. Esse agrupamento
+blocos de 10 sessões na década é[0,1327; 0,3924]. Esse agrupamento
 não separa heterogeneidade econômica, composição e erro de estimação.
 
 A Figura~\ref{fig:setores} cobre todos os dez anos e setores;
@@ -199,7 +199,7 @@ de um padrão compartilhado. Não se identifica efeito causal de setor.
 \includegraphics[width=\textwidth,height=.80\textheight,keepaspectratio]{lab03b_artigo_setores.pdf}
 \caption{Dez anos e dez setores. Pontos: medianas de $\widehat\Delta_i $ estimados
 com pares diários por ano; faixas: IQR entre ativos, não ICs.
-Azul:80 da década; laranja tracejado:117 recentes.
+Azul: 80 da década; laranja tracejado: 117 recentes.
 Amostras fixas; linhas apenas ligam os anos.}
 \label{fig:setores}
 \end{figure}
@@ -259,7 +259,7 @@ ES95 de perda simples histórica, sem anualização ou previsão.}
 Recorte & Volatilidade(\%) & $R^2$ & ES95(\%)\\
 \midrule
 80,2016--2025&2,5077&0,2955&5,4105\\
-80 comuns,2021--2025&2,1581&0,2690&4,4796\\
+80 comuns, 2021--2025&2,1581&0,2690&4,4796\\
 117,2021--2025&2,3039&0,2530&5,0414\\
 \bottomrule
 \end{tabular}
@@ -305,7 +305,7 @@ procedimento primário. A maior mudança de VULC3 nesses diagnósticos é
 correspondem a CVCB3 na década e GFSA3 no recente. Quatro das cinco
 datas mais influentes de VULC3 pertencem a março de 2020, motivando
 sensibilidade específica a esse período. As exclusões conservam os
-sinais, mas a decisão primária é sensível: Holm197 aplicado a todos os
+sinais, mas a decisão primária é sensível: Holm 197 aplicado a todos os
 197 ajustes de cada máscara dá VULC3 $0,025263/1$ e BBDC4
 $0,163571/0,051377$ ao retirar 1/5 pontos. Surgem outros nomes rejeitados:
 SMTO3 na primeira máscara; HYPE3 e LEVE3 na segunda. Isso indica
@@ -315,7 +315,7 @@ seleção em descobertas confirmatórias. O envelope não foi recalibrado.
 \begin{table}[htbp]
 \centering
 \caption{Diagnósticos de influência na década, extraídos da execução autenticada
-e conferidos, com ajuste Holm197 pós-revisão em cada máscara completa.
+e conferidos, com ajuste Holm 197 pós-revisão em cada máscara completa.
 IC marginal HAC5 de 95\%; inferência após seleção não calibrada.
 A ordem de influência é fixada no ajuste completo.}
 \label{tab:criticos}
@@ -352,13 +352,13 @@ No modelo contínuo, as medianas são $-0,142813$ na década e
 $-0,002304$ no recente; há três rejeições na década, nenhuma no recente.
 O resultado não permite escolher essa restrição pela significância.
 No irrestrito, os erros-padrão dos saltos de VULC3/BBDC4 são
-$0,001956/0,001102$; nenhum rejeita $g_i=0$ após Holm197.
+$0,001956/0,001102$; nenhum rejeita $g_i=0$ após Holm 197.
 Três outros casos rejeitam nessa aproximação, sem impor continuidade
 universal por ausência de rejeição nos dois destaques.
 
 \begin{table}[htbp]
 \centering\small
-\caption{Sete especificações pós-revisão. Rej.: contagem HAC5/Holm197
+\caption{Sete especificações pós-revisão. Rej.: contagem HAC5/Holm 197
 por especificação; garantia do envelope original não transferida.
 Os 80 comuns, também exportados, reutilizam decisões dos 117.}
 \label{tab:perfis-f}
@@ -377,7 +377,7 @@ Não comparar o cruzamento de zero aos limiares ajustados como se fossem iguais.
 \section{Calibração individual e complemento Monte Carlo}
 Os experimentos de desenho fixo seguem a organização de objetivos,
 mecanismos, estimandos e desempenho de Morris et al. \cite{morris2019}.
-Preservam mercado, calendários, máscaras,117 caminhos únicos e janelas
+Preservam mercado, calendários, máscaras, 117 caminhos únicos e janelas
 sobrepostas, com 1.000 réplicas independentes por mecanismo.
 No gerador $y_{it}=\beta_{0i}m_t+\delta_iD_tm_t+\sigma_i h_tu_{it}$,
 $\beta_{0i}$ e $\sigma_i $ são calibrados uma vez por ativo; não são
@@ -394,7 +394,7 @@ em 2020 e AR(0,6) \cite{bollerslev1986}. Fórmulas, inicializações,
 sementes e grades completas são preservadas nos protocolos.
 
 O estatístico complementar usa resíduos divididos por $1-h_{it}$,
-com $h_{it}$ a alavancagem OLS, no sandwich Bartlett 5
+com $h_{it}$ a alavancagem OLS, no sandwich Bartlett5
 \cite{mackinnonwhite1985}. Esse híbrido HC3--HAC5 não possui
 validade finita automática. Os ensaios com HC3/Holm e maxT também
 não corrigiram uniformemente a calibração; seus resultados e relações
@@ -442,11 +442,11 @@ retrospectivo.
 
 \section{Resultados da calibração individual}
 \label{sec:calibracao}
-A calibração inicial HAC5 mostra subcobertura: na década,93,595\%
-sob erros normais,93,429\% sob componentes t5 heterocedásticos e
+A calibração inicial HAC5 mostra subcobertura: na década, 93,595\%
+sob erros normais, 93,429\% sob componentes t5 heterocedásticos e
 91,841\% com AR0,3. As FWERs estáticas sob nulidade global são
-7,9/6,7/5,9\%, com Wilson 95\% de[6,38;9,74], [5,31;8,42]
-e[4,60;7,54]\%. Holm depende de valores-p individuais válidos:
+7,9/6,7/5,9\%, com Wilson 95\% de[6,38; 9,74], [5,31; 8,42]
+e[4,60; 7,54]\%. Holm depende de valores-p individuais válidos:
 o ajuste não corrige sua descalibração. Ensaios intermediários HC3
 e maxT também apresentam falhas, preservadas no registro técnico.
 
@@ -477,7 +477,7 @@ valores ajustados 0,01182/0,02955/0,02955. BBDC4 apresenta
 A concordância das decisões reduz a preocupação com resolução
 Monte Carlo, sem replicação empírica independente. O intervalo
 binomial pontual da cauda dominante de VULC3 é aproximadamente
-[0,000041;0,000171]; não é intervalo da decisão de Holm.
+[0,000041; 0,000171]; não é intervalo da decisão de Holm.
 
 \section{Extensão exploratória de previsão do retorno seguinte}
 \label{app:previsao}
@@ -488,7 +488,7 @@ para as hipóteses centrais.
 \subsection{Desenho e alvo da calibração}
 Prevê-se o log-retorno do ativo na próxima sessão. A avaliação com
 origens móveis \cite{hyndman2021} usa 252 sessões passadas e atualização
-mensal;504 é sensibilidade. Comparam-se zero, média histórica,
+mensal; 504 é sensibilidade. Comparam-se zero, média histórica,
 regressão tradicional e condicional. As regressões usam os mesmos
 pares, excluem mercado zero na estimação e mantêm os pisos 200/60/95\%
 e de variância. Se houver insuficiência, ambas recuam à média passada.
@@ -509,7 +509,7 @@ comum 2024--2025 difere do comum descritivo 2021--2025.
 
 Oito configurações preservam janelas, variantes de caixa/eventos,
 máscara do quarto trimestre de 2024 da Light e proteção causal de lacunas já conhecidas em cada
-origem. Exportam-se MSE, MAE,$R^2_{OS}$ contra zero/média e diferença
+origem. Exportam-se MSE, MAE, $R^2_{OS}$ contra zero/média e diferença
 de perdas tradicional menos condicional. ICs de ganho utilizam 1.999
 reamostragens síncronas das perdas, blocos 21/42/63, sem reestimar
 modelos dentro de cada sorteio. A escolha retrospectiva dos ativos,
@@ -543,8 +543,8 @@ cobertura, sem presumi-la pelo nome do procedimento.
 
 \subsection{Resultados e cobertura}
 O ganho relativo mediano de MSE muda de sinal entre recortes
-(Tabela~\ref{tab:previsao}). Na configuração primária,43/80 ativos
-longos,39/80 comuns e 55/117 recentes têm redução de MSE.
+(Tabela~\ref{tab:previsao}). Na configuração primária, 43/80 ativos
+longos, 39/80 comuns e 55/117 recentes têm redução de MSE.
 As medianas de $R^2_{OS}$ contra zero são negativas nos três recortes.
 Uma melhora frente a outra regressão pode coexistir com desempenho
 inferior ao referencial zero; contagens não demonstram superioridade
@@ -553,7 +553,7 @@ populacional ou econômica.
 \begin{table}[htbp]
 \centering
 \caption{Previsão N252: medianas entre ativos. Ganho relativo
-$100(1-MSE_{cond}/MSE_{trad})$;$R^2_{OS}$ contra zero.
+$100(1-MSE_{cond}/MSE_{trad})$; $R^2_{OS}$ contra zero.
 Os 80 comuns reutilizam previsões dos 117.}
 \label{tab:previsao}
 \input{tables/lab03d_previsao.tex}
@@ -580,8 +580,8 @@ para declarar ao menos um ganho positivo produz FWER 99,7--100\%.
 
 Os intervalos por máximo elevam a cobertura conjunta, mas esta varia
 de 98,4--99,2\% em blocos 21,94,8--97,0\% em 42 e 87,4--90,4\%
-em 63 (Figura~\ref{fig:previsao-e}). Sob GARCH,$\delta=0,25$
-e bloco 63, é 87,6\%, Wilson 95\%[85,41;89,50]. Não se escolhe
+em 63 (Figura~\ref{fig:previsao-e}). Sob GARCH, $\delta=0,25$
+e bloco 63, é 87,6\%, Wilson 95\%[85,41; 89,50]. Não se escolhe
 bloco 21 porque teve resultado favorável. Nenhum limite conjunto
 inferior observado é positivo em qualquer janela/bloco; sob
 $\delta=0,25$, a potência média para ganhos verdadeiros é inferior
@@ -591,9 +591,9 @@ de rejeição não estabelece igualdade preditiva.
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{lab03e_cobertura_previsao.pdf}
-\caption{Cobertura nos seis cenários preditivos,1.000 réplicas cada.
+\caption{Cobertura nos seis cenários preditivos, 1.000 réplicas cada.
 Marginal: média entre ativos; conjunta: cobertura dos 394 casos pelo
-intervalo por máximo. Tracejado:95\%. Condicional ao mercado observado.}
+intervalo por máximo. Tracejado: 95\%. Condicional ao mercado observado.}
 \label{fig:previsao-e}
 \end{figure}
 \FloatBarrier

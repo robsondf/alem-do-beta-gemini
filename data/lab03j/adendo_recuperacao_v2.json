@@ -1,0 +1,12 @@
+{
+ "date":"2026-10-24",
+ "timing":"Source inspection completed before any controlled-regression output",
+ "prior_protocol_commit":"ab3509ead421843b44cf2be49995ed3417604589",
+ "finding":"Latest structured FRE2015 capital tables often contain2016approvals/filings;those records are not backfilled into2015",
+ "original2015_attempt":"95original filings queried with bounded262KiB/1MiB prefixes;one complete capital XML recovered,94not recovered within that bounded method or temporarily unavailable;full attachments not downloaded or certified",
+ "primary_recoverable_size":"Capitalization using last recovered official share-count disclosure received no later than2015-12-31,from archived FRE2014/2015 rows and matched2015closing class prices;received date,approval date,documentID,count kind and missing-class exclusions exported",
+ "qualification":"This is a historical disclosed-share capitalization control,not a certified exact2015yearend share inventory or free-float capitalization. Report-to-yearend capital changes,unknown treasury and disclosure vintage remain measurement limitations;no exact yearend/real-time-information-completeness claim",
+ "selection":"No post2015filing or approval used;no authorized or subscribed/unpaid count substituted;issued or explicitly labeled paid-in counts only;unmatched classes remain missing",
+ "models":"Same eight prespecified control subsets,two cohorts,common complete cases,floors and Holm16 retained. The approximate size definition is explicit rather than mislabeled as an exact market capitalization",
+ "scientific_status":"E2 can test conditional association under this recovered size proxy;it cannot eliminate size measurement uncertainty or certify all requested circulating-share counts"
+}

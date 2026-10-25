@@ -1,23 +1,23 @@
-\documentclass[12pt]{article}
+\documentclass[12 pt]{article}
 \usepackage{sbc-template}
-\usepackage{graphicx,xurl,placeins}
+\usepackage{graphicx, xurl, placeins}
 \graphicspath{{figures/lab02/}{paper/figures/lab02/}}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[utf 8]{inputenc}
+\usepackage[T 1]{fontenc}
 \usepackage[brazil]{babel}
-\usepackage{amsmath,amssymb,booktabs}
+\usepackage{amsmath, amssymb, booktabs}
 \usepackage[hidelinks]{hyperref}
 \sloppy
 \renewcommand{\topfraction}{.9}
 \renewcommand{\bottomfraction}{.9}
 \renewcommand{\textfraction}{.1}
 \renewcommand{\floatpagefraction}{.8}
-\makeatletter\setlength{\@fptop}{0pt}\setlength{\@fpsep}{12pt}\makeatother
+\makeatletter\setlength{\@fptop}{0 pt}\setlength{\@fpsep}{12 pt}\makeatother
 \title{Além do Beta Tradicional: Suplemento de Métodos e Validação}
 \author{Robson Dias Ferreira\inst{1}}
 \address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
 Programa de Pós-Graduação em Computação (PPGC)\\
-Disciplina CMP609 -- Introdução aos Métodos Computacionais em Finanças
+Disciplina CMP 609 -- Introdução aos Métodos Computacionais em Finanças
 \email{}}
 \begin{document}
 \maketitle
@@ -28,7 +28,7 @@ Os resultados agregados posteriores não recebem a garantia do envelope.
 \section{Calibração agregada e sensibilidades completas}
 \begin{table}[htbp]\centering\small
 \caption{Calibração agregada sob nulidade global. FWER ajustada e
-Wilson 95\% Monte Carlo;1.000 réplicas por mecanismo, bloco 21.}
+Wilson 95\% Monte Carlo; 1.000 réplicas por mecanismo, bloco 21.}
 \input{tables/lab03g_calibracao.tex}
 \end{table}
 \begin{figure}[htbp]\centering
@@ -44,14 +44,14 @@ mercados futuros, outros comprimentos ou os modelos dinâmicos/semanais.
 As 66 linhas observadas e seus sorteios preservam todos os blocos,
 estimativas, intervalos, status e valores-p; não se omitem sensibilidades.
 
-\section{Tabelas agregadas completas e diagnóstico pós-quarto-parecer}
+\section{Tabelas agregadas completas e diagnósticos exploratórios}
 As análises seguintes são secundárias, com os resultados anteriores conhecidos.
-As famílias F10, G4, H4 e micro18 são separadas; não se demonstrou controle
+As famílias F 10, G 4, H 4 e micro 18 são separadas; não se demonstrou controle
 de erro familiar sobre todo o programa de revisões. A calibração G usa
-nulidade global individual, mercado e bancos fixados. A família H4 e
+nulidade global individual, mercado e bancos fixados. A família H 4 e
 os modelos dinâmicos/semanais não receberam nova validação de tamanho.
 \begin{table}[htbp]\centering\small
-\caption{Dez alvos agregados originais, bloco 21. Holm30 permanece sensibilidade
+\caption{Dez alvos agregados originais, bloco 21. Holm 30 permanece sensibilidade
 conservadora entre escolhas; não representa 30 hipóteses científicas distintas.
 ICs básicos nominais sujeitos à subcobertura descrita no artigo.}
 \input{tables/lab03f_agregado.tex}
@@ -62,7 +62,7 @@ pareadas não é a diferença de medianas.}
 \input{tables/lab03g_temporal.tex}
 \end{table}
 \begin{table}[htbp]\centering\small
-\caption{Média e mediana da década nos modelos alternativos; Holm18 abrange
+\caption{Média e mediana da década nos modelos alternativos; Holm 18 abrange
 os três painéis. A quantidade semanal de pares é 518--520 na década
 e 258--259 nos painéis recentes.}
 \input{tables/lab03g_microstructure.tex}
@@ -97,8 +97,8 @@ ou quatro marginais é transformada antes de reordenar e aplicar Holm.
 Contagens, erros-padrão binomiais e Wilson 95\% da probabilidade de cauda
 são marginais; não são intervalos da decisão ajustada. Para a média
 de $\theta $, por exemplo, há 17 excedências sob normalidade e 30
-sob AR0,6. Os intervalos Wilson correspondentes são aproximadamente
-[0,01064;0,02706] e[0,02109;0,04250], expondo a incerteza Monte Carlo.
+sob AR 0,6. Os intervalos Wilson correspondentes são aproximadamente
+[0,01064; 0,02706] e[0,02109; 0,04250], expondo a incerteza Monte Carlo.
 Essa utilização do banco existente não constitui validação independente
 do procedimento transformado. Tampouco garante controle para toda nula
 agregada: média ou mediana nula admite heterogeneidade que o gerador
@@ -106,28 +106,28 @@ com todas as assimetrias individuais nulas não representa integralmente.
 
 \begin{table}[htbp]\centering\small
 \caption{Diagnóstico exploratório CDF, seguido de Holm na família original
-completa F10 ou G4. Faixas entre seis mecanismos, sem significado de IC.}
+completa F 10 ou G 4. Faixas entre seis mecanismos, sem significado de IC.}
 \input{tables/lab03h_cdf.tex}
 \end{table}
-Exports H preservam 12 alvos/blocos e 59.988 sorteios,240 contrastes por
-ativo,480 registros de observações por período,84 diagnósticos CDF,
-84 coberturas por alvo/mecanismo,54 linhas de microestrutura e 1.920
+Exports H preservam 12 alvos/blocos e 59.988 sorteios, 240 contrastes por
+ativo, 480 registros de observações por período, 84 diagnósticos CDF,
+84 coberturas por alvo/mecanismo, 54 linhas de microestrutura e 1.920
 componentes algébricas de exposição. Nenhuma carteira ou perda esperada
 foi construída. As amostras e ausências permanecem as originais.
 
 \section{Reconstrução externa, seleção de 2015 e liquidez}
-O pacote externo recebido tem SHA256
+O pacote externo recebido tem SHA 256
 \path{8781dc2f8c7300c2bbdb4a620f73d3fa360f8724e0b39dc303aae1a01392e7d8}.
 Os três scripts foram lidos, sem executar seu código ou arquivos pickle.
 Uma implementação própria reproduziu os 48 resumos, ICs e valores-p
 sob as sementes externas; onze ZIPs oficiais foram autenticados contra
 os metadados do cache, totalizando 476.502.933 bytes. Não houve nova
-consulta B3/Yahoo. As marcações 83/83 coincidem, o que reproduz a regra,
+consulta B 3/Yahoo. As marcações 83/83 coincidem, o que reproduz a regra,
 sem validar cada evento. A cópia pública mantém os resumos e entradas
 em retornos; matrizes diárias e ZIPs brutos permanecem externos.
 
 O cache amplo de liquidez produz 221 elegíveis em 2015; o filtro
-BDI02 do extrator recebido produz 211. O mesmo conjunto e a mesma
+BDI 02 do extrator recebido produz 211. O mesmo conjunto e a mesma
 ordem dos 80 eleitos são recuperados pelo volume por 246 sessões.
 Há códigos de BDI presentes no cache amplo e excluídos pelo extrator;
 por exemplo, MGEL4 aparece com códigos 08/58 no mercado 010.
@@ -153,7 +153,7 @@ sorteio síncrono. Os volumes de 2015 e o universo elegível observado
 permanecem condicionados. A incerteza diz respeito às estimativas
 temporais dos coeficientes, sem tratar ISINs como amostra iid.
 Não é um teste causal da trajetória de liquidez, nem controla porte
-e setor. A família Holm8 reúne as duas variantes e quatro associações,
+e setor. A família Holm 8 reúne as duas variantes e quatro associações,
 por bloco. Todas as sensibilidades são reportadas. O deslocamento
 bootstrap das correlações é material; a cobertura e o tamanho desses
 novos testes não foram calibrados. Sua execução conjunta corrige
@@ -161,7 +161,7 @@ a suposição de independência entre ativos, sem transformar o desenho
 pós-observação em confirmação independente.
 
 \begin{table}[!htbp]\centering\small
-\caption{Associações de postos: p ajustado por Holm8 em cada bloco.
+\caption{Associações de postos: p ajustado por Holm 8 em cada bloco.
 Coortes originais/união, variantes literal e com lacunas. Viés é a
 diferença entre média bootstrap e ponto, bloco 21; não uma correção validada.}
 \input{tables/lab03i_associations.tex}
@@ -169,7 +169,7 @@ diferença entre média bootstrap e ponto, bloco 21; não uma correção validad
 
 O oráculo independente usa OLS por regime e reamostragem explícita:
 960 pontos/status de ativo-período, 120 linhas de IC/p e 360 estatísticas
-de sorteios completos/correlações, diferença máxima $6,44\times10^{-15}$.
+de sorteios completos/correlações, diferença máxima $6,44\times 10^{-15}$.
 Confere 120 vetores e 599.880 valores bootstrap, além das sete ausências.
 Isso não conclui a homologação econômica ou a validação inferencial.
 
@@ -192,6 +192,187 @@ $\rho$: correlação de postos com liquidez de 2015, sem valor-p iid.
 $K=0$ é a projeção contemporânea. Não são testes de robustez dos p originais.}
 \input{tables/lab03i_lags.tex}
 \end{table}
+
+
+\section{Setores, risco e período integral: material complementar}
+As medianas setoriais variam com a janela. O agrupamento pontual
+$\eta^2$ é 0,3265 na década, 0,3893 nos 80 comuns e 0,3687 nos 117;
+composição e erro de estimação impedem interpretação causal.
+Comunicações e Tecnologia têm um ativo cada na década.
+\begin{table}[htbp]\centering\small
+\caption{Dez setores, amostras fixas. Com.: mesmos 80 em 2021--2025.
+Resumos por ativo/classe, sem carteiras ou efeito causal de setor.}
+\input{tables/lab03h_sectors.tex}
+\end{table}
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{lab03h_periodo_completo.pdf}
+\caption{Período integral: mediana e IQR de estimativas anuais por ativo.
+Faixas descritivas, sem interpretação de IC. ES 95 usa perdas simples
+diárias, sem anualização ou previsão.}
+\end{figure}
+Na década, a volatilidade logarítmica diária mediana é 2,5077\%,
+o $R^2$ mediano é 0,2955 e o ES 95 é 5,4105\%. Exposição ao Ibovespa
+não resume variabilidade total ou cauda; resíduos podem conter outros
+fatores comuns. A comparação comum reduz a magnitude da assimetria
+antes de ampliar a composição, sem decomposição causal.
+\begin{table}[htbp]\centering\small
+\caption{Valores-p brutos da média da década e Holm 18 principal.
+Blocos diários 5/21/63 ou semanais 1/4/13. $N_t$: mediana dos pares.}
+\input{tables/lab03h_microstructure.tex}
+\end{table}
+
+\section{Associação condicional com liquidez e novas sensibilidades}
+\subsection{Fontes de porte, controles e casos completos}
+O protocolo de modelos foi versionado antes dos resultados das regressões
+na revisão\texttt{ab3509ead421} do repositório de desenvolvimento.
+Os resultados anteriores e os pareceres eram conhecidos: isso não é
+pré-registro independente. A tentativa de recuperar 95 documentos
+originais de 2015 usou prefixos limitados de 262 KiB/1 MiB. Apenas um XML
+de capital foi recuperado por completo e conferido por CRC; 94 não foram
+recuperados por esse método ou ficaram temporariamente indisponíveis.
+Não se afirma leitura ou validação integral desses 94 arquivos.
+
+O adendo anterior à estimação fixa a aproximação recuperável: último
+registro de quantidade emitida ou explicitamente integralizada, com
+recebimento e aprovação até 31/12/2015, nas tabelas oficiais arquivadas
+FRE 2014/2015. Contagens autorizadas ou subscritas não integralizadas
+não são substitutas. Multiplicam-se as quantidades por classe por seus
+fechamentos em 30/12/2015, usando cotações somente como insumos do
+controle de porte. PN sem preço inequívoco, tesouraria não identificada,
+unidades e mudanças entre divulgação e fim do ano não são presumidas.
+A capitalização não certifica free float, inventário exato no encerramento
+ou recuperação de toda informação que estivesse disponível ao mercado.
+Cada componente, quantidade, preço, data, documento e exclusão consta de
+\texttt{size\_source\_audit.csv}; o controle não foi substituído por volume.
+
+O cadastro original permanece fixo. Para ativos adicionais, a classificação
+B 3 arquivada de 15/9/2022 é fonte datada, não reconstrução histórica.
+DTEX usa a linha DXCO com o mesmo código CVM 21091, como alias explícito.
+Setores não recuperados de HGTX, LAME e TIMP ficam ausentes. A matriz
+completa tem 118 ISINs; 79 têm porte recuperável. O conjunto comum aos oito
+modelos contém 62 originais e 76 na união; nove setores estão representados.
+As exclusões, com IDs e motivo, estão no export, sem imputação ou
+reescolha anual. A mudança de casos é mantida separada da mudança de
+controles: os oito modelos de cada coorte usam exatamente os mesmos IDs.
+O mínimo de 40 casos e 10 graus de liberdade evita regressões transversais
+muito curtas, sem constituir garantia assintótica ou regra universal.
+
+Os betas tradicionais são regressores gerados: sua reestimação integra
+cada sorteio junto com os contrastes. São exportadas 336 linhas com todos
+os coeficientes, controles, referência setorial, EPs e ICs básicos nominais.
+O alvo com Holm 16 é apenas o coeficiente de log-volume; os demais controles
+são descritivos e seus valores-p não ajustados não fundamentam novas
+alegações. Os 48 alvos liquidez/modelo/coorte/bloco, inclusive os não
+rejeitados, são preservados. O artigo apresenta bloco 21; seguem 5/63.
+\begin{table}[htbp]\centering\scriptsize
+\caption{Controles de porte, setor e beta, bloco 5. ICs nominais; Holm 16 por
+bloco, com 62/76 casos comuns. Não se seleciona o bloco pela significância.}
+\input{tables/lab03j_controls_5.tex}
+\end{table}
+\begin{table}[htbp]\centering\scriptsize
+\caption{Mesmos modelos, bloco 63; oito especificações em duas coortes.}
+\input{tables/lab03j_controls_63.tex}
+\end{table}
+
+\subsection{Mudança da liquidez, acoplamento e deslocamento de postos}
+A liquidez de cada metade é volume financeiro médio por todos os pregões,
+com zero nas sessões sem negócio regular. A mudança é a diferença de logs
+desses volumes. Essa convenção não preenche retornos e não usa número de
+dias negociados como denominador variável. Nas associações com mudança,
+ambos os argumentos são reestimados nos mesmos sorteios síncronos;
+porte e setor não integram essa correlação. Holm 4 cobre nível/mudança
+em duas coortes, e não substitui o Holm 8 anterior.
+\begin{table}[htbp]\centering\small
+\caption{Associação com $\theta$, bloco 21. Desloc.: média bootstrap menos
+ponto. ICs não são duais dos testes centrados. Holm 4 da nova família.}
+\input{tables/lab03j_change.tex}
+\end{table}
+A associação com o nível inicial não é uma segunda confirmação da associação
+com $\Delta$ inicial: $\theta=\Delta_{\mathrm{tardio}}-\Delta_{\mathrm{inicial}}$
+compartilha este último termo com sinal oposto. Acoplamento, regressão à
+média e erro de estimação são explicações possíveis, sem estabelecer uma
+correlação negativa necessária ou uma origem causal.
+
+No banco anterior, os deslocamentos de $-0,1054$ e $+0,0644$ contraem as
+correlações da união para zero. O ruído adicional na ordenação dos
+coeficientes estimados é compatível com essa observação. A analogia com
+erro nas variáveis não demonstra atenuação universal de Spearman sob
+heterocedasticidade, dependência entre ativos e erros correlacionados;
+nem identifica a correlação entre sensibilidades latentes. Não se usa
+esse deslocamento como correção de viés validada.
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{lab03i_liquidez.pdf}
+\caption{Diagnóstico anterior com os dois painéis preservados. Nível
+inicial e mudança não são fontes independentes de evidência.}
+\end{figure}
+
+\subsection{Erro-padrão observado versus distribuições simuladas}
+O diagnóstico usa todas as 84 combinações de alvo/mecanismo das 84.000
+réplicas já salvas, sem nova simulação ou exclusão de gerador.
+Compara o EP observado à distribuição dos EPs bootstrap simulados,
+retendo quantis, contagem de posições abaixo do observado e cobertura.
+A Tabela seguinte mostra a média da década; os 84 casos estão em CSV.
+\begin{table}[htbp]\centering\scriptsize
+\caption{Distribuição do EP simulado, média da década. $k/R$: EP simulado
+menor ou igual ao observado. Quantis não são ICs da cobertura observada.}
+\input{tables/lab03j_se.tex}
+\end{table}
+O EP observado é menor que quase todos os simulados, mesmo sob normalidade.
+O gerador mantém correlação de inovação 0,3. Em resíduos das projeções
+por regime dos 80 reconstruídos, as 3.160 correlações têm média 0,0375
+e mediana 0,0367. Esse contraste descritivo ajuda a contextualizar a
+precisão, mas correlação residual estimada não identifica correlação
+latente de inovações ou um DGP verdadeiro. Uma posição extrema em um
+único resumo não é teste formal de aderência nem valida os ICs observados.
+
+No experimento condicional, mercado e escala são fixos; no bootstrap de
+pares, ambos são reamostrados, e a estatística não é studentizada.
+Mudanças na concentração temporal dos pesos são uma explicação plausível
+para a subcobertura, não um resultado teórico demonstrado para todo processo.
+Mantêm-se os mecanismos desfavoráveis e todas as falhas de cobertura.
+
+\subsection{Inventário de 83 eventos e três continuidades documentadas}
+A auditoria cruza cada marcação com movimentos oficiais de capital de
+arquivos recuperados FRE 2014--2023. Um candidato requer mesmo CNPJ,
+aprovação nos 180 dias anteriores e fator de quantidade que aproxime o
+movimento ao mercado, com resíduo logarítmico de no máximo 0,15.
+É uma regra de triagem, não validação da data ex ou de ajuste tributário.
+As tabelas recuperadas não constituem inventário exaustivo de 2024/2025.
+O ledger retém 83 disposições: 41 com fator compatível, 19 candidatos a
+movimento de um centavo em cotações de até dez centavos, 23 sem registro
+compatível. Das 27 marcações de 2015, quatro têm fator compatível, quatro
+não têm correspondência e 19 são casos da grade de preços. Das 56 dentro
+da janela, 37 têm fator compatível e 19 não têm correspondência. Ausência
+de correspondência não prova ausência de evento. Nenhuma data ex é
+certificada automaticamente; não se transformam 41 candidatos em 41
+históricos economicamente homologados.
+
+A sensibilidade de continuidade usa somente três documentos de companhia:
+KROT3/COGN3 em 11/10/2019, ESTC3/YDUQ3 em 23/7/2019 e TBLE3/EGIE3
+em 21/7/2016. São mudanças de código da mesma classe ON/emissor, fator 1;
+não se encadeiam fusões, contraprestações em caixa ou classes diferentes.
+A unidade nessa sensibilidade é a linhagem ancorada no ativo de 2015,
+identificada em separado; as matrizes principais por ISIN permanecem
+inalteradas. O retorno da transição exige cotações em pregões adjacentes;
+caso contrário fica ausente, sem repartir ponte acumulada. Lacunas
+documentadas e novas marcações de eventos são mantidas.
+\begin{table}[htbp]\centering\small
+\caption{Três continuidades documentadas, bloco 21. Nova família Holm 4:
+média inicial e postos em duas coortes, sem certificação econômica global.}
+\input{tables/lab03j_successions.tex}
+\end{table}
+A seleção de 2015 passa de 64 para 67 elegíveis iniciais, com média
+$-0,0894$ ante $-0,0857$. Na união, os elegíveis iniciais passam de 100
+para 103. A sensibilidade não resolve todas as perdas de identidade,
+não certifica retornos totais e não altera os 80/117 principais.
+
+A nova verificação independente não importa as funções de produção:
+confere 7.080 regressões temporais densas, 192 controles/ICs/testes e 36
+estatísticas explícitas de mudança/postos. A diferença máxima é
+$2,26\times 10^{-15}$. Outro oráculo confere 2.360 ajustes por regime
+na sensibilidade de continuidade, com diferença máxima $1,12\times 10^{-15}$.
+Essas conferências validam a reprodução numérica, sem determinar
+cobertura dos testes novos, efeito causal ou inventário exato de ações.
 
 \FloatBarrier
 \begingroup\small\bibliographystyle{sbc}\bibliography{references_artigo}\endgroup

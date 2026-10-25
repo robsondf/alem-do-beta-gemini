@@ -1,0 +1,15 @@
+{
+ "date":"2026-10-24",
+ "timing":"Before succession sensitivity results;main J controls already known",
+ "scope":"Three documented same-issuer ordinary-share ticker changes,not mergers or preferred/common conversions;not an exhaustive certification of every historical succession",
+ "pairs":[
+  {"old":"KROT3","new":"COGN3","old_ISIN":"BRKROTACNOR9","new_ISIN":"BRCOGNACNOR2","effective":"2019-10-11","codeCVM":17973,"factor":1,"source":"https://financenews.com.br/wp-content/uploads/2019/10/017973000101011-1.pdf","source_access":"Company notice read through web PDF retrieval,4pages;binary download returned403;no original-file hash invented"},
+  {"old":"ESTC3","new":"YDUQ3","old_ISIN":"BRESTCACNOR5","new_ISIN":"BRYDUQACNOR3","effective":"2019-07-23","codeCVM":21016,"factor":1,"source":"https://www.agorainvest.com.br/uploads/Avisos/comunicado-estacio-23-07.pdf","source_sha256":"185b7d082a08a171a9f7624a8c7035bde203bb866782e306b45d6f79cae6a644"},
+  {"old":"TBLE3","new":"EGIE3","old_ISIN":"BRTBLEACNOR2","new_ISIN":"BREGIEACNOR9","effective":"2016-07-21","codeCVM":17329,"factor":1,"source":"https://www.pefran.com.br/empresas2012/engie_brasil_energia/legal/%5B30384%5D-engie_brasil_energia_legal_bal_anual_31-12-16_dcsc_doesc/internet/arte/%5B30384%5D-33.pdf","source_access":"Issuer2016administration report read through web PDF retrieval;no binary hash invented"}
+ ],
+ "unit":"2015anchor asset lineage only in sensitivity;original80/117 and primary118ISIN rows unchanged;no new assets or issuer weights",
+ "transition":"One-day log return only when old and new quotes are on adjacent market sessions and legal/name continuity is supported;otherwise transition missing. No cumulative bridge allocation",
+ "adjustments":"Same documented-gap and heuristic corporate-action exclusions as I,new flags retained;not full economic harmonization",
+ "targets":"Early mean delta and liquidity rank association in fixed2015cohort and union118lineages;Holm4 per block21/5/63;B4999;seed20261026;late/theta eligibility descriptive only",
+ "inference":"New exploratory family;nominal intervals and centered p,not calibrated or independent confirmation"
+}

@@ -1,5 +1,10 @@
 # Leitura, execução e verificações
 
+## Lab03J,24/10/2026
+
+Consulte [o lote J](lab03j_pareceres.md) e [as disposições dos pareceres](resposta_pareceres_J.md). A nova execução usa apenas export I e caches B3 já existentes; execução local conferida, Colab do autor ainda distinto. Artigo e suplemento distinguem associação condicional, limitações de mensuração e resultados efetivos. Não repetir estágios anteriores.
+
+
 ## Colab H/I do autor conferido — 24/10/2026
 
 [Cópia executada e salva](https://colab.research.google.com/drive/1pHcTi0deFoiIiEvmFK4ZtYr5MM9p_i9l); [export correspondente](https://drive.google.com/file/d/1L5w3uJvjTU4XiQir1BGMF3XNCWLS-_Ru/view), 21.813.582 bytes, SHA256 `ff67a56f9b9cc8b91f11bcbcad311d6253fcfe95aef3f9e02303bad677b41e0e`. As dez fontes de células coincidem com a entrega imutável; seis códigos em sequência, zero exceções, 149 fontes autenticadas. O ZIP tem 207 membros: 206 arquivos cobertos pelo manifesto e o próprio manifesto. H e I foram reestimados no Colab; os 6.000 geradores anteriores não foram repetidos. Nenhuma nova cotação foi consultada.
