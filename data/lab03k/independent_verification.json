@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "temporal_dense_fits": 4248,
+  "cross_sectional_dense_fits": 96,
+  "joint_tail_checks": 24,
+  "max_difference": 8.43769498715119e-15,
+  "scope": "numerical oracle, not coverage or economic certification"
+}

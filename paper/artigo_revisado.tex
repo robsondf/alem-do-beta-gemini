@@ -112,7 +112,7 @@ famílias; não se alega controle de erro sobre todo o programa.
 \begin{table}[htbp]\centering\footnotesize
 \caption{Alvos e multiplicidade. Ajustes separados por bloco, salvo HAC.
 ICs bootstrap são marginais nominais, não intervalos simultâneos.}
-\label{tab:familias}\input{tables/lab03j_families.tex}
+\label{tab:familias}\input{tables/lab03k_families.tex}
 \end{table}
 
 \section{Métodos}
@@ -299,6 +299,51 @@ Volumes médios usam todos os pregões, com zero quando não há negócio
 regular; isso não preenche retornos. ICs básicos e testes centrados
 mantêm caráter aproximado e não foram calibrados para esses alvos.
 
+
+\subsection{Contraste conjunto de porte e liquidez}
+Uma extensão exploratória fixa o modelo de referência com volume,
+capitalização divulgada e setor, sem beta contemporâneo obrigatório.
+As covariáveis financeiras precedem o alvo de 2016--2020; o setor mantém
+o cadastro arquivado, inclusive de 2022, e não é informação datada de 2015.
+O beta contemporâneo compartilha retornos com o desfecho e continua
+como sensibilidade na família anterior. Acrescenta-se uma sensibilidade
+com $\widehat\beta_{2015}$, reestimado em estrato separado, com os mesmos
+pisos de pares, regimes e cobertura. Essa estratificação omite covariância
+entre bordas dos períodos; não transforma o desenho em previsão prospectiva.
+
+Testa-se $H_0:(\lambda,\gamma)=(0,0)$ por
+$Q=\widehat b'\widehat\Sigma_*^{-1}\widehat b$, com
+$\widehat b=(\widehat\lambda,\widehat\gamma)'$ e covariância dos
+4.999 vetores reamostrados. A cauda usa
+$(b^*-\widehat b)'\widehat\Sigma_*^{-1}(b^*-\widehat b)$, com acréscimo
+de um. A mesma matriz fixa padroniza todos os raios; não é bootstrap-t
+com erros-padrão próprios de cada sorteio. Matrizes sem posto dois ou
+condição acima de $10^{12}$ retêm a inferência, sem regularização adaptativa.
+Holm 2 cobre as duas nulas conjuntas sobrepostas por comprimento de bloco.
+ICs e valores-p marginais são nominais/descritivos. A família anterior
+de 16 coeficientes é preservada: dependência entre modelos não invalida
+Holm, cuja garantia requer valores-p marginais válidos \cite{holm1979}.
+São famílias e perguntas diferentes, sem proteção global sobre as revisões.
+
+As sensibilidades conjuntas formam outra família de seis: beta de 2015,
+exclusão integral de ativos com qualquer marcação sem correspondência
+no ledger de 2015--2025 e substituição de volume por Amihud de 2015,
+em duas coortes. A última usa a média de $|\exp(r)-1|/V$ em reais nominais,
+somente com retorno observado e volume positivo, pelo menos 200 pares
+e 95\% das sessões; não preenche volume ou retornos \cite{amihud2002}.
+Exclusão de ativos é retrospectiva e altera a população condicional.
+Os casos de cada modelo e perdas são exportados; pisos não são relaxados.
+
+A transformação $\log G=\log V-\log C^{\mathrm{div}}$ fornece
+$\lambda\log G+(\lambda+\gamma)\log C^{\mathrm{div}}$.
+O giro é aproximado, com denominador divulgado; preserva ajuste, sorteios
+e nula conjunta. É reparametrização, não replicação ou robustez independente.
+Calibra-se somente o teste conjunto de referência no bloco 21, com
+mil réplicas em seis leis condicionais, descritas no suplemento.
+Mercado, máscaras, desenho e escalas residuais ficam fixos; avaliam-se
+normal iid, t5 com escala determinística e GARCH t5, cada qual com
+fator comum de 0,04 ou 0,30. Não se selecionam leis pelos resultados.
+
 \section{Resultados}
 \subsection{Níveis, ativos e comparação comum}
 A média de $\Delta $ na década é $-0,130668$, com $p_{Holm10}=0,0234$
@@ -384,6 +429,15 @@ O EP bootstrap observado da média é 0,03725. Os DPs simulados variam
 de 0,044 a 0,220, e o EP médio subestima essa dispersão em parte dos
 mecanismos. Comparar essas escalas é informativo, mas o EP observado
 não é uma dispersão verdadeira conhecida nem basta para definir realismo.
+No diagnóstico dos bancos, o EP observado 0,03725 está abaixo de
+todos os mil EPs simulados nos mecanismos heterocedástico, AR0,3 e AR0,6;
+há 7/1000 abaixo dele sob normalidade e 52/1000 sob GARCH.
+A correlação residual média entre ativos reconstruídos é 0,0375
+(mediana 0,0367), contra fator comum 0,30 nas simulações anteriores.
+Resíduos estimados e inovações latentes não são a mesma grandeza:
+isso motiva os dois níveis da nova calibração, sem teste formal de
+compatibilidade, explicação integral da escala ou descarte dos estresses.
+
 A fórmula condicional prevê DP de 0,14061 no mecanismo heterocedástico,
 próximo de 0,13864 simulado. A dispersão elevada é compatível com o
 posicionamento da variância em relação aos pesos do estimador, apesar
@@ -399,6 +453,23 @@ Esses números qualificam a leitura, sem validar um método substituto.
 Banco finito, parâmetros estimados e nulas globais restringem seu alcance;
 contagens e incerteza Monte Carlo estão no suplemento.
 
+A calibração adicional do teste conjunto é apresentada na
+Tabela~\ref{tab:calibracaok}. As taxas estimam desempenho sob seis nulas
+globais condicionais de referência, não controle forte sob efeitos mistos,
+validade de todas as sensibilidades ou correção dos ICs antigos.
+\begin{table}[htbp]\centering\small
+\caption{Nova família conjunta de referência: rejeição familiar a 5\%
+e cobertura dos quatro ICs marginais (em \%). Mil réplicas por lei;
+faixa de cobertura entre volume/porte nas duas coortes, bloco 21.}
+\label{tab:calibracaok}\input{tables/lab03k_calibration.tex}
+\end{table}
+As rejeições familiares simuladas variam de 0,6 a 2,6\%, abaixo de 5\%
+nessas leis e com a incerteza Monte Carlo reportada. As coberturas
+marginais variam de 89,5 a 94,8\%, incluindo subcobertura material;
+não se rotulam os ICs como validados a 95\% nem se ajustam suas
+fronteiras após observar os resultados. Conservadorismo do teste
+conjunto e cobertura dos coeficientes são propriedades diferentes.
+
 \subsection{Especificações alternativas, setores e risco}
 Na década, as médias defasadas e semanal permanecem negativas.
 Os valores brutos são pequenos em parte dos desenhos, mas nenhum
@@ -411,6 +482,14 @@ No bloco 63, apenas a versão defasada da década rejeita média/mediana
 com 0,0216/0,0238; o resultado não é uniforme entre escolhas.
 
 
+
+Na reconstrução COTAHIST dos originais, as médias iniciais para
+$K=0,1,5,10$ são $-0,169$, $-0,152$, $-0,297$ e $-0,295$;
+as correlações de postos com liquidez são 0,530, 0,482, 0,533 e 0,442.
+São adaptações retrospectivas com outros estimandos, sem novos testes
+ajustados. O padrão não isola risco econômico de liquidez de negociação
+infrequente, nem elimina ambas as explicações; dados de microestrutura
+e um desenho identificador seriam necessários para distingui-las.
 
 A Figura~\ref{fig:periodo} conserva todos os dez anos, sem seleção anual.
 As faixas são dispersão entre ativos, não ICs ou evidência de persistência.
@@ -471,21 +550,41 @@ Na união elegível, a associação inicial é positiva
 O deslocamento bootstrap é $-0,1054$: compatível com ruído adicional
 na ordenação, sem teorema geral de atenuação de Spearman sob erros
 heterocedásticos e dependentes. A associação simples não controla porte
-ou setor. Nos 62/76 casos completos, o coeficiente de log-volume cai
-de 0,0647/0,0606 sem controles a 0,0316/0,0172 com todos os controles
-(Tabela~\ref{tab:controles}). Os respectivos valores brutos são
-0,0404/0,1462, e Holm 16 produz 0,2424/0,4386. Portanto, não há detecção
-ajustada nos modelos completos; não rejeição tampouco demonstra efeito
-zero, equivalência ou ausência de confundimento. Os ICs nominais não
-são duais dos testes centrados. Perdas de casos e porte aproximado
-limitam a comparação com a correlação na união de 100 ativos.
+ou setor. Nos mesmos 62/76 casos completos, o modelo de porte e setor dá
+$\widehat\lambda=0,0330/0,0209$ e $\widehat\gamma=0,0272/0,0515$
+(Tabela~\ref{tab:controles}). O teste conjunto produz $p=0,0172/0,0192$
+e Holm 2 de 0,0344 em ambas as coortes. Isso indica incompatibilidade
+com a nula de ambos os coeficientes iguais a zero sob o procedimento,
+sem demonstrar dois efeitos separados ou causalidade. Os valores brutos
+marginais são 0,0206/0,0712 para volume e 0,1724/0,0428 para porte;
+não recebem afirmações individuais ajustadas. Na parametrização de giro,
+o coeficiente de porte passa a $\lambda+\gamma=0,0602/0,0724$;
+a mesma informação sustenta a mesma nula conjunta.
 
-\begin{table}[!htbp]\centering\scriptsize
-\caption{Coeficiente de log-volume inicial, IC básico nominal 95\% e Holm 16.
-Casos completos comuns: 62 originais/76 na união. Porte: capitalização
-aproximada divulgada; setor e beta tradicional como indicados. Bloco 21.}
-\label{tab:controles}\input{tables/lab03j_controls_21.tex}
+As correlações de log-volume/log-porte são 0,705/0,724; VIFs completos
+do volume são 2,714/2,443. A sobreposição das duas coortes impede tratá-las
+como replicações independentes. Nenhum desses diagnósticos demonstra
+que porte explique integralmente a associação ou que não haja confundimento.
+Na família anterior de oito modelos por coorte, os modelos com todos
+os controles mantêm $\widehat\lambda=0,0316/0,0172$ e Holm 16 de
+0,2424/0,4386. Seus resultados completos permanecem no suplemento,
+sem reduzir retrospectivamente sua família.
+
+\begin{table}[!htbp]\centering\small
+\caption{Modelo exploratório de porte e setor, bloco 21. ICs marginais
+básicos nominais; $p^*$ testa conjuntamente volume e porte, com Holm 2.
+Rejeição conjunta não identifica qual coeficiente difere de zero.}
+\label{tab:controles}\resizebox{\textwidth}{!}{\input{tables/lab03k_reference_21.tex}}
 \end{table}
+
+As sensibilidades perdem casos: beta de 2015 usa 59/73, exclusão de
+ativos sinalizados 54/67 e Amihud 59/73. No bloco 21, os testes conjuntos
+com beta de 2015 têm Holm 6 de 0,1456/0,0800; com exclusão, 0,0800/0,0828.
+Amihud produz 0,1004/0,0060. São evidências não uniformes, em populações
+e medidas diferentes. Não se atribui a mudança exclusivamente ao controle
+adicional nem se transfere a rejeição de Amihud para um efeito isolado
+de liquidez. Tabelas dos três blocos, ICs e perdas estão no suplemento.
+
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{lab03j_liquidez_inicial.pdf}
 \caption{ISINs elegíveis e liquidez inicial. Cada ponto é um ativo sem
@@ -556,7 +655,9 @@ A detecção da mudança depende da janela e da família; excluir períodos
 de 2020 reduz o contraste e perde rejeição na escolha principal.
 A seleção por 2015 altera composição e elegibilidade. Liquidez inicial
 tem associação simples com assimetria inicial, porém os modelos com
-porte, setor e beta tradicional não rejeitam após ajuste. A relação
+porte, setor e beta contemporâneo preservam a não rejeição na família
+original. O novo teste conjunto de porte/liquidez rejeita na referência,
+mas não uniformemente nas sensibilidades. A relação
 entre mudanças de liquidez e de assimetria tampouco recebe detecção
 ajustada. Esses resultados delimitam uma associação condicionada ao
 desenho, sem estabelecer causalidade, equivalência ou estabilidade futura.
@@ -570,14 +671,14 @@ representação/raciocínio requerem investigações próprias.
 
 \section*{Disponibilidade e reprodutibilidade}
 Código, protocolos, artigo, suplemento, estimativas e diagnósticos
-estão em\url{https://github.com/robsondf/alem-do-beta-gemini};
-o histórico de desenvolvimento está em\url{https://github.com/robsondf/alem-do-beta}.
+estão em \url{https://github.com/robsondf/alem-do-beta-gemini};
+o histórico de desenvolvimento está em \url{https://github.com/robsondf/alem-do-beta}.
 A seleção pública não contém todas as matrizes financeiras necessárias
 à reprodução integral, mantidas no Drive. Não foi atribuída nova licença
 a materiais de terceiros. O manifesto de proveniência registra hashes
 e versões, inclusive o manuscrito anterior de 25 páginas.
 
-As execuções do autor no Colab, incluindo as novas regressões,
+As execuções anteriores do autor no Colab, incluindo as regressões do lote J,
 diagnósticos e três continuidades, foram conferidas por exports
 autenticados. No lote adicional, nove fontes de células coincidem
 com a entrega; cinco códigos foram executados sem exceções e 52 fontes
@@ -586,8 +687,12 @@ tabelas e 359.928 de bancos, com diferença máxima $4,66\times10^{-15}$
 e 816 posições de limiar preservadas, sob tolerâncias absoluta $10^{-10}$
 e relativa $10^{-9}$. Os dois gráficos coincidem em pixels. Os oráculos
 densos foram reexecutados sobre cópias autenticadas dos resultados.
-Protocolos, entradas públicas, resultados e recibos estão em
-\texttt{data/lab03j/} e nas pastas correspondentes. Matrizes diárias
+O lote K foi executado localmente com 24 testes conjuntos, oráculo denso
+independente e seis leis de calibração; não é ainda execução do autor
+no Colab. Seu protocolo foi commitado antes dos novos contrastes,
+com os resultados J e os pareceres já conhecidos. Protocolos, entradas
+públicas, resultados e recibos estão em \texttt{data/lab03j/},
+\texttt{data/lab03k/} e nas pastas correspondentes. Matrizes diárias
 e caches B3 são reutilizados do Drive, sem novas cotações. O experimento
 externo de seleção em 2015 foi fornecido no processo de revisão assistido
 por IA; seu código foi lido, e a reprodução usa implementação própria,
@@ -596,5 +701,9 @@ a validação por terceiro humano nem a homologação econômica.
 
 \section*{Uso de inteligência artificial}
 ChatGPT/Codex (OpenAI) apoiou planejamento, programação, verificadores,
-figuras, busca documental e redação. Responsabilidade pelas escolhas,
+figuras, busca documental e redação. O processo incluiu reconstrução
+de experimento fornecido por IA, diagnóstico de escala e discussão de
+pareceres assistidos por outras IAs. Identidades e versões não verificadas
+desses avaliadores não são atribuídas; seus pareceres motivaram novas
+análises, sem substituir validação de referências ou revisão humana. Responsabilidade pelas escolhas,
 referências, interpretação e aprovação final permanece com o autor humano.

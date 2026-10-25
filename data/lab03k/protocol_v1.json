@@ -1,0 +1,48 @@
+{
+  "stage": "Lab03K",
+  "date": "2026-10-25",
+  "status": "exploratory protocol fixed after J results and external reviews, before new K outcome regressions; not preregistration",
+  "target": "early 2016-2020 asset Delta = beta_up minus beta_down",
+  "reference": "Delta ~ intercept + log(mean daily nominal BRL volume2015) + log(disclosed capitalization proxy2015) + sector fixed effects",
+  "sector_vintage": "existing fixed classification, including recovered 2022 archive; not point-in-time 2015 classification",
+  "fixed_cases": "same J complete-case original80 and union118 panels, expected N62 and N76; main fixed samples80/117 unchanged",
+  "floors": {"total":200,"each_sign":60,"coverage":0.95,"cross_section":40,"residual_df":10},
+  "inference": {
+    "B":4999,"blocks":[21,5,63],"primary_block":21,"early_seed_plus_block":20261025,
+    "preperiod_seed_plus_block":20261027,
+    "joint_null":"lambda_volume = gamma_size = 0",
+    "statistic":"covariance-standardized quadratic radius b' Sigma_boot^-1 b; centered bootstrap radius (b_star-b)' Sigma_boot^-1 (b_star-b), plus-one tail probability; not a fully studentized bootstrap-t",
+    "singularity":"report non-estimable if covariance rank <2 or condition number >1e12; do not regularize after looking at results",
+    "primary_family":"Holm2 joint tests across the two overlapping cohorts, separately for each block length; no global FWER across lengths or stages",
+    "marginal_intervals":"nominal 95% basic bootstrap, raw centered two-sided p descriptive; no separate adjusted individual claims",
+    "old_J_family":"preserve all eight specifications x two cohorts and Holm16 without changing results",
+    "sensitivity_family":"Holm6 joint tests: beta2015, exclusion of unmatched-event assets, Amihud2015, each in both cohorts, separately per block; unestimable tests p=1 for family accounting"
+  },
+  "sensitivities": {
+    "beta2015":"same regime/coverage floors on 2015 valid pairs; beta estimated again under separate 2015 block draws; independent period strata omit cross-boundary covariance",
+    "events":"exclude entire assets with ANY of the 23 unmatched flags in fixed J ledger2015-2025; retrospective conservative sensitivity, not new primary selection; retain already-masked daily returns",
+    "Amihud":"replace log volume by log mean(abs(expm1(daily log return2015))/positive nominal daily BRL volume); both return and volume must be observed, no zero-volume substitution; 200 valid pairs and95% of 2015 market sessions; capitalization and sector retained",
+    "turnover_reparameterization":"log giro=log volume-log capitalization; coefficients(lambda,lambda+gamma); algebraic equivalence checked for fitted values, draws and joint test; not independent robustness",
+    "succession_inventory":"export observed first/last session, terminal ticker, existing documented alias or unknown status for external2015 assets absent from original80; no inferred delisting or undocumented linkage"
+  },
+  "calibration": {
+    "scope":"finite conditional simulation of new reference joint tests only; fixed market, masks, X and residual scales; neither fitted DGP validation nor universal coverage guarantee",
+    "outer_R":1000,"inner_B":4999,"block":21,"seed":20261028,
+    "generators":["normal_iid","t5_deterministic_volatility","t5_GARCH"],
+    "common_factor_rho":[0.04,0.30],
+    "t5_scaling":"sqrt(3/5)","deterministic_volatility":"1 first half and2 second half, normalized to unit mean square",
+    "GARCH":"omega0.05 alpha0.05 beta0.90, variance starts1, burn500, independent component recursions",
+    "null":"lambda=gamma=0, delta_i=0; sector-dependent delta also checked algebraically since annihilated by fixed sector controls",
+    "scales":"asset residual RMS from early per-regime intercept/slope fit with original masks; fixed conditional estimates",
+    "outputs":"per replication joint p and Holm2 family rejection; mean rejection with Wilson95 intervals and Monte Carlo SE; four nominal marginal CI coverages, retain all six laws",
+    "implementation":"exact linear time-weight/grouped-mask acceleration, independently checked against dense weighted OLS; invalid inner draws fail rather than silently omit",
+    "no_retuning":"no generator selection, critical-value correction or block choice based on these outputs"
+  },
+  "input_provenance": {
+    "J_author_export_drive":"17DxLLmCd-UD0NXlFXDQNANbk1fxmqZ2q",
+    "J_author_export_sha256":"96b56d0a9e3d8ace52f1f4a6b0307c769547e2bfe355a6f6318e6656ab5f8dce",
+    "I_local_equivalent_archive_sha256":"2f61beb15aac8638cf92dae0eef58de8bc70cded3a6fe833519171f21f554f06",
+    "daily_matrices":"remain external; reuse audited protected I matrix and J turnover, no full quotation download"
+  },
+  "claims":"associations only; joint rejection means at least one coefficient differs, not both positive or causal; no global economic certification"
+}

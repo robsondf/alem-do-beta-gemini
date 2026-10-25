@@ -1,0 +1,16 @@
+{
+  "main": {
+    "sha256": "e7c727760c2d74c9cbaf24069a2eb3e275f9ae855e1e033dec405e54d0d5ed0a",
+    "pages": 18,
+    "undefined_references": false,
+    "missing_characters": false,
+    "overfull_boxes": []
+  },
+  "suplemento": {
+    "sha256": "2d0308639187b9e2a2f6bcf30ce09f014d42ceaef86eb3a0cf417ec036289317",
+    "pages": 29,
+    "undefined_references": false,
+    "missing_characters": false,
+    "overfull_boxes": []
+  }
+}
