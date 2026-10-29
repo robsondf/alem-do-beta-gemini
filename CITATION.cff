@@ -6,8 +6,8 @@ authors:
     given-names: Robson Dias
 version: editorial-v8-20261025
 date-released: 2026-10-25
-url: "https://github.com/robsondf/alem-do-beta-gemini"
-repository-code: "https://github.com/robsondf/alem-do-beta-gemini"
+url: "https://github.com/robsondf/alem-do-beta-publico"
+repository-code: "https://github.com/robsondf/alem-do-beta-publico"
 type: software
 preferred-citation:
   type: unpublished
@@ -16,5 +16,5 @@ preferred-citation:
     - family-names: Ferreira
       given-names: Robson Dias
   year: 2026
-  url: "https://github.com/robsondf/alem-do-beta-gemini"
+  url: "https://github.com/robsondf/alem-do-beta-publico"
   notes: "Manuscrito de trabalho, edição editorial v8 de 25/10/2026; indicar também o commit consultado."
