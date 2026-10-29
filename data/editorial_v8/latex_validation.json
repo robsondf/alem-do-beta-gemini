@@ -4,16 +4,16 @@
   "scope": "PDF compilation only; no data downloads or estimation",
   "pdfs": {
     "main": {
-      "bytes": 322689,
-      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec",
+      "bytes": 322730,
+      "sha256": "2c20eca515fcca291a16d7d1d716d560f50894e82b0520ab76a2623ca6518f04",
       "pages": 15,
       "undefined_references": false,
       "missing_characters": false,
       "overfull_boxes": []
     },
     "suplemento": {
-      "bytes": 590071,
-      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729",
+      "bytes": 590120,
+      "sha256": "6b37e5a51ce7d90d8d5cb0963b580a8e19205e5c108b15b64162b05ff52ba159",
       "pages": 34,
       "undefined_references": false,
       "missing_characters": false,

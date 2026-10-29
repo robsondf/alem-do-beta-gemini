@@ -1,5 +1,7 @@
 # Além do Beta
 
+Repositório público do artigo: [robsondf/alem-do-beta-publico](https://github.com/robsondf/alem-do-beta-publico). Histórico de desenvolvimento: `robsondf/alem-do-beta` (privado).
+
 Manuscrito empírico sobre assimetria dos betas de alta e baixa, liquidez e seleção em ações brasileiras. Unidade de análise: ativo/classe; amostras fixas de 80 ativos em 2016–2025 e 117 em 2021–2025, em dez setores. Regressões sobre retornos, sem seleção anual ou preenchimento de lacunas.
 
 ## Edição editorial v8 — 25/10/2026

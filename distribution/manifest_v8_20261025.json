@@ -6,16 +6,16 @@
   "scope": "editorial distribution; full Git archive is identified by its immutable delivery commit",
   "artifacts": {
     "distribution/alem_do_beta_v8_20261025.pdf": {
-      "bytes": 322689,
-      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec"
+      "bytes": 322730,
+      "sha256": "2c20eca515fcca291a16d7d1d716d560f50894e82b0520ab76a2623ca6518f04"
     },
     "distribution/suplemento_alem_do_beta_v8_20261025.pdf": {
-      "bytes": 590071,
-      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+      "bytes": 590120,
+      "sha256": "6b37e5a51ce7d90d8d5cb0963b580a8e19205e5c108b15b64162b05ff52ba159"
     },
     "distribution/alem_do_beta_v8_overleaf_20261025.zip": {
-      "bytes": 367689,
-      "sha256": "ec3a1134f0119da82b54cc5914551e864fb01f2f17fe1efeecda6dafe5be9c29"
+      "bytes": 367690,
+      "sha256": "6bfa5e5d133af6498d632663f07e3591962e9b7193e3cd4bfb031fc15bf4ccb4"
     }
   },
   "repository_files": {
@@ -24,8 +24,8 @@
       "sha256": "2aeb00884b398b1c54eacf7d2c601f283c0f9b9fc42353f6904cbb45e3a833af"
     },
     "paper/artigo_revisado.tex": {
-      "bytes": 33248,
-      "sha256": "1db56407d8986abcd3363cf8b729aba8654ba79bbb92333f7ca430388a18d018"
+      "bytes": 33249,
+      "sha256": "38a8bb9daed05a4415bf572a1139731fba9bcce51c3b4b0c67b18a93030215db"
     },
     "paper/caption2.sty": {
       "bytes": 15190,
@@ -128,8 +128,8 @@
       "sha256": "e1f983eaabdfa144e3ae4b8dee8244144e219bd098862a6e5f371b5564a7faee"
     },
     "paper/main.pdf": {
-      "bytes": 322689,
-      "sha256": "667db861319829a98ad7e15423375619efde9ca2b4b4fa6b334619326f5dccec"
+      "bytes": 322730,
+      "sha256": "2c20eca515fcca291a16d7d1d716d560f50894e82b0520ab76a2623ca6518f04"
     },
     "paper/main.tex": {
       "bytes": 3268,
@@ -148,12 +148,12 @@
       "sha256": "d884c6793e4ea54d13f5c751b3d6f4ea529a62d0906cd9774f2ec350b394691f"
     },
     "paper/suplemento.pdf": {
-      "bytes": 590071,
-      "sha256": "c44e8ab8a85248180ee40f9e34dafdd74a55d0768d2d6b3b7e5357e25bca7729"
+      "bytes": 590120,
+      "sha256": "6b37e5a51ce7d90d8d5cb0963b580a8e19205e5c108b15b64162b05ff52ba159"
     },
     "paper/suplemento.tex": {
-      "bytes": 43926,
-      "sha256": "f42327c8ad55e6aff66608c814fc2691b865f3de00c2f8c60bf67b136a692927"
+      "bytes": 43927,
+      "sha256": "c9432bfd3cc5fca3821b9b8b56059457ffd28fc9339d9663866d7f57a990d6bc"
     },
     "paper/suplemento_metodos.tex": {
       "bytes": 31374,
@@ -713,7 +713,7 @@
     },
     "data/editorial_v8/latex_validation.json": {
       "bytes": 729,
-      "sha256": "da55e09504042385174fe40ef59b5c4690160a834ba3c87876d5f8a7234e0f76"
+      "sha256": "086edaa07b05f534b9300f3c3d19b86182f6d75d12dc150e29b27c79f39df82c"
     },
     "data/editorial_v8/portable_build_validation.json": {
       "bytes": 520,
@@ -2224,8 +2224,8 @@
       "sha256": "6ed2f509e9c4d09d5671b778416d69a3dbf1523e91c9d09e326248dd3afafe57"
     },
     "CITATION.cff": {
-      "bytes": 897,
-      "sha256": "118ba05276a3eeb7c7cc4801146bec8949f8c468c0b986e71ef364acd0181892"
+      "bytes": 900,
+      "sha256": "5f6d5bb897562192ec075f408b9915170e8898a554fbab738d09c7a8b1e43955"
     },
     "docs/EDICAO_V8.md": {
       "bytes": 5197,
@@ -2247,8 +2247,8 @@
         "sha256": "2aeb00884b398b1c54eacf7d2c601f283c0f9b9fc42353f6904cbb45e3a833af"
       },
       "artigo_revisado.tex": {
-        "bytes": 33248,
-        "sha256": "1db56407d8986abcd3363cf8b729aba8654ba79bbb92333f7ca430388a18d018"
+        "bytes": 33249,
+        "sha256": "38a8bb9daed05a4415bf572a1139731fba9bcce51c3b4b0c67b18a93030215db"
       },
       "caption2.sty": {
         "bytes": 15190,
@@ -2347,8 +2347,8 @@
         "sha256": "d884c6793e4ea54d13f5c751b3d6f4ea529a62d0906cd9774f2ec350b394691f"
       },
       "suplemento.tex": {
-        "bytes": 43926,
-        "sha256": "f42327c8ad55e6aff66608c814fc2691b865f3de00c2f8c60bf67b136a692927"
+        "bytes": 43927,
+        "sha256": "c9432bfd3cc5fca3821b9b8b56059457ffd28fc9339d9663866d7f57a990d6bc"
       },
       "suplemento_metodos.tex": {
         "bytes": 31374,
